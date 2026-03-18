@@ -1,0 +1,105 @@
+{
+  "iteration": 1,
+  "date": "2026-03-18",
+  "brief_source": "marketing_brief",
+  "campaign_theme": "New Business Opening / Grand Reopening",
+
+  "target_audience": "Entrepreneurs who have recently opened, renovated, relaunched, or expanded their business to a new location — within the past 0–6 months. Primarily F&B and retail SMEs in Malaysia (priority), Philippines and Thailand. These are owners who have just committed significant capital to their physical space: fit-out costs, renovations, new equipment, signage, staffing. They are operationally live but financially stretched, and are actively making decisions about the remaining technology stack they need to run the business.",
+
+  "core_insight": "Opening or renovating a business is one of the most capital-intensive moments in a merchant's life. They have just spent big — on rent deposits, renovations, fixtures, and staffing — and they are acutely aware that every remaining ringgit counts. This creates a specific psychological state: high urgency to get operational quickly, combined with sticker shock sensitivity for any new spend. A POS system is not optional at this stage — they know they need one — but the price feels like another hit on top of everything else. The 55% off offer reframes the POS purchase from 'another big expense' to 'the one smart decision I made this month'. The timing of the offer matches their peak receptivity: they are in decision-making mode and actively shopping for solutions right now.",
+
+  "offer": "55% off POS hardware",
+
+  "key_tensions": [
+    "I've already spent so much opening this place — I can't afford anything expensive right now",
+    "I need a POS system to open properly, but I don't know if I can justify the cost",
+    "I want something reliable from day one, not a cheap solution I'll regret",
+    "I'm overwhelmed with opening tasks — I don't have time to research and compare systems",
+    "What if I invest in a POS and my business doesn't take off? I need to manage my risk",
+    "I've heard horror stories about POS lock-in and hidden fees — I don't want to be trapped"
+  ],
+
+  "what_we_know_from_knowledge_base": {
+    "offer_framing": "The 55% off price anchor is a proven performer in MY — '55% Promo V2' achieved SQL% 33.5% and CPWon RM1,415. Percentage discounts paired with a hardware visual convert better than flat price alone in MY. This campaign should lead with '55% off' prominently in every variant.",
+    "hardware_visual_is_mandatory": "Generic product-only white background ads have near-zero conversion across all markets. Hardware must appear in context — on a counter, in a store, or in a comparison layout. Never run price-only creative without the product visual.",
+    "split_screen_format": "Split-screen (product visual + offer text side by side) consistently outperforms full-frame product or full-frame text in MY. This is the safest format for static ads targeting MY merchants.",
+    "choose_your_fighter": "Side-by-side hardware comparison (CYF/diagonal split) drives 4-5x market average CTR in both MY and PH. CTR 3.95% MY, 4.86% PH. For a new business audience deciding which tier to buy, the hardware comparison format directly answers their question.",
+    "question_hooks": "Question hooks ('How much are you paying...?') drove the lowest CPL in PH (RM37–41 vs RM99 avg). For new business owners, situational question hooks like 'Just opened?' or 'Just renovated?' should be tested in MY and PH — untested in MY but high-potential.",
+    "f_and_b_vertical_specificity": "F&B-specific imagery lifts SQL% ~2x vs generic in PH (45% vs 20–25%). New business openings are heavily F&B skewed. Use restaurant/cafe context hardware shots, not retail generics.",
+    "seasonal_moment_hook": "Seasonal or moment-based hooks boost performance when paired with price — not effective alone. A 'Grand Opening' moment is a strong equivalent to a seasonal hook and should be used the same way: moment + price offer together.",
+    "language_strategy_my": "English drives highest Win% (close rates), Chinese drives highest SQL%, Malay drives volume in MY. Run all three language variants for MY at minimum.",
+    "what_not_to_do": "Avoid: transformation narratives (Stress-to-Success failed in PH with 0 SQLs across 5 variants), stacking multiple hooks in one ad, price as sole hook without hardware visual, dark backgrounds in static ads, generic testimonials.",
+    "comic_illustrated_format": "Comic/illustrated promo achieved best CPWon in MY Q3 (RM707). An illustrated 'new opening chaos' scene could perform well and stand out in feed.",
+    "before_after_emotional_split": "Before/After emotional contrast (stressed old vs happy new) is a proven layout. For this campaign: Left = overwhelmed new owner juggling everything, Right = same owner confidently running StoreHub at opening day."
+  },
+
+  "recommended_angles": [
+    {
+      "angle_id": "A1",
+      "name": "The Grand Opening Relief",
+      "hypothesis": "Leading with the milestone ('You just opened. Here's one thing you don't have to stress about.') paired with the 55% off offer taps into the relief emotion that new business owners desperately want to feel. The creative acknowledges their achievement and immediately solves a problem.",
+      "format_suggestion": "Split-screen static: Left card = renovation/opening imagery or illustrated chaos; Right card = clean StoreHub hardware on counter with 55% off badge",
+      "hook_copy_direction": "Just opened? Get 55% off your POS.",
+      "why_test_it": "Moment-specific hooks matched to audience life stage are untested in this form. The emotional acknowledgment ('you just opened') creates immediate relevance."
+    },
+    {
+      "angle_id": "A2",
+      "name": "The Budget Stretch",
+      "hypothesis": "Directly naming the financial reality ('You've spent big on opening. Your POS shouldn't cost big too.') validates the tension without shame and positions the 55% off as a smart financial decision, not a compromise.",
+      "format_suggestion": "Bold text overlay on moody store photography — new, empty restaurant space with opening-day light. White headline dominates. Orange 55% badge corner.",
+      "hook_copy_direction": "You spent big to open. Your POS doesn't have to cost big too. 55% off hardware — right now.",
+      "why_test_it": "Directly addressing financial strain is rarely done in POS ads. If the audience insight is correct, this creates an unusually high relevance signal."
+    },
+    {
+      "angle_id": "A3",
+      "name": "Choose Your Fighter — New Opening Edition",
+      "hypothesis": "The hardware comparison format (proven 4-5x CTR) applied to a new opening context: 'Picking a POS for your new place?' with both hardware tiers compared. Answers the exact question a new business owner is asking right now.",
+      "format_suggestion": "Diagonal CYF split — D3 Mini vs Falcon 1 or Falcon vs D3. VS badge. Top pill: 'Opening Soon? 55% Off Hardware'",
+      "hook_copy_direction": "Opening soon? Choose your setup. 55% Off.",
+      "why_test_it": "CYF is the highest CTR format in the library. Combining it with a life-stage hook ('opening soon') should pre-qualify the audience and lift SQL%."
+    },
+    {
+      "angle_id": "A4",
+      "name": "The Question Hook — New Business Version",
+      "hypothesis": "Question hooks drove the lowest CPL in PH. Adapting to the new business moment: 'Just renovated? How much did it cost you?' opens a curiosity gap, acknowledges their situation, and primes them for the offer. Untested in MY — high-potential.",
+      "format_suggestion": "Cultural Hook + Local Food Hero format — local food visual (nasi lemak for MY, halo-halo for PH) as hero, question in native language, minimal brand presence",
+      "hook_copy_direction": "Just renovated? How much did it set you back? (Then transition to: Don't let your POS add to the bill.)",
+      "why_test_it": "Question hooks in MY are completely untested despite massive PH success. New business moment gives a specific, non-generic question to ask."
+    },
+    {
+      "angle_id": "A5",
+      "name": "The Day One Setup",
+      "hypothesis": "New business owners visualise 'Day One' — the first day doors open, first customer, first transaction. Showing the StoreHub hardware as the centrepiece of that day one moment (on a new, clean counter with 55% off badge) creates aspiration and urgency simultaneously.",
+      "format_suggestion": "Aspirational lifestyle — hardware on a freshly set-up counter, clean store background, warm opening-day light. Feature pills floating. '55% off — Start strong.' headline.",
+      "hook_copy_direction": "Start your first day right. 55% off POS hardware for new businesses.",
+      "why_test_it": "Aspirational 'day one' framing sells the feeling of a successful opening, not just the product. Underused emotional angle in the current library."
+    },
+    {
+      "angle_id": "A6",
+      "name": "The Price Anchor Comparison — Opening Edition",
+      "hypothesis": "Show the full hardware price crossed out vs the 55% off price side by side, with a daily breakdown at the bottom ('Less than your first day's coffee sales'). Price shock via contrast is proven — applying it to the new business context where every ringgit is scrutinised.",
+      "format_suggestion": "Price Anchor Comparison layout — Left: full price strikethrough with money drain illustration; Right: 55% off price with hardware visual, green checkmarks for key features, daily price breakdown",
+      "hook_copy_direction": "Don't pay full price on opening week. 55% Off — [original price] → [discounted price].",
+      "why_test_it": "Price contrast layouts are proven in PH (Super Bundle). Applying the mechanic to MY new business audience tests whether the anchoring effect works cross-market."
+    }
+  ],
+
+  "market_priority": {
+    "primary": "MY",
+    "rationale": "Malaysia represents the largest budget share in historical data — MY Q4 BAU Promo alone ran RM62,988 spend at CPL RM64. The 55% off hardware offer has direct precedent in MY (55% Promo V2, SQL% 33.5%). MY should receive the majority of variants (at least 6 of 10) and the first spend allocation.",
+    "secondary": "PH",
+    "rationale_ph": "PH has the richest performance signal for question hooks and F&B vertical specificity. The new business opening angle translates well. 3–4 variants recommended with F&B context and Tagalog question hooks.",
+    "tertiary": "TH",
+    "rationale_th": "TH has engagement signal (Hook Rate 0.50% on Openshopwith_StoreHub) but no proven bottom-funnel wins yet. Test 1–2 variants if capacity allows, but do not prioritise budget here in iteration 1."
+  },
+
+  "formats_to_test": {
+    "primary": "1:1 square",
+    "rationale_primary": "1:1 is the most versatile feed format and has the largest body of MY performance data to compare against. All 10 variants should have a 1:1 version.",
+    "secondary": "4:5 vertical",
+    "rationale_secondary": "4:5 captures more feed real estate on mobile without full-screen commitment. Run for the top 5 performing angles after initial data.",
+    "tertiary": "9:16 story/reel",
+    "rationale_tertiary": "9:16 for video or stop-motion variants only. Recommended for A3 (CYF animated) and A5 (Day One aspirational video). Do not force static layouts into 9:16 without redesigning for the format.",
+    "note": "Multi-element openings (AI + comparison + speech stacked) killed performance in MY Q3. Each variant must have a single, clear hook — one format, one message, one visual."
+  }
+}

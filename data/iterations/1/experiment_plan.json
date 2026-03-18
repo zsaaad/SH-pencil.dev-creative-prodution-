@@ -1,0 +1,544 @@
+{
+  "_meta": {
+    "iteration": 1,
+    "date": "2026-03-18",
+    "campaign": "New Business Opening — 55% Off POS Hardware",
+    "audience_segment": "New Business Opening",
+    "offer": "55% off POS hardware",
+    "total_variants": 10,
+    "formats": {
+      "1x1_square": 5,
+      "4x5_portrait": 3,
+      "9x16_story_reels": 2
+    },
+    "market_split": {
+      "MY": 6,
+      "PH": 3,
+      "TH": 1
+    },
+    "strategy_source": "data/iterations/1/analysis.json",
+    "knowledge_base_source": "data/knowledge_base.json"
+  },
+
+  "variants": [
+    {
+      "variant_id": "V1",
+      "name": "SQUARE_VP1_NEWBIZ_20260318_v1",
+      "format": "1080x1080",
+      "aspect_ratio": "1:1",
+      "placement": "Meta Feed",
+      "market": "MY",
+      "language": "English",
+      "layout_template": "Split Card — Product + Feature List",
+      "angle_reference": "A1 — The Grand Opening Relief",
+
+      "headline": "Just Opened? Here's One Less Thing to Stress About.",
+      "sub_headline": "55% Off POS Hardware — For New Businesses",
+      "body_copy": "You've handled the hard part. Get your POS sorted at 55% off.",
+      "cta": "Claim Your 55% Off",
+
+      "visual_concept": "Two rounded-corner cards side by side on a clean white background. LEFT CARD: Warm orange (#ff9419) background. The D3 Pro hardware (merchant front view) sits on a minimal counter surface. A large white circular badge in the top-right corner of the card reads '55% OFF' in Barlow Black, with 'POS Hardware' in smaller text below. A subtle 'Grand Opening' ribbon in StoreHub Black runs diagonally across the top-left corner of the card. RIGHT CARD: StoreHub Black (#2f2922) background. White Barlow Black headline 'Just Opened?' at the top. Below it, a 3-item checklist in white Open Sans: ✓ Set up in minutes — no training needed / ✓ Works for dine-in, takeaway & delivery / ✓ Real-time sales reports from Day 1. A full-width orange CTA pill button at the bottom reads 'Claim Your 55% Off' in white Barlow Bold. StoreHub white wordmark in the bottom-left of the right card.",
+
+      "hardware_asset": "F&B-MY-Merchant-Front.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/F&B-MY-Merchant-Front.png",
+
+      "offer_badge": "Large white circular badge overlaid on the hardware card, '55% OFF' in Barlow Black orange (#ff9419) text, sub-text 'POS Hardware' in white Open Sans. Badge diameter ~200px at 1080x1080.",
+
+      "primary_color_palette": {
+        "left_card_bg": "#ff9419",
+        "right_card_bg": "#2f2922",
+        "headline_text": "#ffffff",
+        "badge_bg": "#ffffff",
+        "badge_text_primary": "#ff9419",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff",
+        "checklist_text": "#ffffff",
+        "ribbon": "#2f2922"
+      },
+
+      "target_audience_signal": "Headline directly names the audience life stage ('Just Opened?'). The relief framing ('one less thing to stress about') acknowledges opening overwhelm. The feature list validates key new-business anxieties: setup speed, operational breadth, and financial visibility from Day 1.",
+
+      "hypothesis": "The split-card format is the proven MY champion layout. Adding a life-stage hook ('Just Opened?') to the headline pre-qualifies the audience and should lift SQL% above the baseline 33.5% achieved by 55% Promo V2, because the creative signals it is speaking specifically to them — not all merchants.",
+
+      "notes": "Primary MY variant. English language for highest Win%. Use light background to avoid dark-BG penalty confirmed in knowledge base. Single clear hook — do not add additional angles."
+    },
+
+    {
+      "variant_id": "V2",
+      "name": "SQUARE_VP2_NEWBIZ_20260318_v1",
+      "format": "1080x1080",
+      "aspect_ratio": "1:1",
+      "placement": "Meta Feed",
+      "market": "MY",
+      "language": "English",
+      "layout_template": "Choose Your Fighter — Diagonal Split",
+      "angle_reference": "A3 — Choose Your Fighter New Opening Edition",
+
+      "headline": "Opening Soon? Pick Your Setup.",
+      "sub_headline": "55% Off Hardware — Limited Time",
+      "body_copy": null,
+      "cta": "Get 55% Off Now",
+
+      "visual_concept": "Classic diagonal split frame. A sharp diagonal line divides the 1080x1080 canvas from top-left to bottom-right. LEFT HALF: Deep azure blue (#2a6ee8) background. The D3 Mini hardware (MY F&B left-angle shot) is placed centrally on the left panel, slightly overlapping the diagonal into the right. A playful rounded label below the device reads 'D3 Mini' with a small down-arrow. RIGHT HALF: StoreHub Orange (#ff9419) background. The Falcon 1 hardware (F&B MY left-angle) is placed centrally, also overlapping the diagonal. A label reads 'Falcon 1' with a down-arrow. CENTER: A bold circular 'VS' badge sits exactly on the diagonal line, dark background with white 'VS' in Barlow Black. TOP BAR: A dark pill/banner spanning the full width at the very top reads 'Opening Soon? 55% Off Hardware' in white Barlow Black. BOTTOM STRIP: White strip with orange CTA button 'Get 55% Off Now' center. StoreHub full-color wordmark bottom-left.",
+
+      "hardware_asset": "MY- F&B MiniD3-left.png (left panel) + Falcon-Left_F&B-MY.png (right panel)",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/",
+
+      "offer_badge": "Top-spanning dark pill banner '55% Off Hardware' — integrated into the headline bar. No separate circular badge needed; the banner IS the offer signal.",
+
+      "primary_color_palette": {
+        "left_panel_bg": "#2a6ee8",
+        "right_panel_bg": "#ff9419",
+        "top_pill_bg": "#2f2922",
+        "top_pill_text": "#ffffff",
+        "vs_badge_bg": "#2f2922",
+        "vs_badge_text": "#ffffff",
+        "bottom_strip_bg": "#ffffff",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff",
+        "product_labels": "#ffffff"
+      },
+
+      "target_audience_signal": "The top banner 'Opening Soon?' is a direct life-stage qualifier. New business owners deciding on a POS tier are answering exactly the question the layout poses: 'which one for me?' The format answers their primary purchase decision question before they even engage.",
+
+      "hypothesis": "Choose Your Fighter is the highest-CTR format in the entire library (3.95% MY, 4.86% PH). Applying the opening-soon hook to the proven CYF diagonal split should pre-qualify for the new business audience while maintaining the format's scroll-stopping power. Expected to outperform V1 on CTR; hypothesis is whether the audience qualifier also improves SQL%.",
+
+      "notes": "Reference champion ad: '[MYPH] - Acquisition - Choose Your Fighter - Falcon 1 vs Falcon 2 - Split Screen Promo.png'. Evolve, do not replace. Single visual hook — no body copy in the frame."
+    },
+
+    {
+      "variant_id": "V3",
+      "name": "SQUARE_VP3_NEWBIZ_20260318_v1",
+      "format": "1080x1080",
+      "aspect_ratio": "1:1",
+      "placement": "Meta Feed",
+      "market": "MY",
+      "language": "Chinese (Simplified)",
+      "layout_template": "Bold Text Overlay on Moody Photography",
+      "angle_reference": "A2 — The Budget Stretch",
+
+      "headline": "刚开业？硬件折扣55%。",
+      "sub_headline": "开店花了不少。POS不必再贵。",
+      "body_copy": "限时优惠 · 新商家专属",
+      "cta": "立即领取优惠",
+
+      "visual_concept": "Full-bleed photograph of a newly set-up Malaysian F&B counter — clean surfaces, warm lighting, a fresh store that has just opened. The D3 Pro hardware (dual-back angle) is prominently placed on the counter, in-context. A semi-transparent dark gradient overlay (#2f2922 at 55% opacity) covers the left two-thirds of the image, giving the text legibility while the right side shows the hardware clearly. TOP: StoreHub white wordmark top-right, small. CENTER-LEFT: Massive Noto Sans SC Bold Chinese headline '刚开业？硬件折扣55%。' in white — headline fills 40% of frame width. Below it in slightly smaller Noto Sans SC Regular: '开店花了不少。POS不必再贵。' in white. BELOW SUB-HEADLINE: Small Open Sans body text in white/light grey: '限时优惠 · 新商家专属'. BOTTOM-LEFT: Orange full-width CTA strip '立即领取优惠' in white Barlow Bold. BOTTOM-RIGHT: The '55% OFF' circular badge in orange (#ff9419) with white text, overlaid on the hardware area, ensuring the offer is legible over the photo.",
+
+      "hardware_asset": "(MY-F&B) DualBack.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/(MY-F&B) DualBack.png",
+
+      "offer_badge": "Circular orange badge (#ff9419), white text '55% OFF', positioned bottom-right overlapping the hardware in the photo. Secondary: '限时优惠' (limited time) body copy.",
+
+      "primary_color_palette": {
+        "photo_overlay": "#2f2922 at 55% opacity (left gradient)",
+        "headline_text": "#ffffff",
+        "sub_headline_text": "#ffffff",
+        "body_text": "#c5c3c1",
+        "badge_bg": "#ff9419",
+        "badge_text": "#ffffff",
+        "cta_strip_bg": "#ff9419",
+        "cta_text": "#ffffff"
+      },
+
+      "target_audience_signal": "Chinese language targets the MY Chinese-speaking business owner segment (highest SQL% per knowledge base). The headline directly names the opening moment ('刚开业？') and validates the financial strain ('开店花了不少') — the exact tension identified in the audience analysis. The new store environment photo creates immediate context recognition.",
+
+      "hypothesis": "Chinese language drives the highest SQL% in MY. Pairing the proven bold-text-overlay-on-photography format with a Chinese new business hook is untested in this combination. The emotional direct validation ('you spent big to open') is a high-risk, high-reward angle that, if the insight is correct, should resonate deeply with Chinese-speaking MY merchants who are analytically cost-conscious.",
+
+      "notes": "Photo must be authentic-lifestyle MY store — not stock. Use (MY-F&B) DualBack.png as the hardware anchor. Do not use dark background for the entire frame — keep photo visible on right side to avoid the dark-BG conversion penalty."
+    },
+
+    {
+      "variant_id": "V4",
+      "name": "SQUARE_VP4_NEWBIZ_20260318_v1",
+      "format": "1080x1080",
+      "aspect_ratio": "1:1",
+      "placement": "Meta Feed",
+      "market": "PH",
+      "language": "English",
+      "layout_template": "Price Anchor Comparison (Bundle vs Individual)",
+      "angle_reference": "A6 — The Price Anchor Comparison Opening Edition",
+
+      "headline": "Don't Pay Full Price on Opening Week.",
+      "sub_headline": "55% Off POS Hardware — New Business Offer",
+      "body_copy": "Less than your first week's coffee sales.",
+      "cta": "Get the Deal",
+
+      "visual_concept": "Clean white background. Two distinct panels separated by a thin vertical divider line. LEFT PANEL (40% width): Headed by a bold red 'FULL PRICE' label. Below: The original hardware price in large Barlow Black dark text with a thick orange strikethrough line. Below the strikethrough, a downward arrow icon (orange, large). A secondary line shows 'Before your opening deal'. Faint grey money-drain icon below the price (illustrative — coins falling). RIGHT PANEL (60% width): Orange (#ff9419) background card with rounded corners (8px). Headed by a bold white 'YOUR PRICE' label in Barlow Black. The discounted price (55% off) in massive white Barlow Black — the price IS the visual. Below the price: 3 green-check feature lines in white Open Sans: ✓ POS + Payment Integration / ✓ Real-time Reports / ✓ Free Setup Support. At the very bottom of the right panel: small white text 'That's less than your first week's coffee sales.' BOTTOM STRIP (full-width): White strip. Hardware photo (Falcon1 F&B MY left-angle) floating above the strip, straddling both panels. Orange CTA button 'Get the Deal'. StoreHub logo bottom-left. Social proof pill: '17,000+ merchants trusted us'.",
+
+      "hardware_asset": "PH-FnB-Dual-02.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/PH-FnB-Dual-02.png",
+
+      "offer_badge": "The entire right panel IS the offer badge — orange background, oversized discounted price in white. No separate badge element needed; the price contrast structure carries the 55% offer signal.",
+
+      "primary_color_palette": {
+        "background": "#ffffff",
+        "left_panel_accent": "#ff0000 (FULL PRICE label only)",
+        "original_price_text": "#2f2922",
+        "strikethrough": "#ff9419",
+        "right_panel_bg": "#ff9419",
+        "right_panel_headline": "#ffffff",
+        "discounted_price_text": "#ffffff",
+        "feature_check_text": "#ffffff",
+        "bottom_strip": "#ffffff",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff",
+        "social_proof_pill_bg": "#2f2922",
+        "social_proof_text": "#ffffff"
+      },
+
+      "target_audience_signal": "The headline 'Don't Pay Full Price on Opening Week' is a direct temporal hook — 'opening week' names the exact moment. The body copy reframe ('less than your first week's coffee sales') uses a metric the new business owner already knows, making the discounted price feel trivial by comparison. Price anchor contrast directly addresses the 'every ringgit counts' tension.",
+
+      "hypothesis": "Price Anchor Comparison worked in PH (Super Bundle Promo). This variant tests whether the price-contrast mechanic combined with a new-business temporal hook ('opening week') and a relatable cost reframe ('coffee sales') drives lower CPL than a standard 55% off ad in PH. The social proof strip ('17,000+ merchants') adds trust for a risk-averse new business audience.",
+
+      "notes": "Use PH hardware photo. The left-panel strikethrough price and right-panel discounted price must be actual numbers — confirm from products.json: PH active offer is 'Up to PHP 20,000 off on hardware'. Calculate exact 55% off price for primary PH hardware SKU before production."
+    },
+
+    {
+      "variant_id": "V5",
+      "name": "SQUARE_VP5_NEWBIZ_20260318_v1",
+      "format": "1080x1080",
+      "aspect_ratio": "1:1",
+      "placement": "Meta Feed",
+      "market": "PH",
+      "language": "Filipino (Tagalog)",
+      "layout_template": "Cultural Hook + Local Food Hero",
+      "angle_reference": "A4 — The Question Hook New Business Version",
+
+      "headline": "Bagong negosyo ka ba?",
+      "sub_headline": "55% off ang iyong POS hardware — ngayon na.",
+      "body_copy": "Huwag hayaang ang POS ang magastos pa.",
+      "cta": "Kunin ang 55% Off",
+
+      "visual_concept": "Full-bleed overhead photograph of a classic Filipino F&B setup — a tray with halo-halo (Filipino shaved ice dessert) or a plate of sinigang with rice, shot from slightly above, filling 65% of the frame. Warm, natural lighting — looks like food content, not an ad. The bottom 35% of the frame is a clean white panel overlapping the food photo with a soft feathered edge. In the white panel: Large Barlow Black question headline 'Bagong negosyo ka ba?' in StoreHub Black (#2f2922) — this is the hero text, fills the panel width. Below: slightly smaller sub-headline '55% off ang iyong POS hardware — ngayon na.' in orange (#ff9419) Barlow Bold. Below: small Open Sans body text 'Huwag hayaang ang POS ang magastos pa.' in dark grey. Far right of the white panel: The Falcon Mini PH hardware (small, clean PNG cutout) sits angled slightly, with a circular orange '55% OFF' badge overlapping its top corner. Bottom-right: StoreHub full-color wordmark. Bottom-left: Orange CTA pill button 'Kunin ang 55% Off' in white.",
+
+      "hardware_asset": "PH-FnB-D3-Mini-Right.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/PH-FnB-D3-Mini-Right.png",
+
+      "offer_badge": "Circular orange badge (#ff9419) '55% OFF' in white Barlow Black, overlaid on the corner of the hardware cutout in the white panel. Small and precise — not oversized.",
+
+      "primary_color_palette": {
+        "food_photo": "natural warm tones — authentic",
+        "white_panel_bg": "#ffffff",
+        "headline_text": "#2f2922",
+        "sub_headline_text": "#ff9419",
+        "body_text": "#55504a",
+        "badge_bg": "#ff9419",
+        "badge_text": "#ffffff",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff"
+      },
+
+      "target_audience_signal": "Filipino language question hook 'Bagong negosyo ka ba?' (Are you a new business?) directly stops the new business owner's scroll. The halo-halo/food hero image reads as food content before it reads as an ad — mimicking the question-hook format that achieved CPL RM37 in PH. The new business framing ('Bagong negosyo') is a direct audience qualifier in native language.",
+
+      "hypothesis": "Filipino question hooks drove the lowest CPL in PH (RM37–41). The Cultural Hook + Local Food Hero format is confirmed to stop scroll by looking like organic food content. Combining the two proven PH mechanisms — native language question + local food visual — with a new-business qualifier is untested but logically extends both winning patterns. Expected to produce very high CTR and strong audience self-selection.",
+
+      "notes": "This format works because it does NOT look like an ad. The hardware must be small and in the bottom panel — not the hero. Do not put hardware on the food photo. Follow the 'one hook' rule: the question IS the hook. The offer comes after the hook is set."
+    },
+
+    {
+      "variant_id": "V6",
+      "name": "SQUARE_VP6_NEWBIZ_20260318_v1",
+      "format": "1080x1080",
+      "aspect_ratio": "1:1",
+      "placement": "Meta Feed",
+      "market": "MY",
+      "language": "Malay (Bahasa Malaysia)",
+      "layout_template": "Cultural Hook + Local Food Hero",
+      "angle_reference": "A4 — The Question Hook New Business Version (MY Malay adaptation)",
+
+      "headline": "Baru je buka kedai?",
+      "sub_headline": "Jimat 55% untuk POS hardware anda.",
+      "body_copy": "Jangan biar POS jadi bebanan tambahan.",
+      "cta": "Tuntut 55% Off Sekarang",
+
+      "visual_concept": "Full-bleed photograph of Malaysian nasi lemak — the iconic banana leaf wrap with sambal, anchovies, egg, and cucumber — shot from a 45-degree angle, filling 60% of the upper frame. Warm natural light. Below the food image, a gradient fade into a clean white lower panel (40% of frame). In the white panel: Large Barlow Black headline 'Baru je buka kedai?' in StoreHub Black — colloquial Malay phrasing ('just opened your shop?') using everyday language, not formal Malay. Below: orange Barlow Bold sub-headline 'Jimat 55% untuk POS hardware anda.' (Save 55% on your POS hardware). Below: small Open Sans body 'Jangan biar POS jadi bebanan tambahan.' (Don't let POS be another burden). Right side of the white panel: D3 Mini hardware (MY F&B left angle) as a small cutout with a '55% OFF' orange circle badge. Logo bottom-right. CTA pill button bottom-left: 'Tuntut 55% Off Sekarang' in white on orange.",
+
+      "hardware_asset": "MY- F&B MiniD3-left.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/MY- F&B MiniD3-left.png",
+
+      "offer_badge": "Circular orange badge (#ff9419) '55% OFF' white Barlow Black text, overlaid on the top-left corner of the D3 Mini hardware cutout.",
+
+      "primary_color_palette": {
+        "food_photo": "warm naturals — greens, yellows, reds of nasi lemak",
+        "white_panel_bg": "#ffffff",
+        "headline_text": "#2f2922",
+        "sub_headline_text": "#ff9419",
+        "body_text": "#55504a",
+        "badge_bg": "#ff9419",
+        "badge_text": "#ffffff",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff"
+      },
+
+      "target_audience_signal": "Bahasa Malaysia drives the highest volume in MY per knowledge base. Colloquial Malay ('Baru je buka kedai?' — everyday spoken Malay, not formal) creates immediate authenticity and cultural intimacy. The nasi lemak visual is the most culturally resonant Malaysian food image — it pre-selects the MY F&B audience. The burden-validation body copy ('jangan biar POS jadi bebanan') directly addresses the financial tension.",
+
+      "hypothesis": "Malay question hooks in MY are completely untested despite the format's massive success in PH. This is the highest-potential untested combination in the entire plan. Bahasa + local food visual + new-business question hook mirrors the exact PH formula (Tagalog + halo-halo + question) that achieved CPL RM37. If the cultural resonance mechanic is market-agnostic, this should dramatically outperform current Malay volume ads on CPL.",
+
+      "notes": "Volume market — Malay. This variant is expected to have the widest reach. It trades Win% for volume reach. Run alongside V1 (English) and V3 (Chinese) to complete the MY language trifecta. Use colloquial Malay, not formal Bahasa — the tone of voice must match how a friend speaks, not a government ad."
+    },
+
+    {
+      "variant_id": "V7",
+      "name": "45_VP1_NEWBIZ_20260318_v1",
+      "format": "1080x1350",
+      "aspect_ratio": "4:5",
+      "placement": "Meta Feed (Portrait)",
+      "market": "MY",
+      "language": "English",
+      "layout_template": "Before/After Emotional Split",
+      "angle_reference": "A1 — The Grand Opening Relief + Before/After pattern",
+
+      "headline": "Opening Day Should Feel Like This.",
+      "sub_headline": "Not Like This.",
+      "body_copy": "55% off POS hardware for new businesses. Set up in minutes. Sell from Day 1.",
+      "cta": "Start Strong — 55% Off",
+
+      "visual_concept": "The 1080x1350 frame is divided horizontally into two equal stacked halves (top/bottom split, ideal for 4:5 portrait). TOP HALF — 'NOT LIKE THIS': Slightly desaturated, cooler-toned photograph of a stressed-looking Malaysian F&B merchant (Southeast Asian, authentic look — not stock) surrounded by paperwork, a non-working POS terminal with an error on screen, maybe a queue forming behind. Dark overlay across the top-right corner has a small label in white Open Sans: 'Before StoreHub'. A grey 'X' mark subtle watermark. The word 'BEFORE' in very small dark grey Barlow at the top-left corner. BOTTOM HALF — 'LIKE THIS': Warm, well-lit, vibrant photograph of the same merchant archetype (different person, same vibe — SE Asian, authentic) confidently processing an order on the StoreHub D3 Pro at a clean, organized counter. Warm light. Happy energy. The word 'AFTER' in very small orange Barlow at the bottom-left corner. A small 'After StoreHub' label top-right. SPANNING BOTH HALVES — center divider bar: A bold full-width orange (#ff9419) horizontal bar, approximately 80px tall, sits precisely at the split line. White Barlow Black text inside: '55% Off POS Hardware for New Businesses'. BOTTOM STRIP (below bottom photo): White strip — orange CTA button 'Start Strong — 55% Off', StoreHub wordmark logo. Social proof: '17,000+ merchants & counting'.",
+
+      "hardware_asset": "F&B-MY-Merchant-Front.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/F&B-MY-Merchant-Front.png",
+
+      "offer_badge": "Integrated into the orange center divider bar — '55% Off POS Hardware for New Businesses' in white Barlow Black. This functions as both the visual divider and the offer statement.",
+
+      "primary_color_palette": {
+        "top_half_overlay": "#2f2922 at 30% opacity",
+        "bottom_half": "warm naturals — well lit, vibrant",
+        "center_divider_bar": "#ff9419",
+        "divider_text": "#ffffff",
+        "before_label": "#7a7672",
+        "after_label": "#ff9419",
+        "bottom_strip_bg": "#ffffff",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff"
+      },
+
+      "target_audience_signal": "The Before/After format directly dramatizes the transformation the new business owner aspires to. The 'opening day' framing is temporal — it meets them exactly where they are. The stressed merchant (top) mirrors their current anxiety; the confident merchant (bottom) shows them the identity they want to adopt. The '55% off for new businesses' in the center strip signals the offer is specifically for people in their exact situation.",
+
+      "hypothesis": "Before/After emotional contrast tells the entire value proposition in one second — proven in the creative library (Christmas Panic vs Profit, FiatQCV1). The 4:5 format gives more vertical space to let both emotional states breathe. Placing the 55% offer on the divider bar ensures the offer is impossible to miss regardless of how much of the ad the user sees before stopping. Hypothesis: emotional contrast drives higher CTR; 'new businesses' qualifier in the offer strip drives higher SQL%.",
+
+      "notes": "Photos must be authentic SE Asian merchants — not Western or stock. Top half should NOT be too dark/sad; just notably more stressed than the bottom. The tone should be empathetic, not dire. The center orange bar ensures brand visibility even at thumbnail size."
+    },
+
+    {
+      "variant_id": "V8",
+      "name": "45_VP2_NEWBIZ_20260318_v1",
+      "format": "1080x1350",
+      "aspect_ratio": "4:5",
+      "placement": "Meta Feed (Portrait)",
+      "market": "MY",
+      "language": "English",
+      "layout_template": "Choose Your Fighter — Diagonal Split",
+      "angle_reference": "A3 — Choose Your Fighter New Opening Edition (portrait adaptation)",
+
+      "headline": "Pick Your Opening Day Setup.",
+      "sub_headline": "Both at 55% Off — New Business Deal",
+      "body_copy": null,
+      "cta": "See Both Deals",
+
+      "visual_concept": "The 1080x1350 portrait canvas uses a vertical diagonal split (top-left to bottom-right) — the 4:5 format gives the hardware more vertical space to dominate. LEFT PANEL: Azure blue (#2a6ee8) background. The D3 Mini hardware (MY F&B top-angle shot for the portrait — MY- F&B MiniD3-top.png) positioned centrally with more vertical room than the square version. A playful rounded label below: 'D3 Mini' with an arrow. Small sub-label: 'Starter Setup'. RIGHT PANEL: Orange (#ff9419) background. The D3 Pro hardware (F&B-MY-Merchant-Front.png) positioned centrally — a more imposing, premium feel. Label: 'D3 Pro' with arrow. Sub-label: 'Full Power Setup'. CENTER: 'VS' badge on the diagonal line. TOP BANNER (full width): Dark StoreHub Black pill spanning the full width: 'Pick Your Opening Day Setup.' in white Barlow Black. BOTTOM BAR (full width): White strip. Left: orange tag '55% Off Both'. Right: 'Claim Your Deal →' in orange Barlow Bold. Center: StoreHub wordmark.",
+
+      "hardware_asset": "MY- F&B MiniD3-top.png (left panel) + F&B-MY-Merchant-Front.png (right panel)",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/",
+
+      "offer_badge": "Bottom strip orange tag '55% Off Both' — applies the offer to both products, removing purchase hesitation. The 'Both at 55% Off' framing eliminates the 'but which one gets the discount?' question.",
+
+      "primary_color_palette": {
+        "left_panel_bg": "#2a6ee8",
+        "right_panel_bg": "#ff9419",
+        "top_pill_bg": "#2f2922",
+        "top_pill_text": "#ffffff",
+        "vs_badge_bg": "#2f2922",
+        "vs_badge_text": "#ffffff",
+        "bottom_strip_bg": "#ffffff",
+        "offer_tag_bg": "#ff9419",
+        "offer_tag_text": "#ffffff",
+        "cta_text": "#ff9419",
+        "logo": "full-color wordmark"
+      },
+
+      "target_audience_signal": "'Opening Day Setup' is a direct new-business temporal hook. The two-product comparison directly answers the real question a new business owner has: 'which hardware tier should I buy?' The '55% Off Both' tag removes the decision anxiety — the offer applies regardless of their choice, so they only need to decide which fits their operation, not whether they can afford either.",
+
+      "hypothesis": "CYF is the highest-CTR format in the library. The 4:5 portrait version gives the hardware more vertical space and takes up significantly more mobile feed real estate. This variant tests whether CYF in 4:5 outperforms the 1:1 CYF (V2) on both CTR and SQL%. The 'Both at 55% Off' offer framing is a new mechanic not previously tested — reducing decision friction may lift conversion from click to lead.",
+
+      "notes": "Use the top-angle D3 Mini shot (MY- F&B MiniD3-top.png) for the left panel — the top angle fills the vertical space better in portrait. Keep the design clean; the 4:5 format risks clutter if labels are enlarged naively from 1:1."
+    },
+
+    {
+      "variant_id": "V9",
+      "name": "45_VP3_NEWBIZ_20260318_v1",
+      "format": "1080x1350",
+      "aspect_ratio": "4:5",
+      "placement": "Meta Feed (Portrait)",
+      "market": "PH",
+      "language": "English",
+      "layout_template": "Bold Text Overlay on Moody Photography",
+      "angle_reference": "A5 — The Day One Setup (aspirational)",
+
+      "headline": "Start Your First Day Right.",
+      "sub_headline": "55% Off POS Hardware for New Businesses in PH",
+      "body_copy": "The #1 POS for 3,350+ Philippine businesses. Set up in minutes. Sell from Day 1.",
+      "cta": "Claim 55% Off",
+
+      "visual_concept": "Full-bleed vibrant F&B store environment photograph — a freshly opened Filipino restaurant or cafe, warm natural light streaming in, clean surfaces, a sense of 'opening day'. The PH Falcon Dual hardware (PH-FnB-Dual-02.png) is placed prominently on the new counter in the scene, framed as the centrepiece of the setup. A dark gradient overlay from the bottom (50% height, #2f2922 fading from 80% opacity at the very bottom to 0% at the midpoint) gives text legibility in the lower section without obscuring the hardware at counter-level. The photo itself is the hero. TEXT BLOCK at the bottom of the frame (on the gradient): Massive Barlow Black white headline 'Start Your First Day Right.' — large enough to fill ~70% of frame width. Below: Barlow Bold sub-headline '55% Off POS Hardware for New Businesses in PH' in orange (#ff9419). Below: small Open Sans body '#1 POS for 3,350+ Philippine businesses. Set up in minutes. Sell from Day 1.' in white. CTA BUTTON: Full-width orange pill at the very bottom 'Claim 55% Off'. Logo: StoreHub white wordmark top-right. CORNER ELEMENT: Top-left orange diagonal ribbon/triangle badge: '#1 POS in PH'.",
+
+      "hardware_asset": "PH-FnB-Dual-02.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/PH-FnB-Dual-02.png",
+
+      "offer_badge": "Sub-headline '55% Off POS Hardware for New Businesses in PH' in orange (#ff9419) Barlow Bold — the offer is baked into the typography hierarchy, not a separate badge. Supported by the top-left corner ribbon '#1 POS in PH' as the trust anchor.",
+
+      "primary_color_palette": {
+        "photo": "warm naturals, well-lit PH store environment",
+        "bottom_gradient_overlay": "#2f2922 0-80% opacity",
+        "headline_text": "#ffffff",
+        "sub_headline_text": "#ff9419",
+        "body_text": "#ffffff",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff",
+        "corner_ribbon": "#ff9419",
+        "corner_ribbon_text": "#ffffff",
+        "logo": "white wordmark"
+      },
+
+      "target_audience_signal": "'Your First Day' is the aspirational milestone the new business owner is building towards. 'New Businesses in PH' in the sub-headline is a direct audience qualifier. The '#1 POS for 3,350+ Philippine businesses' body copy adds market-specific social proof — the PH merchant count signals the brand is established and trusted locally. The warm opening-day store environment photo lets the viewer project themselves into the scene.",
+
+      "hypothesis": "Bold text overlay on moody/lifestyle photography is proven in the library (Future Proof Your Restaurant series). Adapting it to the aspirational 'Day One' frame for PH — with PH-specific hardware, PH social proof count, and a warm new-store environment — tests whether aspirational imagery outperforms the price-anchor (V4) or question-hook (V5) formats for PH SQL%. The '#1 POS' corner ribbon adds competitive credibility that should reduce purchase risk for new business owners.",
+
+      "notes": "The 4:5 portrait format is ideal for this layout — more vertical space for the full environment photograph to breathe and the text block to land with impact. Do not make the gradient too dark across the whole frame — keep it warm and aspirational in the upper 60%."
+    },
+
+    {
+      "variant_id": "V10",
+      "name": "916_VP1_NEWBIZ_20260318_v1",
+      "format": "1080x1920",
+      "aspect_ratio": "9:16",
+      "placement": "Meta Reels / Stories",
+      "market": "TH",
+      "language": "Thai",
+      "layout_template": "Bold Text Overlay on Moody Photography",
+      "angle_reference": "A5 — The Day One Setup + A4 question hook (TH adaptation)",
+
+      "headline": "เพิ่งเปิดร้าน? รู้ยัง?",
+      "sub_headline": "ลด 55% สำหรับฮาร์ดแวร์ POS ทันที",
+      "body_copy": "ระบบ POS ที่ดีที่สุด ตั้งได้ใน 1 วัน ขายได้ทันที",
+      "cta": "รับส่วนลด 55% เลย",
+
+      "visual_concept": "Full 1080x1920 9:16 canvas. A visually striking full-bleed photograph of a newly opened Thai restaurant or street food stall, shot in warm golden-hour light — authentic Thai F&B environment (TH-specific aesthetic). The TH hardware (TH-FnB-Angled-01.png) is prominently placed on the counter, angled for visual dynamism. UPPER THIRD: StoreHub white wordmark top-left. Top-right: A large circular orange badge with bold white IBM Plex Sans '55% OFF'. MIDDLE THIRD: The hardware is the visual hero — TH-FnB-Angled-01.png placed on counter, taking up significant canvas space. Around the hardware, two to three feature pill tags float in white/orange: '✓ ไม่ต้องฝึกอบรม' (No training needed) / '✓ รายงาน Real-time' (Real-time reports) / '✓ รองรับทุก Payment'. LOWER THIRD: White gradient overlay rising from the bottom 30% of the canvas. On the white gradient: Large IBM Plex Sans Bold Thai headline 'เพิ่งเปิดร้าน? รู้ยัง?' (Just opened a shop? Did you know?) in StoreHub Black — takes 2 lines, very large. Below: orange Noto Sans Thai sub-headline 'ลด 55% สำหรับฮาร์ดแวร์ POS ทันที' (55% off for POS hardware immediately). Below: small Noto Sans Thai body text 'ระบบ POS ที่ดีที่สุด ตั้งได้ใน 1 วัน ขายได้ทันที' (The best POS system. Set up in 1 day. Sell immediately). Full-width orange CTA pill at the very bottom: 'รับส่วนลด 55% เลย' (Get 55% off now) in white.",
+
+      "hardware_asset": "TH-FnB-Angled-01.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/TH-FnB-Angled-01.png",
+
+      "offer_badge": "Large circular orange badge top-right corner: '55% OFF' in white IBM Plex Sans Bold. Immediately visible at Stories/Reels entry point before any swipe.",
+
+      "primary_color_palette": {
+        "photo": "warm golden naturals — authentic TH F&B store",
+        "bottom_gradient": "#ffffff fading from 0% to 90% opacity",
+        "top_badge_bg": "#ff9419",
+        "top_badge_text": "#ffffff",
+        "headline_text": "#2f2922",
+        "sub_headline_text": "#ff9419",
+        "body_text": "#55504a",
+        "feature_pill_bg": "#ffffff",
+        "feature_pill_text": "#2f2922",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff",
+        "logo": "white wordmark"
+      },
+
+      "target_audience_signal": "Thai question hook 'เพิ่งเปิดร้าน? รู้ยัง?' (Just opened? Did you know?) directly addresses the new business owner audience in their native language. The TH hardware (market-matched) and authentic TH restaurant environment signal that this is made for the Thai market. The 9:16 Reels/Stories format meets the TH audience in their highest-engagement placement. Feature pills in Thai confirm the system works for Thai business operations.",
+
+      "hypothesis": "TH has proven video/Reels engagement (Hook Rate 0.50% — 3x market average on Openshopwith_StoreHub). There are no proven bottom-funnel wins in TH yet. This variant tests whether a native Thai question hook combined with the TH-specific hardware visual and the proven 55% offer can generate first SQL conversions in TH. The 9:16 Reels format matches the placement where TH showed its strongest engagement signal. Low-risk test: one variant, Reels placement, audience-specific creative.",
+
+      "notes": "TH is tertiary market — test one variant only in iteration 1. Use Thai language exclusively. The question hook format ('เพิ่งเปิดร้าน?') mirrors the PH formula that worked. The 9:16 format is specified for TH Reels only — do not force this into feed square. Budget allocation should be conservative (monitor engagement first, CPL is unknown baseline for TH)."
+    },
+
+    {
+      "variant_id": "V11_BONUS",
+      "name": "916_VP2_NEWBIZ_20260318_v1",
+      "format": "1080x1920",
+      "aspect_ratio": "9:16",
+      "placement": "Meta Reels / Stories",
+      "market": "MY",
+      "language": "English",
+      "layout_template": "Word Repetition / Text Pattern Burst",
+      "angle_reference": "A2 — The Budget Stretch (visual impact adaptation for Reels)",
+
+      "headline": "55% OFF. 55% OFF. 55% OFF.",
+      "sub_headline": "POS Hardware for New Businesses.",
+      "body_copy": "Just opened? This offer was made for you.",
+      "cta": "Claim Before It's Gone",
+
+      "visual_concept": "Full 1080x1920 9:16 canvas. THE ENTIRE BACKGROUND is a repeating diagonal text pattern — '55% OFF' repeated in alternating StoreHub Orange (#ff9419) and StoreHub Black (#2f2922) across the full canvas, at approximately 60° diagonal angle, font size creating roughly 15-20 repetitions visible at once. The pattern is the background texture. BREAKING THROUGH THE PATTERN: The D3 Pro hardware (F&B-MY-Customer-Facing-Slight.png or F&B-MY-Merchant-Quarter-Turn.png) is placed as a large cutout PNG in the center-bottom 50% of the canvas, physically overlapping the text pattern — it 'breaks out' of the repetition grid, creating depth. The hardware is at full size, slightly larger than in other formats. TOP QUARTER: Black semi-opaque rounded rectangle box (like a supertitle). Inside: White Barlow Black headline '55% OFF. 55% OFF. 55% OFF.' — using the repetition deliberately in the copy itself, mirroring the background pattern. BOTTOM QUARTER: White solid bar from the very bottom to approximately 30% height. In the white bar: Orange Barlow Bold sub-headline 'POS Hardware for New Businesses.' Below: Small Open Sans body 'Just opened? This offer was made for you.' Full-width orange CTA button 'Claim Before It's Gone'. StoreHub wordmark bottom center.",
+
+      "hardware_asset": "F&B-MY-Customer-Facing-Slight.png",
+      "hardware_asset_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/F&B-MY-Customer-Facing-Slight.png",
+
+      "offer_badge": "The entire background IS the offer badge — '55% OFF' repeated as a visual texture burns the number into the viewer before they read a single word. This is the highest-impact offer presentation in the set.",
+
+      "primary_color_palette": {
+        "background_text_pattern_color_1": "#ff9419",
+        "background_text_pattern_color_2": "#2f2922",
+        "top_box_bg": "#2f2922 at 85% opacity",
+        "top_box_text": "#ffffff",
+        "bottom_bar_bg": "#ffffff",
+        "sub_headline_text": "#ff9419",
+        "body_text": "#2f2922",
+        "cta_button": "#ff9419",
+        "cta_text": "#ffffff"
+      },
+
+      "target_audience_signal": "'POS Hardware for New Businesses' in the sub-headline and 'Just opened? This offer was made for you.' in the body copy are the explicit audience qualifiers. The visual impact approach of the Word Repetition pattern is designed to stop the Reels scroll — the format is deliberately disruptive in a way that rewards attention. New business owners in decision-making mode will self-select to the explicit 'for New Businesses' qualifier.",
+
+      "hypothesis": "The Word Repetition / Text Pattern Burst format was seen in the PH 'Up to PHP 20,000 OFF' ad — it drives high visual energy and burns the price into the viewer. Applied to the 9:16 Reels format for MY, it tests whether extreme visual repetition of the offer creates higher recall and intent. The format is untested in MY — high novelty factor in a feed that typically shows photography or standard layouts. The hardware breaking out of the pattern grid is the creative moment that should earn 0.5–1 second of additional attention.",
+
+      "notes": "This is a bonus 11th variant (the brief requested 2 in 9:16 — this is the second). The pattern background requires careful execution — the '55% OFF' text must be legible individually but also work as a texture. Test that the pattern does not create visual noise that obscures the hardware. Use Barlow Black for the pattern text at ~14–16pt equivalent scale at 1080x1920 resolution."
+    }
+  ],
+
+  "production_checklist": {
+    "before_design": [
+      "Confirm exact 55% off prices for MY and PH hardware SKUs from finance/pricing team",
+      "Confirm PH hardware price: 'Up to PHP 20,000 off' — get the exact before/after price for V4",
+      "Source authentic MY/PH/TH store environment photos (not stock) — new/clean store aesthetic",
+      "Verify TH translations with native Thai speaker before production"
+    ],
+    "asset_paths_to_confirm": [
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/F&B-MY-Merchant-Front.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/(MY-F&B) DualBack.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/Falcon-Left_F&B-MY.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/MY- F&B MiniD3-left.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/MY- F&B MiniD3-top.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/F&B-MY-Customer-Facing-Slight.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/PH-FnB-Dual-02.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/PH-FnB-D3-Mini-Right.png",
+      "/Users/zaidsaad/Desktop/Creative/SH Hardware/TH-FnB-Angled-01.png"
+    ],
+    "design_rules_to_enforce": [
+      "Single hook per variant — no stacking (killed MY Q3 CYF+AI+Speech at RM9,684 with 0 wins)",
+      "Never use dark backgrounds for full-frame static ads",
+      "Hardware must appear in context — never white background product-only",
+      "Headline must be the largest element in every composition",
+      "Barlow Black for all English headlines, Noto Sans SC Bold for Chinese, IBM Plex Sans Bold for Thai",
+      "Logo: white wordmark on dark/orange BGs, full-color on light BGs — never both wordmark and H-mark together",
+      "CTA button: orange (#ff9419) with white text — full-width pill preferred"
+    ]
+  },
+
+  "launch_priority": {
+    "phase_1_immediate": ["V1", "V2", "V4", "V5", "V7"],
+    "phase_2_watch_and_add": ["V3", "V6", "V8", "V9"],
+    "phase_3_test_carefully": ["V10", "V11_BONUS"],
+    "rationale": "Phase 1 covers the proven formats (CYF, split-card, price anchor) in MY English and PH — highest confidence of generating early signals. Phase 2 adds language variants and portrait formats once Phase 1 data is available. Phase 3 covers TH (first test) and the experimental Word Repetition format."
+  },
+
+  "success_metrics": {
+    "primary_kpi": "SQL% (Sales Qualified Lead %)",
+    "target_sql_pct": ">= 33.5% (matching 55% Promo V2 MY benchmark)",
+    "secondary_kpi": "CPWon",
+    "target_cpwon_my": "< RM1,415 (55% Promo V2 baseline)",
+    "target_cpwon_ph": "< RM630 (Allinonepos_Fnb PH best-in-dataset)",
+    "ctr_benchmark": "CYF variants (V2, V8) should beat 3.95% MY / 4.86% PH benchmarks",
+    "cpl_benchmark_ph": "Question hook variants (V5) targeting CPL < RM41 (best PH question hook)",
+    "th_success_criteria": "Any SQL conversion is a win — establish CPL baseline for TH new business",
+    "kill_criteria": "Pause any variant with 0 SQLs after 50+ leads generated or > RM2,000 spend without SQL"
+  }
+}
