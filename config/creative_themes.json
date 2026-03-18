@@ -1,0 +1,233 @@
+{
+  "_meta": {
+    "description": "StoreHub Creative Theme Framework — 8 testable creative angles for ad experiments. Each theme tests a distinct psychological lever. Use this to ensure batches test across multiple themes, not just format/copy variations of the same angle.",
+    "last_updated": "2026-03-18",
+    "how_to_use": "Each iteration should test at least 2-3 themes head-to-head. Assign 2-3 creative variations per theme (same angle, different executions). Declare a theme winner at 10%+ lift on its primary KPI after 7 days / 1000+ impressions. Retire losing themes and double down on winners."
+  },
+
+  "themes": [
+
+    {
+      "id": "T1",
+      "name": "Pain Amplification",
+      "bucket": "Emotional",
+      "one_liner": "Start inside the merchant's worst moment — no solution yet. Make them feel seen.",
+      "core_insight": "A merchant who feels understood before being sold to is far more likely to convert than one who sees a product pitch cold. The ad mirrors their reality so precisely that they stop scrolling because it feels personal.",
+      "emotional_lever": "Recognition — 'That is literally my life right now'",
+      "NOT": "Stress-to-Success transformation arc (proven to fail in PH — 0 SQLs across 5 variants). This theme STAYS in the pain. The call to action is the only escape offered.",
+      "execution_directions": [
+        "Show a merchant at 2am doing reconciliation. No caption needed beyond one true line.",
+        "Recreate a specific peak-hour chaos moment — tablets everywhere, staff shouting, queue out the door.",
+        "A checklist of everything they manually manage that StoreHub handles. Just a list. No product shot.",
+        "A fake invoice showing all the hidden costs of NOT having a good POS (missed orders, staff errors, overtime)."
+      ],
+      "copy_direction": "Lead with the pain, not the product. Second sentence only — offer the exit.",
+      "primary_kpi": "SQL%",
+      "hypothesis": "Ads that name a specific merchant pain before introducing any product will drive higher SQL% because they pre-qualify — only merchants who identify with the pain will engage.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "Question hooks ('How much are you paying in delivery fees?') delivered CPL RM37-41 in PH — lowest in dataset. Pain-first framing is directionally validated but never tested as a standalone visual theme.",
+      "watch_out": "Do not drift into transformation/journey narrative — that killed performance in PH. Stay in the problem."
+    },
+
+    {
+      "id": "T2",
+      "name": "New Chapter",
+      "bucket": "Emotional",
+      "one_liner": "Grand opening energy. You've worked for this moment — your tools should match your ambition.",
+      "core_insight": "Merchants who just opened, renovated, or expanded are at a high-intent, high-emotion decision point. They're spending money and making long-term decisions. An ad that meets them at that milestone — rather than interrupting them with a generic promo — feels relevant, not intrusive.",
+      "emotional_lever": "Pride + excitement + 'I deserve the best for this moment'",
+      "NOT": "Generic 'new business discount' promo. This is about the milestone, not the offer. The offer is secondary.",
+      "execution_directions": [
+        "A beautifully renovated empty restaurant just before opening — 'You built something beautiful. Now run it with the best.'",
+        "A fake renovation invoice where the POS is the only line item they saved on.",
+        "A countdown to opening day visual — everything checked off, POS is the last item.",
+        "An owner standing in front of their new signage. One line of copy. No product shot."
+      ],
+      "copy_direction": "Acknowledge the milestone first. Position StoreHub as the final piece that completes their setup.",
+      "primary_kpi": "SQL% + CTR",
+      "hypothesis": "Life-stage moment targeting (just opened/renovating/expanding) produces higher SQL% than evergreen campaigns because it intercepts the audience at an active purchase decision, not just pain awareness.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "No direct test of milestone-targeting as a creative angle. The 55% off hardware campaign is the offer — this theme determines how to frame it.",
+      "watch_out": "Avoid making the image look like a stock photo. Must feel like their specific business, not a generic cafe."
+    },
+
+    {
+      "id": "T3",
+      "name": "Quiet Ambition",
+      "bucket": "Emotional",
+      "one_liner": "No drama. A merchant who simply wants their business to be great — understated, real, documentary.",
+      "core_insight": "Polished ads signal advertising. Documentary-style, low-production-feel ads signal authenticity. A merchant who sees a real person in a real shop — not a model in a perfect set — lowers their guard and engages with the content as if it were organic.",
+      "emotional_lever": "Trust + aspiration without hype",
+      "NOT": "Testimonial ads (proven weak as acquisition). This is NOT a talking-head testimonial. It is candid, observational — the merchant is not speaking to camera.",
+      "execution_directions": [
+        "Overhead shot of a busy counter — hands, POS screen, food. No faces. One line of copy.",
+        "A merchant checking their phone at end of day — a StoreHub dashboard notification showing day's sales. No words needed.",
+        "Documentary still: empty restaurant, owner setting tables before service, light coming through the window.",
+        "A close-up of a POS screen during service — orders flowing in. Shot like a film still."
+      ],
+      "copy_direction": "Minimal. Max 6 words headline. Let the image carry 80% of the message.",
+      "primary_kpi": "SQL%",
+      "hypothesis": "Authentic/low-production-feel creative drives higher SQL% than polished brand ads because it reduces ad resistance and attracts merchants who are genuinely evaluating, not just browsing.",
+      "markets_to_test": ["MY", "TH"],
+      "known_data": "TH bloopers/unexpected opening hooks drove 2-3x video engagement (Hook Rate 0.50% vs 0.15%). Authentic feel is directionally validated in TH. Untested as static in MY.",
+      "watch_out": "Must still meet brand standards. Logo and CTA required. Do not make it so low-production it looks like an error."
+    },
+
+    {
+      "id": "T4",
+      "name": "The Math",
+      "bucket": "Rational",
+      "one_liner": "Hard, specific numbers that make the cost of inaction impossible to ignore.",
+      "core_insight": "Vague benefit claims ('save time, save money') are discounted by the brain. Specific numbers force calculation: 'If I'm paying 30% commission and doing RM50k/month, that's RM15k gone every month.' The ad becomes a mirror showing them a number they cannot unsee.",
+      "emotional_lever": "Financial pain made concrete — triggers loss aversion",
+      "NOT": "Generic percentage claims without context. 'Save 55%' with no anchoring is weak. The math must be their math.",
+      "execution_directions": [
+        "A comparison: [Their monthly Grab commission] vs [StoreHub monthly fee]. Just two numbers.",
+        "A receipt-style breakdown: what they pay per year in commissions, errors, manual overtime vs StoreHub cost.",
+        "RM3.40/day — shown as coins, as a drink, as the most affordable thing in their life.",
+        "A timeline: 'At RM48,000 renovation cost, your POS is the 1 thing you shouldn't overpay for. RM3,960 with StoreHub.'"
+      ],
+      "copy_direction": "Lead with the number. Make it specific to their world (RM, their vertical, their scale). No fluff.",
+      "primary_kpi": "CPL",
+      "hypothesis": "Specific financial numbers (RM3.40/day, 30% commission = RM X) drive lower CPL than feature benefit copy because they create a tangible, calculable cost-of-inaction.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "Price anchor headlines with hardware visual proven in both MY and PH. PHP63/month is the top-performing PH message across 2 quarters. RM3.40/day framing is in the product but undertested as a visual hero.",
+      "watch_out": "Numbers must be accurate and market-specific. Never use Malaysian pricing in PH ads or vice versa."
+    },
+
+    {
+      "id": "T5",
+      "name": "Competitive Contrast",
+      "bucket": "Rational",
+      "one_liner": "Force a direct comparison — StoreHub vs the alternative — and make the choice obvious.",
+      "core_insight": "Merchants who are actively evaluating solutions are comparison shopping. An ad that does the comparison for them, clearly and boldly, intercepts this research moment and short-circuits the funnel. The viewer who clicks already has intent.",
+      "emotional_lever": "Clarity + relief — 'The decision has been made for me'",
+      "NOT": "Choose Your Fighter (CYF) hardware tier comparison — that's already in the proven library and is a safe pattern. This theme compares StoreHub vs real alternatives: manual processes, GrabFood/FoodPanda, pen-and-paper, expensive competitors.",
+      "execution_directions": [
+        "'GrabFood takes 30%. StoreHub takes 0.' — Two numbers, full stop.",
+        "Split: LEFT = manual stock count at midnight / RIGHT = StoreHub dashboard in 30 seconds.",
+        "'Your current setup' (list of 6 disconnected tools with costs) vs 'StoreHub' (one line, one price).",
+        "A fake job posting: 'Hiring: Human who manages POS + inventory + loyalty + delivery + reports. OR: StoreHub. From RM3.40/day.'"
+      ],
+      "copy_direction": "Make the comparison feel fair, then make the answer obvious. Never attack by name — compare to a behavior or category, not a brand.",
+      "primary_kpi": "CTR",
+      "hypothesis": "Comparison framing drives higher CTR because it forces active evaluation, and higher SQL% because people who engage with comparisons are already in a buying mindset.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "CYF hardware comparison: CTR 3.95% MY, 4.86% PH — 4x+ benchmark. This is the single best-performing format in the library. This theme extends the comparison angle beyond hardware tiers.",
+      "watch_out": "Do not name competitor brands. Compare to behaviors, costs, or categories."
+    },
+
+    {
+      "id": "T6",
+      "name": "Social Proof",
+      "bucket": "Rational",
+      "one_liner": "Real merchants, specific outcomes — not generic testimonials. Data that removes purchase risk.",
+      "core_insight": "Generic testimonials ('I love StoreHub!') are ignored. Specific outcome proof ('Binq reduced manpower by 2 staff after switching') creates credibility that cannot be faked. The specificity is what makes it believable — and believable proof is the most powerful trust-builder.",
+      "emotional_lever": "Risk reduction — 'If it worked for someone exactly like me, it will work for me'",
+      "NOT": "Old-style testimonial quote ads. Those have been proven weak as acquisition. This theme requires specific, named merchants with specific, numbered outcomes.",
+      "execution_directions": [
+        "A merchant's real face + their business name + one specific number: 'Merchants Lane — reduced closing time from 2 hours to 20 minutes.'",
+        "'17,218 merchants. 3 countries. 1 POS.' — simple, authoritative, scale as social proof.",
+        "Before/after with a real merchant name and their specific metric change.",
+        "A wall of logos/names of real F&B businesses in KL that use StoreHub. Density as proof."
+      ],
+      "copy_direction": "Be specific. Name the merchant, name the outcome, name the number. Vague proof is no proof.",
+      "primary_kpi": "SQL% + Win%",
+      "hypothesis": "Specific outcome social proof (named merchant + measurable result) drives higher SQL% and Win% than product-feature ads because it reduces purchase risk for prospects in late-stage evaluation.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "F&B vertical-specific imagery lifts SQL% ~2x in PH. Testimonial ads failed as acquisition in past but those used low-quality quotes — high-quality outcome proof with real faces + numbers is a fundamentally different product, untested.",
+      "watch_out": "Requires merchant consent and verified numbers. Do not exaggerate or fabricate metrics."
+    },
+
+    {
+      "id": "T7",
+      "name": "Cultural Pride",
+      "bucket": "Identity",
+      "one_liner": "Speaks to the identity of being a Malaysian/Filipino/Thai business owner — local food, local language, local reality.",
+      "core_insight": "Most tech ads show the product first. The most resonant ads show the culture first — nasi lemak, boba, halo-halo, pad kra pao. When a merchant sees their food, their language, their neighbourhood represented, the ad stops being an ad and starts being content that belongs in their feed.",
+      "emotional_lever": "Recognition + belonging — 'This brand understands people like me'",
+      "NOT": "Generic pan-Asian stock photography. Forbidden by brand guidelines. Must be specific to market: Malaysia ≠ Philippines ≠ Thailand.",
+      "execution_directions": [
+        "MY: Nasi lemak or roti canai as the full-bleed hero. StoreHub branding minimal at bottom. 'Your stall. Our tech.'",
+        "PH: Halo-halo or lechon as hero. Tagalog/Taglish copy. '#1 POS for Filipino F&B.'",
+        "TH: Thai food hero image. Thai script headline. Local merchant face.",
+        "MY: A hawker stall at night market — busy, authentic, recognisably Malaysian. POS visible but not the focus."
+      ],
+      "copy_direction": "Write in the market's primary language. Use local food vocabulary. Reference local business culture (e.g., 'gerai', 'kopitiam', 'karinderia').",
+      "primary_kpi": "CPL (volume)",
+      "hypothesis": "Culturally specific imagery (local food as hero, native language, local merchant faces) drives lower CPL through higher volume than generic tech/product ads because it generates stronger scroll-stop rate in the target feed.",
+      "markets_to_test": ["MY", "PH", "TH"],
+      "known_data": "PH: F&B vertical-specific imagery lifted SQL% to 45% vs 20-25% generic. TH: Blooper/unexpected cultural hooks drove Hook Rate 0.50% vs 0.15% benchmark. Malay-language static with local food is explicitly listed as untested high-potential in knowledge base.",
+      "watch_out": "Must use authentic imagery — real food, real places, real people. Stock photos of generic 'Asian food' will perform no differently than generic ads."
+    },
+
+    {
+      "id": "T8",
+      "name": "Aspirational Self",
+      "bucket": "Identity",
+      "one_liner": "The merchant they want to become — running a great operation, growing, winning, present for what matters.",
+      "core_insight": "Not every merchant is in acute pain. Some are doing okay but want to do better. Aspiration-first ads speak to growth identity, not problem identity. They attract a different, often higher-quality segment: merchants who are already functional but want to scale.",
+      "emotional_lever": "Growth ambition + pride in progress — 'I want my business to look like that'",
+      "NOT": "Generic lifestyle imagery with a POS in the background. The aspiration must be specific to what a merchant genuinely wants: more revenue, more time, less stress, a second location — not a vague idea of 'success'.",
+      "execution_directions": [
+        "A merchant checking a clean StoreHub dashboard showing record monthly sales. One line: 'Best month yet.'",
+        "A photo of a second location opening. 'StoreHub grows with you.'",
+        "A merchant leaving work at 6pm instead of midnight. 'Reports close themselves now.'",
+        "An owner teaching a new staff member in under 5 minutes. 'Zero training time. Just open and sell.'"
+      ],
+      "copy_direction": "Speak to where they want to be, not where they are. Future tense or present tense describing the dream state.",
+      "primary_kpi": "Win%",
+      "hypothesis": "Aspiration-first creative attracts higher-intent prospects who are already functional and actively looking to grow, resulting in higher Win% (close rate) even if CTR and CPL are not the strongest.",
+      "markets_to_test": ["MY"],
+      "known_data": "No direct aspiration-first test in current dataset. Indirect signal: English language drives highest Win% in MY — aspirational messaging tends to be English-dominant in Malaysian context.",
+      "watch_out": "Aspiration must feel earned and real — not a luxury lifestyle that is unrelatable. The merchant should look like a merchant, not a model."
+    }
+
+  ],
+
+  "experiment_structure": {
+    "description": "How to run theme experiments systematically",
+    "rules": [
+      "Test 2-3 themes per iteration — never test all 8 simultaneously (budget gets too thin per theme to reach statistical significance)",
+      "Each theme gets minimum 2 creative variations (different executions of the same angle — not different themes)",
+      "All variations produced in all 3 formats: 1080x1080, 1920x1080, 1080x1920",
+      "Minimum 1,000 impressions and 7 days before calling a result",
+      "Winning threshold: 10%+ lift on primary KPI vs iteration control",
+      "Kill threshold: Primary KPI >50% below target after 1,000 impressions",
+      "Theme winners are evolved (new executions of same angle), not replaced immediately",
+      "Theme losers are retired for that market — may be retested in different market if untested there"
+    ],
+    "priority_order": [
+      "T2 — New Chapter (most directly relevant to current 55% off new business campaign)",
+      "T4 — The Math (price anchors already proven — test as visual theme)",
+      "T5 — Competitive Contrast (extend the proven CYF angle beyond hardware tiers)",
+      "T7 — Cultural Pride (high-potential, explicitly flagged untested in knowledge base)",
+      "T1 — Pain Amplification (extends proven question-hook angle into visual)",
+      "T6 — Social Proof (requires real merchant data — run when assets are ready)",
+      "T8 — Aspirational Self (long-term brand play — lower urgency than conversion themes)",
+      "T3 — Quiet Ambition (test in TH first where authentic hooks have proven engagement)"
+    ],
+    "recommended_first_experiment": {
+      "themes": ["T2", "T4", "T5"],
+      "rationale": "These three cover the emotional (milestone), rational (numbers), and comparison angles. All three have directional data supporting them. They are the highest-probability themes for the current 55% off new business campaign.",
+      "control": "Current best-performing safe format from knowledge base (CYF hardware split)",
+      "variants_per_theme": 2,
+      "total_ads": 18,
+      "formats": ["1080x1080", "1920x1080", "1080x1920"],
+      "markets": ["MY EN primary", "PH EN secondary"],
+      "run_duration_days": 7
+    }
+  },
+
+  "theme_to_format_affinity": {
+    "note": "Some themes naturally suit certain formats. Use this as a starting point, but test across all formats.",
+    "T1_pain_amplification": { "strongest": "1080x1920", "reason": "Full-screen vertical forces immersion in the scene — makes the pain feel inescapable" },
+    "T2_new_chapter": { "strongest": "1080x1920", "reason": "Tall format mirrors the emotional weight of a milestone moment — cinematic quality" },
+    "T3_quiet_ambition": { "strongest": "1080x1080", "reason": "Square documentary feel matches organic feed content format" },
+    "T4_the_math": { "strongest": "1080x1080", "reason": "Numbers need breathing room — square gives space without distraction" },
+    "T5_competitive_contrast": { "strongest": "1920x1080", "reason": "Side-by-side comparisons work naturally in landscape — wide format enables the split" },
+    "T6_social_proof": { "strongest": "1080x1080", "reason": "Trust signals are most credible in the native feed format" },
+    "T7_cultural_pride": { "strongest": "1080x1920", "reason": "Full-bleed local food photography is most impactful at full vertical — feels like food content" },
+    "T8_aspirational_self": { "strongest": "1920x1080", "reason": "Landscape communicates scale and success — wider frame feels more expansive" }
+  }
+}

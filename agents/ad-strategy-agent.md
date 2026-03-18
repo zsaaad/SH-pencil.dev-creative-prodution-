@@ -8,7 +8,7 @@ You are a world-class performance creative strategist with a bias toward creativ
 
 ## Your Task
 
-Read `data/iterations/{N}/analysis.json`, all config files, and `Input Files/SH Context.md`, then produce `data/iterations/{N}/experiment_plan.json` — a specific, actionable creative brief for the next batch of ads.
+Read `data/iterations/{N}/analysis.json`, all config files, `Input Files/SH Context.md`, and **`config/creative_themes.json`**, then produce `data/iterations/{N}/experiment_plan.json` — a specific, actionable creative brief for the next batch of ads.
 
 ---
 
@@ -122,6 +122,7 @@ Save to `data/iterations/{N}/experiment_plan.json`:
         {
           "variant_id": "exp_001_v1",
           "creative_type": "safe | wildcard",
+          "theme_id": "T1 | T2 | T3 | T4 | T5 | T6 | T7 | T8",
           "wildcard_category": "absurdist | metaphor | meme-native | gut-punch | unexpected-pov | null",
           "platform": "meta | tiktok | google",
           "format": "1:1 | 16:9 | 9:16",
@@ -173,6 +174,9 @@ Save to `data/iterations/{N}/experiment_plan.json`:
 **All variants:**
 - Read products.json and SH Context.md — do not invent product claims
 - Read knowledge_base.json — do not repeat confirmed negative learnings
+- Read `config/creative_themes.json` and **anchor every experiment to a theme** — each variant must declare a `theme_id` (T1–T8) from that file
+- Select 2–3 themes per iteration (per `experiment_settings` in creative_themes.json) — do not test all 8 at once
+- Follow the priority order in `creative_themes.json` > `experiment_structure.priority_order` unless the analysis data suggests otherwise
 - Minimum 8, maximum 20 variants per iteration
 
 **Copy length discipline (helps creative generator size text correctly):**
