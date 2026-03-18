@@ -1,19 +1,22 @@
 {
-  "version": "2.6",
+  "version": "2.9",
   "children": [
     {
       "type": "frame",
       "id": "6bl7T",
-      "name": "AD1 — The Invoice MY EN",
       "x": 0,
       "y": 0,
+      "name": "AD1 — The Invoice MY EN",
+      "clip": true,
       "width": 1080,
       "height": 1080,
       "fill": "#faf7f2",
       "layout": "vertical",
       "gap": 16,
-      "padding": [48, 64],
-      "clip": true,
+      "padding": [
+        48,
+        64
+      ],
       "children": [
         {
           "type": "frame",
@@ -27,8 +30,8 @@
               "type": "text",
               "id": "2z9P5",
               "name": "h1",
-              "content": "OPENING DAY",
               "fill": "#2f2922",
+              "content": "OPENING DAY",
               "fontFamily": "Barlow",
               "fontSize": 86,
               "fontWeight": "900"
@@ -37,8 +40,8 @@
               "type": "text",
               "id": "c1fBg",
               "name": "h2",
-              "content": "EXPENSES",
               "fill": "#ff9419",
+              "content": "EXPENSES",
               "fontFamily": "Barlow",
               "fontSize": 86,
               "fontWeight": "900"
@@ -68,8 +71,26 @@
               "width": "fill_container",
               "justifyContent": "space_between",
               "children": [
-                { "type": "text", "id": "csO4h", "name": "r1n", "content": "Interior Renovation", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 },
-                { "type": "text", "id": "wihg1", "name": "r1p", "content": "RM 48,000", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 }
+                {
+                  "type": "text",
+                  "id": "csO4h",
+                  "name": "r1n",
+                  "fill": "#2f2922",
+                  "content": "Interior Renovation",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wihg1",
+                  "name": "r1p",
+                  "fill": "#2f2922",
+                  "content": "RM 48,000",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                }
               ]
             },
             {
@@ -79,8 +100,26 @@
               "width": "fill_container",
               "justifyContent": "space_between",
               "children": [
-                { "type": "text", "id": "KIZVN", "name": "r2n", "content": "Signage & Branding", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 },
-                { "type": "text", "id": "48feV", "name": "r2p", "content": "RM 6,500", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 }
+                {
+                  "type": "text",
+                  "id": "KIZVN",
+                  "name": "r2n",
+                  "fill": "#2f2922",
+                  "content": "Signage & Branding",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "48feV",
+                  "name": "r2p",
+                  "fill": "#2f2922",
+                  "content": "RM 6,500",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                }
               ]
             },
             {
@@ -90,8 +129,26 @@
               "width": "fill_container",
               "justifyContent": "space_between",
               "children": [
-                { "type": "text", "id": "Sh6gI", "name": "r3n", "content": "Kitchen Equipment", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 },
-                { "type": "text", "id": "NRYdM", "name": "r3p", "content": "RM 22,000", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 }
+                {
+                  "type": "text",
+                  "id": "Sh6gI",
+                  "name": "r3n",
+                  "fill": "#2f2922",
+                  "content": "Kitchen Equipment",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NRYdM",
+                  "name": "r3p",
+                  "fill": "#2f2922",
+                  "content": "RM 22,000",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                }
               ]
             },
             {
@@ -101,8 +158,26 @@
               "width": "fill_container",
               "justifyContent": "space_between",
               "children": [
-                { "type": "text", "id": "21wMe", "name": "r4n", "content": "Staff & Training", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 },
-                { "type": "text", "id": "MflXO", "name": "r4p", "content": "RM 4,800", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40 }
+                {
+                  "type": "text",
+                  "id": "21wMe",
+                  "name": "r4n",
+                  "fill": "#2f2922",
+                  "content": "Staff & Training",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "MflXO",
+                  "name": "r4p",
+                  "fill": "#2f2922",
+                  "content": "RM 4,800",
+                  "fontFamily": "Barlow",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                }
               ]
             }
           ]
@@ -123,31 +198,89 @@
           "fill": "#ff9419",
           "cornerRadius": 8,
           "layout": "vertical",
-          "gap": 8,
-          "padding": [24, 28],
+          "gap": 12,
+          "padding": [
+            28,
+            32
+          ],
           "children": [
             {
               "type": "frame",
               "id": "v9Lfh",
               "name": "posRow",
               "width": "fill_container",
+              "height": "fit_content(103)",
               "justifyContent": "space_between",
               "alignItems": "center",
               "children": [
-                { "type": "text", "id": "xWrCS", "name": "posName", "content": "POS System — StoreHub D3 Pro", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 44, "fontWeight": "700" },
-                { "type": "text", "id": "RxsCh", "name": "posPrice", "content": "RM 3,960", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 52, "fontWeight": "900" }
+                {
+                  "type": "text",
+                  "id": "xWrCS",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 6,
+                  "name": "posName",
+                  "fill": "#2f2922",
+                  "content": "POS System — StoreHub D3 Pro",
+                  "fontFamily": "Barlow",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "Fo9ud",
+                  "layoutPosition": "absolute",
+                  "x": 663,
+                  "y": 8,
+                  "name": "priceCol",
+                  "height": 88,
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2qQ08",
+                      "name": "oldPrice",
+                      "fill": "#2f292288",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#000000ff"
+                      },
+                      "content": "RM 8,800",
+                      "fontFamily": "Barlow",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5B5N4",
+                      "name": "newPrice",
+                      "fill": "#2f2922",
+                      "content": "RM 3,960",
+                      "fontFamily": "Barlow",
+                      "fontSize": 56,
+                      "fontWeight": "900"
+                    }
+                  ]
+                }
               ]
             },
             {
               "type": "text",
               "id": "PrXeq",
+              "layoutPosition": "absolute",
+              "x": 32,
+              "y": 97,
               "name": "posBadge",
-              "content": "55% OFF · Was RM 8,800 · Offer for new businesses only",
               "fill": "#2f2922",
-              "fontFamily": "Barlow",
-              "fontSize": 36,
               "textGrowth": "fixed-width",
-              "width": "fill_container"
+              "width": "fill_container(888)",
+              "content": "GET UP TO 55% OFF ON POS HARDWARE",
+              "fontFamily": "Barlow",
+              "fontSize": 28,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -163,14 +296,14 @@
               "type": "text",
               "id": "KmIlj",
               "name": "tagline",
-              "content": "You've already spent enough on everything else.",
               "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "You've already spent enough on everything else.",
+              "lineHeight": 1.15,
               "fontFamily": "Barlow",
               "fontSize": 48,
-              "fontWeight": "700",
-              "lineHeight": 1.15,
-              "textGrowth": "fixed-width",
-              "width": "fill_container"
+              "fontWeight": "700"
             },
             {
               "type": "frame",
@@ -186,15 +319,54 @@
                   "name": "ctaBtn",
                   "fill": "#2f2922",
                   "cornerRadius": 8,
-                  "padding": [20, 32],
+                  "padding": [
+                    20,
+                    32
+                  ],
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
-                    { "type": "text", "id": "Bh5tv", "name": "ctaTxt", "content": "Book a free demo now →", "fill": "#ff9419", "fontFamily": "Barlow", "fontSize": 36, "fontWeight": "700" }
+                    {
+                      "type": "text",
+                      "id": "Bh5tv",
+                      "name": "ctaTxt",
+                      "fill": "#ff9419",
+                      "content": "Book a free demo now →",
+                      "fontFamily": "Barlow",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
                   ]
-                },
-                { "type": "text", "id": "kwN9F", "name": "logoTxt", "content": "STOREHUB", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 36, "fontWeight": "900", "opacity": 0.35 }
+                }
               ]
+            },
+            {
+              "type": "text",
+              "id": "bb0j6",
+              "name": "tcApply",
+              "fill": "#2f292266",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "*T&C Apply",
+              "fontFamily": "Barlow",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ia2XJ",
+              "layoutPosition": "absolute",
+              "x": 733,
+              "y": 171,
+              "name": "logoImg",
+              "width": 199,
+              "height": 71,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "/Users/zaidsaad/Desktop/Creative/Logos/StoreHub Logo_Full Orange.png",
+                "mode": "fit"
+              }
             }
           ]
         }
@@ -203,17 +375,35 @@
     {
       "type": "frame",
       "id": "bQAci",
-      "name": "AD2 — Just Opened MY EN",
       "x": 1180,
       "y": 0,
+      "name": "AD2 — Just Opened MY EN",
+      "clip": true,
       "width": 1080,
       "height": 1080,
       "fill": "#2f2922",
       "layout": "vertical",
       "gap": 28,
       "padding": 64,
-      "clip": true,
       "children": [
+        {
+          "type": "frame",
+          "id": "6S2mK",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "bg2",
+          "opacity": 0.18,
+          "clip": true,
+          "width": 1080,
+          "height": 1080,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1732532974029-739f20ae2bcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTA3MzV8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          }
+        },
         {
           "type": "frame",
           "id": "COlft",
@@ -221,80 +411,181 @@
           "width": "fill_container",
           "layout": "vertical",
           "children": [
-            { "type": "text", "id": "3uQNr", "name": "line1", "content": "Just", "fill": "#ffffff", "fontFamily": "Barlow", "fontSize": 160, "fontWeight": "900", "lineHeight": 0.95 },
-            { "type": "text", "id": "F1Cz2", "name": "line2", "content": "opened?", "fill": "#ff9419", "fontFamily": "Barlow", "fontSize": 160, "fontWeight": "900", "lineHeight": 0.95 }
+            {
+              "type": "text",
+              "id": "3uQNr",
+              "name": "line1",
+              "fill": "#ffffff",
+              "content": "Just",
+              "lineHeight": 0.95,
+              "fontFamily": "Barlow",
+              "fontSize": 160,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "F1Cz2",
+              "name": "line2",
+              "fill": "#ff9419",
+              "content": "opened?",
+              "lineHeight": 0.95,
+              "fontFamily": "Barlow",
+              "fontSize": 160,
+              "fontWeight": "900"
+            }
           ]
         },
-        { "type": "rectangle", "id": "sNqEN", "name": "rule", "fill": "#ff9419", "width": "fill_container", "height": 5 },
-        { "type": "frame", "id": "wC8g7", "name": "midSpace", "width": "fill_container", "height": 32 },
+        {
+          "type": "rectangle",
+          "id": "sNqEN",
+          "name": "rule",
+          "fill": "#ff9419",
+          "width": "fill_container",
+          "height": 5
+        },
+        {
+          "type": "frame",
+          "id": "wC8g7",
+          "name": "midSpace",
+          "width": "fill_container",
+          "height": 32
+        },
+        {
+          "type": "text",
+          "id": "O13YN",
+          "layoutPosition": "absolute",
+          "x": 64,
+          "y": 429,
+          "name": "subTxt",
+          "fill": "#ffffff",
+          "textGrowth": "fixed-width",
+          "width": "fill_container(952)",
+          "content": "Don't let your POS eat your opening budget.",
+          "lineHeight": 1.2,
+          "fontFamily": "Barlow",
+          "fontSize": 68,
+          "fontWeight": "700"
+        },
         {
           "type": "text",
           "id": "z3eyj",
+          "layoutPosition": "absolute",
+          "x": 64,
+          "y": 605,
           "name": "subTxt",
-          "content": "Don't let your POS eat your opening budget.",
           "fill": "#ffffff",
-          "fontFamily": "Barlow",
-          "fontSize": 68,
-          "fontWeight": "700",
-          "lineHeight": 1.2,
           "textGrowth": "fixed-width",
-          "width": "fill_container"
+          "width": "fill_container(952)",
+          "content": "Get the No.1 POS system in Malaysia.",
+          "lineHeight": 1.2,
+          "fontFamily": "Barlow",
+          "fontSize": 50,
+          "fontWeight": "700"
         },
         {
           "type": "text",
-          "id": "uYVAA",
-          "name": "extraLine",
-          "content": "Get top-of-the-line tech at 55% off hardware — new businesses only.",
-          "fill": "#ffffff",
-          "fontFamily": "Barlow",
-          "fontSize": 44,
-          "lineHeight": 1.3,
-          "opacity": 0.65,
+          "id": "g0Qld",
+          "layoutPosition": "absolute",
+          "x": 64,
+          "y": 1013,
+          "name": "tcApply",
+          "fill": "#ffffff99",
           "textGrowth": "fixed-width",
-          "width": "fill_container"
+          "width": "fill_container(952)",
+          "content": "*T&C Apply",
+          "fontFamily": "Barlow",
+          "fontSize": 20,
+          "fontWeight": "normal"
         },
         {
           "type": "frame",
           "id": "r5y9r",
+          "layoutPosition": "absolute",
+          "x": 64,
+          "y": 727,
           "name": "bottomBar",
-          "width": "fill_container",
+          "width": 952,
+          "height": 124,
           "fill": "#ff9419",
           "cornerRadius": 8,
-          "padding": [20, 28],
+          "padding": [
+            20,
+            28
+          ],
           "justifyContent": "space_between",
           "alignItems": "center",
           "children": [
-            { "type": "text", "id": "wH2BM", "name": "offerTxt", "content": "55% off hardware", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 44, "fontWeight": "900" },
+            {
+              "type": "text",
+              "id": "wH2BM",
+              "layoutPosition": "absolute",
+              "x": 28,
+              "y": 15,
+              "name": "offerTxt",
+              "fill": "#2f2922",
+              "content": "55% off hardware",
+              "fontFamily": "Barlow",
+              "fontSize": 44,
+              "fontWeight": "900"
+            },
             {
               "type": "frame",
               "id": "9SdBF",
+              "layoutPosition": "absolute",
+              "x": 626,
+              "y": 20,
               "name": "ctaB",
               "fill": "#2f2922",
               "cornerRadius": 6,
-              "padding": [16, 24],
+              "padding": [
+                16,
+                24
+              ],
               "alignItems": "center",
               "children": [
-                { "type": "text", "id": "u4LB4", "name": "ctaBTxt", "content": "Book a free demo →", "fill": "#ff9419", "fontFamily": "Barlow", "fontSize": 36, "fontWeight": "700" }
+                {
+                  "type": "text",
+                  "id": "u4LB4",
+                  "name": "ctaBTxt",
+                  "fill": "#ff9419",
+                  "content": "GET PROMO →",
+                  "fontFamily": "Barlow",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "OUDiJ",
+                  "layoutPosition": "absolute",
+                  "x": -603,
+                  "y": 48,
+                  "name": "tcLine",
+                  "fill": "#2f2921ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container(952)",
+                  "content": "*For new businesses only.",
+                  "fontFamily": "Barlow",
+                  "fontSize": 30,
+                  "fontWeight": "normal"
+                }
               ]
             }
           ]
         },
         {
           "type": "frame",
-          "id": "6S2mK",
-          "name": "bg2",
-          "x": 0,
-          "y": 0,
-          "width": 1080,
-          "height": 1080,
+          "id": "edLW5",
           "layoutPosition": "absolute",
-          "opacity": 0.18,
-          "clip": true,
+          "x": 817,
+          "y": 40,
+          "name": "logoImg",
+          "width": 199,
+          "height": 94,
           "fill": {
             "type": "image",
             "enabled": true,
-            "mode": "fill",
-            "url": "https://images.unsplash.com/photo-1732532974029-739f20ae2bcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTA3MzV8&ixlib=rb-4.1.0&q=80&w=1080"
+            "url": "/Users/zaidsaad/Desktop/Creative/Logos/StoreHub_Logo_Full Positive Colour Reverse.png",
+            "mode": "fit"
           }
         }
       ]
@@ -302,86 +593,150 @@
     {
       "type": "frame",
       "id": "CwHEb",
-      "name": "AD3 — You Built It MY EN",
       "x": 2360,
       "y": 0,
+      "name": "AD3 — You Built It MY EN",
+      "clip": true,
       "width": 1080,
       "height": 1350,
       "layout": "none",
-      "clip": true,
       "children": [
         {
           "type": "frame",
           "id": "ILjhA",
-          "name": "bgImg",
           "x": 0,
           "y": 0,
+          "name": "bgImg",
           "width": 1080,
           "height": 1350,
           "fill": {
             "type": "image",
             "enabled": true,
-            "mode": "fill",
-            "url": "./images/generated-1773809538551.png"
+            "url": "./images/generated-1773809538551.png",
+            "mode": "fill"
           }
         },
         {
           "type": "rectangle",
           "id": "hkNWn",
-          "name": "darkOverlay",
           "x": 0,
           "y": 0,
-          "width": 1080,
-          "height": 1350,
+          "name": "darkOverlay",
           "fill": {
             "type": "gradient",
-            "enabled": true,
             "gradientType": "linear",
+            "enabled": true,
             "rotation": 180,
-            "size": { "height": 1 },
+            "size": {
+              "height": 1
+            },
             "colors": [
-              { "color": "#00000000", "position": 0 },
-              { "color": "#00000000", "position": 0.3 },
-              { "color": "#000000CC", "position": 0.75 },
-              { "color": "#000000F0", "position": 1 }
+              {
+                "color": "#00000000",
+                "position": 0
+              },
+              {
+                "color": "#00000000",
+                "position": 0.3
+              },
+              {
+                "color": "#000000CC",
+                "position": 0.75
+              },
+              {
+                "color": "#000000F0",
+                "position": 1
+              }
             ]
-          }
+          },
+          "width": 1080,
+          "height": 1350
         },
         {
           "type": "frame",
           "id": "CjYEm",
-          "name": "textZone",
           "x": 0,
           "y": 640,
+          "name": "textZone",
           "width": 1080,
           "height": 710,
           "layout": "vertical",
           "gap": 24,
-          "padding": [0, 64, 64, 64],
+          "padding": [
+            0,
+            64,
+            64,
+            64
+          ],
           "children": [
-            { "type": "text", "id": "pJzEl", "name": "headlineText", "content": "You built something beautiful.", "fill": "#ffffff", "fontFamily": "Barlow", "fontSize": 100, "fontWeight": "900", "lineHeight": 1.1, "textGrowth": "fixed-width", "width": "fill_container" },
-            { "type": "text", "id": "ZrKLz", "name": "subText", "content": "Now run it with the best.", "fill": "#ff9419", "fontFamily": "Barlow", "fontSize": 72, "fontWeight": "700", "textGrowth": "fixed-width", "width": "fill_container" },
-            { "type": "frame", "id": "oFvDE", "name": "spacerV", "width": "fill_container", "height": "fill_container" },
+            {
+              "type": "text",
+              "id": "pJzEl",
+              "name": "headlineText",
+              "fill": "#ffffff",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "You built something beautiful.",
+              "lineHeight": 1.1,
+              "fontFamily": "Barlow",
+              "fontSize": 100,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "ZrKLz",
+              "name": "subText",
+              "fill": "#ff9419",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Now run it with the no.1 POS in Malaysia.",
+              "fontFamily": "Barlow",
+              "fontSize": 72,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "oFvDE",
+              "name": "spacerV",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
             {
               "type": "frame",
               "id": "uAiDh",
               "name": "offerBadge",
               "width": "fill_container",
-              "gap": 24,
-              "alignItems": "center",
+              "layout": "vertical",
+              "gap": 4,
               "children": [
                 {
                   "type": "frame",
                   "id": "htUZ9",
                   "name": "badgePill",
-                  "fill": "#ff9419",
-                  "cornerRadius": 6,
-                  "padding": [16, 24],
+                  "fill": "#00000000",
                   "children": [
-                    { "type": "text", "id": "Ku99C", "name": "badgeTxt", "content": "55% off hardware", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40, "fontWeight": "900" }
+                    {
+                      "type": "text",
+                      "id": "Ku99C",
+                      "name": "badgeTxt",
+                      "fill": "#ff9419",
+                      "content": "55% off hardware",
+                      "fontFamily": "Barlow",
+                      "fontSize": 52,
+                      "fontWeight": "900"
+                    }
                   ]
                 },
-                { "type": "text", "id": "mNniS", "name": "badgeSub", "content": "New business offer", "fill": "#ffffffAA", "fontFamily": "Barlow", "fontSize": 40 }
+                {
+                  "type": "text",
+                  "id": "mNniS",
+                  "name": "badgeSub",
+                  "fill": "#ffffff77",
+                  "content": "*For new businesses only. T&C Apply.",
+                  "fontFamily": "Barlow",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                }
               ]
             },
             {
@@ -399,30 +754,103 @@
                   "name": "ctaBtn2",
                   "fill": "#ff9419",
                   "cornerRadius": 8,
-                  "padding": [20, 32],
+                  "padding": [
+                    20,
+                    32
+                  ],
                   "children": [
-                    { "type": "text", "id": "gagxM", "name": "ctaBtn2Txt", "content": "Book a free demo now", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 40, "fontWeight": "900" }
+                    {
+                      "type": "text",
+                      "id": "gagxM",
+                      "name": "ctaBtn2Txt",
+                      "fill": "#2f2922",
+                      "content": "Book a free demo now",
+                      "fontFamily": "Barlow",
+                      "fontSize": 40,
+                      "fontWeight": "900"
+                    }
                   ]
                 },
-                { "type": "text", "id": "DHlVz", "name": "logoArea", "content": "STOREHUB", "fill": "#ffffffAA", "fontFamily": "Barlow", "fontSize": 36, "fontWeight": "900" }
+                {
+                  "type": "text",
+                  "id": "A6g2a",
+                  "x": 855,
+                  "y": 32,
+                  "name": "tcApply",
+                  "enabled": false,
+                  "fill": "#ffffff55",
+                  "content": "*T&C Apply",
+                  "fontFamily": "Barlow",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "WfNS7",
+          "x": 739,
+          "y": 1228,
+          "name": "logoImg",
+          "width": 341,
+          "height": 93,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "/Users/zaidsaad/Desktop/Creative/Logos/StoreHub_Logo_Full Positive Colour Reverse.png",
+            "mode": "fit"
+          }
         }
       ]
     },
     {
       "type": "frame",
       "id": "p1IoR",
-      "name": "AD4 — 55 Percent MY EN",
       "x": 3540,
       "y": 0,
+      "name": "AD4 — 55 Percent MY EN",
+      "clip": true,
       "width": 1080,
       "height": 1350,
       "fill": "#2f2922",
       "layout": "vertical",
-      "clip": true,
       "children": [
+        {
+          "type": "frame",
+          "id": "W9MdW",
+          "layoutPosition": "absolute",
+          "x": 774,
+          "y": 26,
+          "name": "logoImg",
+          "width": 306,
+          "height": 94,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "/Users/zaidsaad/Desktop/Creative/Logos/StoreHub_Logo_Full Positive Colour Reverse.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "frcLG",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "bg4",
+          "opacity": 0.12,
+          "clip": true,
+          "width": 1080,
+          "height": 1350,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1567958436049-f2903793328b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTA3MzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          }
+        },
         {
           "type": "frame",
           "id": "x9Ceo",
@@ -430,12 +858,48 @@
           "width": "fill_container",
           "height": "fill_container",
           "layout": "vertical",
+          "padding": [
+            64,
+            64,
+            48,
+            64
+          ],
           "justifyContent": "space_between",
-          "padding": [64, 64, 48, 64],
           "children": [
-            { "type": "text", "id": "rEDr4", "name": "hookTxt", "content": "Just opened\nyour dream space?", "fill": "#ffffff", "fontFamily": "Barlow", "fontSize": 80, "fontWeight": "700", "lineHeight": 1.1, "opacity": 0.9 },
-            { "type": "text", "id": "i26zU", "name": "bigNum", "content": "55%", "fill": "#ff9419", "fontFamily": "Barlow", "fontSize": 380, "fontWeight": "900", "lineHeight": 0.85 },
-            { "type": "text", "id": "m7nt6", "name": "offTxt", "content": "off your POS.", "fill": "#ffffff", "fontFamily": "Barlow", "fontSize": 110, "fontWeight": "900", "lineHeight": 0.95 }
+            {
+              "type": "text",
+              "id": "rEDr4",
+              "name": "hookTxt",
+              "opacity": 0.9,
+              "fill": "#ffffff",
+              "content": "Just opened\nyour dream space?",
+              "lineHeight": 1.1,
+              "fontFamily": "Barlow",
+              "fontSize": 80,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "i26zU",
+              "name": "bigNum",
+              "fill": "#ff9419",
+              "content": "55%",
+              "lineHeight": 0.85,
+              "fontFamily": "Barlow",
+              "fontSize": 380,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "m7nt6",
+              "name": "offTxt",
+              "fill": "#ffffff",
+              "content": "off your POS.",
+              "lineHeight": 0.95,
+              "fontFamily": "Barlow",
+              "fontSize": 110,
+              "fontWeight": "900"
+            }
           ]
         },
         {
@@ -446,9 +910,26 @@
           "fill": "#ff9419",
           "layout": "vertical",
           "gap": 20,
-          "padding": [40, 64, 56, 64],
+          "padding": [
+            40,
+            64,
+            56,
+            64
+          ],
           "children": [
-            { "type": "text", "id": "sIPJh", "name": "reasonTxt", "content": "Because you've already invested enough in your space.", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 48, "fontWeight": "700", "lineHeight": 1.2, "textGrowth": "fixed-width", "width": "fill_container" },
+            {
+              "type": "text",
+              "id": "sIPJh",
+              "name": "reasonTxt",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Because you've already invested enough in your space.",
+              "lineHeight": 1.2,
+              "fontFamily": "Barlow",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
             {
               "type": "frame",
               "id": "lNNi0",
@@ -463,33 +944,38 @@
                   "name": "ctaBtn3",
                   "fill": "#2f2922",
                   "cornerRadius": 8,
-                  "padding": [18, 28],
+                  "padding": [
+                    18,
+                    28
+                  ],
                   "children": [
-                    { "type": "text", "id": "pfMTq", "name": "ctaBtn3Txt", "content": "Book a free demo now →", "fill": "#ff9419", "fontFamily": "Barlow", "fontSize": 36, "fontWeight": "700" }
+                    {
+                      "type": "text",
+                      "id": "pfMTq",
+                      "name": "ctaBtn3Txt",
+                      "fill": "#ff9419",
+                      "content": "Book a free demo now →",
+                      "fontFamily": "Barlow",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
                   ]
-                },
-                { "type": "text", "id": "19TBp", "name": "logo2", "content": "STOREHUB", "fill": "#2f2922", "fontFamily": "Barlow", "fontSize": 36, "fontWeight": "900", "opacity": 0.5 }
+                }
               ]
+            },
+            {
+              "type": "text",
+              "id": "FXbJg",
+              "name": "tcApply",
+              "fill": "#2f292266",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "*T&C Apply",
+              "fontFamily": "Barlow",
+              "fontSize": 20,
+              "fontWeight": "normal"
             }
           ]
-        },
-        {
-          "type": "frame",
-          "id": "frcLG",
-          "name": "bg4",
-          "x": 0,
-          "y": 0,
-          "width": 1080,
-          "height": 1350,
-          "layoutPosition": "absolute",
-          "opacity": 0.12,
-          "clip": true,
-          "fill": {
-            "type": "image",
-            "enabled": true,
-            "mode": "fill",
-            "url": "https://images.unsplash.com/photo-1567958436049-f2903793328b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTA3MzZ8&ixlib=rb-4.1.0&q=80&w=1080"
-          }
         }
       ]
     }

@@ -124,8 +124,8 @@ Save to `data/iterations/{N}/experiment_plan.json`:
           "creative_type": "safe | wildcard",
           "wildcard_category": "absurdist | metaphor | meme-native | gut-punch | unexpected-pov | null",
           "platform": "meta | tiktok | google",
-          "format": "1:1 | 4:5 | 9:16 | 1.91:1",
-          "dimensions_px": "1080x1080",
+          "format": "1:1 | 16:9 | 9:16",
+          "dimensions_px": "1080x1080 | 1920x1080 | 1080x1920",
           "target_segment": "segment_id",
           "hook_concept": "What stops the scroll in the first 1-2 seconds",
           "headline": "",
@@ -176,7 +176,7 @@ Save to `data/iterations/{N}/experiment_plan.json`:
 - Minimum 8, maximum 20 variants per iteration
 
 **Copy length discipline (helps creative generator size text correctly):**
-- Headlines: max 6 words for 1:1 format. Max 8 words for 4:5/9:16. Shorter = larger rendered text = more thumb-stopping.
+- Headlines: max 6 words for 1:1 and 16:9 formats. Max 8 words for 9:16. Shorter = larger rendered text = more thumb-stopping.
 - Sub-headlines: max 10 words. One idea only.
 - Body copy: max 2 lines (20-25 words). If it needs more explanation than that, the concept is too complex.
 - Brevity in the brief directly enables bolder typography in execution. Long headlines force small fonts.

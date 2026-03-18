@@ -100,9 +100,9 @@
         "cpwon_max_RM": { "MY": 1427, "PH": 1376, "TH": 2019 },
         "sql_pct_min": { "MY": 41.74, "PH": 41.28, "TH": 20 }
       },
-      "ad_formats": ["1:1 (1080x1080)", "4:5 (1080x1350)", "9:16 (1080x1920)", "1.91:1 (1200x628)"],
+      "ad_formats": ["1:1 (1080x1080)", "16:9 (1920x1080)", "9:16 (1080x1920)"],
       "placements": ["feed", "stories", "reels", "instagram_feed"],
-      "primary_format": "9:16 (Reels/Stories) and 4:5 (Feed) — brand spec",
+      "primary_format": "9:16 (Reels/Stories), 1:1 (Feed), 16:9 (Desktop/YouTube)",
       "naming_convention": "RESOLUTION_VP#_MERCHANT_DATE_VERSION (e.g. 916_VP1_CafeName_20250505_v1)"
     },
     "tiktok": {
@@ -124,7 +124,7 @@
         "ctr_min": 2.0,
         "cpl_max_RM": 125
       },
-      "ad_formats": ["1.91:1 (1200x628)", "1:1 (1080x1080)", "4:1 (1200x300)"],
+      "ad_formats": ["1:1 (1080x1080)", "16:9 (1920x1080)"],
       "campaign_types": ["search", "display", "pmax"]
     },
     "linkedin": {
@@ -134,49 +134,32 @@
   },
 
   "ad_formats_spec": {
-    "916": {
-      "name": "Vertical / Reels / Stories",
-      "dimensions": "1080x1920",
-      "safe_zone": { "top": "250px", "bottom": "400px", "left": "60px", "right": "60px" },
-      "logo_placement": "Top right, within safe zone",
-      "headline_size_px": "56–72px Barlow Black",
-      "body_size_px": "28–32px Open Sans Regular",
-      "cta_button_height": "64px",
-      "best_for": "TikTok, Meta Reels, Stories — primary high-reach format"
-    },
-    "45": {
-      "name": "Portrait Feed",
-      "dimensions": "1080x1350",
-      "safe_zone": { "all": "60px" },
-      "logo_placement": "Top right or bottom right",
-      "headline_size_px": "52–64px Barlow Black",
-      "body_size_px": "24–28px Open Sans Regular",
-      "cta_button_height": "60px",
-      "best_for": "Meta Feed — best performing static format"
-    },
     "11": {
       "name": "Square Feed",
       "dimensions": "1080x1080",
-      "safe_zone": { "all": "60px" },
-      "headline_size_px": "48–60px Barlow Black",
-      "body_size_px": "22–26px Open Sans Regular",
-      "cta_button_height": "56px",
-      "best_for": "Meta Feed, Instagram Feed, YouTube video thumbnails"
+      "safe_zone": { "all": "32px" },
+      "headline_size_px": "96–140px Barlow Black",
+      "body_size_px": "44–52px Barlow / Open Sans",
+      "cta_button_height": "64px",
+      "best_for": "Meta Feed, Instagram Feed, Google Display"
     },
     "169": {
       "name": "Landscape",
       "dimensions": "1920x1080",
       "safe_zone": { "top": "60px", "bottom": "60px", "left": "90px", "right": "90px" },
-      "title_safe_zone": "Inner 1920x1080 area",
-      "headline_size_px": "48–56px Barlow Black",
-      "best_for": "YouTube ads, Google Display, BTC video thumbnails"
+      "headline_size_px": "96–130px Barlow Black",
+      "body_size_px": "44–52px Barlow / Open Sans",
+      "cta_button_height": "64px",
+      "best_for": "YouTube ads, Google Display, Facebook desktop feed"
     },
-    "191": {
-      "name": "Landscape Banner",
-      "dimensions": "1200x628",
-      "safe_zone": { "all": "40px" },
-      "headline_size_px": "36–48px Barlow Black",
-      "best_for": "Facebook Feed desktop, Google Display"
+    "916": {
+      "name": "Vertical / Reels / Stories",
+      "dimensions": "1080x1920",
+      "safe_zone": { "top": "250px", "bottom": "400px", "left": "32px", "right": "32px" },
+      "headline_size_px": "130–180px Barlow Black",
+      "body_size_px": "52–64px Barlow / Open Sans",
+      "cta_button_height": "64px",
+      "best_for": "TikTok, Meta Reels, Stories"
     }
   },
 
@@ -184,18 +167,18 @@
     "vp_visual_presentation": {
       "description": "Product-focused ads highlighting features, benefits, or offers",
       "naming": "VP# = Value Proposition number",
-      "formats": ["1:1", "4:5", "9:16"],
+      "formats": ["1:1 (1080x1080)", "16:9 (1920x1080)", "9:16 (1080x1920)"],
       "style": "Upbeat, energetic music. Clear demo or benefit visual."
     },
     "btc_behind_the_counter": {
       "description": "Merchant documentary/testimonial content",
       "naming": "BTC + merchant name",
-      "formats": ["16:9 primary", "1:1 and 9:16 social cuts"],
+      "formats": ["16:9 (1920x1080) primary", "1:1 (1080x1080) and 9:16 (1080x1920) social cuts"],
       "style": "Authentic, story-driven. Real merchant in their shop."
     },
     "social_media_video": {
       "description": "Short-form video for Reels/TikTok",
-      "formats": ["9:16"],
+      "formats": ["9:16 (1080x1920)"],
       "duration": "1–1.5 min",
       "style": "Problem-solution, snappy, strong hook first 3 seconds"
     }

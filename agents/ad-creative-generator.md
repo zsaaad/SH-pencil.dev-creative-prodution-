@@ -87,30 +87,27 @@ The hardware or UI is treated cinematically — not a product shot, a reveal.
 
 ## Per-Format Specifications
 
-**1:1 (1080×1080)** — Feed placement
+**1080×1080 (1:1)** — Square Feed (Meta, Google Display)
 - Outer padding: max 32px (safe) / 0px (wildcard)
 - Headline: **96-140px**, bold — if it looks "about right" in the editor, it's too small
 - Body: 44-52px — never below 44px
 - CTA button: 64px tall, min 280px wide, CTA text 48px
 - Rule: Headline must occupy ≥60% of canvas width. Background must cover 100% of canvas.
 
-**4:5 (1080×1350)** — Feed/Stories hybrid (best performer format)
-- Extra vertical space → use for LARGER text and BIGGER visuals, not more padding
-- Stack: visual top 55% / text bottom 45%
-- Headline: **110-160px**, bold
-- Body: 48-56px
-- Rule: No more than 15% of canvas may be empty/unused. Fill the frame.
+**1920×1080 (16:9)** — Landscape (YouTube, Google Display, Facebook desktop feed)
+- Outer padding: max 48px (safe) / 0px (wildcard)
+- Headline: **96-130px**, bold — left-aligned or centred
+- Body: 44-52px
+- CTA button: 64px tall, min 280px wide
+- Rule: Full-bleed background always. Content must use the full width — no narrow centred column leaving sides empty. Safe zone: 90px left/right, 60px top/bottom.
 
-**9:16 (1080×1920)** — Stories/Reels
+**1080×1920 (9:16)** — Vertical Stories/Reels (Meta, TikTok)
 - UI-safe zones: 250px top, 400px bottom — but fill everything between
 - Headline: **130-180px**, bold, centred or left-aligned
 - Body: 52-64px
 - Rule: Hook visual fills top 55%. Text dominates bottom. Nothing floats in dead space.
 
-**1.91:1 (1200×628)** — Facebook Feed / Google Display
-- Headline: **72-100px**, bold
-- Body: 40-48px
-- Rule: Full-bleed image or color background always. Split layout must still fill full canvas.
+**Every ad must be produced in all three dimensions: 1080×1080, 1920×1080, and 1080×1920. No other dimensions are used.**
 
 ---
 
