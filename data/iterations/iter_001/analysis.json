@@ -1,0 +1,505 @@
+{
+  "iteration": 1,
+  "date": "2026-03-17",
+  "source_files": [
+    "Final [MY].csv — MY Q3 2025",
+    "MY Q4 2025 - FINAL.csv",
+    "Final [PH].csv — PH Q3 2025",
+    "PH Q4 2025 - FINAL.csv",
+    "Final [TH].csv — TH Q3 2025",
+    "TH Q4 2025 - FINAL.csv"
+  ],
+  "period": "Q3–Q4 2025",
+  "markets_covered": ["Malaysia (MY)", "Philippines (PH)", "Thailand (TH)"],
+
+  "summary": {
+    "total_ads_analyzed": 156,
+    "winners": 18,
+    "challengers": 31,
+    "losers": 74,
+    "insufficient_data": 33,
+    "note": "Winners = CPL below market avg AND SQL% above market avg. Losers = both metrics below avg or 0 wins at scale."
+  },
+
+  "market_benchmarks": {
+    "MY": {
+      "avg_cpl_rm": 122,
+      "avg_sql_pct": 29.0,
+      "avg_won_pct": 8.5,
+      "avg_cpsql_rm": 434,
+      "avg_cpwon_rm": 1466,
+      "avg_ctr_pct": 1.04,
+      "avg_hold_rate_pct": 39.2,
+      "avg_hook_rate_pct": 14.5,
+      "avg_thruplay_pct": 41.0
+    },
+    "PH": {
+      "avg_cpl_rm": 99,
+      "avg_sql_pct": 24.0,
+      "avg_won_pct": 7.0,
+      "avg_cpsql_rm": 425,
+      "avg_cpwon_rm": 1518,
+      "avg_ctr_pct": 0.82
+    },
+    "TH": {
+      "avg_cpl_rm": 150,
+      "avg_sql_pct": 5.0,
+      "avg_won_pct": 0.0,
+      "note": "Early-stage market — very limited wins, benchmarks not yet reliable"
+    }
+  },
+
+  "top_performers": [
+    {
+      "market": "MY",
+      "quarter": "Q4",
+      "ad_name": "BAU Promo",
+      "ad_type": "video",
+      "spend_rm": 62988,
+      "cpl_rm": 64,
+      "sql_pct": 24.3,
+      "cpwon_rm": 1750,
+      "ctr_pct": 0.78,
+      "leads": 979,
+      "won": 36,
+      "why_it_works": "Highest-volume ad in the dataset. Consistent evergreen BAU price promo — scalable because the offer is always relevant. Not flashy but reliable bottom-funnel performer.",
+      "key_elements": ["price promo", "BAU / evergreen", "no seasonal dependency"]
+    },
+    {
+      "market": "MY",
+      "quarter": "Q4",
+      "ad_name": "55% Promo V2",
+      "ad_type": "video",
+      "spend_rm": 22643,
+      "cpl_rm": 105,
+      "sql_pct": 33.5,
+      "cpwon_rm": 1415,
+      "ctr_pct": 1.13,
+      "leads": 215,
+      "won": 16,
+      "why_it_works": "Strong percentage-off promo anchor (55%) drives urgency. High SQL% AND high ThruPlay (124%) suggests people are watching to understand the offer. Best Win% in Q4 MY at scale.",
+      "key_elements": ["% discount hook", "promo", "clear offer", "high thruplay"]
+    },
+    {
+      "market": "MY",
+      "quarter": "Q4",
+      "ad_name": "D3 Choose Your Fighter",
+      "ad_type": "video",
+      "spend_rm": 2883,
+      "cpl_rm": 47,
+      "sql_pct": 24.6,
+      "cpwon_rm": 721,
+      "ctr_pct": 2.26,
+      "leads": 61,
+      "won": 4,
+      "why_it_works": "MOST EFFICIENT ad in MY dataset. CPL RM47 (61% below benchmark) + CPWon RM721 (51% below benchmark). 'Choose Your Fighter' comparison format makes decision-making easy for the prospect — removes objection by comparing product tiers.",
+      "key_elements": ["choose your fighter", "hardware comparison", "tier selection", "direct response"]
+    },
+    {
+      "market": "MY",
+      "quarter": "Q4",
+      "ad_name": "Falcon Choose Your Fighter",
+      "ad_type": "video",
+      "spend_rm": 28680,
+      "cpl_rm": 167,
+      "sql_pct": 23.8,
+      "cpwon_rm": 4780,
+      "ctr_pct": 3.95,
+      "leads": 172,
+      "won": 6,
+      "why_it_works": "Highest CTR in Q4 MY at 3.95% — nearly 4x the benchmark. The 'Choose Your Fighter' format combined with the premium Falcon hardware drives massive scroll-stop. High Hook Rate (127%) confirms the opening frame works. CPWon higher but the scale potential is real.",
+      "key_elements": ["choose your fighter", "falcon hardware", "high CTR", "hook-driven opening", "premium hardware"]
+    },
+    {
+      "market": "MY",
+      "quarter": "Q3",
+      "ad_name": "EN_Merdeka Promo_Generic_Video",
+      "ad_type": "video",
+      "spend_rm": 12386,
+      "cpl_rm": 86,
+      "sql_pct": 34.03,
+      "cpwon_rm": 885,
+      "won": 14,
+      "why_it_works": "Best CPWon in the Q3 MY set at RM885. Seasonal hook (Merdeka) + English language + video = highest Win% of all Q3 MY ads. Seasonality creates urgency that pushes undecided prospects to convert.",
+      "key_elements": ["seasonal hook (Merdeka)", "English language", "video", "urgency", "low CPWon"]
+    },
+    {
+      "market": "MY",
+      "quarter": "Q3",
+      "ad_name": "EN_Comic Promo_KL",
+      "ad_type": "static",
+      "spend_rm": 3273,
+      "cpl_rm": 96,
+      "sql_pct": 31.82,
+      "cpwon_rm": 707,
+      "won": 3,
+      "why_it_works": "Lowest CPWon in Q3 MY at RM707. Comic/illustrated promo format with regional specificity (KL) performs well — the visual differentiation from standard product shots and location targeting likely drive qualified leads.",
+      "key_elements": ["comic/illustration style", "regional targeting (KL)", "promo", "English", "static"]
+    },
+    {
+      "market": "PH",
+      "quarter": "Q4",
+      "ad_name": "Allinonepos_Fnb",
+      "ad_type": "static/video",
+      "spend_rm": 8818,
+      "cpl_rm": 81,
+      "sql_pct": 45.0,
+      "cpwon_rm": 630,
+      "won": 14,
+      "why_it_works": "BEST performer across ALL markets. 45% SQL rate (nearly 2x PH benchmark) and CPWon RM630. 'All-In-One POS for F&B' messaging is hyper-relevant to the audience — vertical-specific (F&B) combined with the core value prop delivers precision targeting in the message itself.",
+      "key_elements": ["all-in-one POS", "F&B vertical specificity", "core value prop", "highest SQL% in dataset"]
+    },
+    {
+      "market": "PH",
+      "quarter": "Q4",
+      "ad_name": "unboxingrestaurant_stopmotion_falcon",
+      "ad_type": "video",
+      "spend_rm": 37143,
+      "cpl_rm": 48,
+      "sql_pct": 30.4,
+      "cpwon_rm": 2476,
+      "won": 15,
+      "why_it_works": "Highest spend in PH Q4 and most scalable. CPL RM48 — lowest in PH at scale. Stop-motion unboxing format is visually engaging and unique vs standard talking-head or product demos. F&B context (restaurant setting) makes it relevant.",
+      "key_elements": ["stop-motion format", "unboxing", "falcon hardware", "F&B restaurant setting", "highly scalable"]
+    },
+    {
+      "market": "PH",
+      "quarter": "Q4",
+      "ad_name": "howmuchisyourprofit_coffee",
+      "ad_type": "video/static",
+      "spend_rm": 860,
+      "cpl_rm": 41,
+      "sql_pct": 28.6,
+      "cpwon_rm": 860,
+      "won": 1,
+      "why_it_works": "CPL RM41 — lowest in PH. Question-hook format ('How much is your profit?') with coffee shop context is highly specific and triggers self-reflection. Merchants who click are already thinking about their margins = higher intent. Limited spend but exceptional efficiency.",
+      "key_elements": ["question hook", "profit framing", "coffee shop vertical", "low CPL", "high intent"]
+    },
+    {
+      "market": "PH",
+      "quarter": "Q4",
+      "ad_name": "ChooseYourFighter_Falcon",
+      "ad_type": "video",
+      "spend_rm": 11299,
+      "cpl_rm": 70,
+      "sql_pct": 38.3,
+      "cpwon_rm": 2260,
+      "won": 5,
+      "why_it_works": "CTR 4.86% — highest in PH at scale. SQL% 38.3% — well above PH benchmark. The 'Choose Your Fighter' format works cross-market (also top in MY). Hook Rate 168% confirms the opening is extremely strong. The Falcon hardware elevates perceived value.",
+      "key_elements": ["choose your fighter", "falcon hardware", "high CTR", "hook rate 168%", "works cross-market"]
+    },
+    {
+      "market": "PH",
+      "quarter": "Q3",
+      "ad_name": "PH_allinoneposphp63_fnb_logos_static_relaunch",
+      "ad_type": "static",
+      "spend_rm": 2079,
+      "cpl_rm": 40,
+      "sql_pct": 13.5,
+      "cpwon_rm": 693,
+      "won": 3,
+      "why_it_works": "Best CPWon in Q3 PH at RM693. Low-spend but highly efficient. 'All-In-One POS PHP63' promo with merchant logos as social proof on static format.",
+      "key_elements": ["all-in-one POS", "PHP63 promo price", "merchant logos", "social proof", "static"]
+    },
+    {
+      "market": "TH",
+      "quarter": "Q3",
+      "ad_name": "Openshopwith_StoreHub",
+      "ad_type": "video",
+      "spend_rm": 2635,
+      "ctr_pct": 0.65,
+      "hold_rate_pct": 0.56,
+      "hook_rate_pct": 0.50,
+      "thruplay_pct": 0.44,
+      "sql_pct": 5.9,
+      "won": 0,
+      "why_it_works": "Best video engagement metrics in TH by a large margin — Hold Rate and Hook Rate are 2-3x other TH ads. Analysis notes the 'blooper as hook' with high-paced editing and a familiar face (Krit) drives exceptional retention. No wins yet but TH is early-stage — the engagement signals point to creative direction.",
+      "key_elements": ["blooper/unexpected hook", "known personality (Krit)", "high-paced editing", "free trial CTA in caption", "authentic feel"]
+    }
+  ],
+
+  "bottom_performers": [
+    {
+      "market": "MY",
+      "quarter": "Q3",
+      "ad_name": "CN_D3 Mini Unboxing_Generic_Video",
+      "spend_rm": 15667,
+      "leads": 126,
+      "won": 1,
+      "cpwon_rm": 15667,
+      "why_it_fails": "RM15,667 spend for 1 win. SQL% only 15.87%. Generic unboxing without any promo, clear offer, or CTA. Chinese language narrows audience. Despite scalable spend, the creative drives no bottom-funnel intent."
+    },
+    {
+      "market": "MY",
+      "quarter": "Q3",
+      "ad_name": "EN_Choose Your Fighter + AI Intro + Speech_FnB",
+      "spend_rm": 9684,
+      "leads": 72,
+      "won": 0,
+      "why_it_fails": "Zero wins at RM9,684 spend. SQL% 16.67%. The AI intro + speech format is too complex — multiple hooks competing (AI + Choose Your Fighter + Speech) without a single clear CTA or offer. Creative identity crisis."
+    },
+    {
+      "market": "MY",
+      "quarter": "Q3",
+      "ad_name": "MS_BAU Promo_Generic",
+      "spend_rm": 13032,
+      "leads": 0,
+      "why_it_fails": "SF (Salesforce) shows zero leads from this ad despite RM13,032 spend. Likely a tracking or landing page issue, but creative may have confused the intent signal. No data to diagnose further."
+    },
+    {
+      "market": "MY",
+      "quarter": "Q4",
+      "ad_name": "Monthly Plan D3 Pro V1",
+      "spend_rm": 20392,
+      "cpl_rm": 287,
+      "sql_pct": 35.2,
+      "cpwon_rm": 6797,
+      "why_it_fails": "High SQL% (35%) but CPL RM287 — 2.4x the MY benchmark — makes this economically inefficient. 'Monthly plan' framing may be attracting window-shoppers who engage but don't convert to revenue. High spend makes this a costly mistake."
+    },
+    {
+      "market": "PH",
+      "quarter": "Q3",
+      "ad_name": "PH_StressToSuccess_static",
+      "spend_rm": 1733,
+      "sql_pct": 0.0,
+      "won": 0,
+      "why_it_fails": "Zero SQLs and zero wins. 'Stress to Success' transformation narrative doesn't resonate as an acquisition message — too abstract, no concrete offer or feature hook. Confirmed poor in PH Q4 also (multiple variants tested, all underperformed)."
+    },
+    {
+      "market": "PH",
+      "quarter": "Q4",
+      "ad_name": "StressToSuccess (all variants)",
+      "spend_rm": 504,
+      "leads": 5,
+      "sql_pct": 0.0,
+      "won": 0,
+      "why_it_fails": "Tested 4 variants (otp, BIR, CP, mixed) — all zero SQLs. Dead creative angle. Retire completely."
+    },
+    {
+      "market": "PH",
+      "quarter": "Q4",
+      "ad_name": "Independenceday_P21000_promo (retest)",
+      "spend_rm": 913,
+      "cpl_rm": 456,
+      "sql_pct": 50.0,
+      "won": 0,
+      "why_it_fails": "SQL% 50% but CPL RM456 — 4.6x PH benchmark. The ₱21,000 price point creates sticker shock at the top of funnel. High-intent qualified leads but the friction in the ad itself is too high. Should retest with softer price entry."
+    },
+    {
+      "market": "TH",
+      "quarter": "Q4",
+      "ad_name": "S2-TH-Choose-your-fighter",
+      "spend_rm": 374,
+      "cpl_rm": 374,
+      "won": 0,
+      "why_it_fails": "CTR appears anomalous (49% reported — likely data formatting issue). Only 1 lead at CPL RM374. The 'Choose Your Fighter' format that works in MY/PH is not yet adapted for Thai market — may need Thai language + local hardware context."
+    }
+  ],
+
+  "patterns": {
+    "winning_elements": [
+      {
+        "element": "Choose Your Fighter format",
+        "evidence": "MY Q4: D3 CYF (CPL RM47, CPWon RM721), Falcon CYF (CTR 3.95%); PH Q4: Falcon CYF (CTR 4.86%, SQL% 38.3%)",
+        "mechanism": "Side-by-side hardware comparison makes the buying decision easy and removes objections. Visual 'fighter' framing is gamified and engaging.",
+        "confidence": "high",
+        "works_in": ["MY", "PH"]
+      },
+      {
+        "element": "F&B vertical specificity in messaging",
+        "evidence": "PH: Allinonepos_Fnb = SQL% 45%, CPWon RM630 vs. generic All-In-One = SQL% lower. MY: FnB-labelled unboxing variants outperform generic.",
+        "mechanism": "When the ad says 'for restaurants' / 'for F&B', restaurant owners self-select as high-intent leads. Generic messaging attracts more noise.",
+        "confidence": "high",
+        "works_in": ["PH", "MY"]
+      },
+      {
+        "element": "Price/% discount anchor (BAU Promo / 55% off)",
+        "evidence": "MY Q4: BAU Promo CPL RM64 at RM62,988 spend; 55% Promo V2 SQL% 33.5%; PH Q3: PHP63 promo drives all top performers",
+        "mechanism": "Concrete price reduces cognitive load. Merchants comparing costs need a specific number to anchor on. % discount creates urgency.",
+        "confidence": "high",
+        "works_in": ["MY", "PH"]
+      },
+      {
+        "element": "Question-hook with profit/cost framing",
+        "evidence": "PH Q4: howmuchisyourprofit_coffee CPL RM41 (lowest PH); MY Q3: brand language 'You're paying how much in delivery fees?'",
+        "mechanism": "Questions trigger self-audit. Merchants calculating their own costs/losses are already in the buying mindset before they click.",
+        "confidence": "medium",
+        "works_in": ["PH"],
+        "untested_in": ["MY", "TH"]
+      },
+      {
+        "element": "Split-screen format (product + offer)",
+        "evidence": "MY Q3: Split-screen + promo = consistent SQL% above avg. BAU D3 Mini Split Screen Q4: CPL RM116, SQL% 23.7%",
+        "mechanism": "Split screen allows side-by-side comparison — product visual on one side, offer/price on the other. Both register simultaneously without fighting for attention.",
+        "confidence": "high",
+        "works_in": ["MY"]
+      },
+      {
+        "element": "Seasonal hook + hardware + price",
+        "evidence": "MY Q3: EN_Merdeka Promo CPWon RM885; CN_Raya Promo SQL% 33.65%; CN/MS Merdeka variants all outperform non-seasonal equivalents",
+        "mechanism": "Seasonal context creates natural deadline. When paired with product + price, it converts the seasonal urgency into purchase intent.",
+        "confidence": "high",
+        "works_in": ["MY"]
+      },
+      {
+        "element": "Stop-motion / unconventional video format",
+        "evidence": "PH Q4: unboxingrestaurant_stopmotion_falcon = RM37k spend, CPL RM48 (lowest large-spend PH)",
+        "mechanism": "Stop-motion is visually distinct in the feed — breaks pattern recognition and forces a second look. Uniqueness = engagement.",
+        "confidence": "medium",
+        "works_in": ["PH"],
+        "untested_in": ["MY", "TH"]
+      },
+      {
+        "element": "Blooper/unexpected opening hook (TH specific)",
+        "evidence": "TH Q3: Openshopwith_StoreHub = Hold Rate 0.56%, Hook Rate 0.50%, ThruPlay 0.44% — all 2-3x other TH ads",
+        "mechanism": "Unexpected/funny opening disrupts scroll habit. In TH market where trust is still being built, entertainment-first hook lowers barriers.",
+        "confidence": "medium",
+        "works_in": ["TH"]
+      },
+      {
+        "element": "English language in MY (for Win%)",
+        "evidence": "MY Q3 final takeaway: English creatives achieve highest Win%. EN_Merdeka CPWon RM885, EN_Comic Promo CPWon RM707.",
+        "mechanism": "English-speaking MY prospects may skew toward more tech-savvy, decision-ready business owners. Higher quality signal.",
+        "confidence": "medium",
+        "works_in": ["MY"]
+      },
+      {
+        "element": "#1 POS System positioning + promo",
+        "evidence": "PH Q3: '#1 POS System' with promo outperforms '#1 POS' with logos. MY Q3: Several high-performers include 'No. 1 POS System' tag.",
+        "mechanism": "Authority claim + tangible offer = trust + action. The authority positioning reduces risk perception; the offer creates urgency.",
+        "confidence": "medium",
+        "works_in": ["PH", "MY"]
+      }
+    ],
+
+    "losing_elements": [
+      {
+        "element": "Testimonials / merchant quotes as primary creative",
+        "evidence": "PH Q3: productcentrictestimonial high CPWon RM6,546; PH Q3 final: 'testimonials didn't scale — despite decent engagement, failed to get SQLs'; MY Q4: Back Alley Pasta VP1 Testimonial CPWon RM1,075 at low scale",
+        "rule": "Testimonials work as supporting elements (alongside offer/hardware) but NOT as the lead hook. Retire testimonial-only ads."
+      },
+      {
+        "element": "Generic unboxing without offer or CTA",
+        "evidence": "MY Q3: CN_D3 Mini Unboxing CPWon RM15,667 (1 win RM15k spend); MY Q3 final: 'unboxing without promo or clear CTA repeatedly underperform'",
+        "rule": "Never run plain unboxing. Always pair with promo, comparison, or clear next-step CTA."
+      },
+      {
+        "element": "Stress-to-success / emotional transformation narrative",
+        "evidence": "PH Q3 + Q4: StressToSuccess tested in 5+ variants across all segments, 0 SQLs consistently",
+        "rule": "RETIRE this creative angle in PH permanently. Do not test in MY or TH."
+      },
+      {
+        "element": "Multi-hook opening (AI + product + comparison combined)",
+        "evidence": "MY Q3: EN_Choose Your Fighter + AI Intro + Speech = RM9,684 spend, 0 wins",
+        "rule": "One hook per ad. Never stack AI intro + product + comparison. Pick one angle."
+      },
+      {
+        "element": "Merchant logos as social proof (without offer)",
+        "evidence": "PH Q3: allinoneposphp63_fnb_logos (logos version) = CPWon RM2,957 vs logos_relaunch (with promo) = CPWon RM693. PH Q3 final: 'logos underperform vs #1 POS + promo'",
+        "rule": "Logo walls are weak standalone social proof. Use only as secondary element alongside promo or #1 POS claim."
+      },
+      {
+        "element": "Price as primary hook without hardware/product visual",
+        "evidence": "MY Q3 final: 'promo-only ads without hardware context show High CPL & CPSQL'",
+        "rule": "Never run price-only ads. Price must be paired with hardware or product visual."
+      }
+    ],
+
+    "untested_angles": [
+      "'How much are you paying in delivery fees?' question hook — works in PH concept, never tested in MY or TH",
+      "'Profit calculator' style creative — show merchants calculating their own losses in real time",
+      "Behind The Counter (BTC) merchant documentary style as paid ad in MY/PH",
+      "eInvoicing urgency angle in MY (regulatory compliance deadline as hook)",
+      "Retail vertical specific ads in MY — only F&B tested heavily",
+      "KDS (Kitchen Display System) as standalone ad — one test in MY Q4 showed RM136 CPL at low volume",
+      "QR ordering / Beep product-specific ads — underrepresented in dataset",
+      "Side-by-side delivery platform commission comparison (StoreHub vs GrabFood %)",
+      "Merchant success metric ads (e.g., 'This cafe increased revenue 32% in 3 months') — not yet tested",
+      "CTA button creative tests (PH Q3 recommends testing CTA buttons + hardware)",
+      "'Choose Your Fighter' format adapted for Thai language + Thai hardware context",
+      "Blooper/unexpected hook format adapted for MY and PH markets"
+    ]
+  },
+
+  "fatigued_ads": [
+    {
+      "ad_name": "BAU Promo (MY)",
+      "spend_rm": 62988,
+      "note": "Highest scale but watch for CTR decline. At RM63k spend this will fatigue. Monitor weekly."
+    },
+    {
+      "ad_name": "BAU Non Seasonal Promo (MY)",
+      "spend_rm": 55271,
+      "note": "Second highest MY spend. Evergreen but not evergreen forever."
+    },
+    {
+      "ad_name": "Allinonepos_P63 (PH)",
+      "spend_rm": 58414,
+      "note": "Highest PH spend. At 917 leads the audience is getting saturated. Need fresh variants."
+    },
+    {
+      "ad_name": "unboxingrestaurant_stopmotion_falcon (PH)",
+      "spend_rm": 37143,
+      "note": "Top PH performer but high spend = need to refresh creative before fatigue hits."
+    }
+  ],
+
+  "market_specific_insights": {
+    "MY": {
+      "winning_formula": "Hardware + % discount promo + split-screen format + seasonal or evergreen BAU hook",
+      "best_language": "English (highest Win%), Chinese (highest SQL%), Malay (scalable volume)",
+      "scale_leaders": ["BAU Promo (CPL RM64, 979 leads)", "BAU Non Seasonal Promo (CPL RM141, 393 leads)", "55% Promo V2 (SQL% 33.5%)"],
+      "efficiency_leader": "D3 Choose Your Fighter (CPL RM47, CPWon RM721)",
+      "key_gaps": ["Retail vertical creative barely tested", "eInvoicing urgency angle untested", "Question hooks untested", "BTC-style authentic merchant video untested as paid"]
+    },
+    "PH": {
+      "winning_formula": "All-In-One POS + F&B vertical specificity + price anchor (PHP63) + hardware visual",
+      "best_format": "Stop-motion unboxing (CPL RM48) + static 'all-in-one' messaging (SQL% 45%)",
+      "scale_leaders": ["unboxingrestaurant_stopmotion_falcon (RM37k, CPL RM48)", "Allinonepos_P63 (RM58k, SQL% 32.6%)"],
+      "efficiency_leader": "howmuchisyourprofit_coffee (CPL RM41, CPWon RM860)",
+      "key_gaps": ["Question hooks (howmuchisyourprofit) tested at tiny spend — huge scale opportunity", "Retail vertical entirely untested", "BTC-style content untested", "Choose Your Fighter needs more variants at scale"]
+    },
+    "TH": {
+      "status": "Early stage — low volume, high CPL, no wins yet. Building creative learnings.",
+      "strongest_signal": "Openshopwith_StoreHub blooper hook = best video engagement metrics in market. This is the creative direction to double down on.",
+      "biggest_gap": "Everything. Thai-specific pain-point hooks, retail vertical, Choose Your Fighter in Thai, eCommerce commission comparison — all untested.",
+      "recommendation": "Prioritise engagement-first creative (entertaining, native-feel, personality-driven) before efficiency. Build brand awareness before optimising for lead cost."
+    }
+  },
+
+  "cross_market_insights": [
+    {
+      "insight": "Choose Your Fighter is a universal format — works in MY and PH with high CTR and SQL%. Must be adapted and scaled in TH.",
+      "action": "Create Thai-language CYF variant with Krit (TH local personality) as host"
+    },
+    {
+      "insight": "F&B vertical specificity improves SQL% significantly in PH. Likely applies to MY too but under-tested.",
+      "action": "Create F&B-specific variants of top MY performers (BAU Promo, 55% Off) with explicit F&B context"
+    },
+    {
+      "insight": "'How much is your profit/delivery fee?' question hook delivers lowest CPL in PH. Never tested in MY or TH.",
+      "action": "Adapt question hooks for MY (Malay, Chinese, English) with local market context (Grab delivery fees)"
+    },
+    {
+      "insight": "Plain testimonial content fails as acquisition creative across all markets tested.",
+      "action": "Use testimonials only as supporting elements (quote + offer + hardware) — never as primary creative hook"
+    },
+    {
+      "insight": "Stop-motion and unexpected visual formats outperform standard talking-head and product shots.",
+      "action": "Commission stop-motion and/or blooper-style creatives for MY and TH (already in PH)"
+    }
+  ],
+
+  "recommendations": [
+    "SCALE: Increase budget on BAU Promo (MY), Allinonepos_P63 (PH), and ChooseYourFighter_Falcon (PH) — these have proven efficiency with room to scale.",
+    "CREATE: F&B vertical-specific variants of top MY performers — e.g., '55% Off — Built for F&B Restaurants'.",
+    "CREATE: Question-hook ads in MY — adapt 'How much are you paying in delivery fees?' for MY market in all 3 languages.",
+    "CREATE: Retail vertical ads in MY and PH — currently 90%+ of creative tests are F&B focused; retail owners are an underserved audience.",
+    "CREATE: Stop-motion style creative for MY — adapt the PH stop-motion unboxing format for D3/Falcon in a MY restaurant setting.",
+    "CREATE: TH Choose Your Fighter variant in Thai language with local personality.",
+    "RETIRE: All StressToSuccess variants in PH. All generic unboxing videos without offer/CTA. All testimonial-only formats.",
+    "TEST: eInvoicing urgency angle in MY — regulatory deadline creates natural CTA hook (not yet tested at all).",
+    "TEST: '#1 POS + F&B vertical + price' combination in MY (works well in PH, not yet tried in MY).",
+    "MONITOR: BAU Promo and Allinonepos_P63 for CTR fatigue — both at high spend levels."
+  ]
+}

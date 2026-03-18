@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+*.DS_Store
+
+# Pencil.dev files (encrypted, managed by MCP)
+ads/*.pen
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

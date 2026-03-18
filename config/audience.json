@@ -1,0 +1,147 @@
+{
+  "_source": "Inferred from StoreHub Brand Guideline + product positioning. Fill in with real audience data from your ad accounts.",
+
+  "segments": [
+    {
+      "id": "fnb_owner_my",
+      "name": "F&B Business Owner — Malaysia",
+      "priority": 1,
+      "description": "Restaurant, cafe, hawker, or food court owner in Malaysia actively managing day-to-day operations",
+      "demographics": {
+        "age_range": "28–50",
+        "gender": "all",
+        "income": "SME business owner — revenue RM500k–5M/year",
+        "education": "any",
+        "job_titles": ["Restaurant Owner", "F&B Business Owner", "Cafe Owner", "Restaurant Manager"],
+        "industries": ["Food & Beverage", "Restaurant", "Cafe", "Hawker", "Food Court"],
+        "location": "Malaysia",
+        "ethnicity_note": "Pan-Asian — Malay, Chinese Malaysian, Indian Malaysian"
+      },
+      "psychographics": {
+        "goals": [
+          "Grow revenue and open more outlets",
+          "Spend less time on operations, more on the business",
+          "Build a loyal customer base that keeps coming back",
+          "Compete with bigger chains on customer experience"
+        ],
+        "fears": [
+          "Losing customers to competitors",
+          "Staff turnover and training costs",
+          "Paying too much in delivery platform commissions",
+          "Cash flow problems from poor visibility into sales"
+        ],
+        "frustrations": [
+          "Managing orders from multiple platforms (Grab, FoodPanda, walk-in) is chaotic",
+          "Staff keep making order mistakes",
+          "No idea which customers haven't returned or why",
+          "Spending hours on end-of-day reconciliation"
+        ],
+        "values": [
+          "Hard work and hustle",
+          "Family / community",
+          "Reliability — tools that actually work during peak hour",
+          "Value for money"
+        ],
+        "buying_triggers": [
+          "Seeing a real merchant (like them) succeed with StoreHub",
+          "Concrete metric — e.g. 'save 30% on commission'",
+          "Pain point is acute — e.g. just got hit with a high Grab commission bill",
+          "Friend/peer recommendation",
+          "Ease of use demo — looks simple enough for my staff"
+        ],
+        "objections": [
+          "Too expensive for my small business",
+          "Too complicated to set up and train staff",
+          "My current system works fine (or it's free)",
+          "I don't trust the data will be accurate",
+          "What if the system goes down during peak hours?"
+        ]
+      },
+      "awareness_level": "problem-aware",
+      "language": "English or Malay or Chinese",
+      "platforms": ["meta", "tiktok", "google"],
+      "ad_examples": {
+        "headline_style": "Pain-first or question hook — 'You're paying how much in delivery fees?'",
+        "visual_style": "Real Malaysian merchant in their cafe/restaurant using StoreHub POS"
+      }
+    },
+    {
+      "id": "retail_owner_my",
+      "name": "Retail Business Owner — Malaysia",
+      "priority": 2,
+      "description": "Boutique, fashion, or specialty retail store owner in Malaysia",
+      "demographics": {
+        "age_range": "28–50",
+        "gender": "all",
+        "income": "SME owner",
+        "job_titles": ["Retail Store Owner", "Boutique Owner", "Shop Manager"],
+        "industries": ["Retail", "Fashion", "Specialty Retail"],
+        "location": "Malaysia"
+      },
+      "psychographics": {
+        "goals": ["Manage inventory without errors", "Track sales across online and offline channels", "Build repeat customer base"],
+        "fears": ["Stock shrinkage", "Revenue leakage", "Losing to e-commerce giants"],
+        "frustrations": ["Inventory is always out of sync", "Can't track which products are actually selling", "Staff managing payments manually"],
+        "buying_triggers": ["Inventory/payment pain is costing real money", "Peer recommendation", "Seeing clear ROI case study"]
+      },
+      "awareness_level": "solution-aware",
+      "language": "English or Malay or Chinese",
+      "platforms": ["meta", "google"]
+    },
+    {
+      "id": "fnb_owner_th",
+      "name": "F&B Business Owner — Thailand",
+      "priority": 3,
+      "description": "Restaurant or cafe owner in Thailand",
+      "demographics": {
+        "age_range": "28–50",
+        "gender": "all",
+        "job_titles": ["Restaurant Owner", "Cafe Owner", "F&B Business Owner"],
+        "location": "Thailand",
+        "language": "Thai"
+      },
+      "psychographics": {
+        "goals": ["Automate operations", "Grow loyal customer base"],
+        "frustrations": ["High delivery platform commissions", "Staff training burden"],
+        "buying_triggers": ["Thai-language content from local merchants", "Clear cost savings demo"],
+        "objections": ["Need Thai-language support", "Must work with Thai payment systems"]
+      },
+      "awareness_level": "problem-aware",
+      "language": "Thai",
+      "platforms": ["meta", "tiktok"]
+    },
+    {
+      "id": "fnb_owner_ph",
+      "name": "F&B Business Owner — Philippines",
+      "priority": 4,
+      "description": "Restaurant or cafe owner in the Philippines",
+      "demographics": {
+        "age_range": "25–48",
+        "gender": "all",
+        "job_titles": ["Restaurant Owner", "F&B Entrepreneur"],
+        "location": "Philippines"
+      },
+      "psychographics": {
+        "goals": ["Modernise their business", "Handle high volume during peaks"],
+        "frustrations": ["Slow service, order mistakes during busy periods", "High GrabFood commissions"],
+        "buying_triggers": ["Filipino merchant success stories", "Ease of setup"]
+      },
+      "awareness_level": "problem-aware",
+      "language": "English or Filipino",
+      "platforms": ["meta", "tiktok"]
+    }
+  ],
+
+  "universal_insights": {
+    "core_pain": "Running an F&B or retail business in Southeast Asia is relentlessly hard — orders, staff, payments, commissions, and customer retention all pull in different directions. Business owners want tools that just work, in their language, without requiring an IT team.",
+    "core_desire": "Spend less time firefighting operations and more time growing the business or being present with family.",
+    "key_emotional_hook": "These merchants are hardworking, resilient entrepreneurs who deserve better tools. Celebrate their grit — position StoreHub as the partner that makes their business life easier.",
+    "ad_content_that_works": [
+      "Real merchant faces and real shops (not stock imagery)",
+      "Pain-point hooks — specific, relatable frustrations",
+      "Before/after: 'I used to spend 3 hours on reconciliation, now it takes 5 minutes'",
+      "Social proof from merchants in same country/industry",
+      "Feature demos that show simplicity — 'even my staff can use it on day one'"
+    ]
+  }
+}

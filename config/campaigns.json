@@ -1,0 +1,231 @@
+{
+  "_source": "March Targets V1 — budget and KPI data from StoreHub internal targets sheet (March 2026). Platform specs from StoreHub Brand Guideline.",
+  "_note": "StoreHub runs acquisition campaigns across MY/PH/TH targeting F&B and retail SME owners",
+
+  "primary_goal": "leads",
+  "secondary_goal": "sign_ups",
+  "universal_cta": "Book a free demo now",
+  "cta_variants": [
+    "Book your free demo today",
+    "Get a free demo",
+    "See it in action — book a free demo"
+  ],
+  "cta_by_language": {
+    "EN": "Book a free demo now",
+    "CN": "免费预约演示",
+    "MS": "Dapatkan demo percuma",
+    "TH": "ทดลองฟรี demo",
+    "TL": "Mag-book ng libreng demo"
+  },
+  "cta_rationale": "All ads drive to a free demo booking where a Business Consultant visits the merchant in person. CTA must feel low-friction (free) and high-value (demo = see it working, not just hear about it).",
+
+  "total_monthly_budget_SGD": 200000,
+  "total_monthly_budget_RM": 618054.80,
+
+  "funnel_stages": {
+    "Lead": "Form submission / demo booking request",
+    "MQL": "Marketing Qualified Lead — passed initial quality filter",
+    "SQL": "Sales Qualified Lead — BC confirmed appointment",
+    "MS": "Meeting Scheduled",
+    "MC": "Meeting Completed — BC visited merchant",
+    "Won": "Deal closed — merchant signed up"
+  },
+
+  "market_targets": {
+    "MY": {
+      "budget_RM": 362489,
+      "budget_share_pct": 56.41,
+      "leads_target": 2900,
+      "cpl_target_RM": 125,
+      "mql_target": 2387,
+      "lead_to_mql_pct": 82.32,
+      "sql_target": 1210,
+      "lead_to_sql_pct": 41.74,
+      "ms_target": 962,
+      "mc_target": 618,
+      "won_inbound_target": 234,
+      "won_total_target": 254,
+      "lead_to_won_pct": 8.09,
+      "cpwon_target_RM": 1427,
+      "sql_to_won_pct": 19.38,
+      "notes": "Largest market. Highest close rate. English = Win%, Chinese = SQL%, Malay = volume."
+    },
+    "PH": {
+      "budget_RM": 209143,
+      "budget_share_pct": 32.54,
+      "leads_target": 2091,
+      "cpl_target_RM": 100,
+      "mql_target": 1467,
+      "lead_to_mql_pct": 70.14,
+      "sql_target": 863,
+      "lead_to_sql_pct": 41.28,
+      "ms_target": 837,
+      "mc_target": 483,
+      "won_inbound_target": 142,
+      "won_total_target": 152,
+      "lead_to_won_pct": 6.55,
+      "cpwon_target_RM": 1376,
+      "sql_to_won_pct": 15.86,
+      "notes": "Second market. Lower CPL target than MY (RM100 vs RM125). Similar SQL% target. Lower close rate than MY."
+    },
+    "TH": {
+      "budget_RM": 46423,
+      "budget_share_pct": 7.22,
+      "leads_target": 357,
+      "cpl_target_RM": 130,
+      "mql_target": 271,
+      "lead_to_mql_pct": 76,
+      "sql_target": 71,
+      "lead_to_sql_pct": 20,
+      "ms_target": 68,
+      "mc_target": 54,
+      "won_inbound_target": 18,
+      "won_total_target": 23,
+      "lead_to_won_pct": 5.08,
+      "cpwon_target_RM": 2019,
+      "sql_to_won_pct": 25.42,
+      "notes": "Smallest market. Highest CPL target (RM130) and highest CPWon (RM2019). Lowest SQL% target (20%) — leads are lower intent or market is earlier stage. MC>Won rate (80%) is highest of all markets."
+    }
+  },
+
+  "platforms": {
+    "meta": {
+      "active": true,
+      "monthly_budget_note": "Majority of RM618k total — split across MY/PH/TH per market_targets above",
+      "markets": ["Malaysia", "Philippines", "Thailand"],
+      "kpi_targets": {
+        "ctr_min": 1.5,
+        "roas_min": "N/A — lead gen focus",
+        "cpl_max_RM": { "MY": 125, "PH": 100, "TH": 130 },
+        "cpwon_max_RM": { "MY": 1427, "PH": 1376, "TH": 2019 },
+        "sql_pct_min": { "MY": 41.74, "PH": 41.28, "TH": 20 }
+      },
+      "ad_formats": ["1:1 (1080x1080)", "4:5 (1080x1350)", "9:16 (1080x1920)", "1.91:1 (1200x628)"],
+      "placements": ["feed", "stories", "reels", "instagram_feed"],
+      "primary_format": "9:16 (Reels/Stories) and 4:5 (Feed) — brand spec",
+      "naming_convention": "RESOLUTION_VP#_MERCHANT_DATE_VERSION (e.g. 916_VP1_CafeName_20250505_v1)"
+    },
+    "tiktok": {
+      "active": true,
+      "markets": ["Malaysia", "Thailand"],
+      "kpi_targets": {
+        "ctr_min": 1.0,
+        "cpl_max_RM": { "MY": 125, "TH": 130 }
+      },
+      "ad_formats": ["9:16 (1080x1920)"],
+      "placements": ["in-feed"],
+      "primary_format": "9:16 — only format for TikTok",
+      "naming_convention": "916_VP#_MERCHANT_DATE_VERSION"
+    },
+    "google": {
+      "active": true,
+      "markets": ["Malaysia"],
+      "kpi_targets": {
+        "ctr_min": 2.0,
+        "cpl_max_RM": 125
+      },
+      "ad_formats": ["1.91:1 (1200x628)", "1:1 (1080x1080)", "4:1 (1200x300)"],
+      "campaign_types": ["search", "display", "pmax"]
+    },
+    "linkedin": {
+      "active": false,
+      "notes": "Not currently used — StoreHub is B2SMB not enterprise B2B"
+    }
+  },
+
+  "ad_formats_spec": {
+    "916": {
+      "name": "Vertical / Reels / Stories",
+      "dimensions": "1080x1920",
+      "safe_zone": { "top": "250px", "bottom": "400px", "left": "60px", "right": "60px" },
+      "logo_placement": "Top right, within safe zone",
+      "headline_size_px": "56–72px Barlow Black",
+      "body_size_px": "28–32px Open Sans Regular",
+      "cta_button_height": "64px",
+      "best_for": "TikTok, Meta Reels, Stories — primary high-reach format"
+    },
+    "45": {
+      "name": "Portrait Feed",
+      "dimensions": "1080x1350",
+      "safe_zone": { "all": "60px" },
+      "logo_placement": "Top right or bottom right",
+      "headline_size_px": "52–64px Barlow Black",
+      "body_size_px": "24–28px Open Sans Regular",
+      "cta_button_height": "60px",
+      "best_for": "Meta Feed — best performing static format"
+    },
+    "11": {
+      "name": "Square Feed",
+      "dimensions": "1080x1080",
+      "safe_zone": { "all": "60px" },
+      "headline_size_px": "48–60px Barlow Black",
+      "body_size_px": "22–26px Open Sans Regular",
+      "cta_button_height": "56px",
+      "best_for": "Meta Feed, Instagram Feed, YouTube video thumbnails"
+    },
+    "169": {
+      "name": "Landscape",
+      "dimensions": "1920x1080",
+      "safe_zone": { "top": "60px", "bottom": "60px", "left": "90px", "right": "90px" },
+      "title_safe_zone": "Inner 1920x1080 area",
+      "headline_size_px": "48–56px Barlow Black",
+      "best_for": "YouTube ads, Google Display, BTC video thumbnails"
+    },
+    "191": {
+      "name": "Landscape Banner",
+      "dimensions": "1200x628",
+      "safe_zone": { "all": "40px" },
+      "headline_size_px": "36–48px Barlow Black",
+      "best_for": "Facebook Feed desktop, Google Display"
+    }
+  },
+
+  "creative_types": {
+    "vp_visual_presentation": {
+      "description": "Product-focused ads highlighting features, benefits, or offers",
+      "naming": "VP# = Value Proposition number",
+      "formats": ["1:1", "4:5", "9:16"],
+      "style": "Upbeat, energetic music. Clear demo or benefit visual."
+    },
+    "btc_behind_the_counter": {
+      "description": "Merchant documentary/testimonial content",
+      "naming": "BTC + merchant name",
+      "formats": ["16:9 primary", "1:1 and 9:16 social cuts"],
+      "style": "Authentic, story-driven. Real merchant in their shop."
+    },
+    "social_media_video": {
+      "description": "Short-form video for Reels/TikTok",
+      "formats": ["9:16"],
+      "duration": "1–1.5 min",
+      "style": "Problem-solution, snappy, strong hook first 3 seconds"
+    }
+  },
+
+  "experiment_settings": {
+    "min_impressions_to_judge": 1000,
+    "test_duration_days": 7,
+    "variants_per_hypothesis": 3,
+    "max_active_experiments": 10,
+    "winning_threshold": {
+      "ctr_improvement_min_pct": 10,
+      "cpl_improvement_min_pct": 10,
+      "sql_pct_improvement_min_pct": 5
+    },
+    "kill_threshold": {
+      "cpl_above_target_pct": 50,
+      "sql_pct_below_target_pct": 50,
+      "note": "Kill any ad with CPL >50% above market target OR SQL% <50% of target after 1000+ impressions"
+    }
+  },
+
+  "value_propositions_to_test": [
+    "VP1 — All-in-one: 'Stop juggling 5 different tools. One platform for POS, orders, payments, loyalty'",
+    "VP2 — Commission savings: 'You're paying how much in delivery fees? Keep 100% with StoreHub'",
+    "VP3 — Ease of use: 'Even your newest staff can use it on day one — no training required'",
+    "VP4 — Customer retention: 'Turn first-time diners into regulars — automated loyalty built in'",
+    "VP5 — Social proof: '17,000+ businesses across Southeast Asia trust StoreHub'",
+    "VP6 — Growth: 'The only ecosystem you need to automate and grow your business'",
+    "VP7 — Time savings: 'Spend less time on admin, more time doing what only you can do'",
+    "VP8 — Reliability: 'Works during your peak hours, every time — no crashes, no excuses'"
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "_meta": {
+    "description": "Cumulative ad creative learnings from StoreHub Q3–Q4 2025 performance data across MY, PH, TH. Visual design patterns added 2026-03-17 from full creative library review.",
+    "last_updated": "2026-03-17",
+    "iterations_completed": 1,
+    "total_ads_analysed": 156,
+    "creative_library_reviewed": true
+  },
+
+  "headline_insights": [
+    {
+      "rule": "Question hooks ('How much are you paying in delivery fees?', 'How much is your profit?') deliver the lowest CPL in PH — RM41 vs RM99 avg",
+      "evidence": "PH Q4: howmuchisyourprofit_coffee CPL RM41, howmuchisyourprofit_halohalo CPL RM37",
+      "confidence": "high",
+      "date": "2026-03-17",
+      "untested_in": ["MY", "TH"]
+    },
+    {
+      "rule": "Price anchor headlines (e.g., '55% Off', 'PHP63/month') drive both volume and quality when paired with hardware visual",
+      "evidence": "MY Q4: 55% Promo V2 SQL% 33.5%; PH: PHP63 is the top-performing PH message across 2 quarters",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Transformation narratives ('Stress to Success') fail as acquisition hooks — 0 SQLs across 5 PH variants",
+      "evidence": "PH Q3+Q4: StressToSuccess all variants, all zero SQLs. Retired.",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "#1 POS System + promo outperforms #1 POS + logos as supporting point in PH",
+      "evidence": "PH Q3 final takeaway",
+      "confidence": "medium",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "English language in MY drives highest Win% (close rates); Chinese drives highest SQL%; Malay drives volume",
+      "evidence": "MY Q3 final takeaway + Q3 individual ad performance",
+      "confidence": "high",
+      "date": "2026-03-17"
+    }
+  ],
+
+  "visual_insights": [
+    {
+      "rule": "Choose Your Fighter (side-by-side hardware comparison) is a cross-market winner — CTR 3.95% in MY, 4.86% in PH, both 4x+ market benchmark",
+      "evidence": "MY Q4: Falcon CYF CTR 3.95%, D3 CYF CPL RM47 CPWon RM721; PH Q4: Falcon CYF CTR 4.86% SQL% 38.3%",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Split-screen format (product visual + offer text) consistently outperforms full-frame product or full-frame text in MY",
+      "evidence": "MY Q3 final: 'Split-screen + Promo creatives consistently perform best'; BAU D3 Mini Split Screen CPL RM116",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Stop-motion unboxing video is the highest-volume PH format — CPL RM48 at RM37k spend",
+      "evidence": "PH Q4: unboxingrestaurant_stopmotion_falcon",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Blooper/unexpected opening hook in TH drives 2-3x video engagement vs standard openings — Hook Rate 0.50% vs 0.15% avg",
+      "evidence": "TH Q3: Openshopwith_StoreHub",
+      "confidence": "medium",
+      "date": "2026-03-17",
+      "note": "No wins yet in TH — engagement signal only, not proven bottom-funnel"
+    },
+    {
+      "rule": "Generic product-only white background ads have near-zero conversion — confirmed multiple markets",
+      "evidence": "MY Q4: White Background 0 leads; D3 White Background CPL RM212 SQL% low",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Comic/illustrated promo format achieves lowest CPWon in MY Q3 (RM707) — visual differentiation works",
+      "evidence": "MY Q3: EN_Comic Promo_KL CPWon RM707",
+      "confidence": "medium",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "F&B vertical-specific imagery (restaurant setting, F&B hardware context) lifts SQL% vs generic — PH Allinonepos_Fnb SQL% 45% vs generic 20-25%",
+      "evidence": "PH Q4: Allinonepos_Fnb SQL% 45%",
+      "confidence": "high",
+      "date": "2026-03-17"
+    }
+  ],
+
+  "offer_insights": [
+    {
+      "rule": "BAU evergreen price promo is the most scalable ad type — RM62,988 MY spend at CPL RM64",
+      "evidence": "MY Q4: BAU Promo — highest spend, CPL RM64 (47% below benchmark)",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Percentage discounts (55% off) paired with hardware convert better than flat price alone in MY",
+      "evidence": "MY Q4: 55% Promo V2 SQL% 33.5%, CPWon RM1,415",
+      "confidence": "medium",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "High absolute price as primary hook (₱21,000) creates CPL spike — 4.6x benchmark — even if SQL% is high",
+      "evidence": "PH Q4: Independenceday_P21000 CPL RM456",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Seasonal hooks (Raya, Merdeka, Independence Day) boost performance when paired with price — not effective alone",
+      "evidence": "MY Q3: EN_Merdeka Promo CPWon RM885 (best Q3); PH Q3: Independence Day P63 = SQL% 43%",
+      "confidence": "high",
+      "date": "2026-03-17"
+    }
+  ],
+
+  "audience_insights": [
+    {
+      "rule": "F&B-specific vertical targeting in copy/visuals improves SQL% by ~2x vs generic in PH",
+      "evidence": "PH Q4: Allinonepos_Fnb SQL% 45% vs Allinonepos generic SQL% ~20%",
+      "confidence": "high",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Retail vertical is critically undertested in MY and PH — only handful of retail-specific ads, none at scale",
+      "evidence": "MY Q4: Retail Business Types series all <RM1k spend; PH: no retail-specific ads",
+      "confidence": "high",
+      "date": "2026-03-17",
+      "action": "Create dedicated retail vertical test batch"
+    }
+  ],
+
+  "format_insights": [
+    {
+      "rule": "Video generally outperforms static for CTR and engagement — but static can match or beat video on SQL% when offer is crystal clear",
+      "evidence": "PH Q3: Static Allinonepos CPWon RM693; PH Q4: static outperforms some video on SQL%",
+      "confidence": "medium",
+      "date": "2026-03-17"
+    },
+    {
+      "rule": "Multi-element openings (AI + comparison + speech stacked) kill performance — single clear hook required",
+      "evidence": "MY Q3: EN_Choose Your Fighter + AI Intro + Speech = 0 wins at RM9,684",
+      "confidence": "high",
+      "date": "2026-03-17"
+    }
+  ],
+
+  "visual_design_patterns": {
+    "_note": "Observed from full creative library review 2026-03-17. These are actual design executions and their characteristics.",
+
+    "proven_layouts": [
+      {
+        "name": "Choose Your Fighter — Diagonal Split",
+        "description": "Diagonal dividing line splits frame into two contrasting halves (blue left / orange right). Each half has one hardware product with playful label. VS badge in center. Bold dark pill headline across top.",
+        "key_elements": ["diagonal split", "contrasting BGs", "VS badge", "playful product labels with arrows", "no body copy — visual tells the story"],
+        "assets_needed": ["hardware cutout PNG", "brand colors"],
+        "why_it_works": "Game/fighting game reference creates instant engagement. Comparison frame answers 'which one for me?' which merchants actively want to know.",
+        "confirmed_winner": true
+      },
+      {
+        "name": "Split Card — Product + Feature List",
+        "description": "Frame divided into two rounded-corner cards side by side. Left: hardware on brand-color pedestal/BG. Right: feature list or comparison on accent color (pink/coral). Bottom strip: social proof + CTA.",
+        "key_elements": ["rounded cards", "hardware on pedestal", "feature checklist right", "social proof strip at bottom"],
+        "seen_in": ["3-point comic PH 1x1", "FiatQCV1"],
+        "why_it_works": "Clear information hierarchy. Product proof left, benefit proof right. Social proof lands after desire is created."
+      },
+      {
+        "name": "Bold Text Overlay on Moody Photography",
+        "description": "Dark/moody restaurant or store environment photo as full-bleed background. White bold headline (Barlow Black) dominates center-left. Feature list below in smaller text. Orange corner banner for claim (#1 POS, BIR Accredited etc). Logo bottom.",
+        "key_elements": ["full-bleed dark photo", "massive white headline", "orange corner ribbon", "small feature list", "logo bottom center"],
+        "seen_in": ["Future Proof Your Restaurant series (1:1, 4:5, 9:16, 16:9)"],
+        "why_it_works": "Aspirational setting. The merchant sees their own restaurant. Premium feel."
+      },
+      {
+        "name": "Illustrated Problem — Soft Background",
+        "description": "Warm cream/off-white background. Central illustration of problematic scenario (loading POS, error screen). Relatable copy below in two sizes. CTA in brand orange. Logo bottom.",
+        "key_elements": ["cream BG (#f5e8d8 approx)", "flat/cartoon illustration", "problem visual", "copy below not overlaid", "orange CTA text or button"],
+        "seen_in": ["SlowPOS 01 and 02"],
+        "why_it_works": "Breaks from photography-heavy feed. Cartoon reduces threat of 'this is an ad'. Problem is universally understood instantly."
+      },
+      {
+        "name": "Price Anchor Comparison (Bundle vs Individual)",
+        "description": "50/50 split. Left: individual pricing stacked with crossed-out prices/money emoji. Right: bundle at fraction of price with checklist. Bottom: hardware visual + '#1 POS' claim + daily price breakdown.",
+        "key_elements": ["price anchoring", "strikethrough on left", "green checkmarks right", "daily price calc at bottom"],
+        "seen_in": ["PH Super Bundle Promo November 2025"],
+        "why_it_works": "Price shock via contrast. ₱9,621 vs ₱2,499 triggers loss aversion. Daily breakdown (₱75/day) makes it feel trivial."
+      },
+      {
+        "name": "Before/After Emotional Split",
+        "description": "Left half: stressed merchant with old/broken POS (green CRT, error screen, dark moody). Right half: happy merchant with StoreHub (bright, clean). Strong contrasting emotion headline at top.",
+        "key_elements": ["left = dark/stressed/old", "right = bright/happy/new", "contrast headline across both halves", "offer badge on right"],
+        "seen_in": ["Christmas Panic vs Profit", "FiatQCV1 StoreHub vs L-Brand"],
+        "why_it_works": "Emotional contrast tells the whole story in 1 second. Aspirational identity — merchants want to be the right-side merchant."
+      },
+      {
+        "name": "Word Repetition / Text Pattern Burst",
+        "description": "Discount or key message repeated 8-10 times in a diagonal grid as background texture. Hardware breaks through/overlaps the text. Minimal other copy.",
+        "key_elements": ["repeated text as texture", "hardware cutout breaks out of grid", "bold price/offer at bottom"],
+        "seen_in": ["Up to PHP 20,000 OFF repeated pattern"],
+        "why_it_works": "High visual energy. The repetition burns the price into the viewer. Stops scroll because it looks different."
+      },
+      {
+        "name": "Cultural Hook + Local Food Hero",
+        "description": "Large local food photograph dominates frame (halo-halo, nasi lemak etc). 2-3 lines of native-language text in large bold font bottom-left. Logo top-right, minimal. NO product visible.",
+        "key_elements": ["local food as hero image", "native language question hook", "minimal brand presence", "no product visible"],
+        "seen_in": ["Tagalog halo-halo question hook (PH)"],
+        "why_it_works": "Stops the scroll because it looks like food content, not an ad. Native language + local food = immediate cultural resonance. Curiosity gap created by question.",
+        "notes": "This format is UNDERUSED — only one execution seen. Very high potential for MY (Bahasa + nasi lemak/roti canai) and TH."
+      },
+      {
+        "name": "Aspirational Lifestyle — Merchant as Hero",
+        "description": "Merchant (wearing apron) in aspirational, ethereal setting (floating on clouds, running in flower field). Feature tags/pills float around them. Headline: 'What running your business feels like with StoreHub'. Offer badge at bottom.",
+        "key_elements": ["apron-wearing merchant", "aspirational/surreal setting", "floating feature tags", "emotional headline not product headline"],
+        "seen_in": ["What running your business feels like — illustrated", "photo variant in flower field"],
+        "why_it_works": "Sells the feeling, not the features. Merchants are sold on vision of less stress/more freedom. Rare in this library — differentiator.",
+        "notes": "Photo variant (real merchant in field) likely stronger than illustrated. Test both."
+      },
+      {
+        "name": "Google Reviews Ranking Comparison",
+        "description": "Dark charcoal background. Question headline. Ranked list of competitors below with star ratings and review counts. StoreHub highlighted/elevated vs weaker competitors.",
+        "key_elements": ["dark BG", "competitor list with ratings", "StoreHub ranked #1", "Google branding adds credibility"],
+        "seen_in": ["StoreHub ranks #1 — 4.7 stars / 2,533 reviews vs Qashier, Zeoniq, FeedMe"],
+        "why_it_works": "Third-party social proof. The merchant already trusts Google Reviews. Seeing competitors with 5, 66, 160 reviews vs 2,533 is immediately decisive.",
+        "notes": "UNDERUSED. Only one execution. High potential for MY (Qashier/Zeoniq awareness) and PH."
+      },
+      {
+        "name": "Seasonal AI Scene Context",
+        "description": "Hardware placed on a counter in an AI-generated seasonal scene (Christmas decorations, Halloween pumpkins, CNY lanterns/dragons). Feature bubbles/pills float around device. Offer badge. Logo bottom.",
+        "key_elements": ["AI-generated seasonal BG", "hardware on counter", "feature pills floating", "seasonal color palette"],
+        "seen_in": ["Halloween AllInOnePOS 9:16", "Christmas AllInOnePOS 16:9"],
+        "why_it_works": "Timely. Matches the feed context the merchant is already seeing. Novelty of seasonal scene triggers curiosity."
+      }
+    ],
+
+    "design_system_observations": {
+      "typography_in_use": {
+        "hero_headlines": "Barlow Black / ExtraBold — all caps or title case, very large (fills 30-50% of frame width)",
+        "sub_headlines": "Barlow Bold or Open Sans Bold",
+        "body_copy": "Open Sans Regular",
+        "playful_labels": "Rounded/bubbly fonts seen in CYF labels and CNY ads — likely Nunito or similar",
+        "price_display": "Very large, bold, often colored (orange or white) — price is treated as a visual element not just copy"
+      },
+      "color_usage_patterns": {
+        "primary_bg": "Brand orange (#ff9419) used as dominant BG in ~30% of ads",
+        "dark_bg": "#2f2922 used for contrast-heavy text-dominant ads",
+        "cream_bg": "Off-white/cream (#f5e8d8 approx) used for soft illustrated ads",
+        "accent_pink_coral": "Used as secondary card BG in split layouts — seen in PH ads",
+        "accent_blue": "#2a6ee8 used sparingly — CTA buttons in some PH ads",
+        "seasonal_override": "CNY = red + gold. Halloween = purple + orange. Christmas = red + green (but always orange CTA)"
+      },
+      "cta_button_styles_observed": [
+        "Full-width orange pill button — most common",
+        "Blue rounded rectangle — PH-specific",
+        "Orange text with arrow '→' — no button, just styled text (Loyalty cascade ad)",
+        "White pill with dark text — occasional"
+      ],
+      "badge_styles_observed": [
+        "Orange diagonal corner ribbon — '#1 POS System in Philippines'",
+        "Circular seal — BIR Accredited (PH compliance trust signal)",
+        "Blue pill/badge — '#1 POS System in MY'",
+        "Announcement megaphone icon with price — common in PH 'as low as' ads"
+      ]
+    },
+
+    "untested_visual_concepts": [
+      "Real merchant face in store environment (candid/documentary style) — only AI-generated or stock used so far",
+      "Sequential storytelling within a single static frame (comic strip, morning → evening)",
+      "Minimal text / single word headline (e.g., just 'FINALLY.' on full-bleed image)",
+      "Overhead aerial shot of food/product (inventory chaos overhead was compelling — apply to F&B)",
+      "Malay-language static with local food hero (Bahasa + rendang/nasi lemak visual)",
+      "Thai-language cultural hook with Thai food visual",
+      "Competitor logo with red X vs StoreHub with green tick (more explicit than current FiatQCV1 approach)",
+      "WhatsApp/SMS notification screenshot style — merchant receiving win-back customer message",
+      "Real Google/FB review screenshot as ad visual (authentic social proof format)"
+    ],
+
+    "asset_library": {
+      "logos": {
+        "path": "/Users/zaidsaad/Desktop/Creative/Logos/",
+        "primary_orange": "StoreHub Logo_Full Orange.png",
+        "reverse_white": "StoreHub_Logo_Full Positive Colour Reverse.png",
+        "icon_logomark": "logo3.webp",
+        "merchant_logos_for_social_proof": ["bulanbintang-logo-1.png", "and others in folder"]
+      },
+      "hardware_photos": {
+        "path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/",
+        "hero_shots": {
+          "d3_merchant_front_my": "F&B-MY-Merchant-Front.png",
+          "d3_dual_fnb_my": "(MY-F&B) DualBack.png",
+          "d3_customer_facing_my": "F&B-MY-Customer-Facing-CloseUp.png",
+          "falcon1_left_fnb_my": "Falcon-Left_F&B-MY.png",
+          "falcon1_left_cosmetics_my": "Falcon-Left-Cosmetics-Checkout-MY.png",
+          "falcon2_ph": "PH-FnB-D3-Mini-Right.png",
+          "falcon_mini_ph": "PH-FnB-D3-Mini-Left.png",
+          "th_hardware": "TH-FnB-Angled-01.png",
+          "retail_my": "RETAIL-MY-Customer-Facing-CloseUp.png"
+        },
+        "notes": "Use market-specific hardware shots — MY hardware vs PH hardware differ visually (branding/color)"
+      },
+      "illustrations": {
+        "path": "/Users/zaidsaad/Desktop/Creative/SH ILLUSTRATIONS/",
+        "d3_scene_illustrations": "D3 ILLUSTRATIONS-001 through 213 — product in various scene contexts",
+        "brand_illustrations": "ALL ILLUSTRATIONS 3.0-01 through 64 — brand/product scenarios",
+        "local_food_icons": {
+          "malaysian": "Local_Nasi Lemak.png, Local_Roti Canai.png, Local_Satay.png, Local_Laksa.png, Kuih_* series",
+          "boba_drinks": "Boba_* series (10 variants)",
+          "fast_food": "Fast Food_* series (10 variants)",
+          "sushi": "Sushi_* series (10 variants)",
+          "western": "Western_* series (10 variants)",
+          "desserts": "Desserts_* series (10 variants)"
+        },
+        "ui_icons": {
+          "line_icons": "line-icons_* series — POS features, delivery, loyalty, analytics etc",
+          "orange_icons": "Orange-icons_* series — colored product feature icons",
+          "color_icons": "color-icons_* series"
+        },
+        "notes": "Rich illustration library. Local food icons are UNDERUSED in ads — huge potential for culturally-native creatives"
+      }
+    }
+  },
+
+  "negative_learnings": [
+    {"rule": "NEVER run generic testimonial ads as acquisition creative — confirmed failure across MY and PH", "evidence": "Multiple Q3+Q4 variants", "confidence": "high", "nuance": "This applied to previous low-quality testimonial executions. The 2026 testimonial creative system (real merchant faces + specific outcome quotes + vertical branding) is a fundamentally different product and has NOT been tested at scale. The 'NEVER' applies to logo walls and generic 'I love StoreHub' quotes — not to outcome-specific merchant stories with real faces."},
+    {"rule": "NEVER run plain unboxing without offer/CTA — scalable spend but low SQL% and very high CPWon", "evidence": "MY Q3: CN_D3 Mini Unboxing CPWon RM15,667", "confidence": "high"},
+    {"rule": "NEVER run Stress-to-Success creative angle in PH — 5 variants, 0 SQLs", "evidence": "PH Q3+Q4", "confidence": "high"},
+    {"rule": "NEVER stack multiple competing hooks (AI + product + comparison) — creates confusion and kills conversion", "evidence": "MY Q3 EN_CYF+AI+Speech", "confidence": "high"},
+    {"rule": "NEVER use price as sole hook without product/hardware visual — drives high CPL", "evidence": "MY Q3 final takeaway", "confidence": "high"},
+    {"rule": "NEVER use dark backgrounds in static ads — confirmed lower performance", "evidence": "Implicit from MY analysis + brand guideline note", "confidence": "medium"}
+  ],
+
+  "winning_patterns": [
+    {
+      "name": "The MY Champion Formula",
+      "description": "Hardware visual + split-screen + % price discount + evergreen or seasonal hook",
+      "markets": ["MY"],
+      "example_ads": ["BAU Promo", "55% Promo V2", "Merdeka Split Screen variants"],
+      "best_language": "English (Win%), Chinese (SQL%), Malay (volume)"
+    },
+    {
+      "name": "The PH Champion Formula",
+      "description": "All-In-One POS + F&B vertical specificity + specific price anchor (PHP63) + hardware visual",
+      "markets": ["PH"],
+      "example_ads": ["Allinonepos_Fnb", "unboxingrestaurant_stopmotion_falcon"],
+      "format": "Stop-motion video or clean static with bold headline"
+    },
+    {
+      "name": "Choose Your Fighter Universal",
+      "description": "Side-by-side hardware tier comparison — works cross-market, high CTR, strong SQL%",
+      "markets": ["MY", "PH"],
+      "untested": ["TH"],
+      "ctr_benchmark": "4-5x market average",
+      "notes": "Works best with Falcon hardware (premium tier creates aspiration)"
+    },
+    {
+      "name": "Question Hook - Profit/Cost",
+      "description": "Open with a direct question about the merchant's current cost pain. Drives highest-intent clicks.",
+      "markets": ["PH"],
+      "untested": ["MY", "TH"],
+      "example": "How much is your profit? / How much are you paying in delivery fees?",
+      "cpl_vs_benchmark": "58-63% below market average in PH"
+    }
+  ],
+
+  "champion_ads": [
+    {"ad": "BAU Promo (MY Q4)", "metric": "Scale — CPL RM64 at RM63k spend", "market": "MY"},
+    {"ad": "D3 Choose Your Fighter (MY Q4)", "metric": "Efficiency — CPL RM47, CPWon RM721", "market": "MY"},
+    {"ad": "EN_Comic Promo KL (MY Q3)", "metric": "CPWon RM707 (best Q3 MY)", "market": "MY"},
+    {"ad": "Allinonepos_Fnb (PH Q4)", "metric": "SQL% 45%, CPWon RM630 — best in dataset", "market": "PH"},
+    {"ad": "howmuchisyourprofit_coffee (PH Q4)", "metric": "CPL RM41 — lowest in PH", "market": "PH"},
+    {"ad": "ChooseYourFighter_Falcon (PH Q4)", "metric": "CTR 4.86%, SQL% 38.3%", "market": "PH"},
+    {"ad": "Openshopwith_StoreHub (TH Q3)", "metric": "Highest video engagement in TH (Hook Rate 0.50%)", "market": "TH"}
+  ]
+}

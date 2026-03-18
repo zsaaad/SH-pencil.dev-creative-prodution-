@@ -1,0 +1,170 @@
+{
+  "_source": "StoreHub Brand Guideline + SH Context.md (confirmed)",
+  "_note": "StoreHub is an all-in-one platform for F&B and retail businesses in Southeast Asia",
+
+  "company": {
+    "description": "StoreHub is an all-in-one, cloud-based business platform that enables retailers and restaurants across Southeast Asia to automate and grow their businesses. Launched in 2013, it provides an ecosystem of solutions including POS, QR ordering, loyalty, customer engagement, delivery, and marketplace integration.",
+    "mission": "Make technology available for everyone — big or small — enabling all businesses to grow successfully and sustainably.",
+    "tagline": "More Than Just a POS System",
+    "markets": ["Malaysia", "Philippines", "Thailand"],
+    "merchant_count": "17,000+",
+    "merchant_count_display": "17,000+ retail and restaurant outlets across Southeast Asia",
+    "founded": "2013",
+    "headquarters": "Malaysia"
+  },
+
+  "products": [
+    {
+      "id": "pos",
+      "name": "StoreHub POS",
+      "category": "Point of Sale System",
+      "price": "From RM102/month (billed annually) — as low as RM3.40/day",
+      "price_model": "subscription",
+      "short_description": "All-in-one POS system for restaurants and retail stores",
+      "long_description": "StoreHub POS is the core product — a tablet-based point-of-sale system that manages orders, payments, and inventory. Designed for F&B and retail businesses with no training required.",
+      "usps": [
+        "Manage all online & offline transactions in one system",
+        "Top-of-the-line POS hardware with seamless payment integration",
+        "Zero learning curve — no training required user interface",
+        "Works for both dine-in, takeaway, and delivery",
+        "Real-time sales reports and analytics"
+      ],
+      "pain_points_solved": [
+        "Managing orders across multiple channels is chaotic",
+        "Staff training takes too long and turnover is high",
+        "Losing track of inventory and stock levels",
+        "Can't see business performance in real time"
+      ],
+      "social_proof": {
+        "merchant_count": "17,000+",
+        "regions": "Malaysia, Philippines, Thailand",
+        "key_testimonial": "FILL IN — pull from 'Behind The Counter' merchant stories",
+        "proof_type": "Real merchant stories via BTC video series"
+      },
+      "pricing_by_market": {
+        "MY": { "monthly": "From RM102/month (billed annually)", "daily": "As low as RM3.40/day" },
+        "PH": { "daily": "As low as ₱63.00/day", "social_proof_count": "3,350+ local businesses" },
+        "TH": { "discount": "Up to 55% off hardware" }
+      },
+      "active_offers": [
+        {
+          "type": "hardware_discount",
+          "MY": "55% off on POS hardware + free months (RM996 savings / buy 1 year get 4 months free)",
+          "PH": "Up to PHP 20,000 off on hardware",
+          "TH": "ลดสูงสุด 55% (Up to 55% off)",
+          "expires": null,
+          "notes": "All promos confirmed live as of March 2026. CNY-themed creatives active in MY and TH."
+        }
+      ]
+    },
+    {
+      "id": "beep",
+      "name": "Beep QR Ordering",
+      "category": "Digital Ordering",
+      "price": "FILL IN",
+      "price_model": "subscription",
+      "short_description": "QR code ordering system — customers order directly from their phones",
+      "long_description": "Beep lets customers scan a QR code to browse the menu and place orders directly on their phones. Reduces staff workload and speeds up table turnover.",
+      "usps": [
+        "No app download required for customers",
+        "Reduces order errors from verbal communication",
+        "Frees up staff for higher-value tasks",
+        "Integrates directly with StoreHub POS"
+      ],
+      "pain_points_solved": [
+        "Staff overwhelmed during peak hours taking orders",
+        "High error rate with verbal/written orders",
+        "Slow table turnover hurts revenue"
+      ],
+      "social_proof": {
+        "merchant_count": "FILL IN",
+        "key_testimonial": "FILL IN"
+      },
+      "offers": [{ "type": "FILL IN", "description": "FILL IN", "expires": null }]
+    },
+    {
+      "id": "engage",
+      "name": "StoreHub Engage",
+      "category": "Customer Engagement / CRM",
+      "price": "FILL IN",
+      "price_model": "subscription",
+      "short_description": "Automated customer engagement via WhatsApp/SMS — loyalty, win-backs, promotions",
+      "long_description": "StoreHub Engage automates customer communication. Send targeted promotions, loyalty rewards, and win-back messages to lapsed customers via WhatsApp or SMS — all automated from customer purchase data.",
+      "usps": [
+        "Automated win-back messages to lapsed customers",
+        "Loyalty program built in — no separate app needed",
+        "Targeted promotions based on purchase history",
+        "Drives repeat visits without manual effort"
+      ],
+      "pain_points_solved": [
+        "Losing customers who don't come back after first visit",
+        "No way to communicate with customers between visits",
+        "Manual loyalty stamp cards are hard to manage"
+      ],
+      "social_proof": {
+        "key_testimonial": "FILL IN",
+        "metric": "FILL IN (e.g., X% increase in repeat visits)"
+      },
+      "offers": [{ "type": "FILL IN", "description": "FILL IN", "expires": null }]
+    },
+    {
+      "id": "cashback",
+      "name": "CashBack (via Engage)",
+      "category": "Customer Loyalty",
+      "price": "Included with Engage",
+      "price_model": "bundled",
+      "short_description": "Cashback loyalty program that keeps customers coming back",
+      "long_description": "A cashback reward system that automatically credits customers after each purchase, incentivizing return visits. Merchants set the cashback percentage.",
+      "usps": [
+        "Higher customer retention vs traditional punch cards",
+        "Customers motivated to return to 'use their cashback'",
+        "Zero admin for merchants — fully automated"
+      ],
+      "pain_points_solved": [
+        "High customer churn — hard to build loyalty",
+        "Punch card loyalty programs are easy to fake/lose"
+      ]
+    },
+    {
+      "id": "delivery",
+      "name": "QR Order (Online Ordering / Delivery)",
+      "category": "Online Ordering",
+      "price": "FILL IN",
+      "price_model": "subscription or commission",
+      "short_description": "Own online ordering channel — no commission to Grab/FoodPanda",
+      "long_description": "StoreHub's own online ordering system lets merchants take direct delivery and takeaway orders without paying 30%+ commissions to third-party platforms.",
+      "usps": [
+        "Keep 100% of your revenue — no platform commissions",
+        "Direct customer relationships (you own the data)",
+        "Integrates with your existing StoreHub POS",
+        "Customers order via your own branded page"
+      ],
+      "pain_points_solved": [
+        "Paying 30%+ commission to GrabFood/FoodPanda eating into margins",
+        "Third-party platforms own your customer relationships",
+        "No insight into delivery customer behavior"
+      ],
+      "social_proof": {
+        "hook_copy": "You're paying how much in delivery fees?"
+      }
+    }
+  ],
+
+  "competitors": [
+    {
+      "name": "GrabFood / FoodPanda",
+      "weakness": "Charge 30%+ commission per order — merchants lose margin and don't own customer data",
+      "positioning": "StoreHub lets you own your orders and your customers"
+    },
+    {
+      "name": "Traditional POS systems",
+      "weakness": "Expensive, complex, require training, don't integrate online ordering",
+      "positioning": "StoreHub is the all-in-one modern alternative"
+    },
+    {
+      "name": "Standalone loyalty apps",
+      "weakness": "Separate app customers must download; merchants must manage separately",
+      "positioning": "StoreHub Engage is built in — no extra app for customer or merchant"
+    }
+  ]
+}

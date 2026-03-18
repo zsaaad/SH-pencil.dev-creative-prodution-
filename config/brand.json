@@ -1,0 +1,441 @@
+{
+  "_source": "StoreHub Brand Guideline PDF (59 pages, March 2026)",
+
+  "brand_name": "StoreHub",
+  "tagline": "More Than Just a POS System",
+  "tagline_alt": [
+    "The All-In-One Platform for Your Restaurant or Retail Store",
+    "Serving needs, not just profits",
+    "The Only Ecosystem You Need"
+  ],
+
+  "logo": {
+    "description": "STOREHUB wordmark — 'STORE' in StoreHub Orange (#ff9419), 'HUB' in StoreHub Black (#2f2922). Custom 'H' logomark acts as icon/app icon.",
+    "primary_wordmark": "STOREHUB (orange STORE + black HUB)",
+    "icon_logomark": "H mark (two vertical bars with diagonal — orange + black)",
+    "clear_space": "Apply proportional width of the H logomark on all sides",
+    "usage_rules": [
+      "Always use primary wordmark when possible",
+      "H logomark alone only when StoreHub branding is already strongly established",
+      "Ensure high contrast between logo and background",
+      "NEVER place over busy/photo backgrounds",
+      "NEVER change logo colors",
+      "NEVER stretch, rotate, or apply effects",
+      "NEVER use wordmark and logomark together in same layout",
+      "Dark background: use white wordmark version",
+      "Orange background: use white wordmark version",
+      "Light background: use full-color wordmark"
+    ],
+    "approved_backgrounds": ["white", "black (#2f2922)", "orange (#ff9419)", "dark grey"]
+  },
+
+  "colors": {
+    "_note": "Always prioritize brand colours (orange + black). Accent colours used to add variety.",
+    "brand": {
+      "storehub_orange": "#ff9419",
+      "storehub_black": "#2f2922"
+    },
+    "accent": {
+      "bold_orange": "#ff630f",
+      "azure_blue": "#2a6ee8",
+      "vivid_pink": "#ff546f"
+    },
+    "primary": "#ff9419",
+    "secondary": "#2f2922",
+    "accent": "#ff630f",
+    "background_light": "#ffffff",
+    "background_dark": "#2f2922",
+    "text_dark": "#2f2922",
+    "text_light": "#ffffff",
+    "cta_button": "#ff9419",
+    "cta_text": "#ffffff",
+
+    "tints": {
+      "black_80": "#55504a",
+      "black_60": "#7a7672",
+      "black_40": "#a09d9a",
+      "black_20": "#c5c3c1",
+      "black_10": "#eae9e8",
+      "orange_80": "#ffa742",
+      "orange_60": "#ffbb6c",
+      "orange_40": "#ffce95",
+      "orange_20": "#ffe1bf",
+      "orange_10": "#fff4e8",
+      "bold_orange_80": "#ff7f3a",
+      "bold_orange_60": "#ff9b66",
+      "bold_orange_40": "#ffb791",
+      "blue_80": "#5088ec",
+      "blue_60": "#77a2f0",
+      "blue_40": "#9dbcf4",
+      "pink_80": "#ff7389",
+      "pink_60": "#ff92a3",
+      "pink_40": "#ffb1bd"
+    },
+
+    "gradients": {
+      "approved": [
+        { "name": "Orange Warm", "from": "#ff630f", "to": "#ff9419", "direction": "135deg" },
+        { "name": "Orange to Pink", "from": "#ff630f", "to": "#ff546f", "direction": "135deg" },
+        { "name": "Pink to Blue", "from": "#ff546f", "to": "#2a6ee8", "direction": "135deg" },
+        { "name": "Orange Tint", "from": "#ff9419", "to": "#ffce95", "direction": "135deg" },
+        { "name": "Bold Orange Tint", "from": "#ff630f", "to": "#ffb791", "direction": "135deg" },
+        { "name": "Blue Tint", "from": "#2a6ee8", "to": "#9dbcf4", "direction": "135deg" },
+        { "name": "Pink Tint", "from": "#ff546f", "to": "#ffb1bd", "direction": "135deg" }
+      ],
+      "forbidden": [
+        "Do NOT mix orange with blue/green in gradients",
+        "Only blend harmonious colours as shown in approved list",
+        "Do NOT mix orange with green"
+      ]
+    }
+  },
+
+  "typography": {
+    "_note": "Barlow for all headlines. Open Sans for body. Display fonts (Caveat/Gochi Hand) used sparingly for lifestyle copy only.",
+    "english": {
+      "headline_font": "Barlow",
+      "headline_weights": {
+        "short_headline": "Black (900)",
+        "medium_headline": "Extra Bold (800)",
+        "long_headline_subheadline": "Bold (700) or Semi Bold (600)"
+      },
+      "body_font": "Open Sans",
+      "body_weight": "Regular (400)",
+      "display_fonts": ["Caveat", "Gochi Hand"],
+      "display_use": "Lifestyle copy only — NOT for headlines or body"
+    },
+    "chinese": {
+      "headline_font": "Noto Sans SC",
+      "headline_weight": "Bold",
+      "body_font": "Noto Sans SC",
+      "body_weight": "Regular",
+      "display_font": "Smiley Sans Oblique"
+    },
+    "thai": {
+      "headline_font": "IBM Plex Sans",
+      "headline_weight": "Bold",
+      "body_font": "Noto Sans Thai",
+      "body_weight": "Regular",
+      "display_font": "Sriracha"
+    },
+
+    "hierarchy": {
+      "headline": {
+        "font": "Barlow Black",
+        "size_relative": "100% — always the largest element",
+        "example_px": 27,
+        "rule": "Headlines must be 100% of base size, at least 30% larger than sub-headlines"
+      },
+      "sub_headline": {
+        "font": "Barlow Semi Bold",
+        "size_relative": "70–75% of headline",
+        "example_px": 18,
+        "rule": "Sub-headlines introduce sections, smaller than headline, larger than body"
+      },
+      "body": {
+        "font": "Open Sans Regular",
+        "size_relative": "50–60% of headline",
+        "example_px": 11,
+        "rule": "Clear and legible at standard reading sizes"
+      }
+    },
+
+    "don_ts": [
+      "Never use same size for headline, sub-headline, and body",
+      "Never make sub-headline larger than headline",
+      "Never bold every text level — reserve bold for emphasis only",
+      "Headline must always be the largest element on the composition"
+    ],
+
+    "video_subtitles": {
+      "font": "Barlow",
+      "weight": "Black",
+      "subtitle_box_opacity": "70% black",
+      "super_box": "StoreHub Orange (#ff9419) at 100% opacity, white text"
+    },
+
+    "motion_graphics_heading": {
+      "font": "Barlow",
+      "weight": "Extra Bold"
+    },
+    "motion_graphics_subheading_cta": {
+      "font": "Open Sans",
+      "weight": "Semi Bold"
+    },
+    "text_stylizations": [
+      "Colored Drop Shadow — shadow color from Barlow palette",
+      "Box Highlight — orange rectangle, 4px rounded corners",
+      "Drop Shadow — Barlow color shadow"
+    ]
+  },
+
+  "visual_style": {
+    "aesthetic": "bold, modern, practical, authentic",
+    "mood": "energetic, confident, trustworthy, approachable",
+    "imagery_style": "authentic-lifestyle",
+    "corner_radius": "4px–8px",
+    "shadow": false,
+    "gradient": true,
+
+    "imagery_rules": {
+      "required": [
+        "Authentic and genuine — no staged stock looks",
+        "Pan-Asian faces only (Southeast Asian market)",
+        "Subtly featuring StoreHub products in real context",
+        "Showcasing real merchant lifestyles (F&B, retail)",
+        "Balanced composition, optimal lighting",
+        "Sufficient brightness, contrast, and saturation"
+      ],
+      "forbidden": [
+        "Western faces",
+        "Overly edited or filtered images",
+        "Stock-like facial expressions (exaggerated, unnatural)",
+        "Weird or unnatural proportions",
+        "Solid colored backgrounds for photos",
+        "Outdated hardware or trends",
+        "Weird proportioned compositions"
+      ],
+      "contexts": [
+        "Merchant cooking or working in kitchen",
+        "Staff interacting with customers",
+        "Merchant using StoreHub POS",
+        "Shop environment/ambiance",
+        "Candid shots of merchants",
+        "Customers scanning QR codes",
+        "Customers making payments",
+        "Delivery riders",
+        "F&B and retail settings"
+      ]
+    },
+
+    "color_correction": {
+      "brightness": "Well-lit — not overly dark or washed out",
+      "contrast": "Sharp and dynamic — not flat or harsh",
+      "saturation": "Rich and vibrant — not dull or faded"
+    }
+  },
+
+  "icons": {
+    "styles": {
+      "line_icons": {
+        "use_case": "Website and Product UI only",
+        "rule": "Designated exclusively for functional and interactive elements (buttons, nav, form fields)"
+      },
+      "orange_palette": {
+        "use_case": "Primary default — Presentation Decks and Social Media",
+        "rule": "Default choice for all social media graphics and presentations"
+      },
+      "blue_palette": {
+        "use_case": "Visual Presentations (VP) and secondary social media variety",
+        "rule": "Secondary option for social media to provide visual variety"
+      },
+      "colored_mixed": {
+        "use_case": "Presentation Decks ONLY",
+        "rule": "STRICTLY PROHIBITED for websites and social media"
+      }
+    }
+  },
+
+  "tone_of_voice": {
+    "personality": ["practical", "modern", "empowering", "authentic", "upbeat"],
+    "audience_connection": "Speak to real business owners — acknowledge their daily grind, celebrate their wins",
+    "avoid": [
+      "Corporate jargon",
+      "Over-formal language",
+      "Exaggerated enthusiasm",
+      "Stock-photo cheerfulness",
+      "Western cultural references"
+    ],
+    "example_headlines": {
+      "good": [
+        "More Than Just a POS System",
+        "The All-In-One Platform for Your Restaurant or Retail Store",
+        "Manage all online & offline transactions in one system",
+        "The Only Ecosystem You Need",
+        "Ready to upgrade your kitchen?",
+        "You're paying how much in delivery fees?"
+      ],
+      "style_notes": "Mix bold functional claims with empathetic merchant-focused language. Questions work well."
+    }
+  },
+
+  "ad_naming_convention": {
+    "format": "RESOLUTION_VP#_MERCHANT_DATE_VERSION",
+    "examples": [
+      "169_VP1_STUFF_20250505_v1",
+      "SQUARE_VP1_STUFF_20250505_v1",
+      "916_VP1_STUFF_20250505_v1"
+    ],
+    "resolution_codes": {
+      "169": "1920x1080 (16:9)",
+      "SQUARE": "1080x1080 (1:1)",
+      "916": "1080x1920 (9:16)"
+    }
+  },
+
+  "video_specs": {
+    "social_media_vp": {
+      "resolution_options": ["1920x1080", "1080x1080", "1080x1920"],
+      "duration": "1–1.5 minutes",
+      "style": "Problem-solution focused, short and snappy, upbeat energetic music"
+    },
+    "btc_behind_the_counter": {
+      "resolution": "1920x1080",
+      "duration": "3–5 minutes",
+      "structure": "Hook → Intro → Origins → Struggles → Lowest Point → Ending",
+      "music": "Background/cinematic for BTC, upbeat pop for VP"
+    },
+    "export": {
+      "final": "H264, 1080p Full HD, 10–20 Mbps",
+      "review": "1 Mbps",
+      "motion_graphics": ".mov (Quicktime, RGB + Alpha)"
+    },
+    "animation_style": "Easy Ease for all movements — smooth, natural, purposeful. No distracting animations.",
+    "logo_placement": "Top-right corner across all formats. Always within safe zone."
+  },
+
+  "markets": ["Malaysia (MY)", "Philippines (PH)", "Thailand (TH)"],
+  "languages": ["English", "Chinese (Simplified)", "Thai"],
+
+  "asset_library": {
+    "_note": "Local file paths to approved brand assets. Use these in Pencil.dev via image operations.",
+
+    "logos": {
+      "base_path": "/Users/zaidsaad/Desktop/Creative/Logos/",
+      "primary_orange_wordmark": "StoreHub Logo_Full Orange.png",
+      "reverse_white_wordmark": "StoreHub_Logo_Full Positive Colour Reverse.png",
+      "icon_h_mark": "logo3.webp",
+      "usage": "Use primary_orange on light BGs. Use reverse_white on dark or orange BGs. Never use both wordmark and H-mark in same frame."
+    },
+
+    "hardware_photos": {
+      "base_path": "/Users/zaidsaad/Desktop/Creative/SH Hardware/",
+      "recommended_hero_shots": {
+        "d3_pro_merchant_front_MY": "F&B-MY-Merchant-Front.png",
+        "d3_pro_dual_fnb_MY": "(MY-F&B) DualBack.png",
+        "d3_pro_front_MY": "(MY-F&B) Front.png",
+        "d3_customer_facing_MY": "F&B-MY-Customer-Facing-CloseUp.png",
+        "d3_customer_facing_slight_MY": "F&B-MY-Customer-Facing-Slight.png",
+        "d3_merchant_quarter_MY": "F&B-MY-Merchant-Quarter-Turn.png",
+        "falcon1_left_fnb_MY": "Falcon-Left_F&B-MY.png",
+        "falcon1_left_cosmetics_MY": "Falcon-Left-Cosmetics-Checkout-MY.png",
+        "falcon1_right_cosmetics_MY": "Falcon-Right-Cosmetics-Checkout-MY.png",
+        "falcon2_ph": "PH-FnB-Dual-02.png",
+        "falcon_mini_left_PH": "PH-FnB-D3-Mini-Left.png",
+        "falcon_mini_right_PH": "PH-FnB-D3-Mini-Right.png",
+        "d3_mini_left_MY": "MY- F&B MiniD3-left.png",
+        "d3_mini_top_MY": "MY- F&B MiniD3-top.png",
+        "retail_customer_MY": "RETAIL-MY-Customer-Facing-CloseUp.png",
+        "retail_merchant_MY": "RETAIL2-MY-Merchant-Merchant-Quarter-Turn.png",
+        "th_hardware_angled": "TH-FnB-Angled-01.png",
+        "th_hardware_bottom_up": "TH-FnB-Bottom-up-02.png",
+        "duitnow_payment_MY": "MY-D3-Duitnow payment.png"
+      },
+      "selection_guide": "Always match hardware to market. Use D3 Pro for MY flagship, Falcon for comparison/choice ads. PH: use Falcon Mini or Dual. TH: use TH-specific angles."
+    },
+
+    "illustrations": {
+      "base_path": "/Users/zaidsaad/Desktop/Creative/SH ILLUSTRATIONS/",
+      "d3_scene_illustrations": {
+        "path": "D3 ILLUSTRATIONS-[001-213].png",
+        "description": "213 illustrations of the D3 POS in various scene/context/angle combinations. Use for product-hero frames with illustrated style.",
+        "count": 213
+      },
+      "brand_scenes": {
+        "path": "ALL ILLUSTRATIONS 3.0-[01-64].png",
+        "description": "64 brand scenario illustrations — merchants, stores, features in action.",
+        "count": 64
+      },
+      "local_food_icons": {
+        "malaysian_food": ["Local_Nasi Lemak.png", "Local_Roti Canai.png", "Local_Satay.png", "Local_Laksa.png", "Local_Nasi Kerabu.png", "Kuih_Karipap.png", "Kuih_Ondeh-ondeh.png", "Kuih_Popia.png"],
+        "boba_drinks": "Boba_*.png (10 variants — Boba, Milktea, Brown Sugar, Matcha, Caramel Frappe etc)",
+        "fast_food": "Fast Food_*.png (10 variants — Burger, Chicken, Pizza, Fries etc)",
+        "sushi": "Sushi_*.png (10 variants)",
+        "western": "Western_*.png (10 variants — Steak, Salmon, Spaghetti etc)",
+        "desserts": "Desserts_*.png (10 variants — Coffee, Cake, Croissant, Macaron etc)",
+        "note": "UNDERUSED in current ads. These should be used in culturally-native hooks — local food hero + native language question = high-resonance formula"
+      },
+      "ui_feature_icons": {
+        "line_icons": "line-icons_*.png — POS features, delivery, loyalty, analytics, QR, payments etc (40+ icons)",
+        "orange_icons": "Orange-icons_*.png — Hardware, Customers, Delivery, Location, QR, Support, Time, Users",
+        "color_icons": "color-icons_*.png — Calendar, Customers, Ideas, Notifications, Rocket, Testimonial, Wallet"
+      },
+      "payment_icons": ["Touch _n Go.png", "GrabPay.png", "Alipay.png", "WeChat Pay.png", "Maybank QRPay.png", "RazerPay.png", "StoreHub_Ewallet-07.png"],
+      "product_screens": {
+        "d3_register_front": "D3-RegisterFront.png",
+        "d3_customer_display": "D3-CustomerFront.png",
+        "d3_merchant_display": "D3-MerchantFront.png"
+      }
+    },
+
+    "launched_ads_reference": {
+      "base_path": "/Users/zaidsaad/Desktop/Creative/LAUNCHED ADS/",
+      "champion_references": {
+        "choose_your_fighter_falcon": "[MYPH] - Acquisition - Choose Your Fighter - Falcon 1 vs Falcon 2 - Split Screen Promo.png",
+        "choose_your_fighter_d3": "[MYPH] - Acquisition - Choose Your Fighter - D3 Pro vs D3 Mini - Split Screen Promo.mp4",
+        "no1_pos_simple_1x1": "No.1POS-Simple.png",
+        "no1_pos_simple_9x16": "No.1POS-Simple3.png",
+        "future_proof_restaurant_1x1": "Future Proof Your Restaurant-01.png",
+        "future_proof_restaurant_9x16": "Future Proof Your Restaurant-02.png",
+        "slow_pos_v1": "SlowPos-01.png",
+        "slow_pos_v2": "SlowPos-02.png",
+        "super_bundle_promo_PH": "PH - Super Bundle Promo - November - 2025.png",
+        "goodbye_long_lines_PH": "Zaid - PH - Goodbye to long lines.png",
+        "membership_cascade": "Zaid - PH - Membership ad - Static - Cascade.png",
+        "membership_vp_orange": "Zaid - PH - Membership ad - Static - VP focus.png",
+        "loyalty_15pct_cream": "1.png",
+        "loyalty_15pct_dark": "2.png",
+        "storehub_vs_competitor": "FiatQCV1.png"
+      },
+      "note": "Reference these when designing new variants. Winners should be studied and evolved, not replaced wholesale."
+    },
+
+    "testimonial_ads": {
+      "base_path": "/Users/zaidsaad/Desktop/Creative/testimonials for CC/drive-download-20260317T092246Z-1-001/",
+      "status": "READY TO TEST — never launched at scale. All 3 formats (Square/Portrait/Landscape) available per merchant per quote angle.",
+      "formats_available": ["Square (1080x1080)", "Portrait (1080x1350 or 1080x1920)", "Landscape (1200x628 or 1920x1080)"],
+      "merchants": {
+        "Aperture": {
+          "vertical": "F&B (Cafe)", "location": "TTDI, KL",
+          "quote_angles": ["Awesome — 'StoreHub POS is awesome, efficient, & up to date.'", "Fast — 'With StoreHub POS, everything is very fast.'", "Helpful", "Stable"],
+          "best_format": "Portrait — food on table with POS in frame. Looks like food content, stops scroll."
+        },
+        "Binq Dessert": {
+          "vertical": "F&B", "location": "Hartamas | SS15 | SS2 | D.Uptown (multi-location)",
+          "quote_angles": ["Queues — 'We cut our queue times in half.'", "Manpower — 'It saves in our manpower.'", "Features"],
+          "strength": "Multi-location signal in location pill = growth aspiration for audience"
+        },
+        "Merchants Lane": {
+          "vertical": "F&B", "location": "Petaling Street",
+          "quote_angles": ["Reliable", "Stable — 'Absolutely reliable and stable. No complaints.'"]
+        },
+        "Matchy & Co": {
+          "vertical": "Retail (fashion accessories)",
+          "quote_angles": ["Best-Seller — 'Helps us create our next new design to create a best seller. Reporting helps analyse shopping patterns.'", "Manual"],
+          "strength": "Unique angle — StoreHub as a product/trend intelligence tool, not just POS"
+        },
+        "Robb Augustin": {
+          "vertical": "Retail",
+          "quote_angles": ["Intuitive — 'Very intuitive. I highly recommend for a seamless, easy-to-use system.'"],
+          "format_note": "Cream BG split layout with hardware + stars + checklist — no merchant face"
+        },
+        "Rony Ahmed": {
+          "vertical": "Retail (grocery/wet market)",
+          "quote_angles": ["Game-Changer — 'Absolute game-changer.'", "Features", "Performance", "Streamlined"],
+          "strength": "Real merchant face in real store (grocery context = relatable for retail segment)"
+        },
+        "The Bike Artisans": {
+          "vertical": "Retail (specialty — bikes)",
+          "quote_angles": ["2016 — 'Working with StoreHub since 2016. Great system. Two stores synced — we check stock across both.'", "Onboarding", "Reliable", "Reward"],
+          "strength": "Longevity signal (since 2016) = strongest trust signal in the library. Multi-store sync angle."
+        }
+      },
+      "templates": {
+        "A_orange_bg": "Orange BG → large quote → merchant name pill → location pill → photo in rounded card → 'BUILT FOR F&B/RETAIL'. Used by: Binq, Merchants Lane, Rony Ahmed.",
+        "B_photo_bg": "Full-bleed environment photo → orange speech bubble quote overlay → minimal branding. Looks organic. Used by: Aperture Portrait, Matchy & Co, Bike Artisans.",
+        "C_cream_split": "Cream BG → 5 stars + quote right → hardware left → orange checklist. Best for retargeting. Used by: Robb Augustin."
+      },
+      "usage_guidance": "Always pair with offer badge or CTA strip. Do NOT run standalone without 'Book a free demo' CTA. Test Template B (photo BG) for cold acquisition first — highest native content feel."
+    }
+  }
+}
