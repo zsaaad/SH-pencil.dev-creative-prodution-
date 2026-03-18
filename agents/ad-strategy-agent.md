@@ -52,6 +52,30 @@ For each wildcard, pick a category from Section 13 of SH Context.md:
 
 For each wildcard: the hook must earn attention in 1–2 seconds, the brand must still be identifiable, and it must still drive to "Book a free demo."
 
+**WILDCARD ANTI-SIMILARITY VALIDATION — Run this before writing each wildcard brief:**
+
+A wildcard FAILS the check and must be redesigned if ANY of the following are true:
+- ❌ The `visual_concept.layout` is `split`, `product-hero`, or `text-dominant`
+- ❌ The visual description mentions "two cards", "rounded cards", "diagonal split", or "VS badge"
+- ❌ The primary visual element is a POS device or hardware mockup shown in a standard product-shot orientation
+- ❌ The concept already exists in `knowledge_base.json` under "Proven Visual Design Patterns" — Bold Text Overlay on Moody Photography, Split Card, Choose Your Fighter, Price Anchor Comparison, and Before/After are all SAFE patterns, not wildcards
+- ❌ A traditional marketer would approve it without hesitation
+
+A wildcard PASSES if it has at least 2 of:
+- ✅ Breaks conventional ad structure (no hero image + headline + CTA stack)
+- ✅ A viewer's first reaction is "that's weird" or "I've never seen that in an ad"
+- ✅ The StoreHub brand is not revealed until the second half of the visual journey
+- ✅ References a cultural artifact, native social format, or emotional truth rather than a product feature
+- ✅ A traditional marketer would be nervous to run it
+
+**REQUIRED NOVEL FORMATS — Every batch must contain at least one of each:**
+- **TYPOGRAPHIC-ONLY**: No product, no lifestyle photo. Just enormous type that fills the canvas. Words as the visual.
+- **ARTIFACT/DOCUMENT**: The ad looks like a receipt, menu, WhatsApp chat, fake job listing, or invoice — not a traditional ad.
+- **FULL-BLEED DOCUMENTARY**: Single candid photo of a real-looking merchant moment. No card overlays. Minimal text directly on the image.
+- **SURREAL/IMPOSSIBLE**: A visual scenario that couldn't happen in real life but communicates the idea perfectly. The StoreHub solution is the logical resolution.
+
+Do NOT label a proven layout (Split Card, CYF, Bold Text Overlay) as a wildcard just because it has a bolder headline or a food photo. Wildcards must be structurally different from anything in the proven library.
+
 ### Step 3: Design Hypotheses
 For every variant (safe AND wildcard), write a falsifiable hypothesis:
 `"We believe [audience] will [response] because [insight], resulting in [metric] change of [X%]"`
@@ -150,3 +174,9 @@ Save to `data/iterations/{N}/experiment_plan.json`:
 - Read products.json and SH Context.md — do not invent product claims
 - Read knowledge_base.json — do not repeat confirmed negative learnings
 - Minimum 8, maximum 20 variants per iteration
+
+**Copy length discipline (helps creative generator size text correctly):**
+- Headlines: max 6 words for 1:1 format. Max 8 words for 4:5/9:16. Shorter = larger rendered text = more thumb-stopping.
+- Sub-headlines: max 10 words. One idea only.
+- Body copy: max 2 lines (20-25 words). If it needs more explanation than that, the concept is too complex.
+- Brevity in the brief directly enables bolder typography in execution. Long headlines force small fonts.

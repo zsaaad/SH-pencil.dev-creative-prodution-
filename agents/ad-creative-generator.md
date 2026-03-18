@@ -73,7 +73,7 @@ The hardware or UI is treated cinematically — not a product shot, a reveal.
 1. **Single focus**: One visual element dominates. Never compete for attention.
 2. **F-pattern reading**: Important info top-left → top-right → bottom
 3. **Contrast ratio**: Text must have 4.5:1 minimum contrast against background
-4. **White space**: 15-20% padding minimum on all sides (safe variants); wildcards may deliberately violate this for effect — but only if the `ai_generation_notes` calls for it
+4. **Padding**: Maximum 32px outer padding on safe variants. Wildcards default to 0px — full-bleed unless `ai_generation_notes` explicitly calls for negative space as a design choice. **Never 15-20% padding — this creates dead zones.**
 
 ### Static Ad Anatomy (in priority order)
 1. **Hook visual** — the first thing eyes land on (product, face, bold text, number, or scene)
@@ -88,24 +88,29 @@ The hardware or UI is treated cinematically — not a product shot, a reveal.
 ## Per-Format Specifications
 
 **1:1 (1080×1080)** — Feed placement
-- Safe zone: 60px inset on all sides
-- Headline: 48-60px, bold
-- Body: 24-28px
-- CTA button: 56px tall, min 200px wide
+- Outer padding: max 32px (safe) / 0px (wildcard)
+- Headline: **96-140px**, bold — if it looks "about right" in the editor, it's too small
+- Body: 44-52px — never below 44px
+- CTA button: 64px tall, min 280px wide, CTA text 48px
+- Rule: Headline must occupy ≥60% of canvas width. Background must cover 100% of canvas.
 
 **4:5 (1080×1350)** — Feed/Stories hybrid (best performer format)
-- Extra vertical space → use for stronger visual hierarchy
-- Stack: visual top 60% / text bottom 40%
-- Headline: 52-64px
+- Extra vertical space → use for LARGER text and BIGGER visuals, not more padding
+- Stack: visual top 55% / text bottom 45%
+- Headline: **110-160px**, bold
+- Body: 48-56px
+- Rule: No more than 15% of canvas may be empty/unused. Fill the frame.
 
 **9:16 (1080×1920)** — Stories/Reels
-- Safe zone: 250px top, 400px bottom (UI chrome)
-- Headline: 56-72px
-- Hook visual dominates top 50%
+- UI-safe zones: 250px top, 400px bottom — but fill everything between
+- Headline: **130-180px**, bold, centred or left-aligned
+- Body: 52-64px
+- Rule: Hook visual fills top 55%. Text dominates bottom. Nothing floats in dead space.
 
 **1.91:1 (1200×628)** — Facebook Feed / Google Display
-- Landscape: split layout works well (image left, text right)
-- Or: full-bleed with text overlay
+- Headline: **72-100px**, bold
+- Body: 40-48px
+- Rule: Full-bleed image or color background always. Split layout must still fill full canvas.
 
 ---
 
@@ -217,6 +222,41 @@ Save `data/iterations/{N}/creative_manifest.json`:
   "created_at": "ISO timestamp"
 }
 ```
+
+---
+
+## Anti-Pattern Enforcement (FORBIDDEN)
+
+These patterns make ads look identical to every other StoreHub ad ever made. **Never use these unless explicitly required by the experiment plan for a safe variant:**
+
+1. **The Orange Split Card** — two rounded cards side-by-side, orange left / dark right, POS device on a pedestal. This is the single most overused layout in the library.
+2. **Centered POS on orange background** — product floating in the middle, text below, badge in corner.
+3. **Diagonal CYF split** — blue left / orange right, VS badge, product on each side. Already maxed out.
+4. **Text in a narrow centre column** — headline at 30-40% canvas width with huge empty margins on both sides.
+5. **Small floating badge** — "55% Off" sticker in a corner while the rest of the ad is mostly background.
+6. **Font sizes below the minimums** — 48px or 60px headlines on any format. These are not thumb-stopping sizes.
+
+**For wildcards specifically:** if the layout you're about to build could be described as "card with product image + text", stop and redesign.
+
+---
+
+## Visual QA — Mandatory After Every Frame
+
+After creating each frame, call `get_screenshot()` and check all of the following. **If any fail, fix before moving on:**
+
+**Readability test:**
+- [ ] Thumbnail at 250×250px: can you read the headline without squinting? If not — font is too small.
+- [ ] Is the biggest text element the BIGGEST thing on the canvas? (not the product image, not a decorative element)
+
+**Space test:**
+- [ ] Is less than 10% of the canvas empty/blank without intentional purpose?
+- [ ] Does the background (image or colour) cover 100% of the frame edge-to-edge?
+- [ ] Are there floating elements in the middle of dead space?
+
+**Novelty test (wildcards only):**
+- [ ] Could this ad be mistaken for a standard StoreHub promo? If yes — it failed.
+- [ ] Does it look structurally different from a split-card or product-hero layout?
+- [ ] Would a traditional marketer hesitate to approve this?
 
 ---
 
