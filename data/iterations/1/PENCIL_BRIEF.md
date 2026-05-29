@@ -225,7 +225,7 @@ Clean white background. Two panels separated by a thin vertical line.
 **BOTTOM STRIP** (full width, white):
 - PH Falcon Dual hardware (`PH-FnB-Dual-02.png`) floating above the strip, straddling both panels
 - Orange CTA button: `Get the Deal`
-- Social proof dark pill: `17,000+ merchants trusted us`
+- Social proof dark pill: `20,000+ merchants trusted us`
 - StoreHub logo bottom-left
 
 **Hardware:** `PH-FnB-Dual-02.png`
@@ -319,7 +319,7 @@ The 1080×1350 frame divided horizontally into two equal stacked halves.
 **BOTTOM STRIP** — white:
 - Orange CTA button `Start Strong — 55% Off`
 - StoreHub wordmark
-- Social proof: `17,000+ merchants & counting`
+- Social proof: `20,000+ merchants & counting`
 
 **Hardware:** Hardware is visible in the after-photo on the counter — `F&B-MY-Merchant-Front.png` can be composited in.
 

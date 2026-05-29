@@ -147,6 +147,60 @@
       "Headline must always be the largest element on the composition"
     ],
 
+    "ad_specific": {
+      "_source": "B2B Ad Visual Guideline PDF (StoreHub internal)",
+      "_note": "These rules apply specifically to static ad creatives (1:1, 16:9, 9:16). They take precedence over the general hierarchy above for ad formats.",
+      "headline": {
+        "font": "Barlow Black",
+        "size_canva_pts": "70-90",
+        "line_spacing": "1.1-1.25",
+        "max_lines": 2,
+        "capitalisation": "Title Case / Sentence case / ALL CAPS (short copy only)",
+        "rule": "Must be the most visible element. Either all one colour or highlight main point in a bright accent."
+      },
+      "sub_headline": {
+        "font": "Open Sans Semibold or Semibold Italic",
+        "size_canva_pts": "30-50",
+        "max_lines": 1,
+        "capitalisation": "Sentence case only",
+        "rule": "Always smaller than headline. Keep it simple and straightforward. Single colour for readability."
+      },
+      "body_copy": {
+        "font": "Open Sans Regular or Semibold",
+        "size_canva_pts": "15-20",
+        "format": "Bullet list — max 1 line per bullet point",
+        "capitalisation": "Sentence case only",
+        "busy_bg_rule": "On busy photo backgrounds: wrap bullets in solid colour panel or 70-90% transparent colour background",
+        "rule": "Keep each bullet to similar length so they read cleanly and look visually balanced"
+      },
+      "cta": {
+        "font": "Open Sans Bold or Bold Italic",
+        "size_canva_pts": "35-45",
+        "capitalisation": "ALL CAPS only",
+        "colour": "Orange #ff9419 or Pink #ff546f — always a bright warm colour",
+        "shape": "Rounded pill button",
+        "rule": "Short, easy to see, straight to the point. Max 1 line."
+      }
+    },
+
+    "background_photo": {
+      "_source": "B2B Ad Visual Guideline PDF (StoreHub internal)",
+      "blur_required": true,
+      "blur_range_canva": "40-60",
+      "visual_complexity": "Prefer backgrounds with fewer colours and less visual noise — text must be readable",
+      "busy_background_fixes": [
+        "Apply a solid colour overlay on busy areas behind text",
+        "Apply a 70-90% opacity colour block behind text for readability",
+        "Search 'blur' in Canva elements tab for blur overlay objects"
+      ],
+      "sources": [
+        "Canva Photo Bank — accessible, limited choice",
+        "Freepik — good stock, strong Asian talent selection",
+        "Envato Elements — large library, fewer Asian faces",
+        "Canva AI Text-to-Image — powerful for scene backgrounds, imperfect for humans"
+      ]
+    },
+
     "video_subtitles": {
       "font": "Barlow",
       "weight": "Black",

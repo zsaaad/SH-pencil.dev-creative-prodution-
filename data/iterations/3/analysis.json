@@ -1,0 +1,283 @@
+{
+  "iteration": 3,
+  "date": "2026-05-28",
+  "purpose": "Batch 3 strategy input — analysis of MY Batch 1 actuals (week of 06-12 Apr 2026, RM1,965.91 spend, 22 variants). Batch 2 was designed but never launched, so Batch 1 actuals are the only true-performance ground truth feeding Batch 3.",
+  "market_scope": "MY only. PH had RM0 spend this window (paused or never launched — open question for ops).",
+  "data_sources": {
+    "primary": "Reporting/week_06apr_12apr_2026/data_dump.md (variant + theme tables)",
+    "context": "Reporting/week_06apr_12apr_2026/action steps and summary_week_06apr_12apr_2026.md",
+    "benchmark": "data/iterations/2/analysis.json (MY Q4 2025 blended CPSQL RM448, target RM299)"
+  },
+  "benchmark_context": {
+    "MY_Q4_2025_blended_cpsql_rm": 448,
+    "MY_target_cpsql_rm": 299,
+    "MY_Q4_2025_blended_cpl_rm": 111,
+    "MY_target_cpl_rm": 125,
+    "MY_Q4_2025_sql_pct": "24.9%",
+    "MY_target_sql_pct": "41.7%",
+    "batch_1_blended_cpsql_rm": 655.30,
+    "batch_1_blended_cpl_rm": 78.64,
+    "batch_1_sql_pct": "14.3%",
+    "interpretation": "Batch 1 CPL (RM78.64) is 30% better than Q4 benchmark — creative is winning attention. But blended CPSQL (RM655) is 46% worse than Q4 benchmark — leak is at qualification, not attention. SQL% 14.3% is the diagnostic; needs to roughly double to hit OKR."
+  },
+
+  "summary": {
+    "total_ads_analyzed": 22,
+    "winners": 1,
+    "challengers": 2,
+    "losers": 3,
+    "insufficient_runway": 16,
+    "fatigued": 0,
+    "note": "Winner rule per source sheet: lowest CPSQL with spend > RM50. Most variants ran <RM50 so we classify them as insufficient runway rather than losers — they tested concept signal, not performance. Only 6 variants crossed the RM50 threshold."
+  },
+
+  "classification": {
+    "winners": [
+      {
+        "ad_id": "S1_EN_Batch 1_competitive contrast - job post_nootp",
+        "theme": "competitive contrast (T5 — true driver is T11 Artifact Native)",
+        "spend_rm": 717.83,
+        "impressions": 28140,
+        "clicks": 400,
+        "cpc_rm": 1.79,
+        "leads": 8,
+        "mql": 7,
+        "mql_pct": "87.5%",
+        "sql": 2,
+        "sql_pct": "28.6%",
+        "cpsql_rm": 358.92,
+        "verdict": "Sole clean winner. CPSQL RM358.92 is 20% below the MY target (RM299 + headroom) and 45% below batch blended (RM655). SQL% 28.6% is 2x batch average. Promote to high-budget rotation; clone the artifact format aggressively."
+      }
+    ],
+    "challengers": [
+      {
+        "ad_id": "S1_EN_Batch 1_New Chapter - opening expenses_nootp",
+        "theme": "New Chapter (T2)",
+        "spend_rm": 1328.16,
+        "leads": 19,
+        "mql": 16,
+        "mql_pct": "84.2%",
+        "sql": 1,
+        "sql_pct": "6.3%",
+        "cpsql_rm": 1328.16,
+        "verdict": "Volume leader, qualification leak. Wins on lead count (highest in batch) and MQL rate (84.2%) but bleeds at SQL conversion (6.3% vs job-post 28.6%). Diminishing returns confirmed — SQL count flat at 1 across +84% spend ramp. Cap budget, do NOT scale, and use T12 Milestone Math to retest the milestone hook with a sharper math filter."
+      },
+      {
+        "ad_id": "S1_EN_Batch 1_cultural pride - kopitiam_nootp",
+        "theme": "cultural pride (T7)",
+        "spend_rm": 150.09,
+        "impressions": 6350,
+        "clicks": 64,
+        "cpc_rm": 2.35,
+        "ctr_pct": "1.01%",
+        "leads": 0,
+        "verdict": "Engagement win, conversion zero. 64 clicks at CPC RM2.35 — proves the cultural hook stops the scroll. But 0 leads on RM150 spend = landing-page or post-click breakage, not creative failure. Investigate LP before retiring the theme."
+      }
+    ],
+    "losers_with_real_runway": [
+      {
+        "ad_id": "S1_EN_Batch 1_AI Videos_Skydiving Remote Reporting_nootp",
+        "theme": "AI Videos",
+        "spend_rm": 164.99,
+        "clicks": 117,
+        "cpc_rm": 1.41,
+        "leads": 1,
+        "sql": 0,
+        "verdict": "Lowest CPC in account (RM1.41) but novelty clicks, not buying intent. 1 lead at RM164.99 CPL = 2.1x batch average. Kill the skydiving execution. Format may still have life — test in lower-budget cat-cafe variant."
+      },
+      {
+        "ad_id": "S1_EN_Batch 1_the math - renovation math_nootp",
+        "theme": "the math (T4)",
+        "spend_rm": 80.08,
+        "clicks": 29,
+        "cpc_rm": 2.76,
+        "leads": 0,
+        "verdict": "RM80 in, zero conversions. Theme-level failure across all 3 variants (RM97 combined, 0 leads). The rational/math angle in isolation does not generate intent. Kill the standalone math theme; survives only fused inside T12 Milestone Math."
+      },
+      {
+        "ad_id": "S1_EN_Batch 1_aspirational self - 2 locations_nootp",
+        "theme": "aspirational self (T8)",
+        "spend_rm": 72.77,
+        "clicks": 12,
+        "cpc_rm": 6.06,
+        "leads": 1,
+        "mql_pct": "100.0%",
+        "sql": 0,
+        "verdict": "Borderline — 1 MQL at 100% conversion is a directionally clean signal, but CPC RM6.06 is 3x batch average. Cost structure unsustainable. Deprioritise."
+      }
+    ],
+    "insufficient_runway": [
+      {"ad_id": "S1_EN_Batch 1_value unlocked - notification v1_nootp", "spend_rm": 14.40, "note": "0 clicks — dead variant, kill"},
+      {"ad_id": "S1_EN_Batch 1_value unlocked - notification v2_nootp", "spend_rm": 32.32, "note": "10 clicks, 0 leads — under threshold, no verdict"},
+      {"ad_id": "S1_EN_Batch 1_value unlocked - day life_nootp", "spend_rm": 13.10, "note": "5 clicks, 0 leads — under threshold"},
+      {"ad_id": "S1_EN_Batch 1_value unlocked - same business_nootp", "spend_rm": 2.18, "note": "0 clicks — dead variant, kill"},
+      {"ad_id": "S1_EN_Batch 1_aspirational self - best month_nootp", "spend_rm": 16.75, "note": "0 clicks — kill"},
+      {"ad_id": "S1_EN_Batch 1_aspirational self - 6pm freedom_nootp", "spend_rm": 2.44, "note": "no runway"},
+      {"ad_id": "S1_EN_Batch 1_competitive contrast - 3 countries_nootp", "spend_rm": 11.84, "note": "no runway — retest at RM50+ before retiring"},
+      {"ad_id": "S1_EN_Batch 1_social proof - 18000_nootp", "spend_rm": 2.74, "note": "single click on RM2.74 — no signal at all"},
+      {"ad_id": "S1_EN_Batch 1_New Chapter - you built it_nootp", "spend_rm": 7.36, "note": "no runway"},
+      {"ad_id": "S1_EN_Batch 1_New Chapter - just opened_nootp", "spend_rm": 3.45, "note": "no runway"},
+      {"ad_id": "S1_EN_Batch 1_Pain Amplification - The List_nootp", "spend_rm": 0.12, "note": "essentially zero spend"},
+      {"ad_id": "S1_EN_Batch 1_Pain Amplification - 3 tablets_nootp", "spend_rm": 3.71, "note": "no runway"},
+      {"ad_id": "S1_EN_Batch 1_Pain Amplification - 2am_nootp", "spend_rm": 0.71, "note": "no runway — 2 clicks at CPC RM0.36 is intriguing but statistically meaningless"},
+      {"ad_id": "S1_EN_Batch 1_the math - 55%_nootp", "spend_rm": 2.27, "note": "no runway"},
+      {"ad_id": "S1_EN_Batch 1_the math - rm4.30day_nootp", "spend_rm": 15.10, "note": "1 click, under threshold"},
+      {"ad_id": "S1_EN_Batch 1_AI Videos_Human Cat Cafe_nootp", "spend_rm": 14.74, "note": "9 clicks at CPC RM1.64 — promising format signal, give RM50 runway in Batch 3 before judging"}
+    ]
+  },
+
+  "load_bearing_hypothesis_job_post": {
+    "question": "What drove the RM358.92 CPSQL win — (a) competitive contrast theme, (b) classifieds artifact format, (c) copy specificity, or (d) combination?",
+    "verdict": "Primary driver: (b) artifact format. Secondary: (c) copy specificity. The competitive contrast theme itself is necessary but not sufficient.",
+    "evidence": [
+      "The other competitive-contrast variant ('3 countries') ran only RM11.84 — no real comparison. But its CPC pattern (RM5.92) and zero leads suggest the THEME alone does not carry the win.",
+      "The job-post variant mimics a JobStreet/classifieds artifact — a document format the merchant reads natively, not an ad. Artifact format defeats banner blindness; the viewer engages before recognising the promo. This is the 'merchant reads the first sentence before realising it is StoreHub' mechanic.",
+      "Copy specificity (named role + RM4,500 salary + StoreHub at RM3.40/day) does the rational close — once attention is captured by the format, the math forces calculation.",
+      "MQL rate 87.5% and SQL% 28.6% prove the format is pre-qualifying intent, not just driving cheap clicks. CPC RM1.79 is the lowest among converters."
+    ],
+    "implication": "Batch 3 must test artifact format isolated from competitive contrast copy. Variants: job-post-style with new-chapter copy, receipt-style with hidden-cost copy, WhatsApp-chat-style with pain copy. If artifact format wins across copy angles, the structural insight is locked. If only job-post wins, the copy specificity is doing more work than assumed."
+  },
+
+  "qualification_leak_opening_expenses": {
+    "question": "Why did opening-expenses generate 19 leads but only 1 SQL (6.3%)?",
+    "diagnosis": "Milestone hook attracted high volume of leads at a high-emotion / low-rational-filter moment. The lead form converts well (MQL 84.2%) because the emotional pull is strong. But there is no financial or product-fit qualifier in the creative — so the lead pool includes merchants who are excited about opening but not pricing-ready, scale-ready, or feature-ready. SDRs cannot qualify what the creative did not filter.",
+    "secondary_evidence": [
+      "Spend ramped +84% mid-week (RM720 to RM1,328), SQL count flat at 1. Incremental leads were strictly lower intent — saturation of the high-intent slice.",
+      "T4 (the math) failed standalone (0 leads, RM97 spent) — the math angle alone does not generate volume.",
+      "T2 (new chapter) wins volume but loses qualification. The two failure modes are complementary."
+    ],
+    "fix": "T12 Milestone Math — fuse the milestone hook with a hard financial anchor inside the creative. Examples: 'Opening week itemised — Renovation RM48k | Kitchen RM25k | POS from RM3.40/day' or 'Year 1 GrabFood commissions RM21,900 vs StoreHub Year 1 RM1,240'. The financial line pre-qualifies affordability; the milestone preserves emotional urgency.",
+    "secondary_fix": "Add a lead-form qualifier question (monthly revenue band or business stage). If the creative cannot filter, the form must."
+  },
+
+  "kopitiam_clicks_zero_leads": {
+    "question": "64 clicks, 0 leads — landing page misalignment or misleading creative?",
+    "verdict": "LP misalignment (high confidence ~85%). Misleading creative is a low-probability secondary.",
+    "evidence": [
+      "CTR strong, CPC RM2.35 reasonable, click volume meaningful. Audience IS engaging with the cultural-pride hook.",
+      "If the creative were misleading, we'd see clicks then form abandons or bouncebacks. Zero leads on 64 clicks means either form is broken, LP loads but content is unrelated to the creative promise, or attribution is broken.",
+      "T7 Cultural Pride has historical PH data showing F&B vertical-specific imagery lifts SQL% to 45% — the theme works elsewhere. The MY execution is creative-validated; the breakdown is downstream."
+    ],
+    "fix": "Audit the kopitiam LP before relaunching. Specifically check: (1) does the LP continue the kopitiam/cultural narrative or dump the user on a generic POS page; (2) is the form rendering correctly on mobile; (3) cross-check Salesforce RAW for leads that may be attributed elsewhere; (4) check pixel firing."
+  },
+
+  "creative_bravery_gap": {
+    "question": "Pain Amplification (RM4.54), Social Proof (RM2.74), The Math (RM97), Value Unlocked (RM62) — killed or untested?",
+    "verdict": "UNTESTED, not killed. These themes never received enough runway to generate signal. Calling them losers is a Type 1 error.",
+    "evidence": [
+      "Pain Amplification: 3 variants, RM4.54 combined spend. The '2am' variant landed 2 clicks at CPC RM0.36 — anomalously low CPC suggests format may be a scroll-stopper. Cannot conclude anything at RM0.71 spend.",
+      "Social Proof - 18000: RM2.74 spent, 1 click. Mathematically impossible to call a theme dead on a single click.",
+      "The Math: RM97 spread across 3 variants, 30 clicks, 0 leads. THIS one has the runway to call a soft kill — but only the standalone math angle. The math lever survives inside T12 Milestone Math fusion.",
+      "Value Unlocked: RM62 across 4 variants. Notification v2 hit CTR 73.64% (anomalous — likely small denominator effect). Day life landed 5 clicks, no leads. Insufficient runway for a verdict."
+    ],
+    "implication": "Batch 3 must give 3 themes their RM50+ minimum runway before declaring outcomes: T1 Pain Amplification (in artifact wrapper), T6 Social Proof (in artifact wrapper with real merchant data), and at least one T10 Value Unlocked execution. The creative_themes.json priority order already deprioritises T8 and T10 — respect that — but specifically retest T1 and T6 inside T11 (artifact format)."
+  },
+
+  "patterns": {
+    "winning_elements": [
+      "Artifact format (job post / classifieds-style) — the single structural insight from Batch 1. Promoted to its own theme T11 in creative_themes.json.",
+      "Specific numbers paired with specific roles or scenarios — RM4,500 salary, RM3.40/day. Vague claims underperform.",
+      "Competitive contrast as a copy angle (not the only winning angle, but a necessary supporting structure inside the artifact).",
+      "MQL rate is consistently high (84-88%) when the creative does ANY work at all — the funnel leak is at SQL, not MQL."
+    ],
+    "losing_elements": [
+      "Pure aspirational self ('best month', '2 locations', '6pm freedom') — no scroll-stop, CPC RM6+ where it ran.",
+      "Standalone math angle — 30 clicks across 3 variants, zero leads. Numbers without an emotional or milestone anchor fail.",
+      "Novelty AI video without a buying intent hook (skydiving) — drives lowest CPC in account but novelty clicks do not qualify.",
+      "Value unlocked notifications — small-screen visuals of phone notifications do not differentiate enough to break through."
+    ],
+    "untested_angles": [
+      "T11 Artifact Native applied to non-competitive copy — receipts, WhatsApp screenshots, Google Reviews, SSM/LHDN forms. Batch 1 only tested ONE artifact (job post). The format is structurally validated; the angle space is wide open.",
+      "T12 Milestone Math — fusion theme created from Batch 1 lesson. Zero variants tested. Highest-leverage SQL% bet for Batch 3.",
+      "T9 The Hidden Cost — forensic cost breakdowns (delivery commissions + overtime + manual reporting). Never tested in MY.",
+      "T6 Social Proof with REAL merchant data — outcome-specific (e.g., 'Binq Dessert reduced closing time 2h to 20min'). The 18000 variant had RM2.74 spend — not a real test.",
+      "Cultural pride beyond kopitiam — mamak, nasi lemak, roti canai as cultural anchors. Only one cultural execution attempted.",
+      "Long-form vertical artifact (1080x1920) — Batch 1 leaned square. Vertical artifact mimicking a long screenshot of a WhatsApp thread or a receipt has never been tested.",
+      "Multi-location / expansion milestone — only opening-week tested. Year-2 anniversary, second-location launch, peak-season scaling are all milestone moments that have not been hit."
+    ]
+  },
+
+  "fatigued_ads": [],
+  "fatigue_note": "No ads are formally fatigued — Batch 1 only ran 1 week. Closest signal is opening-expenses showing diminishing returns intra-week (SQL rate dropped from 10% to 5.3% as spend ramped). That is audience saturation at higher CPM tiers, not creative fatigue. Re-evaluate after week 2 of any scaled Batch 1 winners.",
+
+  "data_quality_flags_respected": [
+    "Theme Summary truncates 'cultural pride' to 'cultural prid' and shows RM0 — variant table has RM150.09 with 64 clicks. Used variant table.",
+    "AI Videos entirely absent from Theme Summary (RM179.73 combined). Pulled from variant table.",
+    "Creative Variants cumulative (RM2,657) vs Weekly Performance window (RM1,965.91). Used Weekly Performance for blended numbers; variants table for per-ad relatives.",
+    "PH RM0 spend acknowledged — not analyzed."
+  ],
+
+  "recommendations": [
+    {
+      "priority": 1,
+      "action": "Scale job-post +50-75% AND clone the artifact format across 4 new copy angles for Batch 3",
+      "rationale": "RM358.92 CPSQL is the only true winner. The structural insight is artifact format, not competitive contrast copy. Test artifact + new-chapter, artifact + hidden-cost, artifact + pain, artifact + social-proof. If artifact wins across angles, structure is locked.",
+      "kpi_target": "Batch 3 artifact variants must beat CPSQL RM358.92 by 10%+ at 1,000 impressions.",
+      "themes": ["T11"]
+    },
+    {
+      "priority": 2,
+      "action": "Build 3-4 T12 Milestone Math variants to fix the opening-expenses qualification leak",
+      "rationale": "Opening-expenses won lead volume (19) but bled at SQL (6.3%). T12 fuses milestone emotion with hard math filter. Specific executions: opening-week itemised receipt, Year-2 GrabFood commission math, 90-day survival math.",
+      "kpi_target": "Milestone Math SQL% must exceed 15% (vs opening-expenses 5.3% floor) to validate fusion thesis.",
+      "themes": ["T12"]
+    },
+    {
+      "priority": 3,
+      "action": "Fix kopitiam LP, then relaunch T7 Cultural Pride with 3-4 new cultural anchors",
+      "rationale": "64 clicks / 0 leads is an LP problem, not a creative problem. Audit LP first. Once fixed, expand cultural anchors beyond kopitiam — mamak, nasi lemak, roti canai, hawker night market.",
+      "kpi_target": "Cultural pride CPL below RM70 AND lead-to-MQL above 70%.",
+      "themes": ["T7"]
+    },
+    {
+      "priority": 4,
+      "action": "Kill standalone math, kill pure aspirational self, kill AI Skydiving",
+      "rationale": "T4 standalone — 30 clicks / 0 leads across RM97 / 3 variants is enough signal to retire. Aspirational self — CPC RM6+ and 1 lead across RM92 is unsustainable. AI Skydiving — RM164.99 CPL on novelty clicks. All three eat budget that should fund artifact and milestone-math tests.",
+      "themes_to_retire": ["T4_standalone", "T8", "AI_Videos_Skydiving"]
+    },
+    {
+      "priority": 5,
+      "action": "Give T1 Pain Amplification and T6 Social Proof RM50+ minimum runway before retiring",
+      "rationale": "Both themes had under RM5 spend in Batch 1 — calling them dead is statistically invalid. The '2am' Pain variant had an anomalously low CPC (RM0.36) that hints at format strength. Run each at RM50-75 in artifact wrapper, then decide.",
+      "kpi_target": "Each variant must reach RM50 spend AND 1,000+ impressions before kill/keep verdict.",
+      "themes": ["T1_inside_T11", "T6_inside_T11"]
+    },
+    {
+      "priority": 6,
+      "action": "Cap opening-expenses budget at current level, do NOT scale",
+      "rationale": "Diminishing returns proven intra-week. Lead volume scales linearly but SQL count flat. Continued scaling burns SDR cycles on low-intent leads. Hold this variant as a volume baseline while T12 attempts the fix.",
+      "themes": ["T2"]
+    },
+    {
+      "priority": 7,
+      "action": "Add lead-form qualifier (monthly revenue band or business stage) on all milestone-themed ads",
+      "rationale": "If creative cannot filter, form must. Opening-expenses MQL rate 84.2% with 6.3% SQL% means form is letting through too many unqualified leads. A revenue-band field would compress the lead pool by ~40% but lift SQL% by 2-3x.",
+      "scope": "Cross-creative, ops-side change"
+    },
+    {
+      "priority": 8,
+      "action": "Resolve PH RM0 status — launch deliberately or document the pause reason",
+      "rationale": "PH was RM0 this window. Either it's deliberately paused (document why and for how long) or there's a delivery issue. Cannot stay ambiguous — PH is the second-largest market and the creative_themes priority order assumes PH testing.",
+      "scope": "Ops decision required"
+    },
+    {
+      "priority": 9,
+      "action": "Test 1080x1920 long-form artifact in Batch 3 (untested aspect)",
+      "rationale": "Batch 1 leaned square. Vertical artifact (long WhatsApp screenshot, long receipt, scrolling job post) is structurally suited to mobile feed scroll rhythm and was never tested. Low-cost high-information experiment.",
+      "themes": ["T11_vertical"]
+    }
+  ],
+
+  "batch_3_seed_recommendation": {
+    "themes": ["T11 Artifact Native", "T12 Milestone Math", "T7 Cultural Pride", "T9 Hidden Cost"],
+    "variant_counts": {
+      "T11_artifact_native": 5,
+      "T12_milestone_math": 3,
+      "T7_cultural_pride": 3,
+      "T9_hidden_cost": 2
+    },
+    "total_concepts": 13,
+    "control": "S1_EN_Batch 1_competitive contrast - job post_nootp must remain live at scaled budget — Batch 3 variants must beat its CPSQL RM358.92 by 10% to be declared winners.",
+    "rationale_summary": "T11 is the structural winner — expand it. T12 fixes the qualification leak from opening-expenses. T7 needs an LP-first relaunch with expanded cultural anchors. T9 is high-affinity with T11 (receipt artifacts naturally execute hidden-cost copy). T5 standalone is intentionally NOT in this Batch 3 list — its win was the artifact format, which T11 isolates."
+  }
+}

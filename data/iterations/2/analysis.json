@@ -1,0 +1,425 @@
+{
+  "iteration": 2,
+  "date": "2026-04-07",
+  "purpose": "OKR baseline analysis — Cost per SQL benchmarking for KR 1.4 AI creative experiment",
+  "data_sources": {
+    "MY_historical": "Zaid - Sr. Creative Performance Strategist - Final [MY].csv (H2 2025 best-performer review, 23 ads)",
+    "PH_historical": "Zaid - Sr. Creative Performance Strategist - Final [PH].csv (H2 2025 best-performer review, 18 ads)",
+    "TH_historical": "Zaid - Sr. Creative Performance Strategist - Final [TH].csv (H2 2025 review, 6 ads)",
+    "MY_Q4": "Zaid - Sr. Creative Performance Strategist - MY Q4 2025 - FINAL.csv (Q4 2025 comprehensive, 108 ads)",
+    "PH_Q4": "Zaid - Sr. Creative Performance Strategist - PH Q4 2025 - FINAL.csv (Q4 2025 comprehensive, 34 ads)",
+    "TH_Q4": "Zaid - Sr. Creative Performance Strategist - TH Q4 2025 - FINAL.csv (Q4 2025 comprehensive, 14 ads)"
+  },
+
+  "summary": {
+    "total_ads_analyzed": 203,
+    "winners": 12,
+    "challengers": 31,
+    "losers": 97,
+    "fatigued": 0,
+    "note": "Winners = ads with CPSQL below blended target. Losers = CPSQL >50% above target or 0 SQLs with spend >RM1k. Challenger = one metric wins, one loses."
+  },
+
+  "blended_cost_per_sql": {
+    "note": "CpSQL computed as Total Spend / Total SQLs across all ads in each period. This is the correct blended figure, not an average of per-ad CPSQLs.",
+    "MY": {
+      "historical_period_cpsql_rm": 434,
+      "historical_period_cpl_rm": 122,
+      "historical_period_sql_pct": "29.0%",
+      "historical_period_total_spend_rm": null,
+      "q4_2025_cpsql_rm": 448,
+      "q4_2025_cpl_rm": 111,
+      "q4_2025_sql_pct": "24.9%",
+      "q4_2025_total_spend_rm": 433356,
+      "q4_2025_total_leads": 3891,
+      "q4_2025_total_sqls": 967,
+      "q4_2025_total_wons": 174,
+      "q4_2025_blended_cpwon_rm": 2491,
+      "q4_2025_won_pct": "4.5%",
+      "target_cpsql_rm": 299,
+      "target_cpl_rm": 125,
+      "target_sql_pct": "41.7%",
+      "gap_to_target_cpsql_pct": "+50%",
+      "gap_to_target_sql_pct_pp": "-16.8pp"
+    },
+    "PH": {
+      "historical_period_cpsql_rm": 314,
+      "historical_period_cpl_rm": 55,
+      "historical_period_sql_pct": "17.3%",
+      "q4_2025_cpsql_rm": 212,
+      "q4_2025_cpl_rm": 71,
+      "q4_2025_sql_pct": "33.4%",
+      "q4_2025_total_spend_rm": 229266,
+      "q4_2025_total_leads": 3241,
+      "q4_2025_total_sqls": 1083,
+      "q4_2025_total_wons": 94,
+      "q4_2025_blended_cpwon_rm": 2439,
+      "q4_2025_won_pct": "2.9%",
+      "target_cpsql_rm": 242,
+      "target_cpl_rm": 100,
+      "target_sql_pct": "41.3%",
+      "gap_to_target_cpsql_pct": "-12% (already below target)",
+      "gap_to_target_sql_pct_pp": "-7.9pp"
+    },
+    "TH": {
+      "historical_period_cpsql_rm": 1456,
+      "historical_period_cpl_rm": 136,
+      "historical_period_sql_pct": "9.4%",
+      "q4_2025_cpsql_rm": 2813,
+      "q4_2025_cpl_rm": 127,
+      "q4_2025_sql_pct": "4.5%",
+      "q4_2025_total_spend_rm": 19693,
+      "q4_2025_total_leads": 155,
+      "q4_2025_total_sqls": 7,
+      "target_cpsql_rm": 650,
+      "target_cpl_rm": 130,
+      "target_sql_pct": "20.0%",
+      "gap_to_target_cpsql_pct": "+333% (significantly above target)",
+      "warning": "TH Q4 SQL volume is too low (7 total) for statistically stable CpSQL. TH should be excluded from KR 1.4 targets."
+    }
+  },
+
+  "trend_analysis": {
+    "MY": {
+      "direction": "deteriorating",
+      "cpsql_change": "+3.2% (RM434 historical → RM448 Q4 2025)",
+      "cpl_change": "-9.0% (improving — CPL dropped RM122 → RM111)",
+      "sql_pct_change": "-14.1% (worsening — SQL% dropped 29.0% → 24.9%)",
+      "interpretation": "CPL has improved in MY but SQL conversion rate fell sharply, keeping blended CpSQL flat and above target. The mix shifted toward high-volume/low-intent lead sources. The SQL% drop from 29% to 24.9% is the primary driver of CpSQL being 50% above the RM299 target.",
+      "six_month_context": "Historical file covers best performers from H2 2025; Q4 2025 file covers full creative slate including lower performers. The historical 29% SQL% likely reflects curated winning creatives, not the full portfolio. Actual blended trend may be flat to slightly deteriorating."
+    },
+    "PH": {
+      "direction": "improving strongly",
+      "cpsql_change": "-32.5% (RM314 historical → RM212 Q4 2025)",
+      "cpl_change": "+29.1% (CPL rose RM55 → RM71 — but acceptable vs RM100 target)",
+      "sql_pct_change": "+93.1% (SQL% nearly doubled: 17.3% → 33.4%)",
+      "interpretation": "PH has dramatically improved SQL conversion rate, which more than offset the higher CPL. The Q4 creative slate — particularly All-in-One POS messaging and Choose Your Fighter formats — drove much higher intent signals. PH Q4 CpSQL of RM212 is 12% below the RM242 target.",
+      "six_month_context": "Historical PH data had very low SQL% (17.3%) suggesting early-stage creative quality. Q4 2025 shows the market has matured with better creative-audience fit."
+    },
+    "TH": {
+      "direction": "deteriorating",
+      "cpsql_change": "+93% (RM1456 historical → RM2813 Q4 2025)",
+      "note": "Only 7 SQLs total in Q4 across RM19.7k spend — statistically unstable. TH is the smallest market (RM46k/mo budget vs RM362k MY). Do not set AI OKR targets for TH yet."
+    }
+  },
+
+  "ai_creative_spend_pct": {
+    "confirmed_ai_ads_in_data": 0,
+    "explanation": "None of the 203 ads in these datasets carry confirmed Pencil.dev, HeyGen, or Flow identifiers. The TH 'S2-' prefix denotes Version 2 refreshes of existing human creatives, not AI-generated content. One MY Historical ad ('EN_Choose Your Fighter + AI Intro + Speech') carries an 'AI Hook' learning tag, but this refers to the creative technique (an AI voice/intro clip), not an AI-generated end-to-end creative. The 24 static + 5 video AI ads referenced in the OKR context are the NEW test batch not yet active at significant spend.",
+    "current_ai_pct_of_spend": "~0%",
+    "ai_hook_ad_performance": {
+      "ad_name": "EN_Choose Your Fighter + AI Intro + Speech_FnB_Restaurant_VideoXXX",
+      "spend_rm": 9684,
+      "cpl_rm": 135,
+      "sql_pct": "16.7%",
+      "cpsql_rm": 807,
+      "cpwon": "no wins",
+      "verdict": "Underperformed vs blended average — AI intro hook did not improve SQL conversion"
+    }
+  },
+
+  "monthly_spend_and_budget_context": {
+    "MY": {
+      "monthly_budget_target_rm": 362489,
+      "q4_total_spend_rm": 433356,
+      "q4_implied_monthly_avg_rm": 144452,
+      "note": "Q4 total may span 3 months. Implied ~RM144k/mo if spread evenly, but budget target is RM362k/mo — suggests Q4 data is a subset, not full-month.",
+      "ai_test_budget_rm": 10000,
+      "ai_test_as_pct_of_monthly_target": "2.8%",
+      "ai_test_as_pct_of_q4_spend": "2.3%",
+      "spend_needed_for_10pct_ai_share": 36249,
+      "spend_needed_for_20pct_ai_share": 72498,
+      "spend_needed_for_30pct_ai_share": 108747
+    },
+    "PH": {
+      "monthly_budget_target_rm": 209143,
+      "q4_total_spend_rm": 229266,
+      "q4_implied_monthly_avg_rm": 76422,
+      "ai_test_budget_rm": 10000,
+      "ai_test_as_pct_of_monthly_target": "4.8%",
+      "ai_test_as_pct_of_q4_spend": "4.4%",
+      "spend_needed_for_10pct_ai_share": 20914,
+      "spend_needed_for_20pct_ai_share": 41829,
+      "spend_needed_for_30pct_ai_share": 62743
+    },
+    "combined_MY_PH": {
+      "combined_monthly_budget_rm": 571632,
+      "total_ai_test_budget_rm": 20000,
+      "ai_test_as_pct_of_combined": "3.5%",
+      "interpretation": "RM10k per market is a meaningful experiment budget (4-5% of Q4 actuals) but well below the >Y% threshold needed to measure blended impact at scale. To set a meaningful OKR where AI creative % can influence blended CpSQL, you need AI spend to represent at least 15-20% of monthly budget."
+    }
+  },
+
+  "top_performers": [
+    {
+      "ad_id": "BAU_Promo_MY_Q4",
+      "ad_name": "BAU Promo",
+      "market": "MY",
+      "dataset": "MY Q4 2025",
+      "headline": "BAU (Business As Usual) promotional offer — no seasonality",
+      "visual_description": "Ongoing BAU promotional creative — likely price/discount offer with hardware",
+      "spend_rm": 62988,
+      "leads": 979,
+      "sql": 238,
+      "cpl_rm": 64,
+      "cpsql_rm": 265,
+      "sql_pct": "24.3%",
+      "ctr_pct": "0.78%",
+      "why_it_works": "Highest volume (238 SQLs) and CpSQL RM265 — 41% below blended average of RM448. Evergreen BAU promo format proves that consistent offer messaging without seasonal dependency scales efficiently. CPL of RM64 is 49% below MY target, giving headroom for SQL conversion to recover."
+    },
+    {
+      "ad_id": "55pct_Promo_V2_MY_Q4",
+      "ad_name": "55% Promo V2",
+      "market": "MY",
+      "dataset": "MY Q4 2025",
+      "headline": "55% discount offer",
+      "visual_description": "Promotional creative with 55% off framing",
+      "spend_rm": 22643,
+      "leads": 215,
+      "sql": 72,
+      "cpl_rm": 105,
+      "cpsql_rm": 314,
+      "sql_pct": "33.5%",
+      "ctr_pct": "1.13%",
+      "why_it_works": "CTR of 1.13% is above-average for MY static ads. 33.5% SQL% is among the highest in the Q4 dataset. Strong promo percentage ('55% off') is a high-intent filter — merchants who click this are already price-sensitive and decision-ready."
+    },
+    {
+      "ad_id": "Allinonepos_P63_PH_Q4",
+      "ad_name": "Allinonepos_P63",
+      "market": "PH",
+      "dataset": "PH Q4 2025",
+      "headline": "All-in-One POS at ₱63",
+      "visual_description": "All-in-One POS hardware with ₱63 software pricing hook",
+      "spend_rm": 58414,
+      "leads": 917,
+      "sql": 299,
+      "cpl_rm": 64,
+      "cpsql_rm": 195,
+      "sql_pct": "32.6%",
+      "ctr_pct": "3.20%",
+      "why_it_works": "Top spend and top SQL volume in PH (299 SQLs). CpSQL RM195 is 19% below PH target of RM242. CTR 3.2% is very high. The ₱63 price hook creates extreme price-anchoring — low software cost frames hardware investment as negligible. 'All-in-One' messaging resonates with PH merchants who currently juggle multiple tools."
+    },
+    {
+      "ad_id": "unboxing_stopmotion_falcon_PH_Q4",
+      "ad_name": "unboxingrestaurant_stopmotion_falcon",
+      "market": "PH",
+      "dataset": "PH Q4 2025",
+      "headline": "Stop-motion unboxing video — Falcon hardware, restaurant context",
+      "visual_description": "Stop-motion format video showing Falcon hardware unboxing in restaurant setting",
+      "spend_rm": 37143,
+      "leads": 779,
+      "sql": 237,
+      "cpl_rm": 48,
+      "cpsql_rm": 157,
+      "sql_pct": "30.4%",
+      "ctr_pct": "1.69%",
+      "why_it_works": "Lowest CpSQL of any high-volume ad across all markets (RM157). CPL of RM48 is 52% below PH target. Stop-motion unboxing format creates novelty without losing product clarity. Restaurant-specific context = strong audience relevance filter. This is the benchmark for AI creative to beat in PH."
+    },
+    {
+      "ad_id": "ChooseYourFighter_Falcon_PH_Q4",
+      "ad_name": "ChooseYourFighter_ Falcon",
+      "market": "PH",
+      "dataset": "PH Q4 2025",
+      "headline": "Choose Your Fighter — Falcon hardware comparison",
+      "visual_description": "Split-screen or choice format comparing Falcon hardware options",
+      "spend_rm": 11299,
+      "leads": 162,
+      "sql": 62,
+      "cpl_rm": 70,
+      "cpsql_rm": 182,
+      "sql_pct": "38.3%",
+      "ctr_pct": "4.86%",
+      "why_it_works": "Highest CTR in PH at 4.86%. SQL% of 38.3% is the closest to the 41.3% target of any volume ad in PH. Choose Your Fighter format forces an active decision ('which one is right for me?'), qualifying intent before the click. Direct template for AI creative iteration."
+    },
+    {
+      "ad_id": "BAU_D3_Mini_Split_MY_Q4",
+      "ad_name": "BAU D3 Mini Split Screen",
+      "market": "MY",
+      "dataset": "MY Q4 2025",
+      "headline": "D3 Mini BAU promo — split screen format",
+      "visual_description": "Split-screen layout featuring D3 Mini hardware with BAU pricing",
+      "spend_rm": 25297,
+      "leads": 219,
+      "sql": 52,
+      "cpl_rm": 116,
+      "cpsql_rm": 486,
+      "sql_pct": "23.7%",
+      "ctr_pct": "2.38%",
+      "why_it_works": "CTR 2.38% is one of the highest in MY Q4. Split-screen format consistently appears in winning ads across MY and PH. CpSQL of RM486 is above blended average but volume (52 SQLs) makes this statistically significant. High CTR + moderate SQL% = strong upper-funnel filter; SQL conversion is the lever to improve."
+    }
+  ],
+
+  "bottom_performers": [
+    {
+      "ad_id": "Should_I_Choose_MY_Q4",
+      "ad_name": "Should I Choose",
+      "market": "MY",
+      "spend_rm": 8671,
+      "sql": 8,
+      "cpsql_rm": 1084,
+      "sql_pct": "14.8%",
+      "ctr_pct": "1.83%",
+      "why_it_fails": "CTR of 1.83% is decent — the ad stops the scroll — but SQL% of 14.8% is half the blended average. 'Should I Choose' is a consideration-stage framing; it attracts leads who are still researching, not deciding. CpSQL RM1084 = 2.4x the blended MY average."
+    },
+    {
+      "ad_id": "Monthly_Plan_D3_Pro_V1_MY_Q4",
+      "ad_name": "Monthly Plan D3 Pro V1",
+      "market": "MY",
+      "spend_rm": 20392,
+      "sql": 25,
+      "cpsql_rm": 816,
+      "sql_pct": "35.2%",
+      "ctr_pct": "2.95%",
+      "why_it_fails": "High CTR (2.95%) and reasonable SQL% (35.2%) but CPL of RM287 is 2.3x the MY average. The monthly plan framing may attract price-sensitive leads who explore but don't convert. The cost is the creative's success: merchants who want monthly payments are lower-intent pipeline."
+    },
+    {
+      "ad_id": "Falcon_Choose_Your_Fighter_MY_Q4",
+      "ad_name": "Falcon Choose Your Fighter",
+      "market": "MY",
+      "spend_rm": 28680,
+      "sql": 41,
+      "cpsql_rm": 700,
+      "sql_pct": "23.8%",
+      "ctr_pct": "3.95%",
+      "why_it_fails": "Highest CTR in MY Q4 at 3.95% — exceptional scroll-stop. But CPL of RM167 and only 23.8% SQL rate = CpSQL RM700, 56% above blended average. High CTR is driving volume of low-intent leads. The Falcon audience in MY may be saturated or less purchase-ready than PH (where same format hits CpSQL RM182). Creative is not the issue — audience-creative fit is."
+    },
+    {
+      "ad_id": "D3_Mini_Unboxing_MY_Q4",
+      "ad_name": "D3 Mini Unboxing",
+      "market": "MY",
+      "spend_rm": 7361,
+      "sql": 7,
+      "cpsql_rm": 1052,
+      "sql_pct": "10.6%",
+      "ctr_pct": "2.92%",
+      "why_it_fails": "Pure unboxing without promo context: CTR 2.92% is fine but SQL% collapses to 10.6% — the lowest of any qualifying MY ad. Unboxing shows 'what it is', not 'why you need it now'. Consistent with the historical finding that plain unboxing without promo/comparison messaging underperforms in acquisition."
+    },
+    {
+      "ad_id": "90s_Cafe_Management_MY_Q4",
+      "ad_name": "90s Cafe Management V1",
+      "market": "MY",
+      "spend_rm": 138,
+      "sql": 0,
+      "cpsql_rm": null,
+      "sql_pct": "0%",
+      "ctr_pct": "0.31%",
+      "why_it_fails": "CTR 0.31% is extremely low for MY. Nostalgia/humor hook ('90s cafe management') fails to connect to business owner intent — it may entertain but does not qualify. Zero SQLs on 138 spend. Kill immediately if scaled."
+    }
+  ],
+
+  "patterns": {
+    "winning_elements": [
+      "Price anchor with specific number: '55% off', '₱63 software', 'RM21,000 off' — drives pre-qualified intent before the click",
+      "All-in-One POS framing: outperforms single-feature messaging in both MY and PH Q4",
+      "Choose Your Fighter / split-screen format: forces active comparison decision, filters passive browsers; works in both markets but higher CpSQL in MY vs PH",
+      "BAU promo without seasonality: consistently scalable in MY (BAU Promo RM64 CPL, RM265 CpSQL at 979 leads)",
+      "Hardware-first visual: product in real context outperforms lifestyle-only in acquisition campaigns",
+      "Restaurant/F&B context: most efficient vertical segment in both MY and PH (FnB-specific versions of the same creative beat generic versions)",
+      "Stop-motion or high-novelty video format: PH stop-motion unboxing is lowest CpSQL at scale across all markets",
+      "High CTR does NOT predict low CpSQL in MY: 3.95% CTR Falcon ad has RM700 CpSQL; 0.78% CTR BAU Promo has RM265 CpSQL"
+    ],
+    "losing_elements": [
+      "Pure unboxing without promo: D3 Mini Unboxing 10.6% SQL% — hardware showcase alone does not drive booked demos",
+      "Consideration-stage copy: 'Should I Choose', 'How Fast Can You' — attracts research-mode leads, not decision-mode leads",
+      "Testimonial/quote-only creatives: My Historical and PH Historical both flag testimonials as poor acquisition performers (fine for mid-funnel retargeting, not cold acquisition)",
+      "AI Hook intro without supporting offer or comparison: the one AI-tagged MY Historical ad had RM807 CpSQL — 80% above blended average",
+      "Nostalgic or humor hooks without clear offer: '90s Cafe Management' CTR 0.31% — does not connect to purchase intent",
+      "Monthly plan framing: attracts price-sensitive explorers, not ready buyers — RM287 CPL, high CPWon"
+    ],
+    "untested_angles": [
+      "Local food icon + price question hook (e.g., 'Running a nasi lemak stall? Here's what RM63/month looks like') — asset library exists but underused",
+      "Loyalty/membership ROI angle: '17% more repeat customers — here is how' — VP4 from campaigns.json never tested at scale",
+      "Time savings quantified: 'Save 3 hours per day' vs 'Save time' — VP7 exists but no ads test specific hour savings",
+      "Multi-location merchant testimonial: The Bike Artisans 'working with us since 2016, 2 stores synced' — trust + longevity signal untested at scale",
+      "Commission savings vs delivery platforms: VP2 ('keep 100% — no delivery commissions') has no confirmed test ads in any market",
+      "Fear-of-missing-out deadline creative: none of the dataset ads use countdown or time-bound urgency outside seasonal promos",
+      "AI-generated video testimonial (HeyGen): 0 ads tested — data provides clear baseline CpSQL for comparison once launched"
+    ]
+  },
+
+  "fatigued_ads": [
+    {
+      "ad_name": "BAU Promo",
+      "market": "MY",
+      "spend_rm": 62988,
+      "note": "Highest-spend ad in MY Q4. CTR 0.78% is below target (1.5%). While CPSQL is strong, frequency saturation risk is high at this spend level. Monitor CTR week-over-week. If BAU Promo CTR falls below 0.5%, refresh the visual while preserving the offer framing."
+    },
+    {
+      "ad_name": "BAU Non Seasonal Promo",
+      "market": "MY",
+      "spend_rm": 55271,
+      "cpsql_rm": 435,
+      "note": "Second highest spend in MY Q4. CPSQL RM435 is near blended average — marginal. At RM55k spend with CTR 0.38% (well below target), this creative is likely fatigued or audience-saturated. Strong candidate for AI creative refresh."
+    },
+    {
+      "ad_name": "Cost Comparison V1",
+      "market": "MY",
+      "spend_rm": 24096,
+      "cpsql_rm": 688,
+      "ctr": "0.32%",
+      "note": "CTR 0.32% at RM24k spend = saturated. CPSQL RM688 is 54% above blended average. Comparison format is strategically correct but this execution needs creative refresh."
+    },
+    {
+      "ad_name": "Allinonepos_P63",
+      "market": "PH",
+      "spend_rm": 58414,
+      "note": "Top performer at RM195 CpSQL but also highest spend in PH Q4 by far. At RM58k, frequency risk is real. The format must be preserved but the visual needs iteration to extend shelf life."
+    }
+  ],
+
+  "recommendations": [
+    {
+      "priority": 1,
+      "title": "Use RM212 (PH Q4) as AI creative benchmark baseline, not RM242 target",
+      "rationale": "PH has already beaten its RM242 CpSQL target — current blended is RM212. Any AI creative OKR in PH should use RM212 as the baseline to beat, not the theoretical target. A 15% improvement from RM212 = RM180 target. The PH stop-motion unboxing ad already achieves RM157 at scale — this proves RM180 is reachable.",
+      "okr_implication": "KR 1.4 PH target: Reduce blended CpSQL from RM212 to RM180 (-15%) while AI creatives represent >20% of active PH ad spend"
+    },
+    {
+      "priority": 2,
+      "title": "MY is 50% above target — AI creative KR should target closing half the gap",
+      "rationale": "MY blended CpSQL is RM448 vs RM299 target — a RM149 gap. Asking AI creative alone to close this entirely is unrealistic. Asking it to improve 15% from current (RM448 → RM381) is realistic based on the performance spread of current human creatives (best: RM265 BAU Promo). The gap between worst and best human creatives is wide, suggesting creative quality — not just audience — is a major driver.",
+      "okr_implication": "KR 1.4 MY target: Reduce blended CpSQL from RM448 to RM381 (-15%) while AI creatives represent >20% of active MY ad spend",
+      "caution": "SQL% in MY has dropped from 29% to 24.9% — this is a lead quality issue, not just a creative issue. If AI ads generate high-CTR but low-intent leads (as seen with Falcon Choose Your Fighter), CpSQL can worsen even with lower CPL. Measure SQL% separately per AI creative."
+    },
+    {
+      "priority": 3,
+      "title": "Set Y% threshold at 20% to make KR 1.4 measurable",
+      "rationale": "The RM10k test budgets represent 2.8% (MY) and 4.8% (PH) of monthly spend — too low to move the blended CpSQL needle. At RM10k test scale, the AI creatives will generate ~100-150 leads in MY and ~140-200 leads in PH — statistically insufficient to measure blended impact. To reach 20% AI spend in MY: RM72k/mo needed. In PH: RM42k/mo needed. The KR should specify a ramp: 'starting from month 2 once AI creatives are proven at test scale.'",
+      "okr_implication": "KR 1.4 Y% suggestion: Start at 15% AI spend threshold (achievable at ~RM54k MY / RM31k PH) rather than 20%, to allow measurement earlier"
+    },
+    {
+      "priority": 4,
+      "title": "AI creative brief should prioritize the 3 proven winner formats",
+      "rationale": "Based on data, the highest-ROI AI creative experiments are: (1) Choose Your Fighter split-screen with price anchor — PH version hits RM182 CpSQL at high CTR; (2) All-in-One POS with specific price hook — PH Allinonepos_P63 RM195 CpSQL on RM58k spend; (3) BAU promo with hardware — MY BAU Promo RM265 CpSQL on RM63k spend. AI should iterate on these formats, not test entirely new concepts first.",
+      "okr_implication": "Frame the 24 static AI ads as: 8 Choose Your Fighter variants, 8 All-in-One POS + price variants, 8 BAU promo + hardware variants — test AI execution of proven winner briefs before AI concept generation"
+    },
+    {
+      "priority": 5,
+      "title": "TH should not be included in KR 1.4 yet",
+      "rationale": "TH Q4 2025 CpSQL is RM2813 — 333% above the RM650 target. Only 7 total SQLs across RM19.7k Q4 spend. The TH market does not yet have sufficient creative volume, SQL conversion data, or budget scale to measure AI creative impact on blended CpSQL. Including TH in KR 1.4 would make the KR impossible to achieve.",
+      "okr_implication": "Exclude TH from KR 1.4. TH gets a separate KR: 'Establish TH paid media creative playbook with target CpSQL below RM1,000 by Q3 2026'"
+    },
+    {
+      "priority": 6,
+      "title": "Fatigue-first AI creative deployment: refresh the two highest-spend underperformers",
+      "rationale": "BAU Non Seasonal Promo (RM55k spend, CTR 0.38%, CpSQL RM435) and Cost Comparison V1 (RM24k spend, CTR 0.32%, CpSQL RM688) are both high-spend, fatigued, and underperforming in MY. These are ideal AI creative replacement targets: same proven format/messaging strategy, new AI-generated visuals. If AI replacement improves CTR from 0.35% to 0.70% and SQL% from 28% to 33%, blended CpSQL improvement across those two ad slots alone moves the MY blended by ~RM20-30.",
+      "okr_implication": "Phase 1 of AI creative deployment: Replace fatigued high-spend ads (not add net-new budget lines). Measure CpSQL lift on the replacement vs the prior ad it replaced."
+    }
+  ],
+
+  "okr_targets_summary": {
+    "KR_1_4_recommended": {
+      "metric": "Blended Cost per SQL on paid channels",
+      "baseline_MY_rm": 448,
+      "baseline_PH_rm": 212,
+      "target_MY_rm": 381,
+      "target_PH_rm": 180,
+      "reduction_pct": "15%",
+      "ai_spend_threshold_Y_pct": 15,
+      "ai_spend_threshold_rationale": "15% is achievable at ~RM54k/mo MY and RM31k/mo PH. 20% requires RM72k/mo MY which needs proven creative performance first.",
+      "measurement_period": "Q2-Q3 2026 (once AI creatives are at >15% of monthly spend for 30+ days)",
+      "KR_statement": "Reduce blended Cost per SQL from RM448 (MY) and RM212 (PH) by 15% on paid Meta channels where AI-generated creatives (Pencil.dev, HeyGen, or Flow) represent >15% of active monthly ad spend",
+      "TH_exclusion": "TH excluded — insufficient SQL volume and budget scale to measure meaningfully"
+    }
+  }
+}

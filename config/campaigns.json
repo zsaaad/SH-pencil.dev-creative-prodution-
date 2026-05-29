@@ -106,7 +106,7 @@
       "naming_convention": "RESOLUTION_VP#_MERCHANT_DATE_VERSION (e.g. 916_VP1_CafeName_20250505_v1)"
     },
     "tiktok": {
-      "active": true,
+      "active": false,
       "markets": ["Malaysia", "Thailand"],
       "kpi_targets": {
         "ctr_min": 1.0,
@@ -134,31 +134,68 @@
   },
 
   "ad_formats_spec": {
+    "_typography_source": "B2B Ad Visual Guideline PDF — capitalisation and font specs apply across all formats",
+    "capitalisation_rules": {
+      "headline": "Title Case / Sentence case / ALL CAPS (short copy only)",
+      "sub_headline": "Sentence case only",
+      "body_copy": "Sentence case only",
+      "cta": "ALL CAPS only"
+    },
     "11": {
       "name": "Square Feed",
       "dimensions": "1080x1080",
       "safe_zone": { "all": "32px" },
-      "headline_size_px": "96–140px Barlow Black",
-      "body_size_px": "44–52px Barlow / Open Sans",
+      "headline_size_px": "96–140px",
+      "headline_font": "Barlow Black",
+      "headline_line_spacing": "1.1–1.25",
+      "headline_max_lines": 2,
+      "sub_headline_size_px": "44–60px",
+      "sub_headline_font": "Open Sans Semibold or Semibold Italic",
+      "sub_headline_max_lines": 1,
+      "body_size_px": "20–28px",
+      "body_font": "Open Sans Regular or Semibold",
+      "body_format": "Bullet list, 1 line per bullet",
       "cta_button_height": "64px",
+      "cta_font": "Open Sans Bold or Bold Italic",
+      "cta_capitalisation": "ALL CAPS",
       "best_for": "Meta Feed, Instagram Feed, Google Display"
     },
     "169": {
       "name": "Landscape",
       "dimensions": "1920x1080",
       "safe_zone": { "top": "60px", "bottom": "60px", "left": "90px", "right": "90px" },
-      "headline_size_px": "96–130px Barlow Black",
-      "body_size_px": "44–52px Barlow / Open Sans",
+      "headline_size_px": "96–130px",
+      "headline_font": "Barlow Black",
+      "headline_line_spacing": "1.1–1.25",
+      "headline_max_lines": 2,
+      "sub_headline_size_px": "44–60px",
+      "sub_headline_font": "Open Sans Semibold or Semibold Italic",
+      "sub_headline_max_lines": 1,
+      "body_size_px": "20–28px",
+      "body_font": "Open Sans Regular or Semibold",
+      "body_format": "Bullet list, 1 line per bullet",
       "cta_button_height": "64px",
+      "cta_font": "Open Sans Bold or Bold Italic",
+      "cta_capitalisation": "ALL CAPS",
       "best_for": "YouTube ads, Google Display, Facebook desktop feed"
     },
     "916": {
       "name": "Vertical / Reels / Stories",
       "dimensions": "1080x1920",
       "safe_zone": { "top": "250px", "bottom": "400px", "left": "32px", "right": "32px" },
-      "headline_size_px": "130–180px Barlow Black",
-      "body_size_px": "52–64px Barlow / Open Sans",
+      "headline_size_px": "130–180px",
+      "headline_font": "Barlow Black",
+      "headline_line_spacing": "1.1–1.25",
+      "headline_max_lines": 2,
+      "sub_headline_size_px": "52–72px",
+      "sub_headline_font": "Open Sans Semibold or Semibold Italic",
+      "sub_headline_max_lines": 1,
+      "body_size_px": "28–36px",
+      "body_font": "Open Sans Regular or Semibold",
+      "body_format": "Bullet list, 1 line per bullet",
       "cta_button_height": "64px",
+      "cta_font": "Open Sans Bold or Bold Italic",
+      "cta_capitalisation": "ALL CAPS",
       "best_for": "TikTok, Meta Reels, Stories"
     }
   },
@@ -206,7 +243,7 @@
     "VP2 — Commission savings: 'You're paying how much in delivery fees? Keep 100% with StoreHub'",
     "VP3 — Ease of use: 'Even your newest staff can use it on day one — no training required'",
     "VP4 — Customer retention: 'Turn first-time diners into regulars — automated loyalty built in'",
-    "VP5 — Social proof: '17,000+ businesses across Southeast Asia trust StoreHub'",
+    "VP5 — Social proof: '20,000+ businesses across Southeast Asia trust StoreHub'",
     "VP6 — Growth: 'The only ecosystem you need to automate and grow your business'",
     "VP7 — Time savings: 'Spend less time on admin, more time doing what only you can do'",
     "VP8 — Reliability: 'Works during your peak hours, every time — no crashes, no excuses'"

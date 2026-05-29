@@ -70,4 +70,59 @@ Read all `data/iterations/*/` directories and report:
 - Current knowledge base size
 - Top learnings so far
 
+---
+
+## Auto-Research Cycle Commands
+
+These commands control the 2-week performance cycle. Each cycle: ads run for ~14 days → data is pulled → results are analysed → new iteration is created automatically.
+
+### For `/ad-pipeline cycle-status`:
+
+Run:
+```
+python3 scripts/cycle_check.py --status
+```
+Report the current iteration number, status (draft/running/complete), days remaining, and whether API credentials are configured.
+
+### For `/ad-pipeline cycle-launch`:
+
+The user has just uploaded the ads to their ad platform. Run:
+```
+python3 scripts/cycle_check.py --mark-launched
+```
+This starts the 14-day countdown. Confirm the launch date and data-pull due date back to the user.
+
+If the user wants to backdate the launch (ads were launched earlier), run:
+```
+python3 scripts/cycle_check.py --launched-on YYYY-MM-DD
+```
+
+### For `/ad-pipeline cycle-check`:
+
+Manually trigger a cycle check (same as the daily cron):
+```
+python3 scripts/cycle_check.py
+```
+This will pull API data if credentials are set, or report where to drop manual CSVs if not. If the cycle is complete, it will run the results → strategy → create pipeline automatically.
+
+### For `/ad-pipeline cycle-install-cron`:
+
+Install the persistent daily cron so checks happen automatically without Claude:
+```
+python3 scripts/cycle_check.py --install-cron
+```
+Confirm the cron is installed and show the user the log path (`logs/cycle_check.log`).
+
+---
+
+## First-Time Setup
+
+If the user is setting up for the first time, guide them:
+
+1. Copy credentials template: `cp .env.example .env`
+2. Fill in `FACEBOOK_ACCESS_TOKEN` and `FACEBOOK_AD_ACCOUNT_ID` in `.env`
+3. Upload ads to Meta (or other platform)
+4. Run `/ad-pipeline cycle-launch` to start the countdown
+5. Run `/ad-pipeline cycle-install-cron` for fully automated checks
+
 Always work from the `/Users/zaidsaad/Desktop/Code/Pencil.dev/` directory.

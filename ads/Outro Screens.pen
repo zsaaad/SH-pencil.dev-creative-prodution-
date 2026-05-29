@@ -1,0 +1,3337 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "z60B8",
+      "x": -326,
+      "y": -767,
+      "name": "Frame 1",
+      "clip": true,
+      "width": 4059,
+      "height": 4943,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "GwL7x",
+      "x": 3933,
+      "y": -767,
+      "name": "SH-MY-9x16",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Wh8Nd",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 1100,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776843792806.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "kTB7b",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            64,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "F81Vf",
+              "name": "headlineText",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store\nWith The All-In-One\nStoreHub POS",
+              "lineHeight": 1.05,
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 72,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "Bq1Ls",
+              "name": "subText",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 17,000+ merchants\nacross Southeast Asia",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Open Sans",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "xen8n",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                22,
+                64
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LHv2X",
+                  "name": "ctaLabel",
+                  "fill": "#FFFFFF",
+                  "content": "GET A FREE DEMO",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 28,
+                  "fontWeight": "800",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RcGrj",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 60,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776843840250.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "Yj5bu",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 1090,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 10
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wEfOs",
+      "x": 5113,
+      "y": -767,
+      "name": "SH-MY-1x1",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NYv56",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 560,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776843882878.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "BAUHf",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            48,
+            48,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "L0cxO",
+              "name": "headline2",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+              "lineHeight": 1.08,
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 52,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "lRzQv",
+              "name": "sub2",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 17,000+ merchants across Southeast Asia",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Open Sans",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "l77sU",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ELYoA",
+                  "name": "ctaLbl2",
+                  "fill": "#FFFFFF",
+                  "content": "GET A FREE DEMO",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 24,
+                  "fontWeight": "800",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C7gqZ",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 40,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776843898569.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "ti1sX",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 552,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "NSgDN",
+      "x": 6293,
+      "y": -767,
+      "name": "SH-MY-4x5",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "bph4G",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 720,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776843937532.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "eUX9d",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            56,
+            56,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "X3O53",
+              "name": "headline3",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+              "lineHeight": 1.08,
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 56,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "NqDjq",
+              "name": "sub3",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 17,000+ merchants across Southeast Asia",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "z85yi",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "redbx",
+                  "name": "ctaLbl3",
+                  "fill": "#FFFFFF",
+                  "content": "GET A FREE DEMO",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 24,
+                  "fontWeight": "800",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BtYlu",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 40,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776843951882.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "yTR4g",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 712,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        },
+        {
+          "type": "rectangle",
+          "id": "AHbWZ",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 712,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7mhWm",
+      "x": 3933,
+      "y": 1253,
+      "name": "SH-TH-9x16",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "y7ss2",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 1100,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844061523.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "9SWkR",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            64,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sEUkO",
+              "name": "thHead1",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ระบบ POS จัดการร้านค้า\nครบจบในที่เดียว",
+              "lineHeight": 1.15,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 68,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "XYpfj",
+              "name": "thSub1",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ได้รับความไว้วางใจจากร้านค้ากว่า\n17,000 แห่งทั่วเอเชียตะวันออกเฉียงใต้",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 26,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "zPGNb",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                22,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T2L4s",
+                  "name": "thCtaLbl1",
+                  "fill": "#FFFFFF",
+                  "content": "คลิกเพื่อทดลองใช้งานฟรี",
+                  "fontFamily": "Noto Sans Thai",
+                  "fontSize": 26,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VFG3M",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 60,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844076619.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "nazo8",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 1090,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 10
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ohQrM",
+      "x": 5113,
+      "y": 1253,
+      "name": "SH-TH-1x1",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "7TgZR",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 560,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844103604.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "hUPoJ",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            48,
+            48,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qioqh",
+              "name": "thHead2",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ระบบ POS จัดการร้านค้า\nครบจบในที่เดียว",
+              "lineHeight": 1.15,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 50,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "so9bM",
+              "name": "thSub2",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ได้รับความไว้วางใจจากร้านค้ากว่า 17,000 แห่ง\nทั่วเอเชียตะวันออกเฉียงใต้",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "KFhXy",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                48
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1pzZW",
+                  "name": "thCtaLbl2",
+                  "fill": "#FFFFFF",
+                  "content": "คลิกเพื่อทดลองใช้งานฟรี",
+                  "fontFamily": "Noto Sans Thai",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CSpTb",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 40,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844118203.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "G2K2l",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 552,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TEEEt",
+      "x": 6293,
+      "y": 1253,
+      "name": "SH-TH-4x5",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "zo88A",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 720,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844150421.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "AzvJH",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            56,
+            56,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SBTrL",
+              "name": "thHead3",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ระบบ POS จัดการร้านค้า\nครบจบในที่เดียว",
+              "lineHeight": 1.15,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 54,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "27OJx",
+              "name": "thSub3",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ได้รับความไว้วางใจจากร้านค้ากว่า 17,000 แห่ง\nทั่วเอเชียตะวันออกเฉียงใต้",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "E2IJa",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                52
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "97nmm",
+                  "name": "thCtaLbl3",
+                  "fill": "#FFFFFF",
+                  "content": "คลิกเพื่อทดลองใช้งานฟรี",
+                  "fontFamily": "Noto Sans Thai",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d6bQt",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 40,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844172032.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "0Qt61",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 712,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        },
+        {
+          "type": "rectangle",
+          "id": "X3fsx",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 712,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oXv91",
+      "x": 3933,
+      "y": 3273,
+      "name": "SH-PH-9x16",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hUogs",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 1100,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844245376.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "hXmSo",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            64,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "bgUv7",
+              "name": "phHead1",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store\nWith The All-In-One\nStoreHub POS",
+              "lineHeight": 1.05,
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 72,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "DiPyl",
+              "name": "phSub1",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 3,350+ local businesses\nacross the Philippines",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Open Sans",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "KvmJH",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                22,
+                64
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BL4fh",
+                  "name": "phCtaLbl1",
+                  "fill": "#FFFFFF",
+                  "content": "Get a free demo",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 28,
+                  "fontWeight": "800",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "f8HuA",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 60,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844265799.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "iKa2u",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 1090,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 10
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cqZ2F",
+      "x": 5113,
+      "y": 3273,
+      "name": "SH-PH-1x1",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ko35v",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 560,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844297518.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "RdB9O",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            48,
+            48,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "n5u6i",
+              "name": "phHead2",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+              "lineHeight": 1.08,
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 52,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "0fEiP",
+              "name": "phSub2",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 3,350+ local businesses across the Philippines",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Open Sans",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "jLmMT",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P4O35",
+                  "name": "phCtaLbl2",
+                  "fill": "#FFFFFF",
+                  "content": "Get a free demo",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 24,
+                  "fontWeight": "800",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e42PI",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 40,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844336793.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "TkG96",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 552,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        },
+        {
+          "type": "rectangle",
+          "id": "uNKex",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 552,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "d32jx",
+      "x": 6293,
+      "y": 3273,
+      "name": "SH-PH-4x5",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "fZtnv",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 720,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844363977.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "7PaWD",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            56,
+            56,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "E090X",
+              "name": "phHead3",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+              "lineHeight": 1.08,
+              "textAlign": "center",
+              "fontFamily": "Barlow",
+              "fontSize": 56,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "LcH8t",
+              "name": "phSub3",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 3,350+ local businesses across the Philippines",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "hT73c",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IaXRP",
+                  "name": "phCtaLbl3",
+                  "fill": "#FFFFFF",
+                  "content": "Get a free demo",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 24,
+                  "fontWeight": "800",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "q0QRo",
+          "layoutPosition": "absolute",
+          "x": 860,
+          "y": 40,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844383052.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "CEMBS",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 712,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jrRa7",
+      "x": 3933,
+      "y": 5293,
+      "name": "SalonX-JP-9x16",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF8F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "w4zv0",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 1100,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844657103.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "83bSt",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            64,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "RtjEQ",
+              "name": "sxHd1",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "サロン経営を\nひとつに。SalonX",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 72,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "gddqn",
+              "name": "sxSb1",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "予約・会計・給与・評価まで\nワンストップ",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "N3Ubq",
+              "name": "CTA Button",
+              "fill": "#ff9419",
+              "cornerRadius": 999,
+              "padding": [
+                22,
+                64
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SHFPh",
+                  "name": "sxCl1",
+                  "fill": "#FFFFFF",
+                  "content": "無料デモを予約",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lgdWv",
+          "layoutPosition": "absolute",
+          "x": 840,
+          "y": 60,
+          "name": "SalonX Logo",
+          "width": 180,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844677675.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "dLR5C",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 1090,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 10
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "W8MxF",
+      "x": 5113,
+      "y": 5293,
+      "name": "SalonX-JP-1x1",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF8F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "4Eb9g",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 560,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844485939.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "tXvW9",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            48,
+            48,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Glgtj",
+              "name": "sxHead2",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "サロン経営をひとつに。\nSalonX",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 52,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "jb9BG",
+              "name": "sxSub2",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "予約・会計・給与・評価までワンストップ",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "R5QS0",
+              "name": "CTA Button",
+              "fill": "#ff9419",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Zc9Mt",
+                  "name": "sxCtaLbl2",
+                  "fill": "#FFFFFF",
+                  "content": "無料デモを予約",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Geett",
+          "layoutPosition": "absolute",
+          "x": 840,
+          "y": 40,
+          "name": "SalonX Logo",
+          "width": 180,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844527347.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "S9IwI",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 552,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        },
+        {
+          "type": "rectangle",
+          "id": "B2kf4",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 552,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Uyb61",
+      "x": 6293,
+      "y": 5293,
+      "name": "SalonX-JP-4x5",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF8F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ezxy1",
+          "name": "Hero Image",
+          "width": "fill_container",
+          "height": 720,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844563963.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "y69WZ",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            56,
+            56,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "icGAX",
+              "name": "sxHead3",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "サロン経営をひとつに。\nSalonX",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 56,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "HoBZy",
+              "name": "sxSub3",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "予約・会計・給与・評価までワンストップ",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "nmslv",
+              "name": "CTA Button",
+              "fill": "#ff9419",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vwFRf",
+                  "name": "sxCtaLbl3",
+                  "fill": "#FFFFFF",
+                  "content": "無料デモを予約",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yWeS4",
+          "layoutPosition": "absolute",
+          "x": 840,
+          "y": 40,
+          "name": "SalonX Logo",
+          "width": 180,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776844617998.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "wTw0T",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 712,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        },
+        {
+          "type": "rectangle",
+          "id": "yG0tb",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 712,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 1080,
+          "height": 8
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zgBC1",
+      "x": 3933,
+      "y": 7413,
+      "name": "SH-MY-16x9",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Xufdp",
+          "name": "Hero Image",
+          "width": 1000,
+          "height": "fill_container",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846503841.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "i4dSs",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            80,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "a1AnA",
+              "name": "myHead",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store\nWith The All-In-One\nStoreHub POS",
+              "lineHeight": 1.05,
+              "fontFamily": "Barlow",
+              "fontSize": 64,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "ubUwu",
+              "name": "mySub",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 17,000+ merchants\nacross Southeast Asia",
+              "lineHeight": 1.4,
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "1gLF3",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5isG6",
+                  "name": "myCtaLbl",
+                  "fill": "#FFFFFF",
+                  "content": "GET A FREE DEMO",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 24,
+                  "fontWeight": "800",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cBzAc",
+          "layoutPosition": "absolute",
+          "x": 1700,
+          "y": 50,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846517279.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "gE5vv",
+          "layoutPosition": "absolute",
+          "x": 994,
+          "y": 0,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 8,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "V7Xa6",
+      "x": 3933,
+      "y": 8693,
+      "name": "SH-TH-16x9",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "children": [
+        {
+          "type": "frame",
+          "id": "tnoXX",
+          "name": "Hero Image",
+          "width": 1000,
+          "height": "fill_container",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846566485.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "WHJ8D",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            80,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "4p019",
+              "name": "thHead",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ระบบ POS จัดการร้านค้า\nครบจบในที่เดียว",
+              "lineHeight": 1.15,
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 60,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "YrzaE",
+              "name": "thSub",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ได้รับความไว้วางใจจากร้านค้ากว่า\n17,000 แห่งทั่วเอเชียตะวันออกเฉียงใต้",
+              "lineHeight": 1.5,
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "XTVwb",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                48
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kRM7T",
+                  "name": "thCtaLbl",
+                  "fill": "#FFFFFF",
+                  "content": "คลิกเพื่อทดลองใช้งานฟรี",
+                  "fontFamily": "Noto Sans Thai",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fv8HV",
+          "layoutPosition": "absolute",
+          "x": 1700,
+          "y": 50,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846604681.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "nuesP",
+          "layoutPosition": "absolute",
+          "x": 994,
+          "y": 0,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 8,
+          "height": 1080
+        },
+        {
+          "type": "rectangle",
+          "id": "9oIRm",
+          "layoutPosition": "absolute",
+          "x": 994,
+          "y": 0,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 8,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Mwq16",
+      "x": 3933,
+      "y": 9973,
+      "name": "SH-PH-16x9",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "children": [
+        {
+          "type": "frame",
+          "id": "pt9bO",
+          "name": "Hero Image",
+          "width": 1000,
+          "height": "fill_container",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846645719.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "dXi5b",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            80,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "0cVld",
+              "name": "phHead",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Manage Your Store\nWith The All-In-One\nStoreHub POS",
+              "lineHeight": 1.05,
+              "fontFamily": "Barlow",
+              "fontSize": 64,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "M7aRz",
+              "name": "phSub",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trusted by 3,350+ local businesses\nacross the Philippines",
+              "lineHeight": 1.4,
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "vM4an",
+              "name": "CTA Button",
+              "fill": "#2a6ee8",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1ZT2E",
+                  "name": "phCtaLbl",
+                  "fill": "#FFFFFF",
+                  "content": "Get a free demo",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 24,
+                  "fontWeight": "800",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PUxKs",
+          "layoutPosition": "absolute",
+          "x": 1700,
+          "y": 50,
+          "name": "SH Logo",
+          "width": 160,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846666836.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "ADHvW",
+          "layoutPosition": "absolute",
+          "x": 994,
+          "y": 0,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 8,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "CkwaL",
+      "x": 3933,
+      "y": 11253,
+      "name": "SalonX-JP-16x9",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF8F0",
+      "children": [
+        {
+          "type": "frame",
+          "id": "1ZeqK",
+          "name": "Hero Image",
+          "width": 1000,
+          "height": "fill_container",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846714041.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "JdvzA",
+          "name": "Content Zone",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            80,
+            80,
+            64
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GVVDz",
+              "name": "sxHead",
+              "fill": "#2f2922",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "サロン経営を\nひとつに。SalonX",
+              "lineHeight": 1.2,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 64,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "ZWo6g",
+              "name": "sxSub",
+              "fill": "#5a5046",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "予約・会計・給与・評価まで\nワンストップ",
+              "lineHeight": 1.5,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "KliAC",
+              "name": "CTA Button",
+              "fill": "#ff9419",
+              "cornerRadius": 999,
+              "padding": [
+                20,
+                56
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nnUKD",
+                  "name": "sxCtaLbl",
+                  "fill": "#FFFFFF",
+                  "content": "無料デモを予約",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kpn8E",
+          "layoutPosition": "absolute",
+          "x": 1680,
+          "y": 50,
+          "name": "SalonX Logo",
+          "width": 180,
+          "height": 50,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1776846741273.png",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "s88Aw",
+          "layoutPosition": "absolute",
+          "x": 994,
+          "y": 0,
+          "name": "Orange Accent",
+          "fill": "#ff9419",
+          "width": 8,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ag93t",
+      "x": 3933,
+      "y": 12533,
+      "name": "SH-MY-9x16-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        250,
+        64,
+        400,
+        64
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "ZhXUJ",
+          "name": "h1",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store\nWith The All-In-One\nStoreHub POS",
+          "lineHeight": 1.05,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 72,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "SkuXL",
+          "name": "s1",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 17,000+ merchants\nacross Southeast Asia",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 28,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "HYWna",
+          "name": "b1",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            22,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "QW5Wo",
+              "name": "l1",
+              "fill": "#FFFFFF",
+              "content": "GET A FREE DEMO",
+              "fontFamily": "Open Sans",
+              "fontSize": 28,
+              "fontWeight": "800",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "3mwhC",
+      "x": 5113,
+      "y": 12533,
+      "name": "SH-MY-1x1-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        48,
+        56
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "hjqbk",
+          "name": "h2",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+          "lineHeight": 1.08,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 52,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "5xhL2",
+          "name": "s2",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 17,000+ merchants across Southeast Asia",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 22,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "URPWn",
+          "name": "b2",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "iIXrq",
+              "name": "l2",
+              "fill": "#FFFFFF",
+              "content": "GET A FREE DEMO",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fShVd",
+      "x": 6293,
+      "y": 12533,
+      "name": "SH-MY-4x5-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 56,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "GI6hZ",
+          "name": "h3",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+          "lineHeight": 1.08,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 56,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "rgEtz",
+          "name": "s3",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 17,000+ merchants across Southeast Asia",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 24,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "e433u",
+          "name": "b3",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "7RPJX",
+              "name": "l3",
+              "fill": "#FFFFFF",
+              "content": "GET A FREE DEMO",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "GnVQu",
+      "x": 7473,
+      "y": 12533,
+      "name": "SH-MY-16x9-text",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        64,
+        200
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "rYQRu",
+          "name": "h4",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store With The All-In-One StoreHub POS",
+          "lineHeight": 1.05,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 64,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "JPPvE",
+          "name": "s4",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 17,000+ merchants across Southeast Asia",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 24,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "n2cRo",
+          "name": "b4",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "PZBFv",
+              "name": "l4",
+              "fill": "#FFFFFF",
+              "content": "GET A FREE DEMO",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "peUiR",
+      "x": 3933,
+      "y": 14553,
+      "name": "SH-TH-9x16-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        250,
+        64,
+        400,
+        64
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "D0kXX",
+          "name": "h1",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ระบบ POS จัดการร้านค้า\nครบจบในที่เดียว",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 68,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "4g5qE",
+          "name": "s1",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ได้รับความไว้วางใจจากร้านค้ากว่า\n17,000 แห่งทั่วเอเชียตะวันออกเฉียงใต้",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 26,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "DqmMQ",
+          "name": "b1",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            22,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "JDIMF",
+              "name": "l1",
+              "fill": "#FFFFFF",
+              "content": "คลิกเพื่อทดลองใช้งานฟรี",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 26,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hFALl",
+      "x": 5113,
+      "y": 14553,
+      "name": "SH-TH-1x1-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        48,
+        56
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "TVumQ",
+          "name": "h2",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ระบบ POS จัดการร้านค้า\nครบจบในที่เดียว",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 50,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "lCkCh",
+          "name": "s2",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ได้รับความไว้วางใจจากร้านค้ากว่า 17,000 แห่ง\nทั่วเอเชียตะวันออกเฉียงใต้",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 22,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "hyZsz",
+          "name": "b2",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "AdoHE",
+              "name": "l2",
+              "fill": "#FFFFFF",
+              "content": "คลิกเพื่อทดลองใช้งานฟรี",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 22,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sqEEC",
+      "x": 6293,
+      "y": 14553,
+      "name": "SH-TH-4x5-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 56,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "0uyDD",
+          "name": "h3",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ระบบ POS จัดการร้านค้า\nครบจบในที่เดียว",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 54,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "qNcyr",
+          "name": "s3",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ได้รับความไว้วางใจจากร้านค้ากว่า 17,000 แห่ง\nทั่วเอเชียตะวันออกเฉียงใต้",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 22,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "Zb3t7",
+          "name": "b3",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            52
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "KlsZI",
+              "name": "l3",
+              "fill": "#FFFFFF",
+              "content": "คลิกเพื่อทดลองใช้งานฟรี",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 24,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1rSIH",
+      "x": 7473,
+      "y": 14553,
+      "name": "SH-TH-16x9-text",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        64,
+        200
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "3Ltze",
+          "name": "h4",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ระบบ POS จัดการร้านค้า ครบจบในที่เดียว",
+          "lineHeight": 1.15,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 60,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "1Q0wM",
+          "name": "s4",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "ได้รับความไว้วางใจจากร้านค้ากว่า 17,000 แห่งทั่วเอเชียตะวันออกเฉียงใต้",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans Thai",
+          "fontSize": 22,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "LbwwT",
+          "name": "b4",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "nuEom",
+              "name": "l4",
+              "fill": "#FFFFFF",
+              "content": "คลิกเพื่อทดลองใช้งานฟรี",
+              "fontFamily": "Noto Sans Thai",
+              "fontSize": 22,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "F3Q0N",
+      "x": 3933,
+      "y": 16573,
+      "name": "SH-PH-9x16-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        250,
+        64,
+        400,
+        64
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "dnrL3",
+          "name": "h1",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store\nWith The All-In-One\nStoreHub POS",
+          "lineHeight": 1.05,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 72,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "LBl7l",
+          "name": "s1",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 3,350+ local businesses\nacross the Philippines",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 28,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "1hCu7",
+          "name": "b1",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            22,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ilxak",
+              "name": "l1",
+              "fill": "#FFFFFF",
+              "content": "Get a free demo",
+              "fontFamily": "Open Sans",
+              "fontSize": 28,
+              "fontWeight": "800",
+              "letterSpacing": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "2cCqS",
+      "x": 5113,
+      "y": 16573,
+      "name": "SH-PH-1x1-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        48,
+        56
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "3o2N0",
+          "name": "h2",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+          "lineHeight": 1.08,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 52,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "Ekw7p",
+          "name": "s2",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 3,350+ local businesses across the Philippines",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 22,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "9qyI9",
+          "name": "b2",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dtJ1R",
+              "name": "l2",
+              "fill": "#FFFFFF",
+              "content": "Get a free demo",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9sWZ5",
+      "x": 6293,
+      "y": 16573,
+      "name": "SH-PH-4x5-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 56,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "gcwCy",
+          "name": "h3",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store With\nThe All-In-One StoreHub POS",
+          "lineHeight": 1.08,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 56,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "YKutD",
+          "name": "s3",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 3,350+ local businesses across the Philippines",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 24,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "975pI",
+          "name": "b3",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XYD2l",
+              "name": "l3",
+              "fill": "#FFFFFF",
+              "content": "Get a free demo",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "mYhB0",
+      "x": 7473,
+      "y": 16573,
+      "name": "SH-PH-16x9-text",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF9F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        64,
+        200
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "B4DJ5",
+          "name": "h4",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Manage Your Store With The All-In-One StoreHub POS",
+          "lineHeight": 1.05,
+          "textAlign": "center",
+          "fontFamily": "Barlow",
+          "fontSize": 64,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "Dxnv7",
+          "name": "s4",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Trusted by 3,350+ local businesses across the Philippines",
+          "lineHeight": 1.4,
+          "textAlign": "center",
+          "fontFamily": "Open Sans",
+          "fontSize": 24,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "2ig9u",
+          "name": "b4",
+          "fill": "#2a6ee8",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "QSEU6",
+              "name": "l4",
+              "fill": "#FFFFFF",
+              "content": "Get a free demo",
+              "fontFamily": "Open Sans",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jG0VJ",
+      "x": 3933,
+      "y": 18593,
+      "name": "SalonX-JP-9x16-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1920,
+      "fill": "#FFF8F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        250,
+        64,
+        400,
+        64
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "tPxbz",
+          "name": "h1",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "サロン経営を\nひとつに。SalonX",
+          "lineHeight": 1.2,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 72,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "SsVJi",
+          "name": "s1",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "予約・会計・給与・評価まで\nワンストップ",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 28,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "m0ekD",
+          "name": "b1",
+          "fill": "#ff9419",
+          "cornerRadius": 999,
+          "padding": [
+            22,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "AVcZo",
+              "name": "l1",
+              "fill": "#FFFFFF",
+              "content": "無料デモを予約",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 28,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "T94k4",
+      "x": 5113,
+      "y": 18593,
+      "name": "SalonX-JP-1x1-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1080,
+      "fill": "#FFF8F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        48,
+        56
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "dExTU",
+          "name": "h2",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "サロン経営をひとつに。\nSalonX",
+          "lineHeight": 1.2,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 52,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "MJChn",
+          "name": "s2",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "予約・会計・給与・評価までワンストップ",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 22,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "SC3qG",
+          "name": "b2",
+          "fill": "#ff9419",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "T9rlN",
+              "name": "l2",
+              "fill": "#FFFFFF",
+              "content": "無料デモを予約",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 24,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "d02ao",
+      "x": 6293,
+      "y": 18593,
+      "name": "SalonX-JP-4x5-text",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "#FFF8F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 56,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "IWVEX",
+          "name": "h3",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "サロン経営をひとつに。\nSalonX",
+          "lineHeight": 1.2,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 56,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "6mv0l",
+          "name": "s3",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "予約・会計・給与・評価までワンストップ",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 24,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "ivabM",
+          "name": "b3",
+          "fill": "#ff9419",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "5kUdB",
+              "name": "l3",
+              "fill": "#FFFFFF",
+              "content": "無料デモを予約",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 24,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PIlsc",
+      "x": 7473,
+      "y": 18593,
+      "name": "SalonX-JP-16x9-text",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#FFF8F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        64,
+        200
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "rhpGU",
+          "name": "h4",
+          "fill": "#2f2922",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "サロン経営をひとつに。SalonX",
+          "lineHeight": 1.2,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 64,
+          "fontWeight": "900"
+        },
+        {
+          "type": "text",
+          "id": "UZng2",
+          "name": "s4",
+          "fill": "#5a5046",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "予約・会計・給与・評価までワンストップ",
+          "lineHeight": 1.5,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 24,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "5zTP3",
+          "name": "b4",
+          "fill": "#ff9419",
+          "cornerRadius": 999,
+          "padding": [
+            20,
+            56
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "WYyzp",
+              "name": "l4",
+              "fill": "#FFFFFF",
+              "content": "無料デモを予約",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 24,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-amber": {
+      "type": "color",
+      "value": "#F59E0B"
+    },
+    "accent-green": {
+      "type": "color",
+      "value": "#22C55E"
+    },
+    "accent-primary": {
+      "type": "color",
+      "value": "#4A9FD8"
+    },
+    "accent-purple": {
+      "type": "color",
+      "value": "#8B5CF6"
+    },
+    "accent-red": {
+      "type": "color",
+      "value": "#EF4444"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#EEF0F2"
+    },
+    "foreground-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "foreground-muted": {
+      "type": "color",
+      "value": "#888888"
+    },
+    "foreground-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "foreground-secondary": {
+      "type": "color",
+      "value": "#666666"
+    },
+    "surface-card": {
+      "type": "color",
+      "value": "#F8F9FA"
+    },
+    "surface-inverse": {
+      "type": "color",
+      "value": "#0A0A0A"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "surface-sidebar": {
+      "type": "color",
+      "value": "#0F1419"
+    }
+  }
+}

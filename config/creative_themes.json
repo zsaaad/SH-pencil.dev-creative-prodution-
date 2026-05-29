@@ -1,8 +1,18 @@
 {
   "_meta": {
-    "description": "StoreHub Creative Theme Framework — 8 testable creative angles for ad experiments. Each theme tests a distinct psychological lever. Use this to ensure batches test across multiple themes, not just format/copy variations of the same angle.",
-    "last_updated": "2026-03-18",
-    "how_to_use": "Each iteration should test at least 2-3 themes head-to-head. Assign 2-3 creative variations per theme (same angle, different executions). Declare a theme winner at 10%+ lift on its primary KPI after 7 days / 1000+ impressions. Retire losing themes and double down on winners."
+    "description": "StoreHub Creative Theme Framework — 12 testable creative angles for ad experiments. Each theme tests a distinct psychological lever. Use this to ensure batches test across multiple themes, not just format/copy variations of the same angle.",
+    "last_updated": "2026-04-21",
+    "how_to_use": "Each iteration should test at least 2-3 themes head-to-head. Assign 2-3 creative variations per theme (same angle, different executions). Declare a theme winner at 10%+ lift on its primary KPI after 7 days / 1000+ impressions. Retire losing themes and double down on winners.",
+    "batch_1_outcome_summary": {
+      "ran": "2026-04-01 to 2026-04-20",
+      "spend_rm": 5165,
+      "leads": 74, "mqls": 63, "sqls": 5, "won": 1,
+      "avg_cpl_rm": 70, "avg_cpsql_rm": 1033, "avg_cpwon_rm": 5165,
+      "winning_themes": ["T7 Cultural Pride (best CPL, scalability)", "T5 Competitive Contrast (best SQL% 28.6%, best CPSQL RM399)", "T2 New Chapter (best volume + SQL count, but worst CPSQL at theme level — execution-dependent)"],
+      "losing_themes": ["T1 Pain Amplification (no scalability, 0 leads)", "T4 The Math (0 leads across 3 variants — theme killed)", "T6 Social Proof standalone (insufficient runway, weak signal)", "T8 Aspirational Self (1 lead, no SQL)", "T10 Value Unlocked (no SQL, poor engagement)"],
+      "ads_promoted_to_high_budget_campaigns": ["S1_EN_Batch 1_competitive contrast - job post_nootp", "S1_EN_Batch 1_cultural pride - kopitiam_nootp (pending LP fix)", "S1_EN_Batch 1_New Chapter - opening expenses_nootp (cap budget)"],
+      "core_structural_learning": "Ads that mimic real artifacts (the winning job-post ad looked like a classifieds post, not a promo) beat ads that look like ads. This insight becomes T11 Artifact Native."
+    }
   },
 
   "themes": [
@@ -127,7 +137,7 @@
       "NOT": "Old-style testimonial quote ads. Those have been proven weak as acquisition. This theme requires specific, named merchants with specific, numbered outcomes.",
       "execution_directions": [
         "A merchant's real face + their business name + one specific number: 'Merchants Lane — reduced closing time from 2 hours to 20 minutes.'",
-        "'17,218 merchants. 3 countries. 1 POS.' — simple, authoritative, scale as social proof.",
+        "'20,000+ merchants. 3 countries. 1 POS.' — simple, authoritative, scale as social proof.",
         "Before/after with a real merchant name and their specific metric change.",
         "A wall of logos/names of real F&B businesses in KL that use StoreHub. Density as proof."
       ],
@@ -181,6 +191,99 @@
       "markets_to_test": ["MY"],
       "known_data": "No direct aspiration-first test in current dataset. Indirect signal: English language drives highest Win% in MY — aspirational messaging tends to be English-dominant in Malaysian context.",
       "watch_out": "Aspiration must feel earned and real — not a luxury lifestyle that is unrelatable. The merchant should look like a merchant, not a model."
+    },
+
+    {
+      "id": "T9",
+      "name": "The Hidden Cost",
+      "bucket": "Pain",
+      "one_liner": "Show merchants the money they're silently bleeding — fees, errors, wasted hours — that they've normalised as 'just how it is'.",
+      "core_insight": "Merchants don't feel pain from a cost they've never quantified. This theme forces them to calculate what they're losing — not dramatically, but forensically. The ad is an audit, not a pitch. It reframes their status quo from 'fine' to 'expensive'.",
+      "emotional_lever": "Shock of recognition — 'I knew this was bad but I didn't know it was THAT bad'",
+      "NOT": "Pain Amplification (T1) which stays emotional and visceral. T9 is cold, factual, calculated. The pain here is financial, not emotional. No chaos scenes — just numbers that don't lie.",
+      "execution_directions": [
+        "A month-end breakdown: delivery platform fees + manual error costs + overtime = total waste. Then: StoreHub annual fee. The gap is the hook.",
+        "A fake bank statement with line items: 'GrabFood commission: RM4,200. FoodPanda commission: RM2,800. Staff overtime (manual close): RM960. StoreHub: RM408.' One line at the bottom: 'Which one are you cutting?'",
+        "A sticky note on a screen: '23 hours this month doing reports by hand.' Below it: 'StoreHub automates all of this.'",
+        "Receipt format: every hidden cost itemised. Total at the bottom is the number they can't unsee."
+      ],
+      "copy_direction": "Cold and clinical. Use real RM/PHP numbers. No emotional language — the numbers are the emotion.",
+      "primary_kpi": "CPL",
+      "hypothesis": "Forensic cost breakdown ads drive lower CPL than generic pain ads because they turn vague discomfort into a specific, calculable reason to act now.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "T4 (The Math) validates that specific numbers outperform vague claims. T9 extends this by making the pain quantified rather than the solution. Commission cost framing ('GrabFood takes 30%') drove CPL RM37-41 in PH.",
+      "watch_out": "Numbers must be accurate and market-specific. Overselling the loss (exaggerated numbers) will destroy trust in markets with high ad skepticism like PH."
+    },
+
+    {
+      "id": "T10",
+      "name": "Value Unlocked",
+      "bucket": "Value",
+      "one_liner": "Show everything StoreHub gives you — not features, but the actual life improvements — in a way that feels like a reveal.",
+      "core_insight": "Most feature ads list what the product does. This theme shows what the merchant gets to do instead. It's not 'inventory management' — it's leaving at 6pm. It's not 'loyalty program' — it's a customer walking in for the third time this week. Translate product capability into merchant reality.",
+      "emotional_lever": "Relief + possibility — 'I didn't know I could have all of that'",
+      "NOT": "A feature list. Not a specs comparison. Not a pricing table. This is always told through a merchant's experience, never through product language.",
+      "execution_directions": [
+        "A series of small wins in one day: '8am — menu updated in 30 seconds. 1pm — order spike handled automatically. 6pm — daily report ready. 10pm — loyalty SMS sent while you sleep.'",
+        "One image: a merchant's phone showing a StoreHub notification — 'Today's revenue: RM3,847. Best Tuesday ever.' Nothing else needed.",
+        "A split of a merchant's day without StoreHub vs with — but told through time, not tools. '11pm vs 6pm. Same business. Different system.'",
+        "An unlocking visual metaphor: everything that was locked (data, loyalty, delivery) now accessible from one screen."
+      ],
+      "copy_direction": "Lead with the outcome, not the feature. Name the specific moment of relief or gain. Keep it personal — 'you', not 'merchants'.",
+      "primary_kpi": "SQL% + Win%",
+      "hypothesis": "Outcome-framed value ads drive higher SQL% and Win% than feature-list ads because prospects who can visualise the specific improvement in their own life are further along the decision journey when they book a demo.",
+      "markets_to_test": ["MY", "TH"],
+      "known_data": "Ease-of-use VP (VP3) and time-savings VP (VP7) are in the untested high-potential bucket. T10 tests both simultaneously by framing value as daily lived experience rather than product capability.",
+      "watch_out": "Avoid making this a features tour disguised as a story. Every sentence must describe what the MERCHANT experiences, not what the PRODUCT does."
+    },
+
+    {
+      "id": "T11",
+      "name": "Artifact Native",
+      "bucket": "Format",
+      "one_liner": "The ad doesn't look like an ad. It looks like a document — a job post, a WhatsApp chat, a Google review, a receipt — that a merchant would see in their actual life.",
+      "core_insight": "Banner blindness kills ads that look like ads. Artifact-native ads disguise themselves as native content the merchant already reads without resistance: classifieds, reviews, invoices, staff group chats, LHDN/SSM forms, SMS screenshots. The merchant reads the first sentence before realising it is a promo, which is the opposite of how most ads work.",
+      "emotional_lever": "Curiosity + recognition — 'This looks like something I'd actually read'",
+      "NOT": "A traditional testimonial screenshot or a product shot with 'We're hiring' text on top. T11 is a full-canvas artifact with zero brand chrome in the first half of the visual. Logo and CTA enter only at the bottom as the reveal. If the ad reads as a StoreHub promo at first glance, it is NOT Artifact Native.",
+      "execution_directions": [
+        "Fake classifieds / JobStreet-style posting: 'HIRING: One human who can manage POS + inventory + loyalty + delivery + reports. Salary: RM4,500/month. OR: StoreHub. From RM3.40/day.' — the proven Batch 1 winner format.",
+        "Fake WhatsApp group chat between 'Boss' and '@staff' at 11pm about reconciliation — ends with '...or we get StoreHub lah.'",
+        "Fake Google Review screenshot — 5 stars — from a real merchant 'Binq Dessert' describing the switch. Reads as a native Google card, not an ad.",
+        "Fake receipt or month-end expense statement showing delivery commissions + staff overtime + manual reporting hours. Single line at the bottom: 'StoreHub: RM408. Which one are you cutting?'",
+        "Fake SSM / LHDN-style form checkbox: 'Is your POS making you overpay on delivery commissions? [ ] Yes [ ] No — find out in 30 seconds.'",
+        "Fake staff handover note on a Post-It — handwritten script — describing everything they tracked manually today. Caption: 'Automate all of this.'"
+      ],
+      "copy_direction": "Write in the voice of the artifact, not the brand. A job post sounds like a recruiter. A receipt sounds like an accountant. The StoreHub brand only speaks on the CTA line.",
+      "primary_kpi": "SQL% + CPSQL",
+      "hypothesis": "Ads rendered as native artifacts (documents / chats / reviews / receipts) intercept active evaluation — the viewer who reads past the first line is already in problem-recognition mode, so SQL% is higher than engagement-first formats even when CTR looks identical.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "Batch 1 T5c 'competitive contrast - job post' delivered SQL% 28.6%, CPSQL RM358.92 (best in batch) — 3.7x better than the next theme. The artifact format — not the 'competitive contrast' message — is the structural driver. T11 isolates that insight as its own theme so executions across any copy angle (pain, math, new chapter) can be rendered as artifacts.",
+      "watch_out": "Artifact must be believable. A fake WhatsApp chat with the wrong UI colours or a job post with the wrong RM salary band for the market will destroy trust instantly. Get the details right — fonts, spacing, timestamps, the little UI chrome — or the effect collapses. Also: avoid including real competitor brand names inside the artifact.",
+      "origin": "Derived from Batch 1 result. The 'job post' variant's win was not about the 'competitive contrast' theme — it was about the artifact format. Promoted to its own theme 2026-04-21."
+    },
+
+    {
+      "id": "T12",
+      "name": "Milestone Math",
+      "bucket": "Rational+Emotional",
+      "one_liner": "Hard numbers anchored to a specific merchant milestone — opening week, first month P&L, one-year renewal — so the math lands at the moment it matters.",
+      "core_insight": "T4 (The Math) fails when numbers are abstract. T2 (New Chapter) wins volume but loses on SQL qualification when the milestone is emotional without a financial hook. T12 is the intersection: pair a concrete number with a concrete life-stage moment and the audience self-qualifies — only merchants who recognise the milestone AND can do the math will click, but the ones who do are high-intent.",
+      "emotional_lever": "Recognition of the moment + concrete cost of inaction inside that moment",
+      "NOT": "Generic 'new business discount' (that's T2 execution). Not 'RM3.40/day' in isolation (that's T4 execution). T12 is specifically: milestone anchor + financial anchor, fused. The milestone gives emotional urgency, the math gives rational justification.",
+      "execution_directions": [
+        "Opening-week expense itemised list: Renovation RM48,000 | Kitchen RM25,000 | Signage RM3,500 | POS from RM3.40/day (highlighted). Headline: 'You saved where it counts.'",
+        "90-day survival math: 'The first 90 days decide the next 10 years. At RM3.40/day, your POS is the cheapest line on your rescue list.'",
+        "1-year-anniversary upgrade math: 'Year 1 at RM60/day in GrabFood commissions = RM21,900. Year 2 with StoreHub = RM1,240. Which year are you closing?'",
+        "Renovation gap analysis: a fake receipt from a renovation vendor with line items for hood / tiles / signage — and the last line 'POS system (unpriced — decided later): this is where merchants overpay.'",
+        "Expansion-math: 'Opening location #2 at the speed of location #1: 14 months to breakeven. With one dashboard for both: 6 months.' (numbers illustrative — use verified SH data.)"
+      ],
+      "copy_direction": "Lead with the milestone ('Week 1', 'Month 6', 'Year 2'). Attach one specific number to it. Never two numbers side-by-side without a life-stage context — that collapses into T4.",
+      "primary_kpi": "SQL% (qualification rate on high-intent milestone moments)",
+      "hypothesis": "A financial anchor placed inside a merchant milestone will produce higher SQL% than either signal alone, because the milestone pre-qualifies intent and the number pre-qualifies affordability.",
+      "markets_to_test": ["MY", "PH"],
+      "known_data": "Batch 1: T2d 'opening expenses' drove 19 leads (highest in batch) at CPL RM69.90 and MQL rate 84.2%, but SQL% fell from 10% to 5.3% as spend scaled — the milestone pulled volume but the math wasn't sharp enough to qualify. T4 (The Math) in isolation drove 0 leads across 3 variants. T12 is the fix: combine both levers in one creative so the audience is pre-filtered before they click.",
+      "watch_out": "Numbers must be verifiable from products.json. Do not mix MY and PH pricing. Do not use any math that would be challenged by a finance-savvy merchant — if the maths is fuzzy, SQL rate will collapse.",
+      "origin": "Derived from Batch 1. T2 'opening expenses' won volume but lost qualification; T4 'the math' variants won neither. The fusion theme addresses the gap. Promoted 2026-04-21."
     }
 
   ],
@@ -188,7 +291,7 @@
   "experiment_structure": {
     "description": "How to run theme experiments systematically",
     "rules": [
-      "Test 2-3 themes per iteration — never test all 8 simultaneously (budget gets too thin per theme to reach statistical significance)",
+      "Test 2-3 themes per iteration — never test all 10 simultaneously (budget gets too thin per theme to reach statistical significance)",
       "Each theme gets minimum 2 creative variations (different executions of the same angle — not different themes)",
       "All variations produced in all 3 formats: 1080x1080, 1920x1080, 1080x1920",
       "Minimum 1,000 impressions and 7 days before calling a result",
@@ -198,24 +301,56 @@
       "Theme losers are retired for that market — may be retested in different market if untested there"
     ],
     "priority_order": [
-      "T2 — New Chapter (most directly relevant to current 55% off new business campaign)",
-      "T4 — The Math (price anchors already proven — test as visual theme)",
-      "T5 — Competitive Contrast (extend the proven CYF angle beyond hardware tiers)",
-      "T7 — Cultural Pride (high-potential, explicitly flagged untested in knowledge base)",
-      "T1 — Pain Amplification (extends proven question-hook angle into visual)",
-      "T6 — Social Proof (requires real merchant data — run when assets are ready)",
-      "T8 — Aspirational Self (long-term brand play — lower urgency than conversion themes)",
-      "T3 — Quiet Ambition (test in TH first where authentic hooks have proven engagement)"
+      "T11 — Artifact Native (proven structural winner from Batch 1 — job-post format drove best CPSQL RM358.92 and SQL% 28.6%; highest-leverage theme for Batch 2)",
+      "T5 — Competitive Contrast (theme-level winner in Batch 1 — extend beyond job-post into other competitive angles; pair with T11 for artifact executions)",
+      "T7 — Cultural Pride (best CPL in Batch 1 RM53; kopitiam had 64 clicks/0 leads — LP gap to fix, then scale)",
+      "T12 — Milestone Math (new theme derived from Batch 1 — fuses the T2 volume win with T4 missing math anchor; high-probability SQL% bet)",
+      "T2 — New Chapter (strong volume but poor CPSQL at scale; test narrower milestones — week-1, 90-day, 1-year — rather than generic 'opening expenses')",
+      "T9 — The Hidden Cost (forensic cost breakdown — untested in Batch 1; complements T11 via artifact receipt formats)",
+      "T3 — Quiet Ambition (untested in MY; consider for TH expansion where authentic hooks have proven engagement)",
+      "T6 — Social Proof (requires real merchant data — run once testimonial asset library is wired in; can combine with T11 artifact format)",
+      "T1 — Pain Amplification — RETIRED MY EN (0 scalability, 0 leads in Batch 1). Consider retesting only with artifact/T11 wrapper or in MS/PH language.",
+      "T4 — The Math — RETIRED as standalone (0 leads across 3 variants in Batch 1). Math angle survives only inside T12 Milestone Math fusion.",
+      "T8 — Aspirational Self — DEPRIORITISED (1 lead, no SQL in Batch 1; long-term brand play only)",
+      "T10 — Value Unlocked — DEPRIORITISED (0 SQL in Batch 1; revisit as outcome framing inside proven themes rather than as its own theme)"
     ],
-    "recommended_first_experiment": {
-      "themes": ["T2", "T4", "T5"],
-      "rationale": "These three cover the emotional (milestone), rational (numbers), and comparison angles. All three have directional data supporting them. They are the highest-probability themes for the current 55% off new business campaign.",
-      "control": "Current best-performing safe format from knowledge base (CYF hardware split)",
-      "variants_per_theme": 2,
-      "total_ads": 18,
-      "formats": ["1080x1080", "1920x1080", "1080x1920"],
-      "markets": ["MY EN primary", "PH EN secondary"],
-      "run_duration_days": 7
+    "recommended_batch_2_experiment": {
+      "themes": ["T5", "T7", "T11", "T12"],
+      "rationale": "Batch 2 doubles down on the 3 winning themes from Batch 1 (T5, T7, and implicitly T2 through its T12 evolution) and tests one new structurally-proven theme (T11 Artifact Native) isolated from the competitive-contrast copy angle. This tests whether the artifact format is the real driver, and whether milestone + math fusion can fix the opening-expenses qualification gap.",
+      "control": "S1_EN_Batch 1_competitive contrast - job post_nootp — the Batch 1 winner stays live; Batch 2 variants must beat its CPSQL RM358.92 at 1,000+ impressions to be declared winners.",
+      "ads_to_retire_from_rotation": [
+        "T1 Pain Amplification — all 3 variants (2am / The List / 3 tablets)",
+        "T4 The Math — all 3 variants (55% / rm3.40day / renovation math)",
+        "T6 social proof - 18000 (insufficient runway, kill and rebuild inside T11)",
+        "T8 aspirational self - best month (0 clicks)",
+        "T8 aspirational self - 6pm freedom (insufficient signal)",
+        "T10 value unlocked - same business (0 clicks)",
+        "T10 value unlocked - notification v1 (0 clicks)",
+        "AI Videos — Skydiving Remote Reporting (RM164.99, 0 SQL)"
+      ],
+      "ads_to_promote_to_high_budget_campaigns": [
+        "S1_EN_Batch 1_competitive contrast - job post_nootp (scale +50-75%)",
+        "S1_EN_Batch 1_cultural pride - kopitiam_nootp (scale after LP alignment fix)",
+        "S1_EN_Batch 1_New Chapter - opening expenses_nootp (cap budget at current level, do not scale)"
+      ],
+      "variants_per_theme": {
+        "T11_artifact_native": 4,
+        "T5_competitive_contrast": 3,
+        "T7_cultural_pride": 3,
+        "T12_milestone_math": 2
+      },
+      "total_concepts": 12,
+      "safe_wildcard_split": { "safe": 6, "wildcard": 6 },
+      "formats_per_concept": ["1080x1080", "1920x1080", "1080x1920"],
+      "total_output_files": 36,
+      "markets": ["MY EN primary", "PH EN secondary (after MY launch)"],
+      "run_duration_days": 14,
+      "success_thresholds": {
+        "t11_winner": "Any T11 variant must beat job-post CPSQL RM358.92 by 10% over 1,000+ impressions",
+        "t7_winner": "Cultural pride CPL must stay below RM70 AND lead-to-MQL must be > 70%",
+        "t12_winner": "Milestone Math SQL% must exceed 10% (vs opening-expenses 5.3% floor)",
+        "t5_winner": "Non-artifact competitive contrast must match job-post CPSQL to prove theme-only driver"
+      }
     }
   },
 
@@ -228,6 +363,10 @@
     "T5_competitive_contrast": { "strongest": "1920x1080", "reason": "Side-by-side comparisons work naturally in landscape — wide format enables the split" },
     "T6_social_proof": { "strongest": "1080x1080", "reason": "Trust signals are most credible in the native feed format" },
     "T7_cultural_pride": { "strongest": "1080x1920", "reason": "Full-bleed local food photography is most impactful at full vertical — feels like food content" },
-    "T8_aspirational_self": { "strongest": "1920x1080", "reason": "Landscape communicates scale and success — wider frame feels more expansive" }
+    "T8_aspirational_self": { "strongest": "1920x1080", "reason": "Landscape communicates scale and success — wider frame feels more expansive" },
+    "T9_hidden_cost": { "strongest": "1080x1080", "reason": "Receipt/statement format reads best in square — clinical, spreadsheet-like, no wasted space" },
+    "T10_value_unlocked": { "strongest": "1080x1920", "reason": "Day-in-the-life narrative benefits from vertical scroll rhythm — top to bottom like a story unfolding" },
+    "T11_artifact_native": { "strongest": "1080x1080", "reason": "Square matches the native aspect ratio of the artifacts it mimics — Google reviews, WhatsApp screenshots, job posts, receipts. 9:16 also strong for SMS/chat-style. Avoid 16:9 — artifacts rarely appear in wide format in the wild." },
+    "T12_milestone_math": { "strongest": "1080x1080", "reason": "Numbers + milestone copy need breathing room; square allows vertical stacking of the milestone anchor + the math line without cramping either." }
   }
 }

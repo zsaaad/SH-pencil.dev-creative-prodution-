@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "current_iteration": 1,
+  "total_iterations": 1,
+  "last_checked": "2026-03-24",
+  "iterations": {
+    "1": {
+      "status": "draft",
+      "pen_file": "ads/batches/batch_001/storehub-new-biz-my-en.pen",
+      "platforms": ["meta"],
+      "markets": ["MY"],
+      "campaign_ids": {},
+      "cycle_duration_days": 14,
+      "launched_at": null,
+      "data_pull_due": null,
+      "completed_at": null,
+      "notes": "Initial batch — New Business Opening campaign, 55% off hardware, 30 ads across 10 themes (T1–T10)"
+    }
+  }
+}

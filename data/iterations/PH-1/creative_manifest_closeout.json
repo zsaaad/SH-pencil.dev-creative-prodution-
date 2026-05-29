@@ -1,0 +1,45 @@
+{
+  "_purpose": "Close-out patch to be merged into creative_manifest.json. Contains the final phase update, ad_copy_path, and exports reference. Kept as a separate file because the main manifest exceeds the in-conversation read budget for a full surgical rewrite — but every field below can be merged top-level into creative_manifest.json verbatim.",
+  "iteration": "PH-1",
+  "phase": "complete",
+  "phase_status": "production_complete",
+  "ad_copy_path": "/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/PH-batch_001/ad-copy.md",
+  "exports_path": "/Users/zaidsaad/Desktop/Code/Pencil.dev/data/iterations/PH-1/exports.json",
+  "exports_summary": {
+    "total_variants": 96,
+    "exported_count": 0,
+    "failed_count": 96,
+    "export_failure_reason": "mcp__pencil__export_nodes tool not available in this Pencil MCP build. Available pencil tools observed: get_editor_state, open_document, get_guidelines, batch_get, batch_design, snapshot_layout, get_screenshot, find_empty_space_on_canvas, get_variables, set_variables. PNG export must be performed manually from the .pen file via the Pencil.dev desktop app (File > Export per frame), or through a future MCP build that exposes export_nodes.",
+    "naming_convention": "S1_PH_EN_Batch1_[theme_short]_[concept_name]_[format]_nootp.png",
+    "export_dir": "/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/PH-batch_001/",
+    "filenames_per_variant": "see exports.json for the full 96-row mapping of variant_id → png_filename → node_id"
+  },
+  "finalisation_decisions": [
+    "2026-04-28 finalise — wrote ad-copy.md (32 concepts, 96 frames covered, 376 lines). All 32 concepts have Primary Text, Headline, Description per Meta Ad Copy structure mirroring the MY Batch 2 reference.",
+    "2026-04-28 finalise — wrote exports.json with 96 variant_id → png_filename mappings using naming convention S1_PH_EN_Batch1_[theme_short]_[concept_name]_[format]_nootp.png.",
+    "2026-04-28 finalise — PNG export deferred: mcp__pencil__export_nodes tool unavailable in this MCP build. Media buyer must export PNGs manually from Pencil.dev desktop app (File > Export per frame) or wait for MCP update."
+  ],
+  "pre_launch_gates_for_media_buyer": [
+    "C_005 jobstreet-ph (3 frames: s80qA, 0HpDV, 5mtb4) — generic Job Listings chrome only, no JobStreet IP. Legal IP review pre-launch.",
+    "C_007 viber-chat (3 frames: kBfsp, tbSoV, Hr9mE) — generic chat UI with Viber purple #7360F2 only, no Viber logo. $5–10 Meta preflight before scaling (deceptive content review).",
+    "C_008 bir-form (3 frames: mQO3d, lvcru, uhSPZ) — BIR accreditation must be confirmed before shipping.",
+    "C_013 / C_021 / C_022 / C_023 / C_024 (15 frames: XHsid, G5dH1, bgLsX, kJi0M, XKMWW, IlXFv, wK5Ni, QW3Vt, 3CiNc, SS34S, da8Bn, K24gC, pnggi, JRdY4, usIR7) — finance figures must be approved by finance team. Specific numbers to verify: GrabFood ₱478,200/yr, FoodPanda ₱182,400/yr, manual reports ₱36,000/yr, stock write-offs ₱22,000/yr, StoreHub PH ₱22,680/yr (12 months), 90-day cost ₱5,670, monthly bleeding ₱66,300, GCash receipt March 2026 figures.",
+    "C_029 logo-wall (3 frames: 6nGSx, PhyqD, JFItz) — generic placeholder logos used. logo_permissions_pending=true preserved on all 3 entries. Replace with real merchant logos only after written use-permissions are obtained.",
+    "C_031 outcome-card (3 frames: Nzysr, 7ymQl, iaB3d) — anonymised to 'PH F&B chain' (no Binq PH name). merchant_anonymised=true preserved. No further sign-off required.",
+    "ALL VARIANTS — verify '₱63/day' pricing claim against the live PH pricing page before launch (pricing_claim_unverified_against_live_page=true on parent manifest)."
+  ],
+  "batch_artefacts_ready_for_media_buyer": [
+    "/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/SH PH ads batch 1.pen — Pencil.dev document with all 96 frames (QA-verified)",
+    "/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/PH-batch_001/ad-copy.md — Meta ad copy per concept",
+    "/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/PH-batch_001/production_prompt.md — original brief",
+    "/Users/zaidsaad/Desktop/Code/Pencil.dev/data/iterations/PH-1/creative_manifest.json — full QA-verified manifest with 96 variants",
+    "/Users/zaidsaad/Desktop/Code/Pencil.dev/data/iterations/PH-1/exports.json — 96 PNG filename mappings",
+    "/Users/zaidsaad/Desktop/Code/Pencil.dev/data/iterations/PH-1/creative_manifest_closeout.json — this file (final state + pre-launch gates)"
+  ],
+  "outstanding_work": [
+    "PNG export of 96 frames into /Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/PH-batch_001/ — must be done manually from Pencil.dev desktop app until MCP gains export_nodes capability.",
+    "Pre-launch gates above must be cleared before any frame ships (legal IP review for C_005/C_007, BIR accreditation for C_008, finance approval for C_013/C_021–C_024, logo permissions for C_029, pricing-page verification for all)."
+  ],
+  "created_at": "2026-04-28T00:00:00Z",
+  "last_updated_at": "2026-04-28T00:00:00Z"
+}

@@ -1,0 +1,225 @@
+{
+  "iteration": 3,
+  "pen_file": "ads/iteration_3.pen",
+  "status": "BLOCKED — Pencil.dev MCP tools not available in this session",
+  "blocker_detail": "This agent session was invoked without the mcp__pencil__* toolset (open_document, batch_design, G, get_screenshot, find_empty_space_on_canvas, get_guidelines, get_style_guide). Only Read and Write are available. Cannot produce the .pen file, generate AI imagery, run the 9-point QA gate on rendered frames, or export PNGs. Surfacing instead of fabricating outputs.",
+  "safe_count_planned": 6,
+  "wildcard_count_planned": 6,
+  "total_frames_planned": 36,
+  "total_frames_created": 0,
+  "created_at": "2026-05-28T00:00:00Z",
+  "control_ad_to_beat": "S1_EN_Batch 1_competitive contrast - job post_nootp",
+  "control_benchmarks": {
+    "cpsql_rm": 358.92,
+    "sql_pct": 28.6,
+    "cpl_rm": 89.73
+  },
+  "deliverables_completed_in_this_session": [
+    {
+      "path": "ads/batches/batch_003/ad-copy.md",
+      "status": "complete",
+      "note": "Meta upload-ready copy for all 12 concepts. Primary Text (short + long), Headline, Description per concept. Includes media-buyer launch notes mapped to gates G1-G5."
+    },
+    {
+      "path": "data/iterations/3/creative_manifest.json",
+      "status": "complete (scaffold)",
+      "note": "This file. Carries the planned frame list and blocker state so the next agent session (with Pencil MCP wired) can resume cleanly."
+    }
+  ],
+  "deliverables_blocked": [
+    {
+      "path": "ads/iteration_3.pen",
+      "blocker": "Requires Pencil.dev MCP open_document + batch_design + G + get_screenshot tools."
+    },
+    {
+      "path": "ads/batches/batch_003/*.png (36 files)",
+      "blocker": "Requires Pencil.dev export pipeline (or post-export via scripts/export_pen.py once the .pen exists)."
+    }
+  ],
+  "resume_instructions_for_next_session": [
+    "1. Re-invoke this agent with Pencil.dev MCP tools wired (the mcp__pencil__* set).",
+    "2. Read /Users/zaidsaad/Desktop/Code/Pencil.dev/data/iterations/3/PENCIL_BRIEF.md §11 (=== BEGIN PROMPT === to === END PROMPT ===).",
+    "3. Iterate the 12 frames_planned[] entries below in order. Use the canonical specs from data/iterations/3/experiment_plan.json (hook_visual, headline, sub_headline, body_or_bullets) verbatim.",
+    "4. Run the 9-point QA gate on each frame before advancing.",
+    "5. Update this manifest in place — flip status to 'created' per frame, fill node_id + export_path + qa_checks, and increment total_frames_created.",
+    "6. After all 36 frames pass QA, export PNGs to ads/batches/batch_003/ using the §4 naming convention.",
+    "7. ad-copy.md is already complete — do not re-write."
+  ],
+  "frames_planned": [
+    {
+      "concept_id": "C_001",
+      "name": "artifact-receipt-hidden-cost",
+      "theme_id": "T11",
+      "secondary_theme": "T9",
+      "creative_type": "safe",
+      "wildcard_category": null,
+      "gates_blocking": ["G4"],
+      "frames": [
+        { "frame_name": "C_001 | T11 | artifact-receipt-hidden-cost | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_001_artifact-receipt-hidden-cost_1x1.png", "status": "planned" },
+        { "frame_name": "C_001 | T11 | artifact-receipt-hidden-cost | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_001_artifact-receipt-hidden-cost_16x9.png", "status": "planned" },
+        { "frame_name": "C_001 | T11 | artifact-receipt-hidden-cost | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_001_artifact-receipt-hidden-cost_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_002",
+      "name": "artifact-whatsapp-1am-boss",
+      "theme_id": "T11",
+      "secondary_theme": null,
+      "creative_type": "safe",
+      "wildcard_category": null,
+      "gates_blocking": [],
+      "per_concept_qa": "WhatsApp UI realism — fonts, bubble shape, timestamp format, read receipts, group avatar all native-accurate at 2-sec glance. No WhatsApp logo — neutral chat icon.",
+      "frames": [
+        { "frame_name": "C_002 | T11 | artifact-whatsapp-1am-boss | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_002_artifact-whatsapp-1am-boss_1x1.png", "status": "planned" },
+        { "frame_name": "C_002 | T11 | artifact-whatsapp-1am-boss | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_002_artifact-whatsapp-1am-boss_16x9.png", "status": "planned" },
+        { "frame_name": "C_002 | T11 | artifact-whatsapp-1am-boss | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_002_artifact-whatsapp-1am-boss_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_003",
+      "name": "artifact-google-review-binq",
+      "theme_id": "T11",
+      "secondary_theme": "T6",
+      "creative_type": "safe",
+      "wildcard_category": null,
+      "gates_blocking": [],
+      "per_concept_qa": "Google review chrome realism — star colour, profile placement, verified badge, owner-response styling. Avoid Google logo/wordmark. Binq Dessert testimonial release must cover paid Meta usage.",
+      "frames": [
+        { "frame_name": "C_003 | T11 | artifact-google-review-binq | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_003_artifact-google-review-binq_1x1.png", "status": "planned" },
+        { "frame_name": "C_003 | T11 | artifact-google-review-binq | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_003_artifact-google-review-binq_16x9.png", "status": "planned" },
+        { "frame_name": "C_003 | T11 | artifact-google-review-binq | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_003_artifact-google-review-binq_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_004",
+      "name": "milestone-opening-week-itemised",
+      "theme_id": "T12",
+      "secondary_theme": null,
+      "creative_type": "safe",
+      "wildcard_category": null,
+      "gates_blocking": ["G2"],
+      "frames": [
+        { "frame_name": "C_004 | T12 | milestone-opening-week-itemised | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_004_milestone-opening-week-itemised_1x1.png", "status": "planned" },
+        { "frame_name": "C_004 | T12 | milestone-opening-week-itemised | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_004_milestone-opening-week-itemised_16x9.png", "status": "planned" },
+        { "frame_name": "C_004 | T12 | milestone-opening-week-itemised | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_004_milestone-opening-week-itemised_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_005",
+      "name": "milestone-year2-time-math",
+      "theme_id": "T12",
+      "secondary_theme": null,
+      "creative_type": "safe",
+      "wildcard_category": null,
+      "gates_blocking": ["G2", "G3"],
+      "frames": [
+        { "frame_name": "C_005 | T12 | milestone-year2-time-math | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_005_milestone-year2-time-math_1x1.png", "status": "planned" },
+        { "frame_name": "C_005 | T12 | milestone-year2-time-math | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_005_milestone-year2-time-math_16x9.png", "status": "planned" },
+        { "frame_name": "C_005 | T12 | milestone-year2-time-math | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_005_milestone-year2-time-math_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_006",
+      "name": "cultural-mamak-night",
+      "theme_id": "T7",
+      "secondary_theme": null,
+      "creative_type": "safe",
+      "wildcard_category": null,
+      "gates_blocking": ["G1", "G2"],
+      "frames": [
+        { "frame_name": "C_006 | T7 | cultural-mamak-night | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_006_cultural-mamak-night_1x1.png", "status": "planned" },
+        { "frame_name": "C_006 | T7 | cultural-mamak-night | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_006_cultural-mamak-night_16x9.png", "status": "planned" },
+        { "frame_name": "C_006 | T7 | cultural-mamak-night | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_006_cultural-mamak-night_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_007",
+      "name": "artifact-lhdn-tax-form",
+      "theme_id": "T11",
+      "secondary_theme": null,
+      "creative_type": "wildcard",
+      "wildcard_category": "meme-native",
+      "gates_blocking": ["G5"],
+      "per_concept_qa": "LHDN form realism at 2-sec glance without being legally mistakable for a real document. Disclaimer microcopy 'illustrative — not a real LHDN document' present and legible bottom-right.",
+      "frames": [
+        { "frame_name": "C_007 | T11 | artifact-lhdn-tax-form | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_007_artifact-lhdn-tax-form_1x1.png", "status": "planned" },
+        { "frame_name": "C_007 | T11 | artifact-lhdn-tax-form | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_007_artifact-lhdn-tax-form_16x9.png", "status": "planned" },
+        { "frame_name": "C_007 | T11 | artifact-lhdn-tax-form | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_007_artifact-lhdn-tax-form_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_008",
+      "name": "absurd-nasi-lemak-pos-stack",
+      "theme_id": "T7",
+      "secondary_theme": null,
+      "creative_type": "wildcard",
+      "wildcard_category": "absurdist",
+      "gates_blocking": ["G1"],
+      "frames": [
+        { "frame_name": "C_008 | T7 | absurd-nasi-lemak-pos-stack | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_008_absurd-nasi-lemak-pos-stack_1x1.png", "status": "planned" },
+        { "frame_name": "C_008 | T7 | absurd-nasi-lemak-pos-stack | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_008_absurd-nasi-lemak-pos-stack_16x9.png", "status": "planned" },
+        { "frame_name": "C_008 | T7 | absurd-nasi-lemak-pos-stack | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_008_absurd-nasi-lemak-pos-stack_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_009",
+      "name": "metaphor-coin-stack-leaking",
+      "theme_id": "T9",
+      "secondary_theme": null,
+      "creative_type": "wildcard",
+      "wildcard_category": "metaphor",
+      "gates_blocking": ["G4"],
+      "frames": [
+        { "frame_name": "C_009 | T9 | metaphor-coin-stack-leaking | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_009_metaphor-coin-stack-leaking_1x1.png", "status": "planned" },
+        { "frame_name": "C_009 | T9 | metaphor-coin-stack-leaking | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_009_metaphor-coin-stack-leaking_16x9.png", "status": "planned" },
+        { "frame_name": "C_009 | T9 | metaphor-coin-stack-leaking | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_009_metaphor-coin-stack-leaking_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_010",
+      "name": "gutpunch-2am-empty-stall",
+      "theme_id": "T11",
+      "secondary_theme": "T1",
+      "creative_type": "wildcard",
+      "wildcard_category": "gut-punch",
+      "gates_blocking": [],
+      "video_pacing": true,
+      "static_first_note": "Produce statics for all 3 dimensions. 9x16 static must visually justify the headline without the video reveal — 2-sec readability test required. Reel version is Batch 3.1 (Veo 3 / Mosaic) — does not block static launch.",
+      "frames": [
+        { "frame_name": "C_010 | T11×T1 | gutpunch-2am-empty-stall | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_010_gutpunch-2am-empty-stall_1x1.png", "status": "planned" },
+        { "frame_name": "C_010 | T11×T1 | gutpunch-2am-empty-stall | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_010_gutpunch-2am-empty-stall_16x9.png", "status": "planned" },
+        { "frame_name": "C_010 | T11×T1 | gutpunch-2am-empty-stall | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_010_gutpunch-2am-empty-stall_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_011",
+      "name": "artifact-jobpost-impossible-human",
+      "theme_id": "T11",
+      "secondary_theme": null,
+      "creative_type": "wildcard",
+      "wildcard_category": "absurdist",
+      "gates_blocking": [],
+      "frames": [
+        { "frame_name": "C_011 | T11 | artifact-jobpost-impossible-human | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_011_artifact-jobpost-impossible-human_1x1.png", "status": "planned" },
+        { "frame_name": "C_011 | T11 | artifact-jobpost-impossible-human | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_011_artifact-jobpost-impossible-human_16x9.png", "status": "planned" },
+        { "frame_name": "C_011 | T11 | artifact-jobpost-impossible-human | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_011_artifact-jobpost-impossible-human_9x16.png", "status": "planned" }
+      ]
+    },
+    {
+      "concept_id": "C_012",
+      "name": "entertainment-90day-survival-clock",
+      "theme_id": "T12",
+      "secondary_theme": null,
+      "creative_type": "wildcard",
+      "wildcard_category": "entertainment-first",
+      "gates_blocking": [],
+      "video_pacing": true,
+      "static_first_note": "Statics for all 3 dimensions. The 9x16 static must do the headline work without the clock-tick reveal — 2-sec test required. Reel version is Batch 3.1.",
+      "frames": [
+        { "frame_name": "C_012 | T12 | entertainment-90day-survival-clock | 1x1", "dimensions": "1080x1080", "export_path": "ads/batches/batch_003/C_012_entertainment-90day-survival-clock_1x1.png", "status": "planned" },
+        { "frame_name": "C_012 | T12 | entertainment-90day-survival-clock | 16x9", "dimensions": "1920x1080", "export_path": "ads/batches/batch_003/C_012_entertainment-90day-survival-clock_16x9.png", "status": "planned" },
+        { "frame_name": "C_012 | T12 | entertainment-90day-survival-clock | 9x16", "dimensions": "1080x1920", "export_path": "ads/batches/batch_003/C_012_entertainment-90day-survival-clock_9x16.png", "status": "planned" }
+      ]
+    }
+  ]
+}

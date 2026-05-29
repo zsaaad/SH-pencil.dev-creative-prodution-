@@ -5,7 +5,7 @@
 
 ## 1. Who StoreHub Is
 
-StoreHub is a Malaysian-founded, all-in-one cloud-based business platform built for retailers and restaurants across Southeast Asia. Launched in 2013, it now serves **17,000+ retail and F&B outlets** across Malaysia, Thailand, Philippines, and beyond.
+StoreHub is a Malaysian-founded, all-in-one cloud-based business platform built for retailers and restaurants across Southeast Asia. Launched in 2013, it now serves **20,000+ retail and F&B outlets** across Malaysia, Thailand, Philippines, and beyond.
 
 The mission is not just to build good software — it's to **democratise technology for every business, big or small**, including those who have traditionally been priced out of the technology race. StoreHub believes that in a fast-changing world, technology is not a luxury — it's what separates businesses that survive from businesses that grow.
 
@@ -287,7 +287,7 @@ StoreHub ads are written for real business owners — not generic entrepreneurs.
 
 ## 12. Social Proof Anchors
 
-- **17,000+ merchants** across Southeast Asia
+- **20,000+ merchants** across Southeast Asia
 - Operating in Malaysia, Thailand, Philippines
 - Trusted by restaurants, cafes, hawkers, retail stores, multi-location chains
 - Real merchant stories via "Behind The Counter" (BTC) podcast series
@@ -357,7 +357,7 @@ No humour. Pure raw truth. A quiet, unadorned moment that lands because it's rea
 **Examples:**
 - A merchant alone in their empty restaurant at 2am doing paperwork. No music. No VO. Just the sound of a calculator clicking. Text appears: "You didn't open a restaurant to do this." — "StoreHub. Book a free demo."
 - Slow-motion shot of a child knocking on a closed restaurant door — their parent inside, head down, managing stock. "The business was always the priority. Until StoreHub made it easier to choose both."
-- Time-lapse of a restaurant from empty to full to empty again — the owner visible the entire time, never leaving. "17,000 merchants finally got their time back."
+- Time-lapse of a restaurant from empty to full to empty again — the owner visible the entire time, never leaving. "20,000 merchants finally got their time back."
 
 #### Category 5 — Product as Hero (Unexpected POV)
 The POS system or feature becomes a character. Shot from an unusual perspective.
@@ -387,7 +387,7 @@ A wildcard that wins on both = **promote to core rotation**
 A wildcard that wins scroll-stop only = **iterate the concept with stronger offer**
 A wildcard that wins neither = **retire and document why**
 
-- **17,000+ merchants** across Southeast Asia
+- **20,000+ merchants** across Southeast Asia
 - Operating in Malaysia, Thailand, Philippines
 - Trusted by restaurants, cafes, hawkers, retail stores, multi-location chains
 - Real merchant stories via "Behind The Counter" (BTC) podcast series

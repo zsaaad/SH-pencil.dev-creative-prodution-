@@ -7,8 +7,8 @@
     "mission": "Make technology available for everyone — big or small — enabling all businesses to grow successfully and sustainably.",
     "tagline": "More Than Just a POS System",
     "markets": ["Malaysia", "Philippines", "Thailand"],
-    "merchant_count": "17,000+",
-    "merchant_count_display": "17,000+ retail and restaurant outlets across Southeast Asia",
+    "merchant_count": "20,000+",
+    "merchant_count_display": "20,000+ retail and restaurant outlets across Southeast Asia",
     "founded": "2013",
     "headquarters": "Malaysia"
   },
@@ -18,7 +18,7 @@
       "id": "pos",
       "name": "StoreHub POS",
       "category": "Point of Sale System",
-      "price": "From RM102/month (billed annually) — as low as RM3.40/day",
+      "price": "From RM3,960/year (Malaysia) · From ₱49,900/year (Philippines)",
       "price_model": "subscription",
       "short_description": "All-in-one POS system for restaurants and retail stores",
       "long_description": "StoreHub POS is the core product — a tablet-based point-of-sale system that manages orders, payments, and inventory. Designed for F&B and retail businesses with no training required.",
@@ -36,14 +36,14 @@
         "Can't see business performance in real time"
       ],
       "social_proof": {
-        "merchant_count": "17,000+",
+        "merchant_count": "20,000+",
         "regions": "Malaysia, Philippines, Thailand",
         "key_testimonial": "FILL IN — pull from 'Behind The Counter' merchant stories",
         "proof_type": "Real merchant stories via BTC video series"
       },
       "pricing_by_market": {
-        "MY": { "monthly": "From RM102/month (billed annually)", "daily": "As low as RM3.40/day" },
-        "PH": { "daily": "As low as ₱63.00/day", "social_proof_count": "3,350+ local businesses" },
+        "MY": { "yearly": "From RM3,960/year", "anchor_format": "/year (always — never use /day or /month in copy)" },
+        "PH": { "yearly": "From ₱49,900/year", "anchor_format": "/year (always — never use /day or /month in copy)", "social_proof_count": "3,350+ local businesses" },
         "TH": { "discount": "Up to 55% off hardware" }
       },
       "active_offers": [

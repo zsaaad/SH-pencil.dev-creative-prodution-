@@ -64,16 +64,40 @@ python3 scripts/import_results.py path/to/tiktok_export.csv --platform tiktok
 ## 4. The loop
 
 ```
-[config] → Analyse → Strategy → Create in Pencil.dev → Export ads → Launch on platform
-                                                                           ↓
-[next iteration] ← Analyse results ← Import results CSV ← Wait 7+ days ←┘
+[1] CREATE ads in Pencil.dev → save to ads/batches/batch_NNN/
+      ↓
+[2] EXPORT + LAUNCH on Meta — mark launched:
+      python3 scripts/cycle_check.py --mark-launched
+      ↓
+[3] WAIT ~14 days (cron fires automatically)
+      ↓
+[4] ANALYSE — pull from BigQuery, classify winners/losers, find patterns
+      ↓
+[5] STRATEGY — generate hypotheses + creative briefs for next batch
+      ↓
+[repeat from 1 — each cycle feeds the next]
 ```
 
-Each iteration, the `data/knowledge_base.json` grows with proven patterns, so every cycle gets smarter.
+Each iteration, `data/knowledge_base.json` grows with proven patterns, so every cycle gets smarter.
 
 ---
 
-## 5. What the agents do
+## 5. Batch folder structure
+
+Drop each batch of Pencil.dev `.pen` files here:
+
+```
+ads/batches/
+  batch_001/   ← current batch
+  batch_002/   ← next batch (created after results come in)
+  ...
+```
+
+Name convention: `batch_NNN` matches `data/iterations/iter_NNN/`
+
+---
+
+## 6. What the agents do
 
 | Agent | What it does |
 |-------|-------------|

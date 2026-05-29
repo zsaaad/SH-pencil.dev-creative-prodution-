@@ -2,7 +2,7 @@
 """
 Ad Results Importer — normalizes ad platform CSV exports into pipeline format.
 
-Supports: Meta Ads Manager, Google Ads, TikTok Ads Manager, LinkedIn Campaign Manager
+Supports: Meta Ads Manager, Google Ads, LinkedIn Campaign Manager
 """
 
 import csv
@@ -22,7 +22,7 @@ PLATFORM_COLUMN_MAPS = {
         "ad_name": ["Ad name", "Ad Name"],
         "impressions": ["Impressions"],
         "clicks": ["Link clicks", "Clicks (all)"],
-        "spend": ["Amount spent (USD)", "Amount spent"],
+        "spend": ["Amount spent (MYR)", "Amount spent (USD)", "Amount spent"],
         "ctr": ["CTR (link click-through rate)", "CTR (all)"],
         "cpc": ["CPC (cost per link click)", "CPC (all)"],
         "conversions": ["Purchases", "Results", "Leads"],
@@ -43,25 +43,12 @@ PLATFORM_COLUMN_MAPS = {
         "cpa": ["Cost / conv."],
         "roas": ["Conv. value / cost"],
     },
-    "tiktok": {
-        "ad_id": ["Ad ID"],
-        "ad_name": ["Ad Name"],
-        "impressions": ["Impressions"],
-        "clicks": ["Clicks"],
-        "spend": ["Cost"],
-        "ctr": ["CTR"],
-        "cpc": ["CPC"],
-        "conversions": ["Conversions", "Complete Payment"],
-        "revenue": ["Total Purchase Value"],
-        "cpa": ["Cost Per Conversion"],
-        "roas": ["ROAS"],
-    },
     "linkedin": {
         "ad_id": ["Creative ID", "Ad ID"],
         "ad_name": ["Creative name", "Ad name"],
         "impressions": ["Impressions"],
         "clicks": ["Clicks"],
-        "spend": ["Amount Spent (USD)", "Cost"],
+        "spend": ["Amount Spent (MYR)", "Amount Spent (USD)", "Cost"],
         "ctr": ["CTR"],
         "cpc": ["Avg. CPC"],
         "conversions": ["Conversions", "Leads"],
@@ -78,8 +65,6 @@ def detect_platform(headers: list[str]) -> str:
         return "meta"
     elif "impr." in header_str or "avg. cpc" in header_str:
         return "google"
-    elif "complete payment" in header_str or "tiktok" in header_str:
-        return "tiktok"
     elif "creative id" in header_str or "linkedin" in header_str:
         return "linkedin"
     return "unknown"
@@ -94,10 +79,10 @@ def get_col(row: dict, candidates: list[str]) -> str:
 
 
 def parse_number(val: str) -> float:
-    """Parse a numeric string, handling $, %, commas."""
+    """Parse a numeric string, handling RM, $, %, commas."""
     if not val:
         return 0.0
-    cleaned = val.replace("$", "").replace(",", "").replace("%", "").strip()
+    cleaned = val.replace("RM", "").replace("$", "").replace(",", "").replace("%", "").strip()
     try:
         return float(cleaned)
     except ValueError:
@@ -188,7 +173,7 @@ def import_csv(file_path: str, platform: str = None, output_dir: str = None) -> 
 def main():
     parser = argparse.ArgumentParser(description="Import ad platform CSV exports")
     parser.add_argument("file", help="Path to CSV file from ad platform")
-    parser.add_argument("--platform", choices=["meta", "google", "tiktok", "linkedin", "auto"],
+    parser.add_argument("--platform", choices=["meta", "google", "linkedin", "auto"],
                         default="auto", help="Ad platform (default: auto-detect)")
     parser.add_argument("--output", type=str, default=None,
                         help="Output directory (default: data/ad_performance)")

@@ -243,11 +243,6 @@
                       "id": "2qQ08",
                       "name": "oldPrice",
                       "fill": "#2f292288",
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "#000000ff"
-                      },
                       "content": "RM 8,800",
                       "fontFamily": "Barlow",
                       "fontSize": 28,
