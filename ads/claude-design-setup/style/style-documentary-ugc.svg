@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><rect width="600" height="600" fill="#2f2922"/>
+<rect x="188" y="64" width="224" height="472" rx="34" fill="#14110e" stroke="#ff9419" stroke-width="4"/>
+<rect x="203" y="86" width="194" height="428" rx="20" fill="#4a3d30"/>
+<circle cx="300" cy="290" r="50" fill="#faf7f2"/><path d="M214 470 a86 80 0 0 1 172 0 z" fill="#faf7f2"/>
+<circle cx="234" cy="118" r="9" fill="#ff9419"/><text x="250" y="124" font-family="Arial" font-weight="700" font-size="17" fill="#faf7f2">REC</text>
+<rect x="220" y="476" width="160" height="22" rx="11" fill="#ff9419" opacity=".9"/></svg>

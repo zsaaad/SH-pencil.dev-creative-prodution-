@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><rect width="600" height="600" fill="#2f2922"/>
+<rect x="64" y="200" width="200" height="210" rx="18" fill="#c9c4bd"/>
+<rect x="92" y="232" width="120" height="14" rx="7" fill="#8a8378"/><rect x="92" y="262" width="144" height="12" rx="6" fill="#a9a298"/><rect x="92" y="288" width="100" height="12" rx="6" fill="#a9a298"/>
+<rect x="336" y="178" width="216" height="254" rx="18" fill="#ff9419"/>
+<rect x="366" y="214" width="130" height="16" rx="8" fill="#2f2922"/><rect x="366" y="248" width="156" height="13" rx="6" fill="#2f2922" opacity=".6"/><rect x="366" y="276" width="112" height="13" rx="6" fill="#2f2922" opacity=".6"/>
+<circle cx="300" cy="305" r="38" fill="#faf7f2"/><text x="300" y="318" font-family="Arial" font-weight="800" font-size="30" fill="#2f2922" text-anchor="middle">vs</text></svg>

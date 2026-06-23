@@ -1,0 +1,102 @@
+{
+  "schema": "shgrid.briefs.v1",
+  "market": "MY",
+  "note": "Sample enrichment — one full theme (CR-01) to eyeball the drawer/manifest/Lark wiring before the 600-unit run. Authored fields only; derived art-direction stays runtime-computed.",
+  "units": {
+    "CR-01.A1": {
+      "forLabel": "The cash tin reveal",
+      "scrollStopper": "Top-down macro of an open metal cash tin crammed with crumpled order chits, one RM50 note caught mid-fall; blurred dinner-queue bokeh behind.",
+      "scrollStopperType": "number-shock + pattern-break",
+      "openLoop": "Tin looks full — so why don't the takings match?",
+      "valuePropReveal": { "what": "POS + Reporting & Analytics logs every sale the second it happens", "when": "end-card" },
+      "heroProp": "open metal cash tin overflowing with paper chits",
+      "nativeFeel": "ugc-raw",
+      "cropAnchor": "the cash tin",
+      "backgroundTreatment": "photo",
+      "onFrameText": [
+        { "role": "subhead", "lang": "EN", "text": "Full house all day." },
+        { "role": "headline", "lang": "EN", "text": "Half these orders never hit the till.", "emphasis": ["never hit the till"] }
+      ],
+      "lever": { "hypothesis": "visualized loss (the overflowing tin) beats merely stated loss for thumbstop", "primaryMetric": "3-sec view-rate", "comparesAgainst": "CR-01.A2 (text-led split)" }
+    },
+    "CR-01.A2": {
+      "forLabel": "Chits vs the till",
+      "scrollStopper": "Hard 1:1 split — left half a fist of paper chits stamped RM3,200, right half a near-empty cash tin stamped RM2,650, the RM550 gap glowing orange down the seam.",
+      "scrollStopperType": "number-shock",
+      "openLoop": "Same day, two totals — where did RM550 go?",
+      "valuePropReveal": { "what": "POS rings every order so chits and takings reconcile to the cent", "when": "after-loop" },
+      "heroProp": "stack of paper chits vs cash tin",
+      "nativeFeel": "editorial",
+      "cropAnchor": "the split centre seam",
+      "backgroundTreatment": "photo",
+      "onFrameText": [
+        { "role": "left-label", "lang": "EN", "text": "Chits say RM3,200" },
+        { "role": "right-label", "lang": "EN", "text": "Till says RM2,650" },
+        { "role": "headline", "lang": "EN", "text": "Where's the rest?", "emphasis": ["the rest"] }
+      ],
+      "lever": { "hypothesis": "an explicit before/after gap converts better than implied loss", "primaryMetric": "CTR", "comparesAgainst": "CR-01.A1" }
+    },
+    "CR-01.A3": {
+      "forLabel": "Staff says it out loud",
+      "scrollStopper": "Selfie-framed kitchen staffer leaning into the lens mid-shift, voice lowered, glancing off-camera toward the boss — confessional energy.",
+      "scrollStopperType": "face / eye-contact + taboo-line",
+      "openLoop": "Why is the staff the one telling you this?",
+      "valuePropReveal": { "what": "QR Order & Pay + POS capture every order automatically — nothing rides on memory", "when": "frame-1 caption" },
+      "heroProp": "none — talking head",
+      "nativeFeel": "ugc-raw",
+      "cropAnchor": "subject-face",
+      "backgroundTreatment": "photo",
+      "onFrameText": [
+        { "role": "caption", "lang": "EN", "text": "Boss — half these orders never went into the system.", "emphasis": ["never went into the system"] }
+      ],
+      "lever": { "hypothesis": "a staff confession (others-perspective) out-stops owner-POV for a cold owner", "primaryMetric": "3-sec view-rate", "comparesAgainst": "CR-01.A1" }
+    },
+    "CR-01.A4": {
+      "forLabel": "Untracked sales gap",
+      "scrollStopper": "Live tally counter on a dark frame races to 240 PLATES SERVED, a second counter stalls at 180 RECORDED, the 60-plate gap flashing orange between them.",
+      "scrollStopperType": "number-shock",
+      "openLoop": "You served 240 — the system saw 180. Where did 60 go?",
+      "valuePropReveal": { "what": "Reporting & Analytics records every sale, so served = recorded", "when": "end-card" },
+      "heroProp": "on-screen tally counters",
+      "nativeFeel": "branded-poster",
+      "cropAnchor": "the counters",
+      "backgroundTreatment": "solid",
+      "onFrameText": [
+        { "role": "headline", "lang": "EN", "text": "240 plates out. 180 in the system.", "emphasis": ["180"] },
+        { "role": "subhead", "lang": "EN", "text": "Where'd 60 go?" }
+      ],
+      "lever": { "hypothesis": "sharpened number-gap hook beats the generic 'profit you can't keep' line", "primaryMetric": "CTR", "comparesAgainst": "baseline (original A4 hook)" }
+    },
+    "CR-01.A5": {
+      "forLabel": "Owner stares at the tin",
+      "scrollStopper": "Slow cinematic push on a tired kopitiam owner at close, lit by a single warm pendant, staring into an almost-empty cash tin after a packed day.",
+      "scrollStopperType": "face + pattern-break (calm after chaos)",
+      "openLoop": "Busiest day of the week — so why is the tin nearly empty?",
+      "valuePropReveal": { "what": "POS + Reporting & Analytics shows exactly where the day's money went", "when": "end-card" },
+      "heroProp": "nearly-empty cash tin under warm pendant light",
+      "nativeFeel": "editorial",
+      "cropAnchor": "subject-face then tin",
+      "backgroundTreatment": "photo",
+      "sceneDetail": "after-close kopitiam, chairs up on two tables, warm tungsten key from one pendant, steam off a last kopi; SEA owner 40s, apron still on.",
+      "lightingNote": "single warm pendant key, deep falloff, no fill — money-anxiety mood, never clinical.",
+      "onFrameText": [
+        { "role": "line1", "lang": "EN", "text": "Busy all day." },
+        { "role": "line2", "lang": "EN", "text": "Bank barely moved." },
+        { "role": "headline", "lang": "EN", "text": "Something's leaking.", "emphasis": ["leaking"] }
+      ],
+      "lever": { "hypothesis": "cinematic restraint can out-perform high-energy data for a calm-pain mindset", "primaryMetric": "3-sec view-rate", "comparesAgainst": "CR-01.A4" }
+    },
+    "CR-01.VID": {
+      "forLabel": "Chits Say 3,200. Tin Says 2,650.",
+      "firstFrameText": "RM3,200 IN CHITS",
+      "motionFirst": "a fat stack of paper chits SLAPS onto the counter, hand still in frame — hard impact on frame 1, no slow build.",
+      "soundHook": "the slap of paper on steel + a single coin spin; no music until the turn beat.",
+      "scrollStopper": "Chit stack slams the counter beside an empty cash tin; RM3,200 then RM2,650 stamp on screen.",
+      "scrollStopperType": "number-shock + motion",
+      "valuePropReveal": { "what": "POS + Reporting & Analytics — every sale rings itself, takings match to the cent", "when": "solution beat" },
+      "nativeFeel": "ugc-raw",
+      "sceneDetail": "kopitiam back-counter at close; real chits, real steel cash tin; numbers stamp in Barlow over the live footage.",
+      "lever": { "hypothesis": "an artifact-native receipt-tally hijack stops scroll better than a talking-head explainer", "primaryMetric": "ThruPlay%", "comparesAgainst": "CR-01.A3" }
+    }
+  }
+}

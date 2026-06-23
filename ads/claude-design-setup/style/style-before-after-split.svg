@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><rect width="300" height="600" fill="#39332b"/>
+<rect x="300" width="300" height="600" fill="#ff9419"/>
+<rect x="60" y="140" width="70" height="26" rx="4" fill="#6b645a" transform="rotate(30 95 153)"/><rect x="150" y="210" width="70" height="26" rx="4" fill="#6b645a" transform="rotate(-18 185 223)"/><rect x="80" y="300" width="70" height="26" rx="4" fill="#6b645a" transform="rotate(12 115 313)"/><rect x="180" y="360" width="70" height="26" rx="4" fill="#6b645a" transform="rotate(-25 215 373)"/><rect x="60" y="440" width="70" height="26" rx="4" fill="#6b645a" transform="rotate(20 95 453)"/><rect x="170" y="470" width="70" height="26" rx="4" fill="#6b645a" transform="rotate(8 205 483)"/>
+<rect x="380" y="235" width="150" height="130" rx="16" fill="#faf7f2"/>
+<rect x="402" y="262" width="106" height="14" rx="7" fill="#ff9419"/><rect x="402" y="290" width="80" height="12" rx="6" fill="#c9c4bd"/><rect x="402" y="314" width="92" height="12" rx="6" fill="#c9c4bd"/>
+<line x1="300" y1="0" x2="300" y2="600" stroke="#faf7f2" stroke-width="7"/>
+<circle cx="300" cy="300" r="34" fill="#2f2922"/><path d="M286 300 h26 M304 290 l12 10 l-12 10" stroke="#ff9419" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
