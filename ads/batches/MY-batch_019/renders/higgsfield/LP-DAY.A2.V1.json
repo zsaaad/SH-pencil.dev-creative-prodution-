@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-04T07:02:16.840255Z",
+    "display_name": "Nano Banana Pro",
+    "id": "aaca874a-f535-47d3-bf7d-a6715cd1fcf1",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/hf_20260804_070216_aaca874a-f535-47d3-bf7d-a6715cd1fcf1_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "37ec75d7-a091-4183-9790-4599acd9aaff",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/37ec75d7-a091-4183-9790-4599acd9aaff_resize.jpg"
+        }
+      ],
+      "prompt": "Vertical 9:16 paid-social ad, 1080x1920. Copy the reference image's exact text layout: the StoreHub wordmark in the top-right corner set comfortably below the very top edge; the white headline block sitting across the middle of the frame; a small cream sub-line beneath it; then a rounded bright orange #ff9419 pill button with near-black bold label and small light-grey price text to its right; and the lower quarter of the frame left as photograph only, completely free of text. Style: photographic documentary background, bold condensed sans-serif headline in white (Barlow Black style), soft dark gradient behind the lower text so it stays legible. Wordmark reads exactly StoreHub, Store in orange #ff9419 and Hub in white. TEXT ACCURACY IS CRITICAL: reproduce each quoted string word-for-word, never repeat or drop a word. Render ONLY the quoted strings — never render these layout instructions, never render any percentage figures, measurements, labels or annotations. No watermarks, no sparkle marks, no other logos. Currency always Malaysian ringgit written as RM, never a dollar sign. Southeast Asian (Malaysian) faces only, upmarket modern venue, warm natural light.\n\nSCENE: A Malaysian cafe owner sitting at a table away from the counter in his own modern bistro, relaxed, glancing at a phone showing a simple clean sales chart with RM amounts, staff serving at the counter in the soft-focus background, late golden afternoon light through big windows.\n\nHEADLINE (largest text, left aligned, 3 lines): \"See every trading hour without standing at the counter.\"\nSUB-LINE (small, cream): \"From open to close.\"\nPILL BUTTON LABEL (all caps): \"SCROLL THE DAY\"\nPRICE TEXT BESIDE PILL: \"From RM3.40/day\"",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/hf_20260804_070216_aaca874a-f535-47d3-bf7d-a6715cd1fcf1.png",
+    "status": "completed"
+  }
+]

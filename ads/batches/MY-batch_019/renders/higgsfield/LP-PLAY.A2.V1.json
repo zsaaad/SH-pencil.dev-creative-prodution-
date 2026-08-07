@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-04T06:53:13.802014Z",
+    "display_name": "Nano Banana Pro",
+    "id": "8df2b95d-a27a-4be3-bcce-110e462b8b90",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/hf_20260804_065313_8df2b95d-a27a-4be3-bcce-110e462b8b90_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "d51a9345-9a65-402f-8b34-f516c4aa7c22",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/d51a9345-9a65-402f-8b34-f516c4aa7c22.png"
+        }
+      ],
+      "prompt": "Vertical 9:16 paid-social ad, 1080x1920, matching the layout system of the reference image: photographic documentary background, big bold condensed sans-serif headline in white (Barlow Black style) over the middle of the frame, small cream sub-line under it, then a rounded pill button filled bright orange #ff9419 with near-black bold label, and small light-grey price text beside the pill. Top-right wordmark reads exactly StoreHub, with Store in orange #ff9419 and Hub in white. A soft dark gradient sits behind the lower text so it stays legible. TEXT ACCURACY IS CRITICAL: reproduce each quoted string word-for-word and letter-for-letter, do not repeat a word, do not drop a word, proofread the rendered headline against the quoted string before finishing. No extra text anywhere in the frame, no watermarks, no other logos, no brand names on cups or screens. Any currency shown on a screen or receipt must be Malaysian ringgit written as RM — never a dollar sign. Nothing important in the top 250px or the bottom 500px of the frame. Southeast Asian (Malaysian) faces only, upmarket modern venue, warm natural light, clean tidy counter.\n\nSCENE: Close documentary shot of a Malaysian barista in a clean apron tapping a tablet point-of-sale screen at a modern specialty cafe counter, a kitchen ticket printing beside it, warm light, sense of speed and ease. The tablet shows a simple clean generic order screen with prices in Malaysian ringgit written as RM, no readable brand.\n\nHEADLINE (largest text, left aligned, break onto 3 lines): \"Your new hire can run the counter on their first shift.\"\nSUB-LINE (small, cream): \"From first shift to full service.\"\nPILL BUTTON LABEL (all caps): \"RUN THE COUNTER\"\nPRICE TEXT BESIDE PILL: \"From RM3.40/day\"",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/hf_20260804_065313_8df2b95d-a27a-4be3-bcce-110e462b8b90.png",
+    "status": "completed"
+  }
+]

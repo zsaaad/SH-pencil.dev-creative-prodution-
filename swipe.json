@@ -1,6 +1,6 @@
 {
  "schema": "shgrid.swipe.v1",
- "note": "RECOMMENDED CREATIVE STYLE per concept. Each tile maps to one of 12 on-brand StoreHub style archetypes shown as a PHOTOREAL on-brand mockup (generated, Pan-Asian SEA F&B, no competitor imagery); the drawer gives the build direction. SVG sources kept in /style as backup.",
+ "note": "RECOMMENDED CREATIVE STYLE per concept (TOF bank v2, 40 concepts). Each tile maps to one of 12 on-brand StoreHub style archetypes shown as a photoreal mockup; drawer gives build direction. Rebuilt 2026-07-01.",
  "refs": {
   "big-number-stat": {
    "file": "ads/claude-design-setup/style/style-big-number-stat.png?v=photoreal1",
@@ -88,705 +88,285 @@
   }
  },
  "themes": {
-  "CR-01": {
+  "PAIN-01": {
    "ref": "cash-receipts-motif",
    "archetype": "Cash & Receipts Motif",
    "format": "static",
-   "why": "The mismatch IS the story — cash tin never equals takings — so the tin and chits are the literal hero of the leak.",
-   "steal": "Overhead of a battered kopitiam cash tin spilling coins and crumpled order chits on black #2f2922 marble, one orange #ff9419 chit flagged 'never rang up'; Pan-Asian kopitiam counter edge in frame, no brand logos."
+   "why": "A busy café closes and the whole night's takings sit as a snowdrift of order chits on the floor, nothing actually logged. One night of trading, and not a number you can trust.",
+   "steal": "Upmarket café after close in warm evening light, floor blanketed in a snowdrift of order chits, a well-dressed Pan-Asian owner standing marooned in the middle with a phone in hand, clean modern fit-out behind."
   },
-  "CR-02": {
+  "PAIN-02": {
+   "ref": "bold-type-poster",
+   "archetype": "Bold-Type Poster",
+   "format": "static",
+   "why": "A boutique goes dark in the middle of a busy shopping afternoon because the owner is stuck reconciling yesterday, and every shopper who finds the door shut simply walks next door.",
+   "steal": "Bright upmarket boutique on a busy 2pm shopping street, blinds down and a bold card in the glass door reading 'CLOSED — DOING YESTERDAY'S BOOKS', well-dressed Pan-Asian shoppers drifting to the store next door."
+  },
+  "PAIN-03": {
+   "ref": "crowd-rush-energy",
+   "archetype": "Crowd Rush Energy",
+   "format": "static",
+   "why": "The kitchen is winning but the payment line is losing: a queue snakes out the door and round the block, and diners peel away before they ever pay.",
+   "steal": "Bird's-eye of a stylish full-service restaurant at peak, a payment queue snaking out the door and round the block, three well-dressed Pan-Asian diners peeling away tagged 'GONE', warm daylight, clean modern fit-out."
+  },
+  "PAIN-05": {
    "ref": "cash-receipts-motif",
    "archetype": "Cash & Receipts Motif",
    "format": "static",
-   "why": "A drawer that's RM50 short with no record of who rang what is a pure cash-reconciliation leak — show the drawer and the gap.",
-   "steal": "Open retail cash drawer on black #2f2922 counter, neat note stacks but one slot visibly empty, a torn RM50-shaped gap; orange #ff9419 sticky note 'RM50 short. Again.'; Pan-Asian SEA shop setting, no competitor branding."
+   "why": "A wall of handwritten kitchen chits turns one scribbled 'no onions' into a wrong plate on the pass, and a good table turns into an angry one.",
+   "steal": "Modern open-kitchen bistro pass, a wall papered with handwritten kitchen chits, one ringed in orange reading 'Table 12 — NO onions', a wrong plate sitting under the heat lamp, a Pan-Asian chef mid-service, clean upmarket fit-out."
   },
-  "CR-03": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
-   "format": "video",
-   "why": "Peak-hour meltdown is pure packed-floor chaos with no clean control half — crowd-rush-energy nails the crisis register.",
-   "steal": "Packed kopitiam at full lunch crush, crowd at the counter, staff moving fast, paper chits flying; high-energy orange #ff9419 motion accents on black #2f2922, Pan-Asian SEA crowd, StoreHub terminal steady amid the rush; no competitor logos, never orange+green."
-  },
-  "CR-04": {
+  "NEW-01": {
    "ref": "bold-type-poster",
    "archetype": "Bold-Type Poster",
    "format": "static",
-   "why": "'Sorry, sold out' is a blunt curiosity hook — the walk-out sale lives in the words, not a literal empty shelf.",
-   "steal": "Full-bleed black #2f2922 poster, giant Barlow 'SORRY, SOLD OUT.' in orange #ff9419 with a faint hand-scrawled 'again?'; tiny lonely retail price tag bottom-corner; SEA retail vibe, no imagery clutter, no brand names."
+   "why": "A sleek new cafe wears a giant orange '02' in the window as the owner calmly flips the sign to OPEN. The whole setup of outlet one cloned to outlet two in an afternoon, both on one dashboard.",
+   "steal": "A sleek newly-fitted cafe at golden hour, a giant orange '02' decal filling the front window, a calm confident Pan-Asian owner flipping the sign to OPEN, clean modern interior behind."
   },
-  "CR-05": {
+  "NEW-03": {
+   "ref": "documentary-ugc",
+   "archetype": "Documentary UGC",
+   "format": "static",
+   "why": "A freshly framed business-registration certificate hangs on a clean wall, a phone beside it reading 'e-Invoice: compliant.' A brand-new business, compliant from day one because e-Invoice is built in.",
+   "steal": "A framed fresh business-registration certificate on a clean white wall of a tasteful new cafe, a phone propped beside it showing 'e-Invoice: compliant', soft natural light, no brand chrome up top."
+  },
+  "NEW-04": {
+   "ref": "crowd-rush-energy",
+   "archetype": "Crowd Rush Energy",
+   "format": "static",
+   "why": "A grand-opening queue stretches down a bright street under an 'OUTLET 2' banner while the owner calmly rings the first order on a handheld and a diner scans a QR tent. QR clears the opening rush and the setup cloned before the doors opened.",
+   "steal": "A grand-opening queue stretching down a bright modern high street outside a stylish new cafe, an 'OUTLET 2' banner overhead, a composed Pan-Asian owner taking the first order on a handheld while a diner scans a QR table tent, energetic upmarket vibe."
+  },
+  "QUIET-02": {
    "ref": "bold-type-poster",
    "archetype": "Bold-Type Poster",
    "format": "static",
-   "why": "An LHDN e-Invoice deadline is FOMO that lands as a stark countdown verdict — type and a ticking date do the work, not a scene.",
-   "steal": "Black #2f2922 poster with oversized orange #ff9419 Barlow countdown 'e-INVOICE: DAYS LEFT', a handwritten paper receipt curling at the edge crossed out; Open Sans subline; SEA retail context, LHDN as plain text only, no logos."
+   "why": "A torn order-pad page with one biro line sits on clean marble, a faded receipt half in the bin. The shoebox of loose paper is gone, because every sale now files itself, compliant.",
+   "steal": "Overhead on cool marble, a single torn order-pad page with one fading biro line, a faded receipt half-dropped into a bin at the edge of frame, and bold orange type across the negative space reading 'SHOEBOX, RETIRED.' Minimal, upmarket, Pan-Asian SEA cafe."
   },
-  "CR-06": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
-   "format": "video",
-   "why": "A payment line backing out the door is literally a queue crisis — pack the frame with the queue to feel the lost sales.",
-   "steal": "Long Pan-Asian SEA customer queue snaking out a retail door, frustrated faces checking phones, one walking off; warm orange #ff9419 accent light, black #2f2922 vignette; busy authentic shopfront, no competitor signage or logos."
-  },
-  "CR-07": {
-   "ref": "documentary-ugc",
-   "archetype": "Documentary UGC",
+  "QUIET-03": {
+   "ref": "lifestyle-aspirational",
+   "archetype": "Lifestyle / Aspirational",
    "format": "static",
-   "why": "Weeks of new hires ringing wrong orders is a tired owner's confession — a real phone-shot talking-to-camera makes it relatable.",
-   "steal": "Handheld phone-shot of a weary Pan-Asian F&B owner mid-sentence behind the counter, natural light, slight grain; orange #ff9419 lower-third caption 'trained him for weeks. still wrong.'; black #2f2922 text bar, authentic kopitiam, no logos."
+   "why": "At 6pm an understated owner locks a tidy upmarket boutique in golden light; the phone reads 'Today's report: ready. Sent to your inbox.' The reports wrote themselves and can be checked from anywhere.",
+   "steal": "Golden-hour exterior of a tidy, upmarket boutique, a calm Pan-Asian SEA owner turning the key on a clean glass door, phone in hand showing a StoreHub-styled line: 'Today's report: ready. Sent to your inbox.' Warm, aspirational, unhurried."
   },
-  "CR-08": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "video",
-   "why": "Festival is Raya and it's central — the buka puasa surge is the whole crisis, so the decorated Raya rush is the hero scene.",
-   "steal": "Raya-decorated F&B shop at buka puasa, ketupat and pelita warm lights, packed Pan-Asian Muslim diners while staff drown in paper orders; orange #ff9419 and black #2f2922 palette, never orange+green, no competitor names."
-  },
-  "CR-09": {
-   "ref": "dashboard-reveal",
-   "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "A multi-outlet owner getting three different numbers is a single-source-of-truth problem — show the conflicting figures on screen.",
-   "steal": "Clean dashboard on a laptop in a dim back office showing three branches with three clashing revenue totals, big orange #ff9419 question mark overlay; black #2f2922 UI, Pan-Asian owner's hand on trackpad, generic StoreHub-style UI, no competitor chrome."
-  },
-  "CR-10": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
-   "format": "static",
-   "why": "Regulars quietly vanishing with no record to win them back is an emotional loss — a single wistful owner face carries it.",
-   "steal": "Tight close-up of a Pan-Asian cafe owner gazing at an empty table, soft melancholic light, black #2f2922 background falloff; small orange #ff9419 caption 'they stopped coming.'; authentic SEA cafe, no logos or competitor cues."
-  },
-  "CR-11": {
-   "ref": "before-after-split",
-   "archetype": "Before → After Split",
-   "format": "video",
-   "why": "Paper orders shouted across the floor vs a synced counter is a chaos-to-control swap — the split shows kitchen and counter finally agreeing.",
-   "steal": "Split frame: left = paper chits flying, staff shouting across a cluttered F&B floor; right = same floor calm, orders flowing on a tidy screen; orange #ff9419 vs muted left, black #2f2922 seam, Pan-Asian crew, no brand names."
-  },
-  "CR-12": {
-   "ref": "documentary-ugc",
-   "archetype": "Documentary UGC",
-   "format": "static",
-   "why": "A night lost to refunds and angry messages from wrong orders is a venting confession — phone-shot UGC makes the frustration real.",
-   "steal": "Late-night handheld shot of a tired Pan-Asian retail owner showing a phone full of angry chat messages, lamp-lit grain; orange #ff9419 caption 'still replying at midnight.'; black #2f2922 lower bar, real home-shop setting, no app logos."
-  },
-  "CR-13": {
-   "ref": "dashboard-reveal",
-   "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "It is a multi-outlet standardization/oversight problem, not a two-number mismatch — the multi-location dashboard serves the franchise-control job.",
-   "steal": "Clean StoreHub multi-location dashboard showing all outlets pulled to one standard in orange #ff9419 on black #2f2922, Pan-Asian franchise setting, mock outlet names, no competitor UI, never orange+green."
-  },
-  "CR-14": {
+  "MATH-01": {
    "ref": "big-number-stat",
    "archetype": "Big-Number Stat",
    "format": "static",
-   "why": "Cleared the stock but ended up poorer because nobody measured profit is a money number — the negative figure must own the frame.",
-   "steal": "Giant orange #ff9419 Barlow 'PROFIT: -RM_' dominating a black #2f2922 frame, a crossed-out 'SOLD OUT' stamp behind it; small SEA retail shelf cleared in the corner; Open Sans subline, no brand or competitor names."
+   "why": "A cafe wall is tiled floor to ceiling with 365 teh tarik glasses, one glass for every day of the year. A hand lifts one and a price stamp fills the empty slot: a single daily glass buys a whole year of running your shop.",
+   "steal": "A bright, well-fitted specialty cafe with a feature wall tiled floor-to-ceiling in 365 clean teh tarik glasses catching warm window light; a Pan-Asian SEA owner in a crisp apron lifts one glass as a sharp orange price card fills the empty slot."
   },
-  "CR-15": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
+  "MATH-02": {
+   "ref": "big-number-stat",
+   "archetype": "Big-Number Stat",
    "format": "static",
-   "why": "A cash-only shop turning away card and e-wallet customers is a payments gap — show the terminal accepting what they were losing.",
-   "steal": "Pan-Asian F&B counter, hand tapping a phone/card on a StoreHub-style terminal that accepts it, faded 'CASH ONLY' sign being peeled away; orange #ff9419 confirmation glow, black #2f2922 counter, no competitor wallet logos or icons."
+   "why": "A year wall-calendar hangs behind a tired owner; 30 evenings are stamped 'COUNTING' and bleed down into a pile of receipts at her feet. That is a whole month of nights lost every year to counting up by hand.",
+   "steal": "A calm, upmarket bistro after close in warm low light, a large tasteful year-calendar on a clean feature wall with 30 evenings marked; a poised Pan-Asian SEA owner stands beside it with a neat stack of receipts on the counter."
   },
-  "CR-16": {
-   "ref": "documentary-ugc",
-   "archetype": "Documentary UGC",
-   "format": "static",
-   "why": "Two hours every night reconciling by hand is a relatable grind — a real owner filming themselves still at it sells the exhaustion.",
-   "steal": "Phone-shot of a Pan-Asian retail owner at a paper-covered table past midnight, calculator and receipts, tired half-smile; orange #ff9419 timestamp-style caption '12:47am. still counting.'; black #2f2922 bar, authentic back office, no logos."
-  },
-  "CR-17": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
-   "format": "static",
-   "why": "Perishables expiring and stock vanishing is paid-for money thrown away — render the loss as discarded goods and a ledger gap.",
-   "steal": "Overhead of expired retail stock tipped into a bin over a torn stock ledger on black #2f2922, coins scattered among it; orange #ff9419 stamp 'paid for. binned.'; Pan-Asian SEA grocery context, no competitor branding."
-  },
-  "CR-18": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
-   "format": "static",
-   "why": "A year of crumpled faded receipts at tax time is the chits-as-hero shot — the shoebox of paper IS the e-Invoice panic.",
-   "steal": "Overhead shoebox overflowing with crumpled, faded F&B receipts on black #2f2922, one orange #ff9419 'TAX SEASON' tag on top; a single clean digital-receipt edge hinting the fix; Pan-Asian cafe context, no logos."
-  },
-  "CR-19": {
-   "ref": "bold-type-poster",
-   "archetype": "Bold-Type Poster",
-   "format": "static",
-   "why": "Diners coming once and never returning with dead weekdays is a blunt curiosity hook — the unanswered question carries it in type.",
-   "steal": "Black #2f2922 poster, large orange #ff9419 Barlow 'WHY WON'T THEY COME BACK?'; faint empty-table silhouette and a lonely 'TUE' calendar mark; Open Sans subline; SEA F&B mood, minimal imagery, no brand names."
-  },
-  "CR-20": {
+  "MATH-03": {
    "ref": "dashboard-reveal",
    "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "Big calls on gut because numbers can't be trusted is fixed by trustworthy reporting — show the best-seller insight the owner lacked.",
-   "steal": "Clean sales dashboard on a tablet on a black #2f2922 retail counter, a clear orange #ff9419 'TOP SELLER' bar chart revealed; Pan-Asian owner's hand reaching in, generic StoreHub-style UI, no competitor dashboards or logos."
-  },
-  "CR-21": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
    "format": "video",
-   "why": "A viral post bringing a crowd the shop can't handle is pure rush-overwhelm — fill the frame with the unmanageable surge.",
-   "steal": "Packed Pan-Asian F&B shop overrun, phones up filming, staff swamped at a paper-ticket counter, motion blur; orange #ff9419 accent light, black #2f2922 edges; authentic SEA eatery chaos, no competitor app UI or logos."
+   "why": "An airport split-flap board on a bistro wall clacks through the digits and settles on 'TODAY: RM8,420 . RECONCILED' while the owner just sips a coffee beneath it. The day added itself up; nobody sat down to count.",
+   "steal": "A stylish full-service bistro at golden hour with an eye-catching airport split-flap board on the clean brick feature wall; a relaxed Pan-Asian SEA owner sits beneath it with a flat white, unhurried and successful."
   },
-  "CR-22": {
+  "MATH-04": {
+   "ref": "big-number-stat",
+   "archetype": "Big-Number Stat",
+   "format": "static",
+   "why": "A giant orange '48' crashes down mid-air into a black '0' above a bare boutique shelf. The system swears you have 48 in stock; the shelf has none. Ghost stock just cost you the sale.",
+   "steal": "A bright, well-fitted fashion boutique with clean minimalist shelving, one shelf conspicuously empty under sculptural oversized orange '48' and black '0' numerals floating mid-air; a Pan-Asian SEA shopper reaches for a shelf that is bare, upmarket fit-out throughout."
+  },
+  "CON-01": {
+   "ref": "before-after-split",
+   "archetype": "Before → After Split",
+   "format": "static",
+   "why": "A split set: on the left, a cluttered legacy counter buried in add-on boxes and cables; on the right, the same counter clean with a single slim terminal. The owner is caught mid-step toward the right, one screen instead of the whole tangle.",
+   "steal": "A stylish boutique-cafe counter shown as a clean before/after split; the rejected left side is a cramped legacy setup with tangled cables and stacked add-on boxes, the aspirational right side is a bright, minimal upmarket counter with one slim StoreHub terminal; a Pan-Asian SEA owner steps confidently to the right."
+  },
+  "CON-02": {
    "ref": "two-card-comparison",
    "archetype": "Two-Card Comparison",
    "format": "static",
-   "why": "System says stock is there, shelf is empty — two numbers that don't match is exactly the two-card job, made absurd.",
-   "steal": "Two cards on black #2f2922: left 'SYSTEM: 48 in stock' in orange #ff9419, right a photo of a bare retail shelf '0'; bold 'ghost stock' tag between; Pan-Asian SEA shop shelf, generic UI, no competitor branding."
+   "why": "A polished brass balance scale sits perfectly level: on one pan a glass of teh tarik, on the other a slim POS terminal. They weigh exactly the same, your whole system costs what your daily drink costs.",
+   "steal": "A warm, upmarket cafe tabletop in soft daylight with an elegant brass balance scale sitting level, a glass of teh tarik on one pan and a slim StoreHub terminal on the other; clean marble surface, tasteful and aspirational, Pan-Asian SEA hands steadying the scale."
   },
-  "CR-23": {
+  "CON-03": {
+   "ref": "before-after-split",
+   "archetype": "Before → After Split",
+   "format": "static",
+   "why": "A sleek museum vitrine stands in a bright modern boutique; the brass plaque reads 'MANUAL CASH REGISTER, c. NOW', with a paper spike, a cash drawer and a ledger displayed inside like fossils. A shopper squints, people still run their shop on this?",
+   "steal": "A bright, upmarket concept boutique with polished floors and gallery lighting, one glass museum vitrine on a plinth displaying a paper spike, cash drawer and ledger behind a 'c. NOW' plaque; a stylish Pan-Asian SEA shopper leans in, amused, while the surrounding shop is modern and aspirational and the old props stay only inside the case."
+  },
+  "CON-04": {
+   "ref": "before-after-split",
+   "archetype": "Before → After Split",
+   "format": "static",
+   "why": "A shredder eats a fistful of crumpled handwritten receipts, but what slides out the other side is not confetti, it is a phone showing a clean, compliant e-Invoice. Paper in, compliant out.",
+   "steal": "A crisp, modern cafe back-office corner with a clean desk in good light; a Pan-Asian SEA owner feeds a shoebox of old handwritten receipts into a sleek shredder while a phone at the output end shows a tidy StoreHub e-Invoice, the paper receipts being the rejected before and the phone the aspirational now."
+  },
+  "PROOF-01": {
+   "ref": "big-number-stat",
+   "archetype": "Big-Number Stat",
+   "format": "static",
+   "why": "A night map of Southeast Asia glows with 20,000+ tiny orange shop-lights, and one flares brighter, the seat that's still open.",
+   "steal": "A cinematic night-time map of Southeast Asia rendered in deep brand black, dotted with 20,000+ tiny warm-orange shop-lights, one light pulsing brighter than the rest."
+  },
+  "PROOF-03": {
    "ref": "documentary-ugc",
    "archetype": "Documentary UGC",
    "format": "static",
-   "why": "The whole business living in the owner's head so they can never leave is a personal confession — UGC talking-head makes it intimate.",
-   "steal": "Handheld phone-shot of a Pan-Asian F&B owner at the counter saying they can't take a day off, staff hovering with 'boss, how much?'; orange #ff9419 caption; black #2f2922 lower bar, real kopitiam, natural grain, no logos."
+   "why": "A giant orange '20,000+' is built entirely from thousands of real storefront photo tiles; pull back and the number resolves.",
+   "steal": "A giant brand-orange '20,000+' composed of thousands of real Pan-Asian SEA storefront photo tiles, modern cafés, bistros and boutiques, resolving into one bold number as the camera pulls back."
   },
-  "CR-24": {
+  "CULTURE-02": {
+   "ref": "festival-hero",
+   "archetype": "Festival Hero",
+   "format": "video",
+   "why": "A single unbroken tracking shot glides down a Ramadan bazaar lane and lands on one polished premium stall where diners tap to pay while the queue never stops moving.",
+   "steal": "A vibrant Ramadan bazaar lane at dusk shot as one unbroken glide, retuned to warm brand-orange lanterns and pelita, landing on a single upmarket, beautifully-lit food stall with a clean modern fit-out where Pan-Asian SEA diners tap-to-pay on a slim terminal while the line keeps flowing."
+  },
+  "CULTURE-03": {
    "ref": "big-number-stat",
    "archetype": "Big-Number Stat",
    "format": "static",
-   "why": "Facing the e-Invoice mandate across twenty outlets is a scale-and-proof story — the '20 outlets, one deadline' figure must dominate.",
-   "steal": "Huge orange #ff9419 Barlow '20 OUTLETS. 1 DEADLINE.' on a black #2f2922 enterprise field, a faint row of identical SEA storefronts behind; Open Sans proof subline, 'CONTACT US' enterprise tone, no competitor names or logos."
+   "why": "The instant buka puasa begins, a packed modern bistro rings in a wall of orders at once and a giant stamp reads '214 orders. 90 seconds.' Every one landed live.",
+   "steal": "A packed, stylish full-service bistro at the precise second of buka puasa, warm brand-orange pelita and ketupat decor (retuned orange, never green), Pan-Asian SEA diners breaking fast together as staff calmly ring every order into a slim POS."
   },
-  "CR-25": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
-   "format": "static",
-   "why": "Always packed yet maybe unprofitable is the money gut-punch — a full-shop figure against an empty-bank figure owns the frame.",
-   "steal": "Black #2f2922 frame split by one giant orange #ff9419 stat: 'FULL SHOP. RM0 LEFT.', faint busy Pan-Asian F&B crowd ghosted behind the number; Open Sans subline; authentic SEA eatery, no brand or competitor cues."
-  },
-  "BW-01": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "static",
-   "why": "Raya is central and the win is the festive eve crowd handled flawlessly — a decorated peak scene sells both the festival and the no-dropped-orders payoff.",
-   "steal": "Packed kopitiam at Hari Raya eve, ketupat/pelita decor, Pan-Asian SEA family crowd, warm orange #ff9419 glow, StoreHub terminal calm at the counter; black #2f2922 headline panel, no competitor logos, no green."
-  },
-  "BW-02": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "static",
-   "why": "CNY reunion is central; the gain is a full reunion-dinner sellout, so a decorated festive-rush scene carries the sold-out win.",
-   "steal": "Bustling restaurant at CNY reunion dinner, red-and-orange lanterns tuned to brand orange #ff9419, Pan-Asian SEA families seated, every table tagged on the POS; black #2f2922 type block, no third-party app UI, never orange+green."
-  },
-  "BW-03": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "static",
-   "why": "Deepavali is central and the win is surging sweet/sari demand that never oversells — a glowing festive retail scene is the natural hero.",
-   "steal": "Deepavali-decorated sari/sweets shop, diya lamps and kolam (warm tones, no green), Pan-Asian SEA Indian merchant and shoppers, accurate stock shown on StoreHub screen; orange #ff9419 accents, black #2f2922 headline, no competitor branding."
-  },
-  "BW-04": {
+  "CULTURE-04": {
    "ref": "dashboard-reveal",
    "archetype": "Dashboard Reveal",
    "format": "static",
-   "why": "The big win is two outlets running from one dashboard on opening day — the multi-outlet view is literally the proof.",
-   "steal": "Clean StoreHub multi-location dashboard on a laptop/tablet showing Outlet 1 + Outlet 2 side metrics both trending up in orange #ff9419, set on a counter of a freshly-opened SEA shop; orange highlights on black #2f2922, no competitor dashboards, never orange+green."
+   "why": "A Deepavali boutique surges in orange motion-streaks while dead-centre, in razor focus, one calm POS shows live stock that never lets a box oversell.",
+   "steal": "An upmarket Deepavali sweets-and-sari boutique at full festive surge, Pan-Asian SEA shoppers blurred into warm brand-orange motion-streaks (never green), clean modern fit-out and rich lighting, with one calm slim POS in razor focus at centre showing live stock counts."
   },
-  "BW-05": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
-   "format": "static",
-   "why": "Selling clean down to the last unit by closing is a busy-shop win; a packed neighbourhood bakery-cafe conveys the good-kind sellout.",
-   "steal": "Warm neighbourhood bakery-cafe near closing, nearly-empty trays, last customers paying at a StoreHub terminal, Pan-Asian SEA staff smiling; orange #ff9419 'SOLD OUT' tag styling on black #2f2922, authentic kopitiam feel, no logos of rivals, no green."
-  },
-  "BW-06": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
-   "format": "static",
-   "why": "The win is QR Order & Pay dissolving the lunch queue — showing the feature working in a real shop is the most direct proof of 'see it work'.",
-   "steal": "Diner's hand scanning a StoreHub QR table tent in a busy SEA cafe, no counter line behind, order appearing on the merchant's terminal; orange #ff9419 QR frame and CTA, black #2f2922 headline, real Pan-Asian SEA hands, no competitor app screens, no green."
-  },
-  "BW-07": {
+  "CULTURE-06": {
    "ref": "big-number-stat",
    "archetype": "Big-Number Stat",
    "format": "static",
-   "why": "It becomes the month's record day — a single giant figure (record sales) owns the frame and lands the quantified payday-spike win.",
-   "steal": "One huge orange #ff9419 number (e.g. record daily sales) dominating a black #2f2922 frame, small line 'best day this month', subtle Pan-Asian SEA retail shop blurred behind; Barlow Black numerals, no competitor names, never orange+green."
+   "why": "A floor-to-ceiling wall of Mid-Autumn mooncake gift boxes; a merchant taps one pre-order and a stamp reads '2,000 boxes. 0 oversold.'",
+   "steal": "An elegant, well-lit Mid-Autumn boutique with a floor-to-ceiling wall of premium mooncake gift boxes glowing under warm brand-orange lantern light (never green), a Pan-Asian SEA merchant calmly tapping a pre-order into a slim POS."
   },
-  "BW-08": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
+  "SELF-02": {
+   "ref": "documentary-ugc",
+   "archetype": "Documentary UGC",
    "format": "static",
-   "why": "The win is members and regulars coming back on their own — a single warm regular's face carries the loyalty-driven full-house emotion.",
-   "steal": "Close-up of a happy Pan-Asian SEA regular customer at a cafe counter, owner greeting in soft focus, StoreHub membership tap visible; warm orange #ff9419 accent and black #2f2922 caption, authentic cafe light, no rival logos, no green."
+   "why": "One owner has cut ten ribbons at ten upmarket outlets, and an eleventh frame waits empty with the ribbon still in hand. Every outlet runs off a single login, one source of truth.",
+   "steal": "A gallery wall in a stylish flagship cafe office, ten framed ribbon-cutting photos of the same confident Pan-Asian owner at ten upmarket outlets, an eleventh frame empty with a fresh ribbon in hand, warm modern lighting."
   },
-  "BW-09": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
-   "format": "static",
-   "why": "A viral post floods the shop overnight and the system never buckles — a packed-floor rush visual is the literal proof of the surge being handled.",
-   "steal": "Suddenly-packed SEA eatery, crowd at the door, staff moving fast, StoreHub terminal steady mid-rush; energetic orange #ff9419 motion accents on black #2f2922, Pan-Asian SEA faces, no phone-app brands shown, never orange+green."
-  },
-  "BW-10": {
+  "SELF-03": {
    "ref": "pos-in-hand",
    "archetype": "POS-in-Hand",
    "format": "static",
-   "why": "A record lunch-counter rush with every sale captured at speed is a checkout-pillar win — POS in action at the counter shows the speed.",
-   "steal": "StoreHub terminal mid-tap at a busy SEA cafe lunch counter, cashier hands fast on screen, short queue moving; orange #ff9419 'tap' highlight, black #2f2922 headline, Pan-Asian SEA staff, no competitor POS UI, no green."
+   "why": "A hand hefts a heavy keyring of five outlet keys, the fifth still shiny and new. Five outlets, one dashboard, the same live numbers wherever the owner is.",
+   "steal": "Overhead close-up of a confident owner's hand holding a heavy brass-and-orange keyring on a marble counter in an upmarket boutique, five keys tagged 01 to 05 with the fifth visibly shiny and new, clean modern fit-out."
   },
-  "BW-11": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
+  "SELF-04": {
+   "ref": "lifestyle-aspirational",
+   "archetype": "Lifestyle / Aspirational",
    "format": "static",
-   "why": "A new franchisee opening day-one with the full operating guide loaded is best shown as the system live on the terminal in the new outlet.",
-   "steal": "New franchise outlet on opening day, StoreHub terminal pre-loaded with menu/SOP on screen, Pan-Asian SEA franchisee confident at the counter; orange #ff9419 UI accents on black #2f2922, clean fresh shop, no rival branding, never orange+green."
+   "why": "The same upmarket cafe storefront repeats identically into the distance like a hall of mirrors. Set the standard once and it pushes to every outlet, so no two ever drift apart.",
+   "steal": "A serene hall-of-mirrors effect where the same warmly-lit upmarket cafe storefront repeats identically into the distance, clean fit-out, calm confident Pan-Asian staff at each, soft golden light."
   },
-  "BW-12": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
+  "SELF-05": {
+   "ref": "bold-type-poster",
+   "archetype": "Bold-Type Poster",
    "format": "static",
-   "why": "Loyalty turning first-timers into repeat regulars who spend more is an emotional return-customer win — a returning face carries it best.",
-   "steal": "Close-up of a smiling Pan-Asian SEA repeat shopper tapping a StoreHub loyalty/membership prompt, owner recognising them; warm orange #ff9419 accent, black #2f2922 caption, authentic retail setting, no competitor logos, no green."
-  },
-  "BW-13": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
-   "format": "static",
-   "why": "Crushing the 7-9pm dinner rush with the POS running right at the table is a checkout-pillar feature win — show the terminal working tableside.",
-   "steal": "Server taking an order on a StoreHub handheld right at a full bistro table during dinner rush, warm evening light, Pan-Asian SEA diners; orange #ff9419 device accent on black #2f2922 headline, no third-party app UI, never orange+green."
-  },
-  "BW-14": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
-   "format": "static",
-   "why": "School-holiday family crowds becoming the season's best run is a packed-shop win — a busy family-filled floor with zero mistakes sells it.",
-   "steal": "Cuti sekolah family crowd packing a casual SEA restaurant, kids and parents, staff calm with StoreHub terminal humming; bright orange #ff9419 accents on black #2f2922, Pan-Asian SEA families, no competitor branding, no green."
-  },
-  "BW-15": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "static",
-   "why": "Mid-Autumn is central; the win is mooncakes selling out with every gift box pre-sold and tracked — a decorated mooncake counter is the hero.",
-   "steal": "Mid-Autumn mooncake gift-box display nearly sold out, lanterns in warm orange #ff9419 tones, Pan-Asian SEA merchant marking pre-orders on the StoreHub screen; black #2f2922 'SOLD OUT' styling, no rival logos, never orange+green."
-  },
-  "BW-16": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
-   "format": "static",
-   "why": "A weekend lunch rush of regulars and walk-ins with every order and member tab flowing is a busy-floor loyalty win — show the full, flowing room.",
-   "steal": "Packed weekend lunch SEA cafe, mix of regulars and walk-ins, member tab open on the StoreHub terminal mid-service; orange #ff9419 accents on black #2f2922 headline, Pan-Asian SEA crowd, authentic feel, no competitor apps, no green."
-  },
-  "BW-17": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
-   "format": "static",
-   "why": "A double-digit-date mega sale handled at full throttle with every promo rule clean is best owned by a bold sale figure/date as the hero.",
-   "steal": "Giant orange #ff9419 sale-date/number (e.g. 11.11-style, generic) on black #2f2922, small 'every promo rule clean' line, blurred busy SEA retail floor behind; Barlow Black figure, no competitor sale branding, never orange+green."
-  },
-  "BW-18": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
-   "format": "static",
-   "why": "The win is capturing a big catering order cleanly in-house — show the system taking the large order, not a static dashboard.",
-   "steal": "Staff entering a big catering order on the StoreHub terminal in a busy SEA kitchen, every line captured on screen; orange #ff9419 UI accents on black #2f2922, Pan-Asian crew behind, no competitor POS UI, never orange+green."
-  },
-  "BW-19": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
-   "format": "static",
-   "why": "The whole chain posts a record month shown on one dashboard — a single record figure owns the frame as the milestone hero.",
-   "steal": "One huge orange #ff9419 record-month figure on a black #2f2922 dashboard frame, small multi-outlet row beneath, subtle SEA chain storefront blurred; Barlow Black numerals, StoreHub UI accents, no competitor names, never orange+green."
-  },
-  "BW-20": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
-   "format": "static",
-   "why": "Crossing the first RM1,000,000 with clean compliant books is a quantified milestone — the giant RM1,000,000 figure is the whole story.",
-   "steal": "Massive orange #ff9419 'RM1,000,000' on black #2f2922, small 'books clean & e-Invoice compliant' line, faint Pan-Asian SEA retail owner celebrating behind; Barlow Black numerals, no rival branding, never orange+green."
-  },
-  "BW-21": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "static",
-   "why": "Raya is central; the win is the night-before-festival prep rush executed flawlessly to the last hour — a festive-eve scene carries it best.",
-   "steal": "Raya-eve retail prep rush, ketupat/festive decor in warm orange #ff9419 tones, Pan-Asian SEA shoppers and staff at a fast StoreHub checkout late into the night; black #2f2922 headline, no competitor logos, never orange+green."
-  },
-  "BW-22": {
-   "ref": "dashboard-reveal",
-   "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "A third branch running identical to the original, set up in an afternoon, is a multi-outlet replication win — the three-outlet dashboard view proves the clone.",
-   "steal": "StoreHub multi-location dashboard showing three identical outlet tiles in sync, on a laptop at a brand-new SEA branch; orange #ff9419 UI highlights on black #2f2922, fresh shop behind, no rival dashboards, no green."
-  },
-  "BW-23": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
-   "format": "static",
-   "why": "A full day of covers with clean records and regulars who return on their own is a loyalty-led win — a content returning diner's face anchors the emotion.",
-   "steal": "Close-up of a satisfied Pan-Asian SEA regular diner in a full restaurant, owner greeting in soft focus, StoreHub terminal logging covers; warm orange #ff9419 accent on black #2f2922 caption, authentic dining light, no competitor logos, no green."
-  },
-  "BW-24": {
-   "ref": "crowd-rush-energy",
-   "archetype": "Crowd Rush Energy",
-   "format": "static",
-   "why": "A big-match night packing the mamak with every order landing as the crowd roars is peak-rush energy — the roaring packed floor is the win.",
-   "steal": "Match-night mamak at full roar, crowd watching the screen, staff landing every order on the StoreHub terminal; high-energy orange #ff9419 accents on black #2f2922, Pan-Asian SEA crowd, authentic mamak setting, no broadcast/competitor logos, never orange+green."
-  },
-  "BW-25": {
-   "ref": "dashboard-reveal",
-   "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "The boring back-of-house jobs — payroll, e-invoicing, reports — finishing themselves is best shown as a clean done-state dashboard of completed tasks.",
-   "steal": "StoreHub back-office screen with payroll, e-Invoice and reports all marked done, relaxed Pan-Asian SEA owner stepping away; orange #ff9419 'done' checks on black #2f2922, tidy office, no competitor software UI, never orange+green."
+   "why": "A bold card fills the glass door of a busy upmarket shop: 'OWNER'S OFF TODAY. SHOP ISN'T.' Service hums with no owner in sight, because every sale logs itself and every outlet stays in sync from anywhere.",
+   "steal": "Through the glass door of a busy upmarket boutique-cafe, a large clean typographic card is the hero reading 'OWNER'S OFF TODAY. SHOP ISN'T' while polished Pan-Asian staff serve a full room behind it, warm modern lighting, no owner in sight."
   },
   "HC-01": {
    "ref": "big-number-stat",
    "archetype": "Big-Number Stat",
    "format": "static",
-   "why": "A few ringgit a day x365 is the literal one-sum-you-never-did — the multiplied figure IS the reveal, so one giant number owns the frame.",
-   "steal": "Black #2f2922 canvas, one huge orange #ff9419 yearly total (e.g. 'RM4,380/year'), tiny 'RM12/day' struck above it; faint kopitiam counter blurred behind; no logos."
+   "why": "A small daily leak feels like nothing, until a fare-meter on the counter climbs to RM4,380 and shows you what a year of tiny untracked losses really costs.",
+   "steal": "A photoreal fare-meter sitting on a polished café counter, orange digits ticking up toward RM4,380, a soft caption 'small daily leaks — this year', warm upmarket café interior behind, a Pan-Asian owner watching quietly."
   },
   "HC-02": {
-   "ref": "documentary-ugc",
-   "archetype": "Documentary UGC",
+   "ref": "big-number-stat",
+   "archetype": "Big-Number Stat",
    "format": "static",
-   "why": "1:47am still counting by hand is a quiet relatable confession — a real merchant moment shot in the dark shop reads truer than any graphic.",
-   "steal": "Phone-shot warm-lamp frame of a tired Pan-Asian retail owner at a cluttered counter past midnight, receipts + calculator; orange #ff9419 caption bar; black #2f2922 text."
+   "why": "A grid of 52 boxes shows every Sunday of the year, all but one greyed out because they were spent on paperwork instead of rest, and it adds up to a full day off every single week.",
+   "steal": "A clean grid of 52 takeaway boxes on a bright studio-lit surface, 51 grey and one glowing orange and empty, caption 'Sundays you spent on paperwork — 52 / year', modern upmarket styling, no clutter."
   },
   "HC-03": {
-   "ref": "bold-type-poster",
-   "archetype": "Bold-Type Poster",
+   "ref": "dashboard-reveal",
+   "archetype": "Dashboard Reveal",
    "format": "static",
-   "why": "'The choice you never made has a price' is an abstract verdict, not a thing you can photograph — punchy type carries the dawning realization.",
-   "steal": "Black #2f2922 poster, Barlow line 'You never chose to stay. You just... stayed.' in white + orange #ff9419 key word; faint old-till silhouette; SEA kopitiam tone."
+   "why": "An x-ray sweep across a pristine boutique shelf shows half the products as translucent ghosts, revealing that the system says 48 while the shelf actually holds 19.",
+   "steal": "Pristine upmarket boutique shelf under clean gallery lighting, an x-ray overlay revealing half the products as translucent ghosts, caption 'System says 48. Shelf has 19.', a Pan-Asian retail owner studying the shelf."
   },
   "HC-04": {
-   "ref": "documentary-ugc",
-   "archetype": "Documentary UGC",
-   "format": "static",
-   "why": "The accountant's quiet sigh over messy books is a human, relatable beat — a candid over-the-shoulder moment lands the unspoken cost better than stats.",
-   "steal": "Phone-style shot of a Pan-Asian accountant pausing over a thick stack of paper receipts at a desk; subtle orange #ff9419 accent; black #2f2922 caption; no brand logos."
-  },
-  "HC-05": {
    "ref": "two-card-comparison",
    "archetype": "Two-Card Comparison",
    "format": "static",
-   "why": "Dead cash in the back vs bestsellers gone up front is two mismatched truths side by side — the gap between them is the hidden cost.",
-   "steal": "Two cards on black #2f2922: left 'Overstocked, dead cash' / right 'Sold out, lost sales', orange #ff9419 divider; SEA retail shelf imagery; never orange+green."
+   "why": "A split frame joined by an equals sign puts a café that is full every night against a bank balance sitting at zero, asking where all that busy actually goes.",
+   "steal": "A black split frame divided by a bold equals sign, the left side a heaving upmarket café captioned 'Full every night', the right side a flat bank balance reading 'RM0 left', clean high-contrast graphic styling, Pan-Asian diners on the left."
   },
-  "HC-06": {
-   "ref": "bold-type-poster",
-   "archetype": "Bold-Type Poster",
+  "VALUE-01": {
+   "ref": "lifestyle-aspirational",
+   "archetype": "Lifestyle / Aspirational",
    "format": "static",
-   "why": "The unopened e-Invoice letter with a silent deadline is curiosity+FOMO — a blunt typographic line about the drawer creates the quiet dread.",
-   "steal": "Black #2f2922 poster, orange #ff9419 line 'The deadline isn't waiting in the drawer with it.'; small faded official envelope corner peeking in; Barlow headline; no competitor marks."
+   "why": "The cafe closes at dusk, apron on the hook, and the owner is already gone home. Because the day's takings reconciled themselves live as each order rang, closing is done before the lights go off.",
+   "steal": "A warm, well-fitted cafe at dusk, a large orange wall clock reading 6:03, an apron hung neatly on its hook, chairs stacked, and through the front window a family dinner glowing in a home across the street; the Pan-Asian SEA owner is already walking out, calm."
   },
-  "HC-07": {
-   "ref": "two-card-comparison",
-   "archetype": "Two-Card Comparison",
-   "format": "static",
-   "why": "'Busy and profitable are not the same line' is the canonical two-numbers job — two cards force the viewer to see the two are not equal.",
-   "steal": "Two cards on black #2f2922: 'Full tables' vs 'Actually made money?'; orange #ff9419 question mark; blurred busy kopitiam behind; Pan-Asian F&B; no logos."
-  },
-  "HC-08": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
-   "format": "static",
-   "why": "A year of lost Sundays piled together is a quantified tally of unbilled time — the summed figure (e.g. 52 days) hits hardest as one giant number.",
-   "steal": "Black #2f2922 frame, huge orange #ff9419 '52 Sundays / year' with small 'gone to paperwork'; faint calendar grid texture; warm SEA F&B undertone; no brand logos."
-  },
-  "HC-09": {
+  "VALUE-02": {
    "ref": "cash-receipts-motif",
    "archetype": "Cash & Receipts Motif",
    "format": "static",
-   "why": "Stock bleeding out in ones and twos vs a sheet that won't agree is a quiet reconciliation leak — ledger/stock-chit motif as hero names it without alarm.",
-   "steal": "Top-down on black #2f2922: a handwritten stock ledger with small crossed-out tallies, a couple of items missing; orange #ff9419 highlight on a mismatch; SEA retail; no logos."
+   "why": "Midnight in a tidy back office: one chair pulled out from a receipt-piled desk sits empty under a desk lamp. Nobody came to count tonight, because every order already logged itself.",
+   "steal": "A tidy back office of an upmarket restaurant at midnight, a single desk lamp pooling light over an empty chair pulled out from a desk still stacked with the day's receipts, untouched; a small stamped card reads 'not tonight.' Warm, cinematic, Pan-Asian SEA."
   },
-  "HC-10": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
+  "VALUE-03": {
+   "ref": "before-after-split",
+   "archetype": "Before → After Split",
    "format": "static",
-   "why": "Business and personal cash blurring in the same pocket is money quietly mixing — a cash-tin/coins motif literally shows the two streams merging.",
-   "steal": "Top-down cash tin on black #2f2922 with ringgit notes + a personal lunch receipt mixed in; orange #ff9419 accent ring; warm kopitiam wood tone; never orange+green; no logos."
+   "why": "A slim tablet stands alone on a clean boutique counter beside a toppled heap of the eight tools it made obsolete. One screen now does the work of all of them.",
+   "steal": "A bright, established boutique counter, spotless, with a single slim StoreHub tablet standing upright beside a neatly toppled heap of eight retired tools (old terminal, receipt books, stock binder, loyalty stamp cards, invoice folders) pushed to the discard side; clean modern retail, Pan-Asian SEA staff."
   },
-  "HC-11": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
-   "format": "static",
-   "why": "Margin eroding one 'round it down' at a time is an invisible cumulative leak — surfacing the untracked annual total as one figure makes the drift visible.",
-   "steal": "Black #2f2922 frame, large orange #ff9419 leaked-margin figure with faint stacked 'small discount' chits behind, each a tiny minus; Barlow; Pan-Asian F&B; no brand logos."
-  },
-  "HC-12": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
-   "format": "static",
-   "why": "Loyal regulars you can't recall or reward — and never notice leaving — is an emotional loyalty beat; a single warm regular's face carries the quiet loss.",
-   "steal": "Soft close-up of a Pan-Asian regular customer at a kopitiam counter, gentle smile, slightly out of focus owner behind; orange #ff9419 caption strip; black #2f2922 text; no logos."
-  },
-  "HC-13": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
-   "format": "static",
-   "why": "Smudged handwritten chits causing quiet kitchen mistakes — the chit itself is the villain, so the order-slip motif as hero names the leak directly.",
-   "steal": "Top-down smudged handwritten kitchen order chit on black #2f2922, one item misread/crossed out; orange #ff9419 underline on the error; SEA F&B kitchen tone; no logos."
-  },
-  "HC-14": {
-   "ref": "documentary-ugc",
-   "archetype": "Documentary UGC",
-   "format": "static",
-   "why": "Paying staff 'roughly what feels right' until payday turns tense is a relatable human confession — a candid owner-and-staff moment beats an abstract chart.",
-   "steal": "Phone-style shot of a Pan-Asian F&B owner and a staffer at the counter over a worn paper roster, slight unease; orange #ff9419 caption bar; black #2f2922 text; no brand logos."
-  },
-  "HC-15": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
-   "format": "static",
-   "why": "Prepaid credit + vouchers living on paper cards and lost from memory is value quietly walking out — a stack of dog-eared credit cards/chits as hero shows it leaking.",
-   "steal": "Top-down worn paper prepaid/voucher cards fanned on black #2f2922, faded balances, one slipping off-frame; orange #ff9419 accent; SEA F&B; never orange+green; no logos."
-  },
-  "HC-16": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
-   "format": "static",
-   "why": "Walk-in sales rung up loosely or not at all — every blank slip is a sale with no proof; a pile of blank/half-filled slips as hero embodies the unprovable takings.",
-   "steal": "Top-down on black #2f2922: a spike of blank and half-scrawled paper sales slips; orange #ff9419 highlight on an empty one; SEA retail counter tone; no brand logos."
-  },
-  "HC-17": {
-   "ref": "bold-type-poster",
-   "archetype": "Bold-Type Poster",
-   "format": "static",
-   "why": "The customer who saw the queue and left is by definition unlogged and invisible — no photo exists of a non-sale, so a typographic verdict reveals the hidden leak.",
-   "steal": "Black #2f2922 poster, Barlow line 'You log every sale. Never the one who left.' white + orange #ff9419 'left'; faint empty doorway silhouette; SEA F&B; no logos."
-  },
-  "HC-18": {
-   "ref": "two-card-comparison",
-   "archetype": "Two-Card Comparison",
-   "format": "static",
-   "why": "Each outlet counting its own way so group numbers never agree is literally two figures that don't match — side-by-side cards make the disagreement obvious.",
-   "steal": "Two cards on black #2f2922: 'Outlet A: RM18,200' vs 'Outlet B: RM17,640' for the same day; orange #ff9419 'which is true?'; SEA retail; never orange+green; no logos."
-  },
-  "HC-19": {
-   "ref": "two-card-comparison",
-   "archetype": "Two-Card Comparison",
-   "format": "static",
-   "why": "'Your sheet says yes, the shelf says no' is a clean two-number mismatch — paper count vs real shelf as two cards makes the gap the customer pays for visible.",
-   "steal": "Two cards on black #2f2922: 'Sheet: 24 in stock' vs 'Shelf: 9 left'; orange #ff9419 divider; blurred SEA retail shelf behind; black text; no brand logos."
-  },
-  "HC-20": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
-   "format": "static",
-   "why": "No giant figure here — a nightly cash-drawer short and the wasteful recount; the cash-tin/coins motif matches the reconciliation register.",
-   "steal": "Top-down open cash tin on black #2f2922 with ringgit notes and coins, one slot visibly short, a calculator beside it; orange #ff9419 accent, warm kopitiam wood tone, the few-ringgit gap that eats the night; no logos, never orange+green."
-  },
-  "HC-21": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
-   "format": "static",
-   "why": "A regular who simply forgot you exist is an emotional, relatable loss — a single wistful face captures the audience you could reach but never message.",
-   "steal": "Soft close-up of a Pan-Asian former regular walking past, half-glancing away; warm kopitiam blurred behind; orange #ff9419 caption strip; black #2f2922 text; no logos."
-  },
-  "HC-22": {
-   "ref": "cash-receipts-motif",
-   "archetype": "Cash & Receipts Motif",
-   "format": "static",
-   "why": "Paper records that fade, vanish, or never existed — the decaying record itself is the loss; a held-to-light faded slip as hero makes the unknowable past literal.",
-   "steal": "A hand holding a faded, near-blank old paper receipt up to window light on black #2f2922; barely-legible figures; orange #ff9419 accent; SEA retail; no brand logos."
-  },
-  "HC-23": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
-   "format": "static",
-   "why": "A spouse silently worrying is a single unspoken human emotion (quiet pain) — face-closeup carries it; lifestyle-aspirational is a calm-gain style that fought the concept.",
-   "steal": "Soft close-up of a Pan-Asian spouse quietly worried at a kitchen table late at night, warm low light, the off-ledger human cost; orange #ff9419 caption strip, black #2f2922 text, no logos, never orange+green."
-  },
-  "HC-24": {
-   "ref": "bold-type-poster",
-   "archetype": "Bold-Type Poster",
-   "format": "static",
-   "why": "Rules tightening a little each year with no alarm now but a fine later is a quiet-FOMO verdict about the future — a typographic line conveys the slow tightening.",
-   "steal": "Black #2f2922 poster, Barlow line 'No alarm today. A fine the year you're not ready.' white + orange #ff9419 'fine'; faint curling tax circular edge; SEA retail; no logos."
-  },
-  "HC-25": {
+  "ARTIFACT-01": {
    "ref": "dashboard-reveal",
    "archetype": "Dashboard Reveal",
    "format": "static",
-   "why": "More outlets, less sight, a slipping outlet hiding in the group total — the cure and the proof is one clean multi-outlet view; the dashboard reveal makes the blind spot visible.",
-   "steal": "Clean StoreHub-style multi-outlet dashboard on a screen, black #2f2922 UI with orange #ff9419 accents, one outlet's dip subtly flagged; Pan-Asian enterprise setting; no competitor UI."
+   "why": "A phone lock-screen with no brand chrome floods with StoreHub-styled 'New order received' pings at the dinner peak, stacking faster than you can read, then a calm reveal: every order was captured the second it landed.",
+   "steal": "A close, phone-in-hand shot of a clean lock-screen (no brand chrome, StoreHub-styled generic-neutral notifications) inside a warm, busy upmarket café at dinner peak, 'New order received' pings cascading and stacking faster than they can be read."
   },
-  "PM-01": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Shop hums along while owner watches' is the core 'it runs itself' peace moment — calm owner observing, not acting.",
-   "steal": "Pan-Asian SEA kopitiam owner leaning calmly against the counter, arms relaxed, watching the floor run; warm orange #ff9419 accent on apron/signage, black #2f2922 text 'It runs itself', no competitor logos."
-  },
-  "PM-02": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
-   "format": "static",
-   "why": "'12 quiet minutes' is a single quantified relief figure — the number is the whole story of the calm close.",
-   "steal": "Giant '12 MIN' in black #2f2922 owning the frame on warm off-white, small orange #ff9419 'closing time, done' subline; faint SEA retail shopfront at dusk behind, no competitor names."
-  },
-  "PM-03": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "Handing down an organised shop so the parent can step back is a warm legacy/peace moment, not a stat or feature.",
-   "steal": "Pan-Asian SEA parent and grown child side by side at a tidy kopitiam counter, parent stepping back relaxed; warm tones, orange #ff9419 signage, black #2f2922 caption, authentic family-run setting, no logos."
-  },
-  "PM-04": {
+  "ARTIFACT-02": {
    "ref": "dashboard-reveal",
    "archetype": "Dashboard Reveal",
    "format": "static",
-   "why": "'Many outlets, one calm screen seen from home' is literally a multi-outlet dashboard — the clean screen IS the calm.",
-   "steal": "Clean StoreHub multi-location dashboard on a laptop on a calm home table, all outlets on-track in orange #ff9419; orange UI accents, black #2f2922 chrome, SEA home setting, mock outlet names, no competitor brands, never orange+green."
+   "why": "A proud merchant screenshots their StoreHub sales summary like a personal-best post — 'Today: 347 orders · RM18,240 · busiest hour 8-9pm.' The numbers were live and ready the moment they wanted to share.",
+   "steal": "Close on a phone held over a warm modern bistro pass, the screen showing a clean StoreHub-styled sales-summary card in orange and black reading 'Today: 347 orders · RM18,240 · busiest hour 8-9pm', caught mid-screenshot; no ad chrome, it reads like the owner's own proud post. Pan-Asian SEA hand."
   },
-  "PM-05": {
-   "ref": "big-number-stat",
-   "archetype": "Big-Number Stat",
+  "ARTIFACT-04": {
+   "ref": "dashboard-reveal",
+   "archetype": "Dashboard Reveal",
    "format": "static",
-   "why": "Per-day price relief ('less than a teh tarik') is a money-comparison number — the small figure is the hook.",
-   "steal": "Giant 'RM3.40/day' in black #2f2922 beside a glass of teh tarik, orange #ff9419 'less than your morning cup' line; warm kopitiam table, Pan-Asian context, no competitor names/logos."
+   "why": "A StoreHub-styled confirmation slip sits on a cafe counter — 'e-Invoice submitted ✓ · 1,204 invoices · this month.' Every invoice filed itself as each sale rang, with nothing left to submit.",
+   "steal": "Overhead on a clean marble cafe counter, a single StoreHub-styled confirmation slip (orange tick, black text: 'e-Invoice submitted ✓ · 1,204 invoices · this month') resting beside a flat white coffee; no ad chrome, it looks like a real merchant's counter. Warm, upmarket, Pan-Asian SEA."
   },
-  "PM-06": {
-   "ref": "face-closeup",
-   "archetype": "Face Close-Up",
+  "ARTIFACT-05": {
+   "ref": "cash-receipts-motif",
+   "archetype": "Cash & Receipts Motif",
    "format": "static",
-   "why": "Loyal regulars who stay because they're remembered is an emotional loyalty beat — best carried by a warm human face.",
-   "steal": "Close-up of a smiling Pan-Asian SEA regular being greeted by name at a kopitiam counter, genuine warmth; soft orange #ff9419 light, black #2f2922 caption 'remembered, every time', no logos, never orange+green."
+   "why": "A single order-ticket ribbon unfurls from a café pass and pools across the floor; a stamp reads 'One festival night. All of it, logged.' The reveal: nobody counted it, it counted itself.",
+   "steal": "An upmarket café pass at the close of a busy night, a single continuous order-ticket ribbon unfurling and pooling elegantly across a clean tiled floor under warm brand-orange light, no staff hunched over counting."
   },
-  "PM-07": {
+  "MILE-01": {
    "ref": "lifestyle-aspirational",
    "archetype": "Lifestyle / Aspirational",
    "format": "static",
-   "why": "'Owner finally sleeps soundly, numbers already right' is pure peace-of-mind — the calm off-duty moment, not the report itself.",
-   "steal": "Pan-Asian SEA shop owner resting peacefully at home in the evening, phone face-down, shop closed and safe; warm low light, orange #ff9419 accent lamp, black #2f2922 'sleep easy, books are right', no competitor refs."
+   "why": "A restaurant facade blazes with a giant orange light-bulb marquee reading RM1,000,000 as the owner and staff cheer on the street. The milestone lands with nothing to reconcile because every ringgit was tracked and compliant from day one.",
+   "steal": "A handsome full-service restaurant facade wrapped in a giant orange light-bulb marquee reading 'RM1,000,000', the owner and polished Pan-Asian staff cheering out on the bright street at dusk, celebratory and upmarket."
   },
-  "PM-08": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
-   "format": "static",
-   "why": "New hire learning the system in one shift is a 'see it work / so simple anyone gets it' feature proof — show the POS being used.",
-   "steal": "Young Pan-Asian SEA new hire confidently tapping the StoreHub POS on a counter terminal, calm and unbothered; orange #ff9419 UI, black #2f2922 caption 'trained before lunch', real SEA F&B counter, no competitor UI."
-  },
-  "PM-09": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Home for dinner, lost Sundays come back' is the flagship time-freedom peace moment — warm family scene, not a feature.",
-   "steal": "Pan-Asian SEA shop owner home in time for a warm family dinner, relaxed, shop already handled; golden-hour warmth, subtle orange #ff9419 accent, black #2f2922 caption 'home for dinner', authentic SEA home, no logos."
-  },
-  "PM-10": {
+  "MILE-03": {
    "ref": "bold-type-poster",
    "archetype": "Bold-Type Poster",
    "format": "static",
-   "why": "FOMO contrast — 'everyone else scrambles, yours already submitted' — lands as a blunt typographic verdict, minimal imagery.",
-   "steal": "Bold black #2f2922 type 'e-Invoice? Already handled.' on warm off-white, orange #ff9419 highlight on 'Already handled'; tiny calm SEA shopkeeper in corner; print only 'e-Invoice' (no 'LHDN'), no competitor names."
-  },
-  "PM-11": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Quiet pride in a shop that looks and works the part' is an aspirational owner moment — atmosphere over hard feature.",
-   "steal": "Pan-Asian SEA retail owner standing proudly in a clean, well-run shopfront, customers browsing calmly; polished warm light, orange #ff9419 brand accents, black #2f2922 caption 'a shop you're proud of', no competitor logos."
-  },
-  "PM-12": {
-   "ref": "dashboard-reveal",
-   "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "'Decisions from clear numbers, not gut feeling' is an insight/data job — the readable report on screen replaces the guessing.",
-   "steal": "Clean StoreHub sales-insights screen on a tablet at a calm counter, one clear trend highlighted; orange #ff9419 chart accents, black #2f2922 caption 'no more guessing', Pan-Asian SEA F&B setting, no competitor brands."
-  },
-  "PM-13": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Front counter ticks over calmly while back office stays in order on its own' is a whole-shop calm-confidence mood.",
-   "steal": "Calm Pan-Asian SEA retail front counter quietly serving, tidy stockroom glimpsed behind; serene warm tone, orange #ff9419 accents, black #2f2922 caption 'counter runs quiet', authentic SEA shop, no logos."
-  },
-  "PM-14": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Lunch rush comes and goes without panic' — the peace angle is the owner's calm amid it, so favour the unflustered owner over crowd-energy.",
-   "steal": "Pan-Asian SEA F&B owner standing calm and composed amid a busy-but-orderly lunch service, slight smile; warm tones, orange #ff9419 apron/signage, black #2f2922 caption 'peak hours, calm', no competitor logos, never orange+green."
-  },
-  "PM-15": {
-   "ref": "dashboard-reveal",
-   "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "'Books simply ready at month-end/tax' is a reporting-readiness payoff — show the clean, complete books on screen.",
-   "steal": "Clean StoreHub reports/books screen on a laptop, everything reconciled with orange #ff9419 ticks, calm desk; black #2f2922 caption “books always ready”, Pan-Asian SEA back-office, no competitor brands, never orange+green."
-  },
-  "PM-16": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Step away for what matters, shop carries on' is a time-freedom peace moment — owner away living life while it runs.",
-   "steal": "Pan-Asian SEA owner away from the shop at a child's school recital, relaxed and present, phone tucked away; warm light, subtle orange #ff9419 accent, black #2f2922 caption 'step away without worry', no logos."
-  },
-  "PM-17": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
-   "format": "static",
-   "why": "'Painless switch, set up by morning, serving by afternoon' is a 'see it work, it's easy' proof — show the new POS live in the shop.",
-   "steal": "Pan-Asian SEA retail owner smiling as they ring up the first sale on a freshly set-up StoreHub terminal; orange #ff9419 UI, black #2f2922 caption 'switched by morning, serving by noon', real SEA counter, no competitor UI/logos."
-  },
-  "PM-18": {
-   "ref": "bold-type-poster",
-   "archetype": "Bold-Type Poster",
-   "format": "static",
-   "why": "Curiosity reassurance — flood/power-cut/broken-till can't wipe your records — lands as a calm typographic promise, not a literal disaster shot.",
-   "steal": "Bold black #2f2922 type 'Power cut. Flood. Broken till. Your records survive.' on warm off-white, orange #ff9419 highlight on 'survive', small cloud-backup glyph; calm SEA shop hint, no competitor names."
-  },
-  "PM-19": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Set a promo once, it runs itself all week' is a hands-off peace payoff — calm owner not fiddling, promo applying on its own.",
-   "steal": "Relaxed Pan-Asian SEA retail owner stepping back as a 'promo active' tag glows at checkout; warm tone, orange #ff9419 promo accent, black #2f2922 caption 'set once, runs all week', authentic SEA shop, no logos."
-  },
-  "PM-20": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "static",
-   "why": "Festival is non-null and central (Raya) — a decorated Raya scene staying calm and stocked is the whole concept.",
-   "steal": "Warm Raya-decorated Pan-Asian SEA shop (ketupat, soft lights), owner calm and unhurried amid a busy festive floor, shelves stocked; orange #ff9419 brand accent woven into decor, black #2f2922 caption 'Raya, stress-free', no competitor logos, never orange+green."
-  },
-  "PM-21": {
-   "ref": "festival-hero",
-   "archetype": "Festival Hero",
-   "format": "static",
-   "why": "Festival is non-null and central (CNY) — reunion-dinner crowds handled with ease in a CNY-decorated shop is the concept itself.",
-   "steal": "CNY-decorated Pan-Asian SEA restaurant (red lanterns, warm gold), full reunion-dinner house turning smoothly, owner unflustered; orange #ff9419 brand accent, black #2f2922 caption 'CNY in control', no competitor logos."
-  },
-  "PM-22": {
-   "ref": "dashboard-reveal",
-   "archetype": "Dashboard Reveal",
-   "format": "static",
-   "why": "'Every branch consistent without a phone call' is a multi-outlet data/control job — one screen showing all outlets in sync.",
-   "steal": "Clean StoreHub multi-location screen showing every outlet matched on menu/price/standard, all in sync in orange #ff9419; black #2f2922 caption “every outlet, in sync”, SEA enterprise back-office, mock outlet names, no competitor brands, never orange+green."
-  },
-  "PM-23": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Restaurant runs calm, regulars return, no chasing' is a broad calm-confidence mood — the serene full-service room, not one feature.",
-   "steal": "Pan-Asian SEA restaurant running calm and full, owner relaxed greeting a returning regular, clean counter; warm light, orange #ff9419 accents, black #2f2922 caption 'restaurant runs calm', authentic SEA dining setting, no logos."
-  },
-  "PM-24": {
-   "ref": "pos-in-hand",
-   "archetype": "POS-in-Hand",
-   "format": "static",
-   "why": "'Loyalty points and prepaid balances tick over with zero counter friction' is a feature-in-action — show points/balance flowing on the POS.",
-   "steal": "Pan-Asian SEA cafe staff tapping a loyalty/prepaid balance on the StoreHub POS, regular smiling, queue moving; orange #ff9419 UI, black #2f2922 caption 'cafe just flows', real SEA cafe counter, no competitor UI/logos."
-  },
-  "PM-25": {
-   "ref": "lifestyle-aspirational",
-   "archetype": "Lifestyle / Aspirational",
-   "format": "static",
-   "why": "'Opening the next outlet feels calm, not chaotic' is an aspirational growth-without-stress moment — confident owner at the new shop.",
-   "steal": "Pan-Asian SEA owner calmly opening a brand-new second outlet, relaxed and assured, setup already done; warm light, orange #ff9419 signage, black #2f2922 caption 'grow without worry', authentic SEA shopfront, no competitor logos."
+   "why": "A freshly opened boutique with the ribbon still on the door and a giant orange 'DAY 1' in the window; a small line reads 'e-Invoice: ✓ already compliant.' Brand-new, and already sorted.",
+   "steal": "A bright, freshly-opened boutique storefront, a cut ribbon still draped on the glass door, a giant orange 'DAY 1' decal filling the window, a small line beneath reading 'e-Invoice: ✓ already compliant.' Beaming Pan-Asian SEA owner, clean modern fit-out."
   }
  }
 }

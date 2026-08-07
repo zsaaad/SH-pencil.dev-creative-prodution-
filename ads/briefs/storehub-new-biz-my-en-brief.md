@@ -171,13 +171,13 @@ Fake job listing: "NOW HIRING: Managed Chaos Expert. Must be comfortable jugglin
 **Layout:** Full-bleed photo + bottom text overlay
 
 **Visual structure:**
-- Full-bleed stock photo: busy Malaysian kopitiam, morning rush, warm light
+- Full-bleed stock photo: busy Malaysian modern cafe, morning rush, warm light
 - Content at bottom (padding 64, gap 20, justifyContent flex-end):
   - Headline: `Run your kopitiam\nlike a pro.` — Barlow Black 88px, white, lineHeight 1.05
   - Sub: `POS. Orders. Loyalty. All-in-one.` — Open Sans 36px, `rgba(255,255,255,0.8)`
   - Bottom row: Orange CTA + white logo
 
-**Photo query:** "traditional Malaysian kopitiam coffee shop morning busy warm atmosphere"
+**Photo query:** "modern Malaysian café coffee shop morning busy warm atmosphere"
 **Logo:** White reverse
 
 ---
@@ -187,13 +187,13 @@ Fake job listing: "NOW HIRING: Managed Chaos Expert. Must be comfortable jugglin
 **Layout:** Full-bleed photo + bottom text overlay
 
 **Visual structure:**
-- Full-bleed stock photo: Malaysian night market / hawker stall, glowing lights, evening
+- Full-bleed stock photo: Malaysian night market / modern eatery, glowing lights, evening
 - Content at bottom (padding 64, gap 20, justifyContent flex-end):
   - Headline: `From pasar malam\nto empire.` — Barlow Black 88px, white, lineHeight 1.05
   - Sub: `StoreHub grows with you.` — Open Sans 38px, `#ff9419`
   - Bottom row: Orange CTA + white logo
 
-**Photo query:** "Malaysian night market hawker stall busy glowing lights evening atmosphere"
+**Photo query:** "Malaysian night market modern eatery busy glowing lights evening atmosphere"
 **Logo:** White reverse
 
 ---

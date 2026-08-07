@@ -322,50 +322,18 @@ These push boundaries. They are unexpected. Some will fail. Some will be the bes
 
 ---
 
-### Wildcard Creative Framework
+### Wildcard Creative Framework — the Lateral Protocol
 
-#### Category 1 — Absurdist Problem Exaggeration
-Take a real merchant pain and dramatise it to an absurd extreme. The humour makes the insight land harder.
+**The old 5-category framework (absurdist / metaphor / meme-native / gut-punch / unexpected-pov) with inline examples is retired.** Those examples (47 tablets, mountain-on-back, spinning plates, 2am calculator, POS-POV…) became the attractor: every "wildcard" generated since descends from one of them, which is why batches converged. They are registered as `status:"retired"` in the shipped-concept registry and must not be regenerated or lightly reskinned.
 
-**Examples:**
-- A restaurant owner with 47 tablets on the counter, each showing a different app, visibly sweating — "There's a better way."
-- Someone doing end-of-day reconciliation while wearing a full winter jacket because it's 3am and they've been there since 6am — "StoreHub closes in 5 minutes. Not 5 hours."
-- A merchant manually counting inventory with an abacus in a futuristic city — "You're running a 2025 business with 1995 tools."
-- A waiter sprinting between tables, dropping plates, taking orders on paper, screaming — slow zoom out to reveal the whole restaurant is on fire. "Peak hour without StoreHub."
+Wildcards now follow the **Lateral Protocol** — full doctrine in `~/Code/cranium/reference/storehub-creative-master.md` §8:
 
-#### Category 2 — Unexpected Visual Metaphors
-The product is not shown literally. Instead, an unexpected metaphor makes the benefit viscerally clear.
-
-**Examples:**
-- A merchant carrying a mountain on their back, walking up stairs — then they pick up a StoreHub device and the mountain evaporates.
-- A restaurant shown as a spinning plate act — the owner desperately keeping 8 plates spinning. One by one they crash... except one. The plate with the StoreHub logo spins perfectly.
-- Split screen: left side = spaghetti of cables, tablets, paper, stress / right side = single clean screen, calm merchant.
-- The merchant's brain shown as a filing cabinet that keeps exploding open — vs a brain that looks like a clean dashboard.
-
-#### Category 3 — Cultural / Meme-Native Hooks
-Ads that speak the native language of social media — aware of trends, self-referential, funny, or designed to be saved/shared.
-
-**Examples:**
-- "POV: Your competitor just switched to StoreHub" — merchant celebrating while their rival is drowning in paperwork
-- Fake job listing: "Hiring: Superhuman who can manage POS, inventory, staff schedules, delivery orders, loyalty rewards, AND make coffee. OR... just use StoreHub."
-- Text-only ad that reads like a WhatsApp message from a stressed restaurant owner — then pivots to the solution
-- "Things that should not exist in 2025: [list of manual processes the merchant still does]"
-
-#### Category 4 — Emotional Gut-Punch
-No humour. Pure raw truth. A quiet, unadorned moment that lands because it's real.
-
-**Examples:**
-- A merchant alone in their empty restaurant at 2am doing paperwork. No music. No VO. Just the sound of a calculator clicking. Text appears: "You didn't open a restaurant to do this." — "StoreHub. Book a free demo."
-- Slow-motion shot of a child knocking on a closed restaurant door — their parent inside, head down, managing stock. "The business was always the priority. Until StoreHub made it easier to choose both."
-- Time-lapse of a restaurant from empty to full to empty again — the owner visible the entire time, never leaving. "20,000 merchants finally got their time back."
-
-#### Category 5 — Product as Hero (Unexpected POV)
-The POS system or feature becomes a character. Shot from an unusual perspective.
-
-**Examples:**
-- POV from the POS screen — watching the first order of the day come in, then the rush, then quiet. Text: "We see everything you do. We make it easier."
-- The Falcon 1 hardware introduced like a luxury car reveal — full cinematic treatment, dramatic lighting, music drop — "The most powerful tool in your restaurant. And it fits on your counter."
-- Stop-motion where business chaos (paper, pens, receipts) slowly assembles itself into a clean StoreHub terminal
+1. **Source of ideas = the lateral mechanisms library**, `~/Code/cranium/reference/lateral/mechanisms.md` — ~75 reusable creative mechanisms distilled from external work (global POS brands, award film craft, Thai/Japanese commercial surrealism, anti-ad brands, native-format hijacks). Every wildcard must cite a `mechanism_id` from it.
+2. **Stage A — Blind Divergence:** raw wildcard concepts are drafted from the mechanisms library + the target tension stated in de-branded language ONLY — before reading themes, prior analysis, or past batches. (In agent terms: the divergence step runs before `creative_themes.json` / `knowledge_base.json` shape the concept.)
+3. **Stage B — Translation:** the raw concept is then mapped onto the concrete StoreHub tension, vertical, brand, and feature names. If translation flattens the mechanism back into *problem → calm replay → product resolves*, kill the concept — don't fix it.
+4. **Stage C — Gates:** compliance lint → **registry near-dupe check** against `~/Code/cranium/reference/lateral/shipped-concepts.jsonl` (a concept dies if it shares tension + any mechanism_id with a live entry, OR its centerpiece is the same memorable image) → blandness critic ("could a competitor's intern have written this from the product page?" — ≤2/5 dies).
+5. **Pencil's home lanes:** `format-hijack` · `anti-ad` · `pov-swap`. Off-lane draws (scale-shift, literalized-metaphor, time-manipulation, object-personification, genre-transplant) are allowed only if the registry shows no live use by another project (mosaic/aggregator lanes).
+6. **Write-back:** every shipped/approved concept is appended to the registry in the same session.
 
 ---
 

@@ -94,14 +94,14 @@
       "execution_directions": [
         "A comparison: [Their monthly Grab commission] vs [StoreHub monthly fee]. Just two numbers.",
         "A receipt-style breakdown: what they pay per year in commissions, errors, manual overtime vs StoreHub cost.",
-        "RM3.40/day — shown as coins, as a drink, as the most affordable thing in their life.",
+        "RM7.60/day — shown as coins, as a lunch, as the most affordable thing in their life.",
         "A timeline: 'At RM48,000 renovation cost, your POS is the 1 thing you shouldn't overpay for. RM3,960 with StoreHub.'"
       ],
       "copy_direction": "Lead with the number. Make it specific to their world (RM, their vertical, their scale). No fluff.",
       "primary_kpi": "CPL",
-      "hypothesis": "Specific financial numbers (RM3.40/day, 30% commission = RM X) drive lower CPL than feature benefit copy because they create a tangible, calculable cost-of-inaction.",
+      "hypothesis": "Specific financial numbers (RM7.60/day, 30% commission = RM X) drive lower CPL than feature benefit copy because they create a tangible, calculable cost-of-inaction.",
       "markets_to_test": ["MY", "PH"],
-      "known_data": "Price anchor headlines with hardware visual proven in both MY and PH. PHP63/month is the top-performing PH message across 2 quarters. RM3.40/day framing is in the product but undertested as a visual hero.",
+      "known_data": "Price anchor headlines with hardware visual proven in both MY and PH. PHP63/day is the top-performing PH message across 2 quarters. RM7.60/day framing is in the product but undertested as a visual hero.",
       "watch_out": "Numbers must be accurate and market-specific. Never use Malaysian pricing in PH ads or vice versa."
     },
 
@@ -117,7 +117,7 @@
         "'GrabFood takes 30%. StoreHub takes 0.' — Two numbers, full stop.",
         "Split: LEFT = manual stock count at midnight / RIGHT = StoreHub dashboard in 30 seconds.",
         "'Your current setup' (list of 6 disconnected tools with costs) vs 'StoreHub' (one line, one price).",
-        "A fake job posting: 'Hiring: Human who manages POS + inventory + loyalty + delivery + reports. OR: StoreHub. From RM3.40/day.'"
+        "A fake job posting: 'Hiring: Human who manages POS + inventory + loyalty + delivery + reports. OR: StoreHub. From RM7.60/day.'"
       ],
       "copy_direction": "Make the comparison feel fair, then make the answer obvious. Never attack by name — compare to a behavior or category, not a brand.",
       "primary_kpi": "CTR",
@@ -161,7 +161,7 @@
         "MY: Nasi lemak or roti canai as the full-bleed hero. StoreHub branding minimal at bottom. 'Your stall. Our tech.'",
         "PH: Halo-halo or lechon as hero. Tagalog/Taglish copy. '#1 POS for Filipino F&B.'",
         "TH: Thai food hero image. Thai script headline. Local merchant face.",
-        "MY: A hawker stall at night market — busy, authentic, recognisably Malaysian. POS visible but not the focus."
+        "MY: A modern Malaysian café or full-service restaurant — busy, well-fitted, authentic, recognisably Malaysian. POS visible but not the focus."
       ],
       "copy_direction": "Write in the market's primary language. Use local food vocabulary. Reference local business culture (e.g., 'gerai', 'kopitiam', 'karinderia').",
       "primary_kpi": "CPL (volume)",
@@ -246,7 +246,7 @@
       "emotional_lever": "Curiosity + recognition — 'This looks like something I'd actually read'",
       "NOT": "A traditional testimonial screenshot or a product shot with 'We're hiring' text on top. T11 is a full-canvas artifact with zero brand chrome in the first half of the visual. Logo and CTA enter only at the bottom as the reveal. If the ad reads as a StoreHub promo at first glance, it is NOT Artifact Native.",
       "execution_directions": [
-        "Fake classifieds / JobStreet-style posting: 'HIRING: One human who can manage POS + inventory + loyalty + delivery + reports. Salary: RM4,500/month. OR: StoreHub. From RM3.40/day.' — the proven Batch 1 winner format.",
+        "Fake classifieds / JobStreet-style posting: 'HIRING: One human who can manage POS + inventory + loyalty + delivery + reports. Salary: RM4,500/month. OR: StoreHub. From RM7.60/day.' — the proven Batch 1 winner format.",
         "Fake WhatsApp group chat between 'Boss' and '@staff' at 11pm about reconciliation — ends with '...or we get StoreHub lah.'",
         "Fake Google Review screenshot — 5 stars — from a real merchant 'Binq Dessert' describing the switch. Reads as a native Google card, not an ad.",
         "Fake receipt or month-end expense statement showing delivery commissions + staff overtime + manual reporting hours. Single line at the bottom: 'StoreHub: RM408. Which one are you cutting?'",
@@ -269,10 +269,10 @@
       "one_liner": "Hard numbers anchored to a specific merchant milestone — opening week, first month P&L, one-year renewal — so the math lands at the moment it matters.",
       "core_insight": "T4 (The Math) fails when numbers are abstract. T2 (New Chapter) wins volume but loses on SQL qualification when the milestone is emotional without a financial hook. T12 is the intersection: pair a concrete number with a concrete life-stage moment and the audience self-qualifies — only merchants who recognise the milestone AND can do the math will click, but the ones who do are high-intent.",
       "emotional_lever": "Recognition of the moment + concrete cost of inaction inside that moment",
-      "NOT": "Generic 'new business discount' (that's T2 execution). Not 'RM3.40/day' in isolation (that's T4 execution). T12 is specifically: milestone anchor + financial anchor, fused. The milestone gives emotional urgency, the math gives rational justification.",
+      "NOT": "Generic 'new business discount' (that's T2 execution). Not 'RM7.60/day' in isolation (that's T4 execution). T12 is specifically: milestone anchor + financial anchor, fused. The milestone gives emotional urgency, the math gives rational justification.",
       "execution_directions": [
-        "Opening-week expense itemised list: Renovation RM48,000 | Kitchen RM25,000 | Signage RM3,500 | POS from RM3.40/day (highlighted). Headline: 'You saved where it counts.'",
-        "90-day survival math: 'The first 90 days decide the next 10 years. At RM3.40/day, your POS is the cheapest line on your rescue list.'",
+        "Opening-week expense itemised list: Renovation RM48,000 | Kitchen RM25,000 | Signage RM3,500 | POS from RM7.60/day (highlighted). Headline: 'You saved where it counts.'",
+        "90-day survival math: 'The first 90 days decide the next 10 years. At RM7.60/day, your POS is the cheapest line on your rescue list.'",
         "1-year-anniversary upgrade math: 'Year 1 at RM60/day in GrabFood commissions = RM21,900. Year 2 with StoreHub = RM1,240. Which year are you closing?'",
         "Renovation gap analysis: a fake receipt from a renovation vendor with line items for hood / tiles / signage — and the last line 'POS system (unpriced — decided later): this is where merchants overpay.'",
         "Expansion-math: 'Opening location #2 at the speed of location #1: 14 months to breakeven. With one dashboard for both: 6 months.' (numbers illustrative — use verified SH data.)"

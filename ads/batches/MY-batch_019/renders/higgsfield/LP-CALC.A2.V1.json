@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-08-04T06:51:15.046708Z",
+    "display_name": "Nano Banana Pro",
+    "id": "f9e042af-d604-44f0-9274-d5826ec09cde",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/hf_20260804_065115_f9e042af-d604-44f0-9274-d5826ec09cde_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "467932c9-ae34-4def-b328-57f51abe3142",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/467932c9-ae34-4def-b328-57f51abe3142.png"
+        }
+      ],
+      "prompt": "Vertical 9:16 paid-social ad, 1080x1920, matching the layout system of the reference image: photographic documentary background, big bold condensed sans-serif headline in white (Barlow Black style) over the middle of the frame, small cream sub-line under it, then a rounded pill button filled bright orange #ff9419 with near-black bold label, and small light-grey price text beside the pill. Top-right wordmark reads exactly StoreHub, with Store in orange #ff9419 and Hub in white. A soft dark gradient sits behind the lower text so it stays legible. STRICT: render the quoted text exactly, spelled exactly, no extra words, no invented text anywhere in the frame, no watermarks, no other logos, no brand names on cups or screens. Nothing important in the top 250px or the bottom 500px of the frame. Southeast Asian (Malaysian) faces only, upmarket modern venue, warm natural light, clean tidy counter.\n\nSCENE: A Malaysian cafe owner in a smart shirt standing at a clean marble counter of a well-fitted modern specialty cafe after closing, warm pendant lamp light, reviewing figures on a phone, two neat receipts clipped on the counter, calm focused expression.\n\nHEADLINE (largest text, 3-4 lines, left aligned): \"The sales nobody recorded are the ones costing you.\"\nSUB-LINE (small, cream): \"From guesswork to numbers.\"\nPILL BUTTON LABEL (all caps): \"GET YOUR NUMBER\"\nPRICE TEXT BESIDE PILL: \"From RM3.40/day\"",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F1klMHW3zQMDQY8nm3ASJhGQi2/hf_20260804_065115_f9e042af-d604-44f0-9274-d5826ec09cde.png",
+    "status": "completed"
+  }
+]

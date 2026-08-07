@@ -5,7 +5,7 @@ StoreHub ad creative pipeline. Closed loop: pull Meta performance → analyse wi
 **Where things live:**
 
 - `config/` — brand, products, audience, campaigns, creative_themes. Source of truth for every agent prompt.
-- `agents/` — `ad-analyst`, `ad-strategy-agent`, `ad-creative-generator`, `ad-results-analyzer`, `ad-pipeline` (orchestrator skill), `weekly-report-analyst`.
+- `agents/` — `ad-analyst`, `ad-strategy-agent`, `ad-creative-generator`, `ad-copy-generator`, `ad-results-analyzer`, `ad-pipeline` (orchestrator skill), `weekly-report-analyst`, `prompts/`.
 - `ads/batches/{MARKET}-batch_{NN}/` — per-batch production prompt, PNG renders, `ad-copy.md`, `analysis.md`. Two legacy dirs (`batch_001`, `batch_002`) have no market prefix — leave them; they're referenced by `data/iterations/*/creative_manifest.json` and `data/cycle_state.json`.
 - `ads/images/` — every AI-generated image. **Never move or rename** — `.pen` files reference `./images/...` and will break.
 - `ads/*.pen` — active Pencil.dev files at root. Filenames have spaces; don't rename once Pencil app has them in recent files.
@@ -27,6 +27,17 @@ StoreHub ad creative pipeline. Closed loop: pull Meta performance → analyse wi
 
 ---
 
+## Hard creative rules — do NOT repeat (visual + copy)
+
+Two recurring errors, same root cause: positioning StoreHub merchants as downscale/manual instead of modern/aspirational. Enforce in every Pencil prompt, scene description, artifact, and headline:
+
+1. **Venue tier = aspirational, not downmarket.** Show modern, well-fitted cafés, bistros, full-service restaurants, and established retail/boutiques — good lighting, clean interiors, mid-to-upmarket. Pan-Asian / SEA faces, still authentic and documentary, but the merchant looks successful. **Never** low-income/downscale settings: roadside mamak, basic kopitiam, hawker stalls, cluttered or run-down interiors, "cash tin" aesthetics. (The ad-grid themes lean kopitiam/mamak in their `setting` text — translate them UP to modern venues when prompting; do not render them literally.)
+2. **Never use the word "till."** Use "cashier", "checkout", "POS", or "the counter" (e.g. "never hit the till" → "never reach the cashier"). "Cash drawer" is fine for reconciliation pain; "till" is not. Avoid old-world cash-register language that frames the business as manual/cash-only.
+
+Cross-project mirror: `~/.claude/CLAUDE.md` (brand essentials) + `~/Code/cranium/reference/storehub/storehub-creative-master.md`.
+
+---
+
 ## Post-PR plain-English recap (binding)
 
 After every completed PR — or after the final commit if PRs aren't being used — give Zaid a plain-English recap of what part of the project is now done. Hard rule, not optional.
@@ -45,7 +56,7 @@ After every completed PR — or after the final commit if PRs aren't being used 
 > **What just shipped (plain English):**
 > <3–6 simple sentences/bullets>
 
-**Cranium journal append (mandatory).** After showing the recap to Zaid, append a one-line plain-English entry to today's Cranium journal at `~/cranium/journal/<YYYY-MM-DD>.md` (create with a `# <date>` heading if missing) in this format, using the project slug from the Cranium section below:
+**Cranium journal append (mandatory).** After showing the recap to Zaid, append a one-line plain-English entry to today's Cranium journal at `~/Code/cranium/journal/<YYYY-MM>/<YYYY-MM-DD>.md` (create with a `# <date>` heading if missing; nested month dir — flat journal files are dead) in this format, using the project slug from the Cranium section below:
 
 ```
 - [storehub-ad-pipeline] <one-sentence plain-English recap>
@@ -59,20 +70,20 @@ Every push = one journal line. A reminder hook (`/Users/zaidsaad/Code/cranium/sc
 
 Before starting substantive work in this session, do this once:
 
-1. Read `~/cranium/CLAUDE.md` for operating principles
-2. Read `~/cranium/state/current.md` for what Zaid is currently focused on
-3. Read `~/cranium/projects/<this-project-slug>.md` if it exists
-4. Read `~/cranium/todos/<this-project-slug>.md` if it exists
+1. Read `~/Code/cranium/CLAUDE.md` for operating principles
+2. Read `~/Code/cranium/state/current.md` for what Zaid is currently focused on
+3. Read `~/Code/cranium/projects/<this-project-slug>.md` if it exists
+4. Read `~/Code/cranium/todos/<this-project-slug>.md` if it exists
 
-If `~/cranium/comms/inbox/` has unprocessed files, mention the count up front.
+If `~/Code/cranium/comms/inbox/` has unprocessed files, mention the count up front.
 
-When you complete a meaningful unit of work, update `~/cranium/todos/<this-project-slug>.md`
-and append a one-line note to today's `~/cranium/journal/<today>.md` (create if missing).
+When you complete a meaningful unit of work, update `~/Code/cranium/todos/<this-project-slug>.md`
+and append a one-line note to today's `~/Code/cranium/journal/<YYYY-MM>/<YYYY-MM-DD>.md` (create if missing).
 
 When Zaid says "log this" or "remember this", figure out where it belongs:
-- Project-specific learning → `~/cranium/projects/<slug>.md`
-- Decision with rationale → `~/cranium/decisions/<today>-<slug>.md`
-- Todo → `~/cranium/todos/<slug>.md`
-- Random thought to revisit → `~/cranium/state/projects.md` "Idea parking lot"
+- Project-specific learning → `~/Code/cranium/projects/<slug>.md`
+- Decision with rationale → `~/Code/cranium/decisions/<today>-<slug>.md`
+- Todo → `~/Code/cranium/todos/<slug>.md`
+- Random thought to revisit → `~/Code/cranium/state/projects.md` "Idea parking lot"
 
 Project slug for this repo: `storehub-ad-pipeline`

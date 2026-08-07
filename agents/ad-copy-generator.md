@@ -112,7 +112,7 @@ Output the artifact body as a fenced code block in `ad-copy.md` so the visual ge
 
 Every caption needs exactly ONE of:
 - A current offer: `Up to 55% off hardware. While supplies last.`
-- A price anchor: `From RM3.40/day.` (MY) · `From ₱63/day.` (PH).
+- A price anchor: `From RM7.60/day.` (MY) · `From ₱63/day.` (PH).
 - A proof stat: `Trusted by 20,000+ merchants across SEA.` (current StoreHub merchant count — confirmed 2026-04-30).
 - A compliance proof: `LHDN-compliant e-invoicing built in.` (MY) · `BIR-accredited.` (PH — verify before using).
 - A named-merchant proof: `Used by Grub, Binq, Coffeeboy Club and 20,000+ more.`
@@ -150,9 +150,9 @@ Pattern: **proof or offer**. Examples per language:
 
 | Language | Proof | Offer | Anchor |
 |---|---|---|---|
-| EN | `Trusted by 20,000+ businesses` | `Up to 55% off hardware` | `From RM3.40/day` |
-| MS | `Dipercayai oleh 20,000+ perniagaan` | `Diskaun sehingga 55%` | `Dari RM3.40/hari` |
-| CN | `受20,000+家企业信赖` | `高达55%折扣` | `每日只需 RM3.40` |
+| EN | `Trusted by 20,000+ businesses` | `Up to 55% off hardware` | `From RM7.60/day` |
+| MS | `Dipercayai oleh 20,000+ perniagaan` | `Diskaun sehingga 55%` | `Dari RM7.60/hari` |
+| CN | `受20,000+家企业信赖` | `高达55%折扣` | `每日只需 RM7.60` |
 
 ≤30 chars optimal, ≤90 chars hard limit.
 
@@ -164,7 +164,7 @@ Cross-checked against `config/brand.json` tone_of_voice and the CSV's evolution:
 - ❌ Corporate jargon (`leverage`, `synergy`, `paradigm`, `solution stack`)
 - ❌ Stock-photo cheerfulness without specifics (`Empower your business today!` ❌)
 - ❌ Mixing two languages inside ONE caption (write three separate captions, not one bilingual one). MS code-switching to English keywords (`sales`, `stock`, `customer`) IS the MS register and is allowed — that is not bilingual mixing.
-- ❌ Naming competitors (no `Beat Loyverse`, no `GrabFood-killer`). Compare to behaviours/categories instead.
+- ❌ Naming competitors (no `Beat [named POS competitor]`, no `[delivery app]-killer`). Compare to behaviours/categories instead.
 - ❌ Stale stats: `15,000+` (2023) and `17,000+` / `18,000+` (2024–2025) are out of date. Use `20,000+` — current StoreHub merchant count across SEA (confirmed 2026-04-30).
 - ❌ Wrong currency: never RM in PH copy, never ₱ in MY copy, never $ anywhere.
 - ❌ Holiday hooks WITHOUT a hard offer attached (PH National Heroes Day with no promo flopped; same risk in any market).
@@ -380,7 +380,7 @@ If any forbidden-pattern check fails: rewrite the offending line and rerun the c
 - The brief asks for copy in a language not listed in `config/brand.json` `languages` array (currently EN, CN, MS, TH).
 - A T11 concept references a UI artifact (Viber, GCash, JobStreet, BIR) where you cannot guarantee the artifact body is accurate without legal/compliance review — flag for the human caller before writing the artifact body.
 - A named-merchant proof line (e.g. `Used by Binq Dessert`) cannot be confirmed against `config/brand.json` `asset_library.testimonial_ads.merchants`.
-- The brief specifies currency or pricing claims that conflict with the latest public StoreHub pricing pages (`RM3.40/day` MY · `₱63/day` PH).
+- The brief specifies currency or pricing claims that conflict with the latest public StoreHub pricing pages (`RM7.60/day` MY · `₱63/day` PH).
 
 ---
 

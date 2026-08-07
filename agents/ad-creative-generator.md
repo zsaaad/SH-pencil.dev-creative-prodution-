@@ -242,7 +242,8 @@ Save `data/iterations/{N}/creative_manifest.json`:
       "dimensions": "1080x1080",
       "platform": "meta",
       "creative_type": "safe | wildcard",
-      "wildcard_category": "absurdist | metaphor | meme-native | gut-punch | unexpected-pov | null",
+      "mechanism_id": "M-XXX-nn from ~/Code/cranium/reference/lateral/mechanisms.md | null for safe",
+      "wildcard_category": "format-hijack | anti-ad | pov-swap | scale-shift | literalized-metaphor | time-manipulation | object-personification | genre-transplant | null",
       "status": "created | keyframe_only",
       "video_brief_attached": false,
       "screenshot_verified": true
