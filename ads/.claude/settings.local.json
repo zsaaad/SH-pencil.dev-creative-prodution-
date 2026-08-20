@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/zaidsaad/Desktop/Creative/testimonials for CC/**)",
+      "Read(//Users/zaidsaad/Desktop/Creative/SH Hardware/**)",
+      "Bash(mv GNgRv.png SQUARE_VP1_STOREHUB_20260413_compcontrast_featuretable_v1.png)",
+      "Bash(mv dQvoO.png 916_VP1_STOREHUB_20260413_compcontrast_featuretable_v1.png)",
+      "Bash(mv 5VKLe.png 169_VP1_STOREHUB_20260413_compcontrast_featuretable_v1.png)",
+      "Bash(mv zjbAl.png SQUARE_VP2_STOREHUB_20260413_compcontrast_savingscalc_v1.png)",
+      "Bash(mv Ow4ks.png 916_VP2_STOREHUB_20260413_compcontrast_savingscalc_v1.png)",
+      "Bash(mv HGfqt.png 169_VP2_STOREHUB_20260413_compcontrast_savingscalc_v1.png)",
+      "Bash(mv Pqa2k.png SQUARE_VP3_STOREHUB_20260413_compcontrast_whyswitch_v1.png)",
+      "Bash(mv MWhUO.png 916_VP3_STOREHUB_20260413_compcontrast_whyswitch_v1.png)",
+      "Bash(mv 1Mloh.png 169_VP3_STOREHUB_20260413_compcontrast_whyswitch_v1.png)",
+      "Bash(ls -la *.png)",
+      "Bash(mkdir -p \"/Users/zaidsaad/Desktop/Creative/Pencil ads - PH-batch_001/PH-batch_001\")",
+      "Read(//Users/zaidsaad/Desktop/Creative/Pencil ads - PH-batch_001/PH-batch_001/**)",
+      "Bash(kill bf7whwywd *)",
+      "Bash(cd /Users/zaidsaad/Desktop/Code/Pencil.dev; find . -iname \"*storehub*logo*\" -o -iname \"*logo*full*\" -o -iname \"*reverse*\" 2>/dev/null | grep -i -E \"png|svg|jpg\" | head; echo \"---\"; ls \"Input Files/\" 2>/dev/null | head -40)",
+      "Bash(cd /Users/zaidsaad/Desktop/Code/Pencil.dev; ls scripts/ | grep -i export; echo \"---\"; sed -n '1,60p' scripts/export_pen.py 2>/dev/null; echo \"---BATCH003---\"; ls -la ads/batches/batch_003/ 2>/dev/null)",
+      "Bash([ -f \"generated-$f.png\" ])",
+      "Bash([ -f \"$id.png\" ])",
+      "Bash(grep -v -E '^[A-Za-z0-9]{5,6}\\\\.png$')",
+      "Read(//Users/zaidsaad/Desktop/Code/Pencil.dev/scripts/**)",
+      "Read(//Users/zaidsaad/Desktop/Code/Pencil.dev/**)",
+      "Bash(python3 scripts/export_pen.py \"ads/MY Batch 3.pen\")",
+      "Bash(npm bin *)",
+      "Bash(npm prefix *)",
+      "Bash(ls -la \"$\\(npm prefix -g \\)/bin\")",
+      "Bash(npx --no-install pencil --help)",
+      "Read(//opt/homebrew/Cellar/node/24.6.0/bin/**)",
+      "Read(//Users/zaidsaad/.nvm/versions/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/zaidsaad/.npm-global/bin/**)",
+      "Bash(export PATH=\"$HOME/.npm-global/bin:/opt/homebrew/bin:$PATH\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

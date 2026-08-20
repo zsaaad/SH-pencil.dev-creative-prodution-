@@ -1,0 +1,53 @@
+PALETTE OVERRIDE — signed off by Zaid 2026-08-13, Heroes Day flight only. Philippine national
+colours replace StoreHub orange for this set by deliberate exception to master §1. Do not revert.
+See _shared_system.md and ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md
+
+Landscape 16:9 advertisement, 1920x1080. Philippine National Heroes Day promotional ad, feature-showcase layout. Cinematic product photography with flat graphic type and floating UI chips. Moody, premium, dark.
+
+PALETTE (closed — these four colours only): deep royal blue hex 0038A8, flag red hex CE1126, flag gold hex FCD116, white. No orange. No green. Any accent, arrow or highlight uses flag gold or white.
+The photograph itself is dark and warm; the flag colours carry all type, graphics and props.
+
+LAYOUT: Left half is the photograph and floating chips. Right half is type on the darkened background. Clear vertical separation between the two halves — the right side stays visually quiet so the type reads.
+
+SCENE (left half): A modern specialty coffee shop counter in Metro Manila, shot at counter height with a shallow lens. Polished pale marble countertop in the foreground. Exactly one dual-screen point-of-sale terminal sits on the marble, angled three-quarter toward camera, matte black, slim bezels, resting flat on the counter. Behind it, heavily blurred and dark, a professional espresso machine and warm shelf lighting. Deep shadow, controlled highlights, premium and quiet.
+
+VENUE TIER: modern, well-fitted, upmarket. Good lighting, clean fit-out, the merchant reads as established and successful. Authentic and documentary in tone, but aspirational.
+
+POS SCREEN: on the left portion of the screen a single appetising photograph of a Filipino rice dish on a ceramic plate; on the right portion a plain order panel with a flag gold hex FCD116 bar along its bottom. No readable lettering on the screen.
+
+FLOATING FEATURE CHIPS: exactly five small white rounded rectangular cards float in front of and around the terminal at slightly different depths, each casting a soft shadow, each with a tiny simple line icon at its left. Set the chip text large enough to read cleanly. Use these five exact strings and no others:
+Inventory Management
+Reporting & Analytics
+Multi Location Management
+E-Invoice
+Employee Management
+
+HEROES DAY PROPS (foreground, arranged on the marble to the left, replacing any seasonal ornament): a garland of white sampaguita flowers laid in a soft loop; a small polished gold eight-ray sun ornament standing upright; three small gold five-pointed stars resting on the marble; a compact desk-stand Philippine flag, upright and still. Styled sparse and elegant, gallery-lit, never cluttered or kitsch.
+
+GRAPHIC MOTIF: behind the large headline numeral, a stylised eight-ray sunburst in flag gold hex FCD116 radiating outward, flat and graphic, sitting behind the type without touching any letter. Two or three small gold stars scattered near it.
+
+TEXT (right half) — render each line as the exact characters given, including punctuation and the ₱ symbol. Add no other words anywhere in the image.
+line 1, small gold uppercase: ARAW NG MGA BAYANI · NATIONAL HEROES DAY
+line 2, very large white uppercase with the amount in flag red hex CE1126, the largest element in the frame: GET UP TO ₱21,000 OFF
+line 3, large white uppercase beneath it: ON POS HARDWARE
+line 4, large white uppercase with the middle word in flag red: ALL-IN-ONE POS
+line 5, small white uppercase: TRUSTED BY 20,000+ MERCHANTS ACROSS SOUTHEAST ASIA
+line 6, gold, set noticeably larger than the social-proof line above it: From ₱63/day
+line 7, small gold beneath it: That's ₱22,995/year · BIR Accredited · Ends 31 August
+
+BRANDING: the StoreHub wordmark in white, small, upper left corner, inset well clear of the frame edge, sitting on the dark background. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets the headline in Barlow Black and chips, social proof and price line in Open Sans.
+Meta 16:9 safe zone is 100px top, 150px bottom, 100px sides on 1920x1080 (1720x830, y=100 to 930) —
+measured and enforced in Pencil, never requested from the image model. The StoreHub wordmark is
+placed as the real brand asset. Feature chips are far more reliable composited than generated.
+
+PLATE VARIANT: for a clean compositing plate, delete the TEXT and FLOATING FEATURE CHIPS blocks and
+instruct instead: leave the right half of the frame dark and completely empty of lettering, leave the
+device screen dark, and render only the counter, terminal, espresso machine and Heroes Day props.
+Composite chips, headline and all copy in Pencil.

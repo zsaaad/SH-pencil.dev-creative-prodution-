@@ -1,0 +1,40 @@
+PALETTE OVERRIDE — signed off by Zaid 2026-08-13, Heroes Day flight only. Philippine national
+colours replace StoreHub orange for this set by deliberate exception to master §1. Do not revert.
+See _shared_system.md and ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md
+
+Square 1:1 advertisement, 1080x1080. Philippine National Heroes Day promotional poster. Patriotic, bold. Flat graphic design with one studio-lit product photograph.
+
+PALETTE (closed — these four colours only): deep royal blue hex 0038A8, flag red hex CE1126, flag gold hex FCD116, white. No orange. No green. Any accent, arrow or highlight uses flag gold or white.
+
+BACKGROUND (flat, no gradient, no texture): a deep royal blue hex 0038A8 field. Centred, a huge stylised eight-ray sun in flag gold hex FCD116, rays radiating toward every edge, entirely clear of all type. Three large gold five-pointed stars across the top. A solid flag red hex CE1126 horizontal banner crosses the middle.
+
+PRODUCT (the only photographic element): exactly one modern dual-screen point-of-sale terminal, studio-lit at a three-quarter hero angle, resting on a narrow pale counter surface, centred over the gold sun, with a soft contact shadow. Matte black housing, slim bezels, premium industrial design. Its screen shows a plain white interface with a simple tile grid and no readable lettering.
+
+TEXT — render each line as the exact characters given, including punctuation and the ₱ symbol. Add no other words anywhere in the image.
+line 1, small gold uppercase: ARAW NG MGA BAYANI
+line 2, smaller white uppercase: NATIONAL HEROES DAY · AUGUST 31
+line 3, inside the red banner, white uppercase: HEROES DAY PROMO
+line 4, the largest element in the frame, gold, very tight tracking: Up to ₱21,000
+line 5, immediately beneath, large white: OFF HARDWARE
+line 6, medium white, set larger than the other body copy: Point of Sale (POS) from ₱63/day
+line 6b, small white directly beneath: That's ₱22,995/year
+line 7, a gold hex FCD116 rounded button, deep blue text: Book a free demo
+line 8, very small white: Ends 31 August. Terms apply.
+
+BADGE: a small white rounded ribbon, top right, deep blue text, exact characters: BIR Accredited
+
+BRANDING: the StoreHub wordmark in white, small, upper left, inset well away from the frame edge, on flat blue. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not for the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets all copy in Barlow Black (headline, price) and Open Sans (body, button, band).
+Meta 1:1 safe zone is 64px on all four sides of 1080x1080 (952x952 centred) — measured and enforced
+in Pencil, never requested from the image model. The StoreHub wordmark is placed as the real brand
+asset in mixed case, capital S and capital H, never all uppercase.
+
+PLATE VARIANT: to generate a clean plate for compositing, delete the TEXT block and instead
+instruct: leave the upper blue field and the lower red band completely empty of any lettering, and
+leave the device screen switched off and dark. Composite all copy and interface in Pencil.

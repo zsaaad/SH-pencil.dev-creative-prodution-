@@ -1,0 +1,93 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 show:*)",
+      "Bash(chmod +x /Users/zaidsaad/Desktop/Code/Pencil.dev/scripts/pipeline.py /Users/zaidsaad/Desktop/Code/Pencil.dev/scripts/import_results.py)",
+      "Bash(git pull:*)",
+      "Bash(find /Users/zaidsaad -name generated-*.png)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Skill(update-config)",
+      "Bash(chmod +x /Users/zaidsaad/Desktop/Code/Pencil.dev/scripts/cycle_check.py /Users/zaidsaad/Desktop/Code/Pencil.dev/scripts/pull_meta_api.py /Users/zaidsaad/Desktop/Code/Pencil.dev/scripts/pull_tiktok_api.py)",
+      "Bash(claude update:*)",
+      "Bash(mv \"T4b-the-math-grab-vs-storehub.png\" \"beep-T4b-the-math-grab-vs-storehub.png\")",
+      "Bash(mv \"T5a-competitive-contrast-commission-war.png\" \"beep-T5a-competitive-contrast-commission-war.png\")",
+      "Bash(mv \"T5b-competitive-contrast-6-vs-1.png\" \"beep-T5b-competitive-contrast-6-vs-1.png\")",
+      "Bash(mv \"T9a-hidden-cost-cost-audit.png\" \"beep-T9a-hidden-cost-cost-audit.png\")",
+      "Bash(mv \"T9b-hidden-cost-bank-statement.png\" \"beep-T9b-hidden-cost-bank-statement.png\")",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(/tmp/xlvenv/bin/pip install:*)",
+      "Bash(/tmp/xlvenv/bin/python3 -c ':*)",
+      "Bash(/tmp/xlvenv/bin/python3:*)",
+      "Bash(mkdir -p /Users/zaidsaad/Desktop/Code/Pencil.dev/Reporting/week_06apr_12apr_2026)",
+      "Bash(mv /Users/zaidsaad/Desktop/Code/Pencil.dev/ads/action_plans/week_06apr_12apr_2026.md /Users/zaidsaad/Desktop/Code/Pencil.dev/Reporting/week_06apr_12apr_2026/)",
+      "Bash(rmdir /Users/zaidsaad/Desktop/Code/Pencil.dev/ads/action_plans)",
+      "Bash(pkill -f \"mcp-server-darwin-arm64\")",
+      "Read(//Applications/Pencil.app/Contents/Resources/app.asar.unpacked/out/**)",
+      "Read(//Users/zaidsaad/.pencil/**)",
+      "Bash(timeout 3 /Users/zaidsaad/.pencil/mcp/visual_studio_code/out/mcp-server-darwin-arm64 --app visual_studio_code)",
+      "Bash(claude mcp *)",
+      "Bash(sort -k6,7)",
+      "Bash(/Applications/Pencil.app/Contents/MacOS/Pencil --help)",
+      "Bash(/Applications/Pencil.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64 --help)",
+      "Bash(/Applications/Pencil.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64 --app desktop --http --http-port 8765)",
+      "Bash(echo \"PID: $!\" sleep 2 curl -s -X POST http://localhost:8765/ -H \"Content-Type: application/json\" -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H \"Content-Type: application/json\" -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"cli\",\"version\":\"1\"}}}' -i)",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -H 'Mcp-Session-Id: __TRACKED_VAR__' -d '{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"tools/list\"}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -H 'Mcp-Session-Id: __TRACKED_VAR__' -d '{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"tools/list\"}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -H 'Mcp-Session-Id: __TRACKED_VAR__' -d '{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"tools/call\",\"params\":{\"name\":\"export_nodes\",\"arguments\":{\"filePath\":\"/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/SH Pencil ads batch 2.pen\",\"outputDir\":\"/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/batch_002/c007-renders\",\"nodeIds\":[\"vDOHA\",\"okgkM\",\"04eOu\"],\"format\":\"png\",\"scale\":1}}}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -H 'Mcp-Session-Id: __TRACKED_VAR__' -d '{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"tools/call\",\"params\":{\"name\":\"get_editor_state\",\"arguments\":{\"include_schema\":false}}}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -H 'Mcp-Session-Id: __TRACKED_VAR__' -d '{\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"tools/call\",\"params\":{\"name\":\"export_nodes\",\"arguments\":{\"filePath\":\"ads/SH Pencil ads batch 2.pen\",\"outputDir\":\"/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/batch_002/c007-renders\",\"nodeIds\":[\"vDOHA\"],\"format\":\"png\",\"scale\":1}}}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -H 'Mcp-Session-Id: __TRACKED_VAR__' -d '{\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"tools/list\"}')",
+      "Bash(curl -s http://localhost:8765/mcp -X POST -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -H 'Mcp-Session-Id: __TRACKED_VAR__' -d '{\"jsonrpc\":\"2.0\",\"id\":10,\"method\":\"tools/call\",\"params\":{\"name\":\"export_nodes\",\"arguments\":{\"filePath\":\"/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/SH Pencil ads batch 2.pen\",\"outputDir\":\"/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/batches/batch_002/c007-renders\",\"nodeIds\":[\"vDOHA\",\"okgkM\",\"04eOu\"]}}}')",
+      "Bash(rm -f .DS_Store)",
+      "Bash(mkdir -p _archive _archive/batches briefs)",
+      "Bash(mv \"Legacy Ads\" _archive/)",
+      "Bash(mv \"MY_Creative Testing_Batch 2.pen\" _archive/)",
+      "Bash(mv \"MY Creative testing Batch 2.pen\" _archive/)",
+      "Read(//private/tmp/**)",
+      "Bash(unzip -p \"/Users/zaidsaad/Downloads/VP SH KAWAI 20260421.docx\" word/document.xml)",
+      "Bash(cp \"/Users/zaidsaad/Desktop/Code/Pencil.dev/ads/SH PH ads batch 1.pen\" \"/tmp/sh-ph-batch-1.pen\")",
+      "Read(//tmp/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs kill *)",
+      "WebSearch",
+      "WebFetch(domain:docs.pencil.dev)",
+      "Bash(npm install *)",
+      "Bash(pencil version *)",
+      "Bash(pencil --help)",
+      "Bash(pencil status *)",
+      "Bash(pencil interactive *)",
+      "Bash(mkdir -p ads/exports)",
+      "Bash(pencil --in \"ads/SH PH ads batch 1.pen\" --out /tmp/pencil_noop.pen --prompt \"no changes, just export\" --export ads/exports/batch1_test.png --export-type png --export-scale 2)",
+      "Bash(pencil --in \"ads/SH PH ads batch 1.pen\" --export ads/exports/batch1.png --export-type png --export-scale 2)",
+      "Bash(file /tmp/smoke_export/*.png)",
+      "Read(//Users/zaidsaad/Desktop/Code/cranium/**)",
+      "Read(//Users/zaidsaad/Desktop/Code/cranium/projects/**)",
+      "Bash(git rm *)",
+      "Bash(awk -F',' 'NR<=60 {print NR\": \"$1}' \"Zaid - Sr. Creative Performance Strategist - Final [MY].csv\")",
+      "Bash(grep -v '^[0-9]*: $')",
+      "Bash(awk -F',' 'NR>60 && NR<=216 {print NR\": \"$1}' \"Zaid - Sr. Creative Performance Strategist - Final [MY].csv\")",
+      "Bash(awk '{ print NR\": \"length\\($0\\) }' storehub-my-ad-grid.html)",
+      "Bash(sort -t: -k2 -rn)",
+      "Bash(awk 'NR>=1504 && NR<=1700 && /^\\(const|let|var|function\\) /{ print NR\": \"substr\\($0,1,120\\) }' storehub-my-ad-grid.html)",
+      "Bash(grep -n \"THEMES\\\\s*=\\\\|MOODS\\\\s*=\\\\|coord:\\\\|=\\\\s*\\\\[\\\\s*$\\\\|title:\\\\|setting:\\\\|id:\\\\s*['\\\\\"]\" storehub-my-ad-grid.html)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/zaidsaad/Code/cranium/scripts/post-pr-recap-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

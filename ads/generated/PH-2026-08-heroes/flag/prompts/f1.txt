@@ -1,0 +1,44 @@
+PALETTE OVERRIDE — signed off by Zaid 2026-08-13, Heroes Day flight only. Philippine national
+colours replace StoreHub orange for this set by deliberate exception to master §1. Do not revert.
+See _shared_system.md and ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md
+
+Square 1:1 advertisement, 1080x1080. Philippine National Heroes Day promotional ad. Patriotic, cinematic. Photorealistic photography interlocked with flat poster graphics.
+
+PALETTE (closed — these four colours only): deep royal blue hex 0038A8, flag red hex CE1126, flag gold hex FCD116, white. No orange. No green. Any accent, arrow or highlight uses flag gold or white.
+
+SCENE: Interior of a modern specialty coffee shop in Metro Manila at sunrise, before opening. Chairs still up on one table, first golden light low through a large window. Pale oak counter, white tile, matte black pendant lamps, a neat shelf of ceramic cups. Quiet because service has not started.
+
+VENUE TIER: modern, well-fitted, upmarket. Good lighting, clean fit-out, the merchant reads as established and successful. Authentic and documentary in tone, but aspirational.
+
+SUBJECT: A Filipina cafe owner in her early thirties behind the counter, one hand resting on a slim black touchscreen POS terminal, looking straight to camera. Steady and proud — someone who opened alone at five in the morning. Charcoal apron over a white shirt, hair tied back.
+
+CASTING: Pan-Asian Southeast Asian, Filipino. Natural skin texture, documentary tone, no retouching gloss.
+
+GRAPHICS: The upper portion of the frame is a deep royal blue hex 0038A8 field cut on a clean diagonal against the photograph. A large stylised eight-ray sun in flag gold hex FCD116 rises at the division line, rays fanning wide, sitting entirely below the headline so no ray touches a letter. Three gold five-pointed stars, clear of all type. A solid flag red hex CE1126 block fills the lower left corner. Photograph and flat colour fields interlock like a designed poster, echoing the geometry of the Philippine flag. Keep the blue field and the red block free of visual detail so lettering stays legible.
+
+TEXT — render each line as the exact characters given, including punctuation and the ₱ symbol. Add no other words anywhere in the image.
+line 1, small gold uppercase: ARAW NG MGA BAYANI
+line 2, smaller white uppercase: NATIONAL HEROES DAY · AUGUST 31
+line 3, large white headline over two lines: Every hero opens at 5am.
+line 4, inside the red block, white uppercase: HEROES DAY PROMO
+line 5, the price hero, very large gold: ₱63/day
+line 6, small white: That's ₱22,995/year · Up to ₱21,000 off hardware · Ends 31 August
+line 7, a gold hex FCD116 rounded button, deep blue text: Book a free demo
+
+BADGE: a small white rounded ribbon, deep blue text, exact characters: BIR Accredited
+
+BRANDING: the StoreHub wordmark in white, small, upper left, inset well away from the frame edge, on flat blue, never over the photograph. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not for the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets all copy in Barlow Black (headline, price) and Open Sans (body, button, band).
+Meta 1:1 safe zone is 64px on all four sides of 1080x1080 (952x952 centred) — measured and enforced
+in Pencil, never requested from the image model. The StoreHub wordmark is placed as the real brand
+asset in mixed case, capital S and capital H, never all uppercase.
+
+PLATE VARIANT: to generate a clean plate for compositing, delete the TEXT block and instead
+instruct: leave the upper blue field and the lower red band completely empty of any lettering, and
+leave the device screen switched off and dark. Composite all copy and interface in Pencil.

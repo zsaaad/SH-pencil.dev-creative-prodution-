@@ -1,0 +1,42 @@
+PALETTE OVERRIDE — Malaysian national colours replace StoreHub orange for this Merdeka flight,
+mirroring the signed-off PH Heroes Day exception of 2026-08-13 to master §1. Scoped to this flight only.
+See ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md for the rationale and limits.
+CONFIRM SCOPE WITH ZAID before treating the MY extension as independently approved.
+
+Square 1:1 advertisement, 1080x1080. Malaysian Merdeka Day promotional ad. Patriotic, cinematic. Photorealistic photography interlocked with flat poster graphics. PROMO-LED, human hero.
+
+PALETTE (closed — these four colours only): Jalur Gemilang red hex CC0001, deep royal blue hex 010066, flag yellow hex FFCC00, white. No orange. No green. Any accent, arrow, icon or highlight uses flag yellow or white.
+
+SCENE: Interior of a modern specialty coffee shop in Kuala Lumpur at dawn, before opening. Shutters half up, first warm light raking low across a pale terrazzo counter. Matte black pendant lamps, a neat shelf of ceramic cups, a professional espresso machine behind. Still and quiet — service has not started.
+
+VENUE TIER: modern, well-fitted, upmarket. Good lighting, clean fit-out, the merchant reads as established and successful. Authentic and documentary in tone, but aspirational.
+
+SUBJECT: A Malaysian cafe owner in her early thirties stands behind the counter, one hand resting on a slim black touchscreen POS terminal, looking straight to camera. Steady and quietly proud — someone who unlocked the door before sunrise. Simple charcoal apron over a white shirt.
+
+CASTING: Pan-Asian Southeast Asian, Malaysian. Natural skin texture, documentary tone, no retouching gloss.
+
+GRAPHICS: The upper portion of the frame is a deep royal blue hex 010066 field cut on a clean diagonal against the photograph. A large flag yellow hex FFCC00 crescent and fourteen-point star sits in the blue, placed with a clear gap around it so it never touches a letter. A solid Jalur Gemilang red hex CC0001 block fills the lower left corner. Fine horizontal red and white stripe banding runs along the very bottom edge as a subtle nod to the flag. Photograph and flat colour fields interlock like a designed poster. Keep the blue field and the red block free of visual detail so lettering stays legible.
+
+TEXT — render each line as the exact characters given, including punctuation. Add no other words anywhere in the image.
+line 1, small yellow uppercase: SELAMAT HARI MERDEKA · 31 OGOS
+line 2, large white headline over two lines: Every merdeka started with someone opening early.
+line 3, inside the red block, white uppercase: MERDEKA PROMO
+line 4, the price hero, very large yellow: From RM7.60/day
+line 5, small white: Up to 55% off hardware · Plus 4 months free · Ends 31 August
+line 6, a yellow hex FFCC00 rounded button, deep blue text: Book a free demo
+
+BADGE: a small white rounded ribbon, deep blue text, exact characters: e-Invoicing Compliant
+
+BRANDING: the StoreHub wordmark in white, small, upper left, inset well clear of the frame edge, on flat blue, never over the photograph. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets headline and price in Barlow Black, body and button in Open Sans. Meta 1:1 safe zone
+is 64px on all sides of 1080x1080 (952x952 centred) — measured and enforced in Pencil, never requested
+from the image model. The StoreHub wordmark is placed as the real brand asset.
+
+PLATE VARIANT: for a clean compositing plate, delete the TEXT block and instruct instead: leave the flat
+colour fields completely empty of lettering and leave any device screen dark. Composite all copy in Pencil.

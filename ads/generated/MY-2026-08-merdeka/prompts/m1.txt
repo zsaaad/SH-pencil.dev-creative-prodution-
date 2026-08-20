@@ -1,0 +1,54 @@
+PALETTE OVERRIDE — Malaysian national colours replace StoreHub orange for this Merdeka flight,
+mirroring the signed-off PH Heroes Day exception of 2026-08-13 to master §1. Scoped to this flight only.
+See ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md for the rationale and limits.
+CONFIRM SCOPE WITH ZAID before treating the MY extension as independently approved.
+
+Landscape 16:9 advertisement, 1920x1080. Malaysian Merdeka Day promotional ad, feature-showcase layout. Cinematic product photography with flat graphic type and floating UI chips. Moody, premium, dark.
+
+PALETTE (closed — these four colours only): Jalur Gemilang red hex CC0001, deep royal blue hex 010066, flag yellow hex FFCC00, white. No orange. No green. Any accent, icon or highlight uses flag yellow or white. The photograph itself is dark and warm; the flag colours carry all type, graphics and props.
+
+LAYOUT: Left half is the photograph and floating chips. Right half is type on a solid deep royal blue field. Clear vertical separation — the right side stays visually quiet so the type reads.
+
+SCENE (left half): A modern specialty coffee shop counter in Kuala Lumpur, shot at counter height with a shallow lens. Polished pale marble countertop in the foreground. Exactly one dual-screen point-of-sale terminal sits on the marble, angled three-quarter toward camera, matte black, slim bezels, resting flat on the counter. Behind it, heavily blurred and dark, a professional espresso machine and warm shelf lighting. Deep shadow, controlled highlights, premium and quiet.
+
+VENUE TIER: modern, well-fitted, upmarket. Good lighting, clean fit-out, the merchant reads as established and successful. Authentic and documentary in tone, but aspirational.
+
+POS SCREEN: on the left portion of the screen a single appetising photograph of a Malaysian nasi lemak plate, beautifully plated on ceramic; on the right portion a plain order panel with a flag yellow hex FFCC00 bar along its bottom. No readable lettering on the screen.
+
+FLOATING FEATURE CHIPS: exactly five small white rounded rectangular cards float in front of and around the terminal at slightly different depths, each casting a soft shadow, each with a tiny simple line icon at its left. Set the chip text large enough to read cleanly. Use these five exact strings and no others:
+Inventory Management
+Reporting & Analytics
+Multi Location Management
+E-Invoice
+Employee Management
+
+MERDEKA PROPS (foreground, arranged on the marble to the left, sparse and elegant, gallery-lit, never cluttered or kitsch): two fresh red bunga raya hibiscus blooms laid on the stone; a small polished gold crescent-and-fourteen-point-star ornament standing upright; a compact desk-stand Malaysian flag, upright and still; a neatly folded strip of songket cloth with fine gold thread.
+
+GRAPHIC MOTIF: behind the large headline numeral, a stylised fourteen-point star and crescent in flag yellow hex FFCC00, flat and graphic, sitting fully behind the type with a clear gap so it never touches or overlaps any letter. A few fine flag-yellow rays radiating outward from it.
+
+TEXT (right half) — render each line as the exact characters given, including punctuation. Add no other words anywhere in the image.
+line 1, small yellow uppercase: SELAMAT HARI MERDEKA · 31 OGOS
+line 2, very large white uppercase with the percentage in flag red hex CC0001, the largest element in the frame: GET UP TO 55% OFF
+line 3, large white uppercase beneath it: ON POS HARDWARE
+line 4, medium yellow uppercase: PLUS 4 MONTHS FREE
+line 5, large white uppercase with the middle word in flag red: ALL-IN-ONE POS
+line 6, small white uppercase: TRUSTED BY 20,000+ MERCHANTS ACROSS SOUTHEAST ASIA
+line 7, yellow, set noticeably larger than the social-proof line above it: From RM7.60/day
+line 8, small white beneath it: e-Invoicing Compliant · Ends 31 August
+
+BRANDING: the StoreHub wordmark in white, small, upper left corner, inset well clear of the frame edge so it sits comfortably inside the top safe margin, on the dark background. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets the headline in Barlow Black and chips, social proof and price line in Open Sans.
+Meta 16:9 safe zone is 100px top, 150px bottom, 100px sides on 1920x1080 (1720x830, y=100 to 930) —n
+measured and enforced in Pencil, never requested from the image model. The StoreHub wordmark is
+placed as the real brand asset. Feature chips are far more reliable composited than generated.
+
+PLATE VARIANT: for a clean compositing plate, delete the TEXT and FLOATING FEATURE CHIPS blocks and
+instruct instead: leave the right half of the frame dark and completely empty of lettering, leave the
+device screen dark, and render only the counter, terminal, espresso machine and Merdeka props.
+Composite chips, headline and all copy in Pencil.

@@ -1,0 +1,38 @@
+PALETTE OVERRIDE — Malaysian national colours replace StoreHub orange for this Merdeka flight,
+mirroring the signed-off PH Heroes Day exception of 2026-08-13 to master §1. Scoped to this flight only.
+See ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md for the rationale and limits.
+CONFIRM SCOPE WITH ZAID before treating the MY extension as independently approved.
+
+Square 1:1 advertisement, 1080x1080. Malaysian Merdeka Day promotional poster. Patriotic, bold, graphic. Flat design with one studio-lit product photograph. PROMO-LED, offer hero.
+
+PALETTE (closed — these four colours only): Jalur Gemilang red hex CC0001, deep royal blue hex 010066, flag yellow hex FFCC00, white. No orange. No green. Any accent, arrow, icon or highlight uses flag yellow or white.
+
+BACKGROUND (flat, no gradient, no texture): a deep royal blue hex 010066 field. Centred behind the product, a huge flag yellow hex FFCC00 crescent and fourteen-point star, with fine yellow rays radiating outward toward the edges, sitting entirely clear of all type. A band of fourteen alternating Jalur Gemilang red hex CC0001 and white horizontal stripes runs across the lower portion of the frame.
+
+PRODUCT (the only photographic element): exactly one modern dual-screen point-of-sale terminal, studio-lit at a three-quarter hero angle, resting on a narrow pale counter surface, centred over the yellow star, with a soft contact shadow. Matte black housing, slim bezels, premium industrial design. Its screen shows a plain white interface with a simple tile grid and no readable lettering.
+
+TEXT — render each line as the exact characters given, including punctuation. Add no other words anywhere in the image.
+line 1, small yellow uppercase: SELAMAT HARI MERDEKA · 69 TAHUN MERDEKA
+line 2, small white uppercase: MERDEKA PROMO
+line 3, the largest element in the frame, yellow, very tight tracking: UP TO 55% OFF
+line 4, immediately beneath, large white uppercase: ON POS HARDWARE
+line 5, medium red on a white pill, uppercase: PLUS 4 MONTHS FREE
+line 6, medium white, set larger than the other body copy: Point of Sale (POS) from RM7.60/day
+line 7, a yellow hex FFCC00 rounded button, deep blue text: Book a free demo
+line 8, very small white: Ends 31 August. Terms apply.
+
+BADGE: a small white rounded ribbon, top right, deep blue text, exact characters: e-Invoicing Compliant
+
+BRANDING: the StoreHub wordmark in white, small, upper left, inset well clear of the frame edge, on flat blue. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets headline and price in Barlow Black, body and button in Open Sans. Meta 1:1 safe zone
+is 64px on all sides of 1080x1080 (952x952 centred) — measured and enforced in Pencil, never requested
+from the image model. The StoreHub wordmark is placed as the real brand asset.
+
+PLATE VARIANT: for a clean compositing plate, delete the TEXT block and instruct instead: leave the flat
+colour fields completely empty of lettering and leave any device screen dark. Composite all copy in Pencil.

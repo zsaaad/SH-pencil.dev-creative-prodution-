@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/zaidsaad/Desktop/Code/Pencil.dev/ads/**)",
+      "Bash(grep -o -E '\"name\":\"[^\"]{0,40}\"' \"SH Pencil ads batch 2.pen\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

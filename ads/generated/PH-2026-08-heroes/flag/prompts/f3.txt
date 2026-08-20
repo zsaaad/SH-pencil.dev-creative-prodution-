@@ -1,0 +1,45 @@
+PALETTE OVERRIDE — signed off by Zaid 2026-08-13, Heroes Day flight only. Philippine national
+colours replace StoreHub orange for this set by deliberate exception to master §1. Do not revert.
+See _shared_system.md and ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md
+
+Square 1:1 advertisement, 1080x1080. Philippine National Heroes Day promotional ad. Patriotic, cinematic. Photorealistic photography interlocked with flat poster graphics.
+
+PALETTE (closed — these four colours only): deep royal blue hex 0038A8, flag red hex CE1126, flag gold hex FCD116, white. No orange. No green. Any accent, arrow or highlight uses flag gold or white.
+
+SCENE: A Filipino restaurant owner in his late thirties in the doorway of his own modern bistro at golden hour, leaning lightly on the frame. He holds exactly one smartphone, in one hand, raised so the screen faces camera. He holds nothing else. Quiet proud half-smile, looking toward camera. Behind him the restaurant glows warm and full, softly out of focus — pendant lights, a well-set dining room, a server crossing the floor. Cinematic warm light, shallow depth of field.
+
+VENUE TIER: modern, well-fitted, upmarket. Good lighting, clean fit-out, the merchant reads as established and successful. Authentic and documentary in tone, but aspirational.
+
+CASTING: Pan-Asian Southeast Asian, Filipino. Natural skin texture, documentary tone, no retouching gloss.
+
+GRAPHICS: The upper portion of the frame is a deep royal blue hex 0038A8 field cut on a clean diagonal against the photograph. A large stylised eight-ray sun in flag gold hex FCD116 sits in the blue, entirely clear of the headline so no ray touches a letter. Three gold five-pointed stars, clear of all type. A solid flag red hex CE1126 band runs across the bottom of the frame, deep enough to hold two lines of type comfortably. Keep the blue field and the red band free of visual detail.
+
+PHONE SCREEN: one bold number, one small upward arrow in flag gold, and one simple bar chart in flag gold on white. Nothing else on the screen. The number reads exactly: ₱48,320
+
+TEXT — render each line as the exact characters given, including punctuation and the ₱ symbol. Add no other words anywhere in the image.
+line 1, small gold uppercase: ARAW NG MGA BAYANI
+line 2, smaller white uppercase: NATIONAL HEROES DAY · AUGUST 31
+line 3, large white headline over two lines: Heroes watch over what they built.
+line 4, small gold uppercase chip: REPORTING & ANALYTICS
+line 5, small white, beneath the chip: Every outlet's numbers, live on your phone.
+line 6, inside the red band, gold uppercase: HEROES DAY PROMO
+line 7, inside the red band, white with the daily price set largest: From ₱63/day · ₱22,995/year · Up to ₱21,000 off hardware
+line 8, at the right of the red band, a gold hex FCD116 rounded button, deep blue text: Book a free demo
+
+BADGE: a small white rounded ribbon, deep blue text, exact characters: BIR Accredited
+
+BRANDING: the StoreHub wordmark in white, small, upper left, inset well away from the frame edge, on flat blue, never over the photograph. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark. Exactly one phone in the frame — no second phone, no floating phone, no duplicate dashboard.
+
+COMPOSITE SPEC (for Pencil, not for the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets all copy in Barlow Black (headline, price) and Open Sans (body, button, band).
+Meta 1:1 safe zone is 64px on all four sides of 1080x1080 (952x952 centred) — measured and enforced
+in Pencil, never requested from the image model. The StoreHub wordmark is placed as the real brand
+asset in mixed case, capital S and capital H, never all uppercase.
+
+PLATE VARIANT: to generate a clean plate for compositing, delete the TEXT block and instead
+instruct: leave the upper blue field and the lower red band completely empty of any lettering, and
+leave the device screen switched off and dark. Composite all copy and interface in Pencil.

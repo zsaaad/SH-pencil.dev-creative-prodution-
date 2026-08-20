@@ -1,0 +1,46 @@
+PALETTE OVERRIDE — Malaysian national colours replace StoreHub orange for this Merdeka flight,
+mirroring the signed-off PH Heroes Day exception of 2026-08-13 to master §1. Scoped to this flight only.
+See ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md for the rationale and limits.
+CONFIRM SCOPE WITH ZAID before treating the MY extension as independently approved.
+
+Vertical 9:16 advertisement, 1080x1920, for Stories and Reels. Malaysian Merdeka Day ad. Patriotic, cinematic. Photorealistic photography interlocked with flat poster graphics. FEATURE + PROMO. Checkout and payments.
+
+PALETTE (closed — these four colours only): Jalur Gemilang red hex CC0001, deep royal blue hex 010066, flag yellow hex FFCC00, white. No orange. No green. Any accent, arrow, icon or highlight uses flag yellow or white.
+
+SAFE ZONE (critical for this format): the top 250 pixels and the bottom 500 pixels of the 1920-pixel height are dead zones covered by platform interface. No lettering, no button, no badge and no wordmark may appear in either band. Every piece of type sits in the middle of the frame, between roughly one seventh and three quarters of the way down. Leave those top and bottom bands as plain background.
+
+SCENE: A modern lifestyle store checkout counter in Kuala Lumpur, framed vertically, shot at counter height. In sharp focus in the lower middle, exactly one slim dual-screen point-of-sale terminal rests flat on a pale stone counter, its customer-facing side angled toward camera. A customer's hand holds a card near the reader, caught mid-tap. Behind, heavily blurred and warm, a short orderly queue of two people and softly lit shelving. Motion behind, stillness at the counter. Shallow depth of field, warm shop lighting.
+
+VENUE TIER: modern, well-fitted, upmarket. Good lighting, clean fit-out, the merchant reads as established and successful. Authentic and documentary in tone, but aspirational.
+
+CASTING: Pan-Asian Southeast Asian, Malaysian. Hands and blurred figures only, natural skin texture.
+
+GRAPHICS: The upper middle portion of the frame is a deep royal blue hex 010066 field cut on a clean diagonal against the photograph. A flag yellow hex FFCC00 crescent and fourteen-point star sits in the blue with a clear gap around it so it never touches a letter. A solid Jalur Gemilang red hex CC0001 band sits above the lower dead zone, deep enough to hold two lines of type comfortably, and does not reach the bottom edge of the frame.
+
+POS SCREEN: the customer-facing screen shows a clean white payment confirmation — a single large amount, a tick mark in flag yellow, and one short label. Three elements only, set large, so nothing garbles.
+
+TEXT — render each line as the exact characters given, including punctuation. Add no other words anywhere in the image.
+line 1, small yellow uppercase: SELAMAT HARI MERDEKA · 31 OGOS
+line 2, large white headline over two lines: From queue to clear.
+line 3, small yellow uppercase chip: POINT OF SALE (POS) · PAYMENTS
+line 4, small white, beneath the chip: Every payment method, one tap, one counter.
+line 5, inside the red band, yellow uppercase: MERDEKA PROMO
+line 6, inside the red band, white with the daily price set largest: From RM7.60/day · Up to 55% off hardware · Plus 4 months free
+line 7, inside the red band, a yellow hex FFCC00 rounded button, deep blue text: Book a free demo
+
+BADGE: a small white rounded ribbon, deep blue text, exact characters: e-Invoicing Compliant
+
+BRANDING: the StoreHub wordmark in white, small, sitting on the flat blue field well below the top dead zone, never over the photograph. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets headline and price in Barlow Black, body and button in Open Sans. Meta 9:16 safe zone
+is top 250px, bottom 500px, sides 64px on 1080x1920 (952x1170, y=250 to 1420). Headline starts at y>=280,
+CTA pill ends at y<=1400, top-right logo starts at y>=250. Bottom 500px is caption plus reaction chrome.
+Measured and enforced in Pencil, never trusted to the image model. Designing to Reels auto-passes Stories.
+
+PLATE VARIANT: for a clean compositing plate, delete the TEXT block and instruct instead: leave the flat
+colour fields completely empty of lettering and leave any device screen dark. Composite all copy in Pencil.

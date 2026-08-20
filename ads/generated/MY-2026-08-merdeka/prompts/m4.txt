@@ -1,0 +1,45 @@
+PALETTE OVERRIDE — Malaysian national colours replace StoreHub orange for this Merdeka flight,
+mirroring the signed-off PH Heroes Day exception of 2026-08-13 to master §1. Scoped to this flight only.
+See ~/Code/cranium/decisions/2026-08-13-ph-heroes-flag-palette-override.md for the rationale and limits.
+CONFIRM SCOPE WITH ZAID before treating the MY extension as independently approved.
+
+Square 1:1 advertisement, 1080x1080. Malaysian Merdeka Day ad. Patriotic, cinematic. Photorealistic photography interlocked with flat poster graphics. FEATURE + PROMO. Retail vertical.
+
+PALETTE (closed — these four colours only): Jalur Gemilang red hex CC0001, deep royal blue hex 010066, flag yellow hex FFCC00, white. No orange. No green. Any accent, arrow, icon or highlight uses flag yellow or white.
+
+SCENE: Interior of an established modern boutique in Kuala Lumpur — a well-fitted apparel and lifestyle store. Clean rails of neatly spaced clothing, pale oak shelving, warm track lighting, a polished stone wrap counter in the foreground. Calm, curated, premium. A tablet-style point-of-sale terminal rests flat on the counter, angled toward camera.
+
+VENUE TIER: modern, well-fitted, upmarket. Good lighting, clean fit-out, the merchant reads as established and successful. Authentic and documentary in tone, but aspirational.
+
+SUBJECT: A Malaysian boutique owner in her thirties stands at the counter, mid-thirties, wrapping a purchase in tissue, glancing up toward camera with a small confident smile. Well-dressed, relaxed, clearly the owner rather than a shop assistant.
+
+CASTING: Pan-Asian Southeast Asian, Malaysian. Natural skin texture, documentary tone, no retouching gloss.
+
+GRAPHICS: The upper portion of the frame is a deep royal blue hex 010066 field cut on a clean diagonal against the photograph. A flag yellow hex FFCC00 crescent and fourteen-point star sits in the blue with a clear gap around it so it never touches a letter. A solid Jalur Gemilang red hex CC0001 band runs across the bottom of the frame, deep enough to hold two lines of type comfortably. Keep the blue field and the red band free of visual detail.
+
+POS SCREEN: a clean white interface showing a simple stock list with a few short product rows and a flag yellow hex FFCC00 bar along the bottom. Keep on-screen lettering minimal and large.
+
+TEXT — render each line as the exact characters given, including punctuation. Add no other words anywhere in the image.
+line 1, small yellow uppercase: SELAMAT HARI MERDEKA · 31 OGOS
+line 2, large white headline over two lines: From clutter to clarity.
+line 3, small yellow uppercase chip: ONLINE ORDERING · WEBSTORE · INVENTORY MANAGEMENT
+line 4, small white, beneath the chip: Sell online and in store, with stock that always agrees.
+line 5, inside the red band, yellow uppercase: MERDEKA PROMO
+line 6, inside the red band, white with the daily price set largest: From RM7.60/day · Up to 55% off hardware · Plus 4 months free
+line 7, at the right of the red band, a yellow hex FFCC00 rounded button, deep blue text: Book a free demo
+
+BADGE: a small white rounded ribbon, deep blue text, exact characters: e-Invoicing Compliant
+
+BRANDING: the StoreHub wordmark in white, small, upper left, inset well clear of the frame edge, on flat blue, never over the photograph. Mixed case — capital S and capital H only, never all uppercase.
+
+HARDWARE FRAMING (positive constraint): the terminal always rests on a counter or table surface as staff-facing equipment. It never stands on a floor pedestal, never on a standing base, and is never presented as customer-operated self-service equipment.
+
+NEGATIVE: no competitor branding, no delivery app logos, no third-party app UI, no cash drawer, no cash-register unit under the screen, no clutter, no dated or worn fittings, no plastic furniture, no duplicate devices, no extra hands or fingers, no watermark.
+
+COMPOSITE SPEC (for Pencil, not the generator — master §7 rule 4: generated type is unreliable):
+Final artwork sets headline and price in Barlow Black, body and button in Open Sans. Meta 1:1 safe zone
+is 64px on all sides of 1080x1080 (952x952 centred) — measured and enforced in Pencil, never requested
+from the image model. The StoreHub wordmark is placed as the real brand asset.
+
+PLATE VARIANT: for a clean compositing plate, delete the TEXT block and instruct instead: leave the flat
+colour fields completely empty of lettering and leave any device screen dark. Composite all copy in Pencil.
